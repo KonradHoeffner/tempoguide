@@ -12,8 +12,9 @@ This guide is inspired by the excellent but currently unmaintained Delver Bible 
 ## Future Work
 
 * almost everything (I just started :-))
-* card images
+* better card images
 * choose a license
+* ebook version
 
 ## Accessibility and Viewing Formats
 
@@ -25,7 +26,7 @@ Ebook formats like EPUB would also be nice in case someone wants to read this on
 ## Contribute
 
 Feel free to request topics that you feel are lacking as an [issue](https://github.com/KonradHoeffner/tempoguide/issues).
-If you are an experienced tempo player, you can also contribute directly with a GitHub account.
+Or even better, contribute directly with a GitHub account!
 
 Current contributors: Ecobaronen, kirdie.
 

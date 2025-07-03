@@ -125,7 +125,7 @@ Eco:
 
 ## Sideboard
 
-* Grafdigger's Cage - Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control. I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options.
+* Grafdigger's Cage - Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options.
 
 Eco:
 
@@ -185,9 +185,12 @@ Nethergoyf doesn’t really fit that plan but it is the only card that really do
 This deck is super fun but is also hard to play, you need a lot of practice and care not to timeout, it is much more value focussed and slower than Delver.
 
 ## Own Card Guide
+<img src="https://api.scryfall.com/cards/named?exact=Nethergoyf&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Fatal Push&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Shoot the Sherrif&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Go for the Throat&format=image&version=small">
 
 ### Nethergoyf
-
 Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
 Sometimes you don’t have a land in the graveyard and it’s good to fetch before attacking.
 Against damage based removal, consider delaying Nethergoyf until it survives. For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
@@ -195,6 +198,7 @@ You can force a delirious DRC to attack, then clear their graveyard with Nihil S
 Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play. 	
 
 ### Fatal Push
+
 Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nadu are relevant in the matchup.
 Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod. 
 You can target any creature with Fatal Push, even if it doesn’t have an effect.
@@ -224,9 +228,12 @@ Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters.
 ## Opponent Card Guide
 
 ### Gaea’s Cradle
+<img src="https://api.scryfall.com/cards/named?exact=Gaea's Cradle&format=image&version=small">
+
 Sometimes they have a dual land and a Gaea’s Cradle in play and you have to consider which to Wasteland, don’t always automatically kill Cradle as you might be able to mana screw them completely if they have no land in hand, though it is dangerous against decks with a lot of one drop creatures like Elves.
 
 ### Urza’s Saga (outdated by rules change)
+<img src="https://api.scryfall.com/cards/named?exact=Urza's Saga&format=image&version=small">
 I don’t know why most people don’t do this, but I almost always bring in my Harbingers of the Sea against Saga decks because having a 3 mana 2/2 that kills a Saga and does more later is really strong on it’s own as long as you remember to fetch basic swamp beforehand.
 You can Wasteland it with the first trigger on the stack so they never get mana.
 You can Consign to Memory any of the chapter abilities but not the activated one to create a token.
@@ -235,7 +242,7 @@ You can Consign to Memory any of the chapter abilities but not the activated one
 ### Timing Guide
 
 * Bowmaster their Bowmaster
-* Fetch in response to fetch against stifle
+* Fetch in response to fetch against Stifle
 * Daze Wasteland trick
 
 
@@ -450,32 +457,74 @@ Focus on stopping aggression and accepting Daze instead of falling behind too mu
 Sometimes we can respect Daze, but if you respect it too much, you will get run over.
 Build basics if possible.
 
-### Maverick (<1% Metagame)
+### Cradle Control (1% Metagame)
 
-A fair Green-Black-White creature deck with a lands subtheme.
-Similar to cradle control with a white splash for Swords to Plowshares.
+### Example Decklist
+Austrian Challenge @ Gamestore (Linz, Austria) 1st place by Simon Ritter 2025-06-21
+
+* 2 Forest
+* 2 Bayou
+* 2 Windswept Heath
+* 2 Wooded Foothills
+* 2 Misty Rainforest
+* 2 Verdant Catacombs
+* 2 Dryad Arbor
+* 4 Gaea's Cradle
+* 1 Lair of the Hydra
+* 2 Talon Gates of Madara
+* 1 Bojuka Bog
+* 4 Noble Hierarch
+* 4 Ignoble Hierarch
+* 1 Sylvan Safekeeper
+* 4 Wight of the Reliquary
+* 3 Keen-Eyed Curator
+* 1 Collector Ouphe
+* 1 Atraxa, Grand Unifier
+* 4 Thoughtseize
+* 4 Once Upon a Time
+* 4 Green Sun's Zenith
+* 3 Natural Order
+* 1 Grist, the Hunger Tide
+* 4 Elvish Reclaimer
+
+#### Sideboard
+* 4 Snuff Out
+* 4 Endurance
+* 1 Wasteland
+* 1 Urza's Saga
+* 1 Pithing Needle
+* 3 Force of Vigor
+* 1 Gaddock Teeg
+
+A fair Green-Black creature deck with a lands subtheme, sometimes with Natural Order for Atraxa.
 Like most fair non-blue creature decks, it is structurally advantaged against blue tempo decks.
-They don’t require critical mass so they don’t care much about Force of Will and they have mana dorks so they aren’t that impacted by Daze and Wasteland.
-Thus it is hard to beat for Tempo without board wipes like Rough/Tumble due to their large number of creatures.
-
-They play Wastelands so start with basics to keep from falling behind in tempo.
+It doesn’t require critical mass so they aren't stopped by Force of Will and they have mana dorks so they aren’t that impacted by Daze and Wasteland.
+Still I would keep Force of Will in for tempo because you are disadvantaged in the late game.
+It is hard to beat for Tempo without board wipes like Rough/Tumble due to their large number of creatures.
 
 They have a slew of combat tricks that they are probably much more experienced with than you so think twice before blocking a seemingly stupid attack.
-Putting any land from their library into play with Elvish Reclaimer, Knight of the Reliquary and Wight of the Reliquary can do the following:
-Bojuka Bog can shrink your Nethergoyf
-Lands in the graveyard grow Knight of the Reliquary (+2/+2 through a fetchland) and Elvish Reclaimer.
-Creatures in the graveyard grow Fiend Artisan and and Wight of the Reliquary
-Gaea’s Cradle provides a burst of mana, e.g. for an Endurance
-Karakas can bounce a legendary creature such as Tamiyo
-Dryad Arbor can block.
-They may play Talon Gates of Madeira to phase out a creature but rarely.
-However they usually don’t play Dark Depths, Maze of Ith.
-They also have Orcish Bowmaster, Endurance and Swords to Plowshares to keep in mind.
+Putting any land from their library into play with Elvish Reclaimer and Wight of the Reliquary can do the following:
+
+<img src="https://api.scryfall.com/cards/named?exact=Bojuka Bog&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Elvish Reclaimer&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Wight of the Reqliquary&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Gaea's Cradle&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Dryad Arbor&format=image&version=small">
+<img src="https://api.scryfall.com/cards/named?exact=Talon Gates of Madeira&format=image&version=small">
+
+* Bojuka Bog can shrink your Nethergoyf
+* Lands in the graveyard grow Elvish Reclaimer.
+* Creatures in the graveyard grow Fiend Artisan (rarely played) and and Wight of the Reliquary
+* Gaea’s Cradle provides a burst of mana, e.g. for an Endurance
+* Dryad Arbor can block.
+* They may play Talon Gates of Madeira to phase out a creature but rarely.
+* However they usually don’t play Dark Depths and Maze of Ith.
+
+* They also have Orcish Bowmaster, Endurance and (Ig)noble Hierarch so think twice before exposing your seemingly safe Kaito.
 
 On the positive side they can’t interact with countermagic outside of Veil of Summer.
-Also they can’t block fliers outside of Endurance, Birds of Paradise.
+Also they can’t block fliers outside of Endurance and Birds of Paradise (rarely played).
 
-<!--So the best plan in my opinion is to get an early Frog going, protect it at all costs and keep flying over the opponent and hope to draw enough cards with the frog that you can counter and remove all the payoffs.-->
 They usually seem to have enough mana so I board out some Dazes and often leave the mana dorks alone though it depends on the situation.
 Orcish Bowmaster is nice even though they don’t draw many cards but you can kill (Ig)noble Hierarch, Birds of Paradise and so on.
 Be careful not to confuse Wight and Knight: Wight sacrifices creatures and grows with them in the yard, Knight sacrifices plains or forests and grows with lands in the yard.
@@ -487,8 +536,17 @@ Traditionally, Submerge is often played in tempo if you expect lots of green cre
 Hard graveyard hate like Surgical Extraction is not worth it due to it being card disadvantage but graveyard hate that can also be a threat is very useful to shrink their X of the Reliquary, for example Emperor of Bones or maybe Unlicensed Hearse or even Nihil Spellbomb.
 You can block a big creature with Tamiyo and then brainstorm to flip it before damage. If they have Orcish Bowmasters their trigger goes on the stack first and Tamiyo flips first and fizzles the triggers.
 
+### Maverick (<1%)
+Similar to the creature part of Cradle Control with a single Cradle and a white splash for Swords to Plowshares and Knight of the Reliquary instead of or in addition to Wight of the Reliquary.
+Hard to say exactly what they play as it is pretty rare so keep your eyes open for cards like Stoneforge Mystic, Thalia, Guardian of Thraben, Mother of Runes and maybe even the Dark Depth's Combo.
+
+They play Wastelands so start with basics to keep from falling behind in tempo.
+Additional tricks:
+Lands in the graveyard grow Knight of the Reliquary (+2/+2 through a fetchland)
+Karakas can bounce a legendary creature such as Tamiyo.
+
+Sideboarding: Similar to Cradle Control
 * In: Barrowgoyf, Hearse, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldreds Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
-<!--* Out: Daze(?) I don’t like cutting FoW because I want to protect Frog from Swords. Maybe cut the third Murktide, it is great against them if it sticks but they may nuke your graveyard beforehand or Swords it.-->
 
 *TODO: update*
 With the example list I would -1 Wasteland -4 Daze -1 Nihil Spellbomb +1 Hearse +1 Barrowgoyf +1 Sheoldred’s Edict +1 Toxic Deluge +1 Long Goodbye +1 Brazen Borrower

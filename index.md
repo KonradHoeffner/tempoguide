@@ -34,20 +34,18 @@
 * 1 Null Rod
 * 2 Sheoldred’s Edict
 
-Eco on the red splash:
-> I want to splash red if I go to Italy and play paper.
-> Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
-
-
-
-## Comparison to red-based Delver decks
-
-Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
-UB Tempo is slower, has a more stable manabase, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
 
 ## Card Choices
 
 ### Manabase
+You don't really have to think about tuning the mana base because it's always the same 19.
+You have four Underground Sea, four Polluted Delta, basic Island, basic Swamp, Undercity Sewers.
+Then you usually include two blue fetches and two black fetches so you have equal opportunities to fetch both basics.
+This is especially important against 8 Moon, also known as Dragon Stompy.
+I personally value style and like old border so I play two Flooded Strand and two Bloodstained Mire but there may be some really fringe benefits of splitting them up against Pithing Needle or representing another deck.
+And of course you play four Wastelands, especially now that Harbingers don't kill Sagas anymore.
+The only possible adaptation is if you have a bigger build, for example with Dauthi Voidwalkers instead of Nethergoyfs, you can add a second Undercity Sewers as a 20th land and go down to two Daze.
+
 
 
 ### Core Cards
@@ -153,6 +151,16 @@ Eco:
 * Emrakul or any other shuffle Eldrazi - I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
 * Court of Cunning - Former anti-control card but probably not needed anymore after Kaito.
 When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer for 3 leagues but they never did anything and the Adventurer even lost me a game where my opponent just Pyrogoyfed my creature and won with the initiative. 
+
+## Variations
+
+Eco on the red splash:
+> I want to splash red if I go to Italy and play paper.
+> Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
+
+## Comparison to red-based Delver decks
+Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
+UB Tempo is slower, has a more stable manabase, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
 
 ## Strategy
 
@@ -290,7 +298,11 @@ The deck is generally good against linear combo and red-based tempo decks but st
 
 ### UB Reanimator
 
-The currently most played and probably strongest deck even after the Grief and Frog bans is a tempo combo hybrid that puts you in constant danger from two angles: If you keep or even mulligan to a hand with grave hate and Force of Will, they may just outtempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf. If you have threats and removal they may just reanimate a Fattie and against tempo the game is mostly over if a single Fattie hits the battlefield. However since the Frog ban, the tempo part of the deck is much weaker, especially before sideboarding, so you should prioritize not dying to their combo and your tempo plan will most likely win against theirs. Very skill testing, but good matchup for us if we have two Nihil Spellbomb in the main deck, just be prepared to fight over end of turn Petty Theft into their turn Reanimate.
+The currently most played and probably strongest deck even after the Grief, Frog and Troll bans is a tempo combo hybrid that puts you in constant danger from two angles:
+If you keep or even mulligan to a hand with grave hate and Force of Will, they may just outtempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf.
+If you have threats and removal they may just reanimate a Fattie and against tempo the game is mostly over if a single Fattie hits the battlefield.
+However since the Frog ban, the tempo part of the deck is much weaker, especially before sideboarding, so you should prioritize not dying to their combo and your tempo plan will most likely win against theirs.
+Very skill testing, but good matchup for us if we have two Nihil Spellbomb in the main deck, just be prepared to fight over end of turn Petty Theft into their turn Reanimate.
 Hard to discern from UB Tempo until you see Entomb, Reanimate, a fattie, Troll of Khazad Dum or Animate Dead but better to assume it’s Reanimator if you aren’t sure because it is played so often. 
 They have a sideboard juke to board out Entomb, Animate Dead and the Fatties and board in more creatures like Barrowgoyf and more removal.
 However then they are just a worse tempo deck than you are so it’s probably best for them to not juke, unless they expect you to over-prepare for the reanimation plan.

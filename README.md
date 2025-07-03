@@ -1,6 +1,6 @@
 # MTG Legacy UB Tempo Guide
 
-[Link to the Guide](guide.md)
+[Link to the Guide](https://konradhoeffner.github.io/tempoguide/)
 
 EARLY DRAFT, UNDER CONSTRUCTION
 

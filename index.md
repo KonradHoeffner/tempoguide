@@ -57,6 +57,15 @@ customElements.define('mtg-card', Card);
 ## Card Choices
 
 ### Manabase
+<mtg-card name="Underground Sea"/>
+<mtg-card name="Polluted Delta"/>
+<mtg-card name="Flooded Strand"/>
+<mtg-card name="Bloodstained Mire"/>
+<mtg-card name="Undercity Sewers"/>
+<mtg-card name="Island"/>
+<mtg-card name="Swamp"/>
+<mtg-card name="Wasteland"/>
+
 You don't really have to think about tuning the mana base because it's always the same 19.
 You have four Underground Sea, four Polluted Delta, basic Island, basic Swamp, Undercity Sewers.
 Then you usually include two blue fetches and two black fetches so you have equal opportunities to fetch both basics.
@@ -68,25 +77,37 @@ The only possible adaptation is if you have a bigger build, for example with Dau
 
 
 ### Core Cards
+
+#### Tempo Shell
 <mtg-card name="Force of Will"/>
 <mtg-card name="Daze"/>
 <mtg-card name="Wasteland"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Nethergoyf"/>
+<mtg-card name="Ponder"/>
+<mtg-card name="Brainstorm"/>
 
-#### Fatal Push
-<mtg-card name="Fatal Push"/>
-Kills most relevant creatures in Legacy, so play 4.
+We are a blue Tempo deck so no surprises here, all four-ofs except only three Daze because we are slightly slower then red Tempo and have 19 lands.
+
+#### Creatures
+<mtg-card name="Nethergoyf"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Murktide Regent"/>
+<mtg-card name="Barrowgoyf"/>
+
+There is the basic core of Nethergoyfs and Tamyos and Orcish Bowmasters.
+You play at least three of each but I always play 4 Nethergoyf and 4 Orcish Bowmasters.
+Some people play less Nethergoyfs and play more Baleful Strix but here I only cover the variant with at least three Nethergoyfs.
+You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
+And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
+
+#### Tamiyo, Inquisitive Student
+TODO
 
 #### Nethergoyf
-
 People were initially sceptical but most play 4 now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
 
 #### Murktide Regent vs Barrowgoyf
-<mtg-card name="Murktide Regent"/>
-<mtg-card name="Barrowgoyf"/>
-
 Murktide Kills faster against combo and control but Barrowgoyf stabilizes extremely well.
 Murktide is immune to Fatal Push but dies to Pyroblast.
 Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimator.
@@ -98,9 +119,11 @@ Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
 Maybe Wizards will print a UB command in the future?
 
-#### Ponder / Brainstorm
-<mtg-card name="Ponder"/>
-<mtg-card name="Brainstorm"/>
+#### Fatal Push
+<mtg-card name="Fatal Push"/>
+Kills most relevant creatures in Legacy, so play 4.
+
+#### Cantrips
 
 Core cantrips, 4 of each are required, but I sometimes board out a Ponder.
 

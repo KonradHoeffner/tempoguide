@@ -1,3 +1,21 @@
+<script>
+class Card extends HTMLElement {
+    constructor() {super();}
+
+    connectedCallback() {
+        const cardName = this.getAttribute('name');
+        if (cardName) {
+            const encodedCardName = encodeURIComponent(cardName);
+            const imageUrl = `https://api.scryfall.com/cards/named?exact=${encodedCardName}&format=image&version=small`;
+            // https://github.com/konradhoeffner/mtgindex would give nicer versions but loading timing it is complicated in Markdown
+            this.innerHTML = `<img src="${imageUrl}" alt="${cardName}" title="${cardName}">`;
+        }
+    }
+}
+
+customElements.define('mtg-card', Card);
+//document.body.style.visibility = 'visible';
+</script>
 
 # MTG Legacy UB Tempo Guide
 
@@ -50,14 +68,14 @@ The only possible adaptation is if you have a bigger build, for example with Dau
 
 
 ### Core Cards
-<img src="https://api.scryfall.com/cards/named?exact=Force of Will&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Daze&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Wasteland&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Tamiyo, Inquisitive Student&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Nethergoyf&format=image&version=small">
+<mtg-card name="Force of Will"/>
+<mtg-card name="Daze"/>
+<mtg-card name="Wasteland"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Nethergoyf"/>
 
 #### Fatal Push
-<img src="https://api.scryfall.com/cards/named?exact=Fatal+Push&format=image&version=small">
+<mtg-card name="Fatal Push"/>
 Kills most relevant creatures in Legacy, so play 4.
 
 #### Nethergoyf
@@ -66,28 +84,28 @@ People were initially sceptical but most play 4 now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
 
 #### Murktide Regent vs Barrowgoyf
-<img src="https://api.scryfall.com/cards/named?exact=Murktide+Regent&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Barrowgoyf&format=image&version=small">
+<mtg-card name="Murktide Regent"/>
+<mtg-card name="Barrowgoyf"/>
 
 Murktide Kills faster against combo and control but Barrowgoyf stabilizes extremely well.
 Murktide is immune to Fatal Push but dies to Pyroblast.
 Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimator.
 
 #### Brazen Borrower
-<img src="https://api.scryfall.com/cards/named?exact=Brazen+Borrower&format=image&version=small">
+<mtg-card name="Brazen Borrower"/>
 
 Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of the Void, Ensnaring Bridge, Marit Lage, a flipped Tamiyo and much much more.
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
 Maybe Wizards will print a UB command in the future?
 
 #### Ponder / Brainstorm
-<img src="https://api.scryfall.com/cards/named?exact=Ponder&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Brainstorm&format=image&version=small">
+<mtg-card name="Ponder"/>
+<mtg-card name="Brainstorm"/>
 
 Core cantrips, 4 of each are required, but I sometimes board out a Ponder.
 
 #### Kaito, Bane of Nightmares
-<img src="https://api.scryfall.com/cards/named?exact=Kaito, Bane of Nightmares&format=image&version=small">
+<mtg-card name="Kaito, Bane of Nightmares"/>
 
 Formerly niche card but since the Frog ban firmly established as a two of value engine that is hard to remove and can disable creatures like Murktide Regent or even Emrakul.
 
@@ -102,15 +120,15 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 -->
 
 <!--
-<img src="https://api.scryfall.com/cards/named?exact=&format=image&version=small">
+<mtg-card name=""/>
 -->
 
 ### Niche Cards
-<img src="https://api.scryfall.com/cards/named?exact=Mishra's Bauble&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Dauthi Voidwalker&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Baleful Strix&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Stock Up&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Hymn to Tourach&format=image&version=small">
+<mtg-card name="Mishra's Bauble"/>
+<mtg-card name="Dauthi Voidwalker"/>
+<mtg-card name="Baleful Strix"/>
+<mtg-card name="Stock Up"/>
+<mtg-card name="Hymn to Tourach"/>
 
 * Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
 
@@ -123,6 +141,24 @@ Eco:
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
 ## Sideboard
+
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Cursed Totem"/>
+<mtg-card name="Counterbalance"/>
+<mtg-card name="Damping Sphere"/>
+<mtg-card name="Engineered Explosives"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Null Rod"/>
+<mtg-card name="Pithing Needle"/>
+<mtg-card name="Spell Pierce"/>
+<mtg-card name="Flusterstorm"/>
+<mtg-card name="Subtlety"/>
+<mtg-card name="Thoughtseize"/>
+<mtg-card name="Toxic Deluge"/>
+<mtg-card name="Tsabo’s Web"/>
 
 * Grafdigger's Cage - Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options.
 
@@ -148,6 +184,7 @@ Eco:
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
 ## Not Recommended Sideboard Cards
+As someone who experiments a lot with off meta sideboard cards I want to tell you what doesn't work to make future exploration easier.
 
 * Emrakul or any other shuffle Eldrazi - I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
 * Court of Cunning - Former anti-control card but probably not needed anymore after Kaito.
@@ -194,10 +231,10 @@ Nethergoyf doesn’t really fit that plan but it is the only card that really do
 This deck is super fun but is also hard to play, you need a lot of practice and care not to timeout, it is much more value focussed and slower than Delver.
 
 ## Own Card Guide
-<img src="https://api.scryfall.com/cards/named?exact=Nethergoyf&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Fatal Push&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Shoot the Sherrif&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Go for the Throat&format=image&version=small">
+<mtg-card name="Nethergoyf"/>
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Shoot the Sheriff"/>
+<mtg-card name="Go for the Throat"/>
 
 ### Nethergoyf
 Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
@@ -237,12 +274,12 @@ Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters.
 ## Opponent Card Guide
 
 ### Gaea’s Cradle
-<img src="https://api.scryfall.com/cards/named?exact=Gaea's Cradle&format=image&version=small">
+<mtg-card name="Gaea's Cradle"/>
 
 Sometimes they have a dual land and a Gaea’s Cradle in play and you have to consider which to Wasteland, don’t always automatically kill Cradle as you might be able to mana screw them completely if they have no land in hand, though it is dangerous against decks with a lot of one drop creatures like Elves.
 
 ### Urza’s Saga (outdated by rules change)
-<img src="https://api.scryfall.com/cards/named?exact=Urza's Saga&format=image&version=small">
+<mtg-card name="Urza's Saga"/>
 I don’t know why most people don’t do this, but I almost always bring in my Harbingers of the Sea against Saga decks because having a 3 mana 2/2 that kills a Saga and does more later is really strong on it’s own as long as you remember to fetch basic swamp beforehand.
 You can Wasteland it with the first trigger on the stack so they never get mana.
 You can Consign to Memory any of the chapter abilities but not the activated one to create a token.
@@ -259,14 +296,14 @@ You can Consign to Memory any of the chapter abilities but not the activated one
 
 ### Shrinking and Growing Creatures
 
-<img src="https://api.scryfall.com/cards/named?exact=Nethergoyf&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Barrowgoyf&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Murktide+Regent&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Nihil+Spellbomb&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Dragon's Rage Channeler&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Tamiyo, Inquisitive Student&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Orcish+Bowmasters&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Undercity+Sewers&format=image&version=small">
+<mtg-card name="Nethergoyf"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Murktide Regent"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Dragon's Rage Channeler"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Undercity Sewers"/>
 
 Both UB tempo and many other meta decks have lots of variable-sized creatures, mostly related to card types in the graveyard.
 
@@ -283,10 +320,10 @@ Undercity Sewers can be a hail mary to hope for a favorable flip or you may even
 
 ### Threats First or Later
 
-<img src="https://api.scryfall.com/cards/named?exact=Thoughtseize&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Tamiyo, Inquisitive Student&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Ponder&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Nethergoyf&format=image&version=small">
+<mtg-card name="Thoughtseize"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Ponder"/>
+<mtg-card name="Nethergoyf"/>
 
 If you come from a control background you probably prefer to set up with cantrips early but early threats can snowball the game much better, especially Tamiyo.
 Of course this heavily depends on the matchup, for example vs Oops your best T1 play is Nihil Spellbomb and your second best is Thoughtseize.
@@ -297,7 +334,13 @@ Orcish Bowmasters are often better later in Bowmaster mirrors but against decks 
 
 The deck is generally good against linear combo and red-based tempo decks but struggles against bigger fair decks.
 
-### UB Reanimator
+### UB Reanimator (20% Metagame)
+
+<mtg-card name="Reanimate"/>
+<mtg-card name="Entomb"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-card name="Archon of Cruelty"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
 
 The currently most played and probably strongest deck even after the Grief, Frog and Troll bans is a tempo combo hybrid that puts you in constant danger from two angles:
 If you keep or even mulligan to a hand with grave hate and Force of Will, they may just outtempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf.
@@ -311,19 +354,37 @@ However then they are just a worse tempo deck than you are so it’s probably be
 Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways. Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
 It’s also super hard to win two games in a row on the play and draw, so having mainboard grave hate like Nihil Spellbomb really helps.
 
-Sideboarding:
+#### Sideboarding:
+
+
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Sheoldred's Edict"/>
+
 In: All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
 Don’t board in FoN as it’s not good against their fair plan and also avoid Consign to Memory, as they probably board out Animate Dead.
-Out: 2 Daze 2 Wasteland. I used to board out 4 Wasteland but you need the mana against Daze and to crack clues and you want to keep them below 5-6 mana for hardcast FoW, and the Ghost Vacuum in case they being that in. 
+
+Out: Shave Daze, Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers. All Barrowgoyfs as they are too dangerous to get reanimated against you.
+I used to board out 4 Wasteland but you need the mana against Daze and to crack clues and you want to keep them below 5-6 mana for hardcast FoW, and the Ghost Vacuum in case they being that in. 
+
+Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
+
+### UB Tempo Mirror (6% Metagame)
+
 
 
 
 ### Oops All Spells
 
+<mtg-card name="Grafdigger's Cage"/>
+
 Mostly played by ellaone on MTGO, who has a lot of experience and will outplay you if you make a single mistake.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
 Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassas Oracle.
 *TODO: update, its more widely played now*
+
+In: All graveyard hate and countermagic including Force of Negation and Consign to Memory, Null Rod, 
+Out: 
 
 ### Dragon Stompy
 
@@ -344,10 +405,10 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 ### Black Saga Storm
 
-<img src="https://api.scryfall.com/cards/named?exact=Beseech the Mirror&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Echo of Eons&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Urza's Saga&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Orcish Bowmasters&format=image&version=small">
+<mtg-card name="Beseech the Mirror"/>
+<mtg-card name="Echo of Eons"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Orcish Bowmasters"/>
 
 Super difficult to play against as they have so many different threats and you never know what they are up to this game.
 Nihil Spellbomb is often bad as they keep priority between sacrificing Lion's Eye Diamond and casting Echo of Eons.
@@ -425,6 +486,9 @@ Reanimator is the same logic; graveyard hate, removal spells and Forces.
 
 ### Doomsday
 
+
+
+
 *TODO: update, this was written in frog times*
 Its pure combo version, Turbo Doomsday is a fast and resilient combo deck where your classic tempo plan of early threats + disruption works well.
 One of the few matchups where Grixis is much better as they don’t have Wasteland to punish a greedy mana base and Pyroblast, Lightning Bolt and Molten Collapse (hits Vexing Bauble, Tamiyo in both forms, and other creatures) are really good against them. Still, we are a tempo deck and they are a combo deck so we are still favored if we play tight.
@@ -461,6 +525,10 @@ If they have those, they are focused on Combo.
 If they have creatures, you can trim a Wasteland and not bring in Consign. 
 
 ### Red Daze Decks
+
+<mtg-card name="Dragon's Rage Channeler"/>
+<mtg-card name="Lightning Bolt"/>
+<mtg-card name="Daze"/>
 
 Eco:
 
@@ -518,12 +586,12 @@ It is hard to beat for Tempo without board wipes like Rough/Tumble due to their 
 They have a slew of combat tricks that they are probably much more experienced with than you so think twice before blocking a seemingly stupid attack.
 Putting any land from their library into play with Elvish Reclaimer and Wight of the Reliquary can do the following:
 
-<img src="https://api.scryfall.com/cards/named?exact=Bojuka Bog&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Elvish Reclaimer&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Wight of the Reqliquary&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Gaea's Cradle&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Dryad Arbor&format=image&version=small">
-<img src="https://api.scryfall.com/cards/named?exact=Talon Gates of Madeira&format=image&version=small">
+<mtg-card name="Bojuka Bog"/>
+<mtg-card name="Elvish Reclaimer"/>
+<mtg-card name="Wight of the Reliquary"/>
+<mtg-card name="Gaea's Cradle"/>
+<mtg-card name="Dryad Arbor"/>
+<mtg-card name="Talon Gates of Madara"/>
 
 * Bojuka Bog can shrink your Nethergoyf
 * Lands in the graveyard grow Elvish Reclaimer.

@@ -8,11 +8,12 @@
 * 4 Orcish Bowmasters
 * 2 Murktide Regent
 * 2 Brazen Borrower
+* 2 Kaito, Bane of Nightmares
 * 4 Brainstorm
 * 4 Ponder
 * 2 Nihil Spellbomb
 * 4 Force of Will
-* 4 Daze
+* 3 Daze
 * 4 Fatal Push
 * 3 Thoughtseize
 * 2 Bloodstained Mire

@@ -419,6 +419,14 @@ Null Rod?
 ### Lands
 Bad matchup but can sometimes be beaten by Harbingers of the Seas, hopefully they don't stick a Saga on 2 before that enters.
 
+#### Sideboarding
+Force of Negation is good because it prevents Life from the Loam from coming back.
+Similarily if there is a lot of lands it may be worth it to switch one of your graveyard hate pieces to Surgical Extraction.
+A single Surgical is a nice against Loam and as you have so many dead cards like Push and Bowmasters it is surely better than those and can get rid of some other card as well in a pinch.
+Harbinger is still great, you may just need to Wasteland a Saga first in some spots which complicates things a bit.
+Consign to Memory is not great but still better than Bowmasters and Push, it can counter an artifact or a Saga Trigger or maybe Bojuka Bog or something else.
+You can try Tsabo's Web if it is a lot of lands (never tried it though).
+
 ### BUG Beans
 Prevent Carpet of Flowers at all costs, then you may be able to tempo or harbinger them out.
 

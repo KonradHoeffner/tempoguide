@@ -19,6 +19,8 @@ customElements.define('mtg-card', Card);
 
 # MTG Legacy UB Tempo Guide
 
+**EARLY DRAFT, CONTIBUTIONS WELCOME, SEE <https://github.com/KonradHoeffner/tempoguide>**
+
 ## Example UB List
 
 * 4 Nethergoyf

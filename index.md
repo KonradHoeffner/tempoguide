@@ -13,7 +13,24 @@ class Card extends HTMLElement {
     }
 }
 
+class YoutubeVideo extends HTMLElement {
+    constructor() {super();}
+
+    connectedCallback() {
+        const id = this.getAttribute('id');
+        if (id) {
+            const t = this.getAttribute('t');
+            //let href = "https://www.youtube.com/watch?v="+id;
+            //if(t) href+=`&t=${t}s`;
+            let embedUrl = "https://www.youtube.com/embed/"+id;
+            if(t) embedUrl+=`?start=${t}`;
+            this.innerHTML = `<iframe width="560" height="315" src="${embedUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+        }
+    }
+}
+
 customElements.define('mtg-card', Card);
+customElements.define('youtube-video', YoutubeVideo);
 //document.body.style.visibility = 'visible';
 </script>
 
@@ -266,7 +283,7 @@ Normally you want to attack first and then cast your spells to get more informat
 Sometimes you don’t have a land in the graveyard and it’s good to fetch before attacking.
 Against damage based removal, consider delaying Nethergoyf until it survives. For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
 You can force a delirious DRC to attack, then clear their graveyard with Nihil Spellbomb in the attack step, then block and kill it with Nethergoyf.
-Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play. 	
+Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play.
 
 ### Fatal Push
 
@@ -504,6 +521,31 @@ Bad matchup but gets better with 1-2 Null Rod.
 ### Bant Nadu
 
 Bad matchup.
+
+### Cephalid Breakfast
+
+
+<mtg-card name="Cephalid Illusionist"/>
+<mtg-card name="Nadu, Winged Wisdom"/>
+<mtg-card name="Nomads en-Kor"/>
+<mtg-card name="Shuko"/>
+
+#### Videos
+
+<youtube-video id="cQAHgwzGWTA" t="120"/>
+
+
+
+#### Sideboarding
+
+##### In
+
+Eco:
+> Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
+
+Sheoldred's Edict is nice because it does not target so it can sometimes trade 1 for 1 with Nadu.
+
+##### Out
 
 
 ### Hybrid Decks

@@ -38,6 +38,8 @@ customElements.define('youtube-video', YoutubeVideo);
 
 **EARLY DRAFT, CONTIBUTIONS WELCOME, SEE <https://github.com/KonradHoeffner/tempoguide>**
 
+## TODO: Disclaimer about staying curious and improvising
+
 ## Example UB List
 
 * 4 Nethergoyf
@@ -248,7 +250,10 @@ UB Tempo is slower, has a more stable manabase, can go longer through card advan
 In paper, I represent bauble triggers with blank cards to not forget them. 
 
 ### Early game
-In most matchups, Tamiyo is the best T1 play while Nethergoyf can also be good on T2 because it doesn't do much dmg T2. Also sometimes a t1 Nethergoyf can die to damage line bolt or bowmaster. Bowmaster t2 is good against decks that don't have their own bowmaster. Ideal curve is tamiyo bowmaster Kaito.
+In most matchups, Tamiyo is the best T1 play in a vacuum while Nethergoyf can also be good on T2 because it doesn't do much dmg T2.
+However because Tamiyo is so strong in fair blue mirrors, it can often be better start with something else like Thoughtseize to clear away a removal spell or Ponder for a Brainstorm or Daze so that you can protect Tamiyo better.
+Also sometimes a t1 Nethergoyf can die to damage line bolt or bowmaster.
+Bowmaster t2 is good against decks that don't have their own bowmaster. Ideal curve is tamiyo bowmaster Kaito.
 Against combo you need to know the earliest they can reasonably win so eg vs oops you can never tap out for tamiyo but vs sneak show them T1 combo is improbable so T1 tamiyo is good. 
 
 ### Late game
@@ -524,7 +529,6 @@ Bad matchup.
 
 ### Cephalid Breakfast
 
-
 <mtg-card name="Cephalid Illusionist"/>
 <mtg-card name="Nadu, Winged Wisdom"/>
 <mtg-card name="Nomads en-Kor"/>
@@ -534,11 +538,11 @@ Bad matchup.
 
 <youtube-video id="cQAHgwzGWTA" t="120"/>
 
-
-
 #### Sideboarding
 
 ##### In
+
+<mtg-card name="Sheoldred's Edict"/>
 
 Eco:
 > Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
@@ -547,6 +551,7 @@ Sheoldred's Edict is nice because it does not target so it can sometimes trade 1
 
 ##### Out
 
+I used to board out Nethergoyfs to go for a control playstyle with Harbinger as the finisher but after the Saga rules change this is more risky and is also weak into Teferi uptick + combo next turn.
 
 ### Hybrid Decks
 

@@ -38,8 +38,6 @@ customElements.define('youtube-video', YoutubeVideo);
 
 **EARLY DRAFT, CONTIBUTIONS WELCOME, SEE <https://github.com/KonradHoeffner/tempoguide>**
 
-## TODO: Disclaimer about staying curious and improvising
-
 ## Example UB List
 
 * 4 Nethergoyf
@@ -74,7 +72,6 @@ customElements.define('youtube-video', YoutubeVideo);
 * 1 Null Rod
 * 2 Sheoldred’s Edict
 
-
 ## Card Choices
 
 ### Manabase
@@ -94,8 +91,6 @@ This is especially important against 8 Moon, also known as Dragon Stompy.
 I personally value style and like old border so I play two Flooded Strand and two Bloodstained Mire but there may be some really fringe benefits of splitting them up against Pithing Needle or representing another deck.
 And of course you play four Wastelands, especially now that Harbingers don't kill Sagas anymore.
 The only possible adaptation is if you have a bigger build, for example with Dauthi Voidwalkers instead of Nethergoyfs, you can add a second Undercity Sewers as a 20th land and go down to two Daze.
-
-
 
 ### Core Cards
 
@@ -282,7 +277,6 @@ Playing fast is important because it lets you slow down and take your time with 
 Practice your Ponders, land drops, short cuts and using F6 at strategic moments where you don't give up bluff equity.
 It's the same in paper; play fast (and make your opponent play fast as well using the judge) from turn 1 of the game.
 We should not cheat with slowplay and then when game two finishes with 8 minutes on the clock start playing fast there.
-
 
 ## General Deck Advice
 
@@ -475,7 +469,7 @@ You can try Tsabo's Web if it is a lot of lands (never tried it though).
 
 ### BUG Beans
 
-<mtg-card name="Up the Beanstalik"/>
+<mtg-card name="Up the Beanstalk"/>
 <mtg-card name="Rakshasa's Bargain"/>
 <mtg-card name="Witherbloom Command"/>
 <mtg-card name="Orcish Bowmasters"/>
@@ -776,13 +770,14 @@ Their Plan: Their plan is already good so they won’t change much, probably Col
 ### Mono Black Aggro (<1% Metagame)
 
 <mtg-card name="Stalactite Stalker"/>
+<mtg-card name="Nethergoyf"/>
 <mtg-card name="Dauthi Voidwalker"/>
 <mtg-card name="Hymn to Tourach"/>
 <mtg-card name="Barrowgoyf"/>
 <mtg-card name="Opposition Agent"/>
 <mtg-card name="Dark Ritual"/>
 <mtg-card name="Volrath's Stronghold"/>
-<mtg-card name=""/>
+<mtg-card name="Wasteland"/>
 
 Grindy fair deck that aims to win a battle of attrition.
 Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.
@@ -802,6 +797,32 @@ Value-grave hate like Nihil Spellbomb is fine.
 
 * Daze
 
+
+### Pox (<1% Metagame)
+
+<mtg-card name="Smallpox"/>
+<mtg-card name="Liliana of the Veil"/>
+<mtg-card name="Karn, the Great Creator"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Leyline of the Void"/>
+
+Ultra grindy creatureless matchup which you may win on the clock on MTGO if they go for Ensnaring Bridge, but in paper you have to play fast and be ready to call a judge to prevent slow play.
+They have lots of creature removal but struggle with planeswalkers, so going for a quick Tamiyo ultimate may help.
+Ensnaring Bridge is annoying but can sometimes be handled using creative thinking.
+Besides preparing a lethal attack (take Sudden Edict into account) and then using Brazen Borrower, you can for example create Kaito emblems for a few turns and Ninjutsu it from a Tamiyo or use one of the many other ways you have to shrinking and growing your creatures before and after the attack.
+As the deck is rarely played competitively expect lots of variations and adapt to what you see.
+
+#### Sideboarding
+##### In
+* Barrowgoyf
+* Brazen Borrower
+* Sheoldred's Edict
+* Force of Negation
+
+##### Out
+* Daze
+* Fatal Push
+* Orcish Bowmasters
 
 ### LED Dredge (<1% Metagame)
 
@@ -847,3 +868,6 @@ Quick Tips:
 Assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
 Don’t forget about Kaito! For example you should always block Tamiyo if you can. It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
 
+## Disclaimers
+1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.
+2. Stay curious and improvise. Use those guidelines only as a starting point, and adapt to the situation at hand.

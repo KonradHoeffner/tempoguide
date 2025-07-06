@@ -228,11 +228,27 @@ Eco:
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
 ## Not Recommended Sideboard Cards
+
+<mtg-card name="Winter Orb"/>
+<mtg-card name="Winter Moon"/>
+<mtg-card name="Emrakul, the Aeon's Torn"/>
+<mtg-card name="Court of Cunning"/>
+<mtg-card name="Court of Locthwain"/>
+<mtg-card name="Liliana of the Veil"/>
+
 As someone who experiments a lot with off meta sideboard cards I want to tell you what doesn't work to make future exploration easier.
 
-* Emrakul or any other shuffle Eldrazi - I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
-* Court of Cunning - Former anti-control card but probably not needed anymore after Kaito.
+* Winter Orb and Winter Moon
+
+Eco:
+> Winter Orb used to see play out of aggressive daze decks to force the opponent to play on your terms while you attack them with a Delver. These days, Blue/Black Tempo is closer to a Midrange deck and can’t take advantage of it - mainly due to Tamiyo’s clues and 3-drops. 
+
+Winter Moon is interesting but very unreliable between opposing basics, Mox Diamond and your own need to fetch duals I’m certain games. Add in the fact that multiple Boseijus see play, and you end up with a very temporary false sense of security against Lands.
+
+* Emrakul or any other shuffle Eldrazi: I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
+* Court of Cunning: Former anti-control card but probably not needed anymore after Kaito.
 When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer for 3 leagues but they never did anything and the Adventurer even lost me a game where my opponent just Pyrogoyfed my creature and won with the initiative. 
+* Liliana of the Veil: Not powerful enough anymore.
 
 ## Variations
 
@@ -301,6 +317,12 @@ Does not hit Brazen Borrower and Boardside Bombardiers.
 
 ### Go for the Throat
 Relevant artifact creatures: Constructs, Painter’s Servant, 
+
+### Sheoldred's Edict
+
+Kaito is not a planeswalker on the owners turn, you need to choose creature in that case!
+So if they have an additional creature you need to wait until your turn to remove it.
+Creatures with Flash can make it unreliable, like Orcish Bowmasters, Endurance or half of Death and Taxes.
 
 ### Brainstorm
 Flipping Tamiyo T2 means a T5 ultimate if not stopped  which mostly wins the game.
@@ -452,7 +474,27 @@ Consign to Memory is not great but still better than Bowmasters and Push, it can
 You can try Tsabo's Web if it is a lot of lands (never tried it though).
 
 ### BUG Beans
-Prevent Carpet of Flowers at all costs, then you may be able to tempo or harbinger them out.
+
+Prevent Carpet of Flowers at all costs, then you may be able to Tempo them out or lock/kill them with your additional nonbasic hate of choice (Harbinger, Price of Progress, ...).
+Fortunately they don't usually play more than one or at most two Carpets in the Sideboard.
+
+#### Sideboarding
+
+##### In
+
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Harbinger of the Seas"/>
+
+We don't board in Force of Negation because it's too much card disadvantage and they play a lot of creatures too.
+
+##### Out
+
+<mtg-card name="Daze"/>
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Brazen Borrower"/>
+
+Fatal Push is bad against most of their deck but depending on your other removal you may need to keep one or two in against Tamiyo.
 
 ### Jeskai Control
 Very bad matchup but fortunately not widely played.
@@ -713,6 +755,37 @@ Sideboarding: Similar to Cradle Control
 With the example list I would -1 Wasteland -4 Daze -1 Nihil Spellbomb +1 Hearse +1 Barrowgoyf +1 Sheoldred’s Edict +1 Toxic Deluge +1 Long Goodbye +1 Brazen Borrower
 Their Plan: Their plan is already good so they won’t change much, probably Collector Ouphe out and Choke in.
 
+
+### Mono Black Aggro (<1% Metagame)
+
+<mtg-card name="Stalactite Stalker"/>
+<mtg-card name="Dauthi Voidwalker"/>
+<mtg-card name="Hymn to Tourach"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Opposition Agent"/>
+<mtg-card name="Dark Ritual"/>
+<mtg-card name="Volrath's Stronghold"/>
+<mtg-card name=""/>
+
+Grindy fair deck that aims to win a battle of attrition.
+Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.
+Be careful with fetching and brainstorming, they could Dark Ritual into Bowmaster and (postboard?) Opposition Agent.
+Value-grave hate like Nihil Spellbomb is fine.
+
+#### Sideboarding
+
+<mtg-card name="Sheoldred's Edict"/>
+
+##### In
+
+* removal
+* creatures
+
+##### Out
+
+* Daze
+
+
 ### LED Dredge (<1% Metagame)
 
 A unique graveyard deck that requires very specific answers to beat but you shouldn’t tune your sideboard in an open field because of the extremely low play rate.
@@ -727,6 +800,7 @@ Be careful with Thoughtseize if they are low on cards because you might win them
 Barrowgoyf, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldreds Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
 * Out: Fatal Push, Orcish Bowmaster, 
 * Their Plan: Win game 1 and hope to get one of the postboard games.
+
 
 ### Tempo Decks
 

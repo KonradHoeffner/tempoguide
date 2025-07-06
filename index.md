@@ -243,7 +243,7 @@ As someone who experiments a lot with off meta sideboard cards I want to tell yo
 Eco:
 > Winter Orb used to see play out of aggressive daze decks to force the opponent to play on your terms while you attack them with a Delver. These days, Blue/Black Tempo is closer to a Midrange deck and can’t take advantage of it - mainly due to Tamiyo’s clues and 3-drops. 
 
-Winter Moon is interesting but very unreliable between opposing basics, Mox Diamond and your own need to fetch duals I’m certain games. Add in the fact that multiple Boseijus see play, and you end up with a very temporary false sense of security against Lands.
+> Winter Moon is interesting but very unreliable between opposing basics, Mox Diamond and your own need to fetch duals I’m certain games. Add in the fact that multiple Boseijus see play, and you end up with a very temporary false sense of security against Lands.
 
 * Emrakul or any other shuffle Eldrazi: I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
 * Court of Cunning: Former anti-control card but probably not needed anymore after Kaito.

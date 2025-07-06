@@ -671,6 +671,39 @@ Focus on stopping aggression and accepting Daze instead of falling behind too mu
 Sometimes we can respect Daze, but if you respect it too much, you will get run over.
 Build basics if possible.
 
+#### Sideboarding
+
+
+##### In
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Blue Elemental Blast"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Sheldred's Edict"/>
+
+##### Out
+
+## RUG Druid
+<mtg-card name="Delver of Secrets"/>
+<mtg-card name="Questing Druid"/>
+
+Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
+If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
+Barrowgoyf is extremely hard to handle for them.
+
+Your Nihil Spellbomb timing is very important here:
+If they have a delirious Dragon's Rage Channeler then using it in the attack step can be used to chump block it with a Nethergoyf or an Orc Army token.
+However a resolved Murktide is often a huge problem for you and once it is in play the Spellbomb may even grow it, so you may have to use it earlier.
+Taking away Delirium can also be useful to save your creatures from Unholy Heat.
+
+### UR Cutter
+<mtg-card name="Cori-Steel Cutter"/>
+<mtg-card name="Mishra's Bauble"/>
+
+Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
+Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
+Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
+On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
+
 ### Cradle Control (1% Metagame)
 
 ### Example Decklist

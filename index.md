@@ -475,10 +475,21 @@ You can try Tsabo's Web if it is a lot of lands (never tried it though).
 
 ### BUG Beans
 
-Prevent Carpet of Flowers at all costs, then you may be able to Tempo them out or lock/kill them with your additional nonbasic hate of choice (Harbinger, Price of Progress, ...).
-Fortunately they don't usually play more than one or at most two Carpets in the Sideboard.
+<mtg-card name="Up the Beanstalik"/>
+<mtg-card name="Rakshasa's Bargain"/>
+<mtg-card name="Witherbloom Command"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Murktide Regent"/>
+
+Super fun to play and much loved by the community but even with the new Rakshasa's Bargain it does seem to compete at the absolute top of the metagame right now so the play rate is currently not that high.
+Theoretically it is built to counter Tempo decks such as UB because it has more value while still having enough threats to not being clunky, but due to the high power level of the current UB cards it is still somewhat even, as Tamiyo or Kaito can often outvalue them if they don't have multiple Beans out.
+A flipped Tamiyo can easily be killed by Witherbloom Command but Kaito is very hard to stop for them, as they usually only play a single Sheoldred's Edict, so focussing on T3 Kaito is often a great path to victory, for example by starting with basic Island and Swamp so that they can't delay Kaito with Wasteland.
+There are different variations with a lot of potential one or two-ofs so keep in mind what they could have, such as Spell Pierce, Daze, Stifle, Wasteland or Endurance, but don't overrespect them because you are the aggressor and the chance of them having any such particular card is low.
 
 #### Sideboarding
+
+After boarding, prevent Carpet of Flowers at all costs, then you may be able to Tempo them out or lock/kill them with your additional nonbasic hate of choice (Harbinger, Price of Progress, ...).
+Fortunately they don't usually play more than one or at most two Carpets in the Sideboard, which I don't understand because this card can single handedly win vs Tempo.
 
 ##### In
 
@@ -486,7 +497,10 @@ Fortunately they don't usually play more than one or at most two Carpets in the 
 <mtg-card name="Barrowgoyf"/>
 <mtg-card name="Harbinger of the Seas"/>
 
+Sheoldred's Edict is much more flexible than Fatal Push because it can also kill Murktide and a flipped Tamyio.
 We don't board in Force of Negation because it's too much card disadvantage and they play a lot of creatures too.
+As always, replace Harbinger with your other nonbasic hate of choice if you have it, such as Price of Progress with a red splash.
+Against nonstandard variations with 3-4 Uro instead or in addition to Murktide you may board in a Surgical extraction if you have it.
 
 ##### Out
 
@@ -494,7 +508,10 @@ We don't board in Force of Negation because it's too much card disadvantage and 
 <mtg-card name="Fatal Push"/>
 <mtg-card name="Brazen Borrower"/>
 
-Fatal Push is bad against most of their deck but depending on your other removal you may need to keep one or two in against Tamiyo.
+Fatal Push is bad against most of their deck but depending on your other removal you may need to keep two in depending on how many Tamiyos and Endurances they play.
+
+Eco:
+> Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show up. You can keep it
 
 ### Jeskai Control
 Very bad matchup but fortunately not widely played.

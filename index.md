@@ -704,6 +704,47 @@ Beware of their combat tricks as they can get lots of prowess triggers and even 
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
 On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
 
+### Boros Energy (<1% Metagame)
+<mtg-card name="Goblin Bombardement"/>
+<mtg-card name="Guide of Souls"/>
+<mtg-card name="Ajani, Nacatl Pariah"/>
+
+#### Sideboarding
+Grindy go-wide aggro deck that we are disadvantaged against without Toxic Deluge but with the current MTGO meta it is hard to justify that sideboard slot.
+Still winnable without if you get an engine (Tamiyo, Barrowgoyf, Kaito) into play ahead of them, then you may be able to keep their board clean and outvalue them.
+
+##### In
+Barrowgoyf is the perfect creature for matchups like this but they also have a lot to deal with it like Swords to Plowshares and Static Prison, see if you can play around Galvanic Discharge at least.
+
+
+* Barrowgoyf
+* removal
+* Engineered Explosives
+* Hydroblast
+* Toxic Deluge if you have it
+
+##### Out
+
+* Daze
+* Nihil Spellbomb
+* shave Wasteland
+
+### Goblins (<1% Metagame)
+
+<mtg-card name="Cavern of Souls"/>
+<mtg-card name="Aether Vial"/>
+<mtg-card name="Goblin Lackey"/>
+<mtg-card name="Broadside Bombardiers"/>
+<mtg-card name="Goblin Matron"/>
+<mtg-card name="Muxus, Goblin Grandee"/>
+
+If you see green-producing lands, they may be on Food Chain (rare), adapt accordingly with more countermagic.
+
+Similar to Boros Energy in that they are a go-wide aggro strategy but their individual creatures are weaker but have better synergy, such as Lackey into Muxus.
+Bring in in removal, Barrowgoyf and Blue Blasts, board wipes if you have them.
+Board out Nihil Spellbomb and Daze, shave Wasteland.
+If possible I would play around Blood Moon but not if it puts you too far behind as they don't always have it in the sideboard and may not bring it in.
+
 ### Cradle Control (1% Metagame)
 
 ### Example Decklist

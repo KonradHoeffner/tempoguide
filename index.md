@@ -410,7 +410,6 @@ If you keep or even mulligan to a hand with grave hate and Force of Will, they m
 If you have threats and removal they may just reanimate a Fattie and against tempo the game is mostly over if a single Fattie hits the battlefield.
 However since the Frog ban, the tempo part of the deck is much weaker, especially before sideboarding, so you should prioritize not dying to their combo and your tempo plan will most likely win against theirs.
 Very skill testing, but good matchup for us if we have two Nihil Spellbomb in the main deck, just be prepared to fight over end of turn Petty Theft into their turn Reanimate.
-Hard to discern from UB Tempo until you see Entomb, Reanimate, a fattie, Troll of Khazad Dum or Animate Dead but better to assume it’s Reanimator if you aren’t sure because it is played so often. 
 They have a sideboard juke to board out Entomb, Animate Dead and the Fatties and board in more creatures like Barrowgoyf and more removal.
 However then they are just a worse tempo deck than you are so it’s probably best for them to not juke, unless they expect you to over-prepare for the reanimation plan.
 
@@ -418,7 +417,6 @@ Before the Grief ban, graveyard hate from hand was bad due to Grief but I often 
 It’s also super hard to win two games in a row on the play and draw, so having mainboard grave hate like Nihil Spellbomb really helps.
 
 #### Sideboarding:
-
 
 <mtg-card name="Grafdigger's Cage"/>
 <mtg-card name="Faerie Macabre"/>
@@ -434,8 +432,11 @@ Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force 
 
 ### UB Tempo Mirror (6% Meta game)
 
+### Discerning Reanimator and UB Tempo
 
-
+ it's sometimes hard to know whether you are versing the mirror or UB Reanimator after G1 unless you see Nethergoyf, Kaito or mainboard Fatal Push (UB Tempo) or Entomb, Reanimate, Atraxa, Archon of Cruelty or Animate Dead (UB Reanimator).
+The second Undercity Sewers is also an indicator but not always. 
+When in doubt it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
 
 ### Oops All Spells
 
@@ -555,26 +556,93 @@ Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your 
 
 ### Sneak and Show
 
+<mtg-card name="Show and Tell"/>
+<mtg-card name="Sneak Attack"/>
+<mtg-card name="Emrakul, the Aeon's Torn"/>
+
 Good matchup but can easily be lost if you misidentify the critical turn after which you don't tap out anymore.
 Play too passive and you get buried by their Stock Ups but play too aggressive and they just combo you out.
 I like a single Sheoldred's Edict as an out to Emrakul.
 Unfortunately Kaito does not count as a creature in your hand so you cannot bring it in with Show and Tell.
 
+##### In
+
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Flusterstorm"/>
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Surgical Extraction"/>
+
 + Hydroblast, FoN, Consign
++ 1 Sheoldred's Edict?
 - Fatal Push
 
-### Omni Tell
+##### Out
+
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Baleful Strix"/>
+<mtg-card name="Barrowgoyf"/>
+
+### Show and Tell (Omni Tell)
 
 The mono blue basic land variant is very hard to deal with as they ignore most of your preboard interaction (Fatal Push, Wasteland, Nihil Spellbomb) and puts you into the rare position that you may have blanks in your board after sideboarding.
 Fortunately that version has a very low playrate as most include some nonbasics so you get value out of Wasteland.
+
+#### Sideboarding
+
+##### In
+
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Flusterstorm"/>
+<mtg-card name="Surgical Extraction"/>
+
+##### Out
+
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Baleful Strix"/>
+<mtg-card name="Barrowgoyf"/>
 
 ### Red Painter
 
 ### Blue Painter
 
-### Mystic Forge
+### Planar Nexus Decks
+Similar to UB Tempo and UB Reanimator, there are two decks with a common core that are hard to differentiate.
+
+<mtg-card name="Ancient Tomb"/>
+<mtg-card name="Planar Nexus"/>
+<mtg-card name="Urza's Tower"/>
+<mtg-card name="Urza's Workshop"/>
+
+#### Sideboarding
+
+In: Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
+In: Consign to Memory, Force of Negation, Harbingers of the Seas
+Out: 
+
+#### Mystic Forge (4%)
+
+<mtg-card name="Mystic Forge"/>
+<mtg-card name="Glaring Fleshraker"/>
+
+Because of Glaring Fleshraker, 
+
+#### Cloudpost Ramp (<1%)
+
+
+<mtg-card name="Manifold Key"/>
+<mtg-card name="Grim Monolith"/>
+<mtg-card name="The One Ring"/>
+<mtg-card name="Karn, the Great Creator"/>
+
+
+
 
 Bad matchup but gets better with 1-2 Null Rod.
+
+
+
 
 ### Bant Nadu
 

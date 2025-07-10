@@ -440,14 +440,25 @@ When in doubt it’s better to assume Reanimator if you aren’t sure because it
 
 ### Oops All Spells
 
-<mtg-card name="Grafdigger's Cage"/>
-
 Mostly played by ellaone on MTGO, who has a lot of experience and will outplay you if you make a single mistake.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
 Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassas Oracle.
 *TODO: update, its more widely played now*
 
-In: All graveyard hate and countermagic including Force of Negation and Consign to Memory, Null Rod, 
+This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
+With Force of Negation you may have to force Dark Ritual because their combo pieces are creatures.
+They may have a pivot to creatures (if you don't see Pact of Negation) or to Goblin Charbelcher, but that is not great for them because your countermagic still works against it.
+
+#### Sideboarding
+
+##### In
+
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Force of Negation"/>
+
+* All graveyard hate and countermagic including Force of Negation and Consign to Memory, Null Rod, 
+
 Out: 
 
 ### Dragon Stompy

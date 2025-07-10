@@ -347,6 +347,9 @@ I don’t know why most people don’t do this, but I almost always bring in my 
 You can Wasteland it with the first trigger on the stack so they never get mana.
 You can Consign to Memory any of the chapter abilities but not the activated one to create a token.
 
+### Crop Rotation
+<mtg-card name="Crop Rotation"/>
+Most of the time it's correct to force it, Wasteland on the opponents turn if you have FoN in hand, even if they have no mana, they may play Elvish Spirit Guide.
 
 ### Timing Guide
 
@@ -648,7 +651,7 @@ Because of Glaring Fleshraker,
 <mtg-card name="Karn, the Great Creator"/>
 
 
-
+Can have a green splash for Crop Rotation.
 
 Bad matchup but gets better with 1-2 Null Rod.
 

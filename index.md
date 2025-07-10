@@ -621,6 +621,21 @@ Fortunately that version has a very low playrate as most include some nonbasics 
 
 ### Blue Painter
 
+### Stiflenought
+
+### Eldrazi
+<mtg-card name="Eye of Ugin"/>
+<mtg-card name="Eldrazi Temple"/>
+<mtg-card name="Kozilek's Command"/>
+<mtg-card name=""/>
+
+After the ban of Sowing Mycospawn, the deck is much less oppressive but still structurally favored due to Chalice of the Void and a long stream of large, potentially uncounterable threats.
+
+In: Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
+In: Consign to Memory, Force of Negation, Harbingers of the Seas
+Out: 
+
+
 ### Planar Nexus Decks
 Similar to UB Tempo and UB Reanimator, there are two decks with a common core that are hard to differentiate.
 
@@ -632,7 +647,7 @@ Similar to UB Tempo and UB Reanimator, there are two decks with a common core th
 #### Sideboarding
 
 In: Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
-In: Consign to Memory, Force of Negation, Harbingers of the Seas
+ 
 Out: 
 
 #### Mystic Forge (4%)

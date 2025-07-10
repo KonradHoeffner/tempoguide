@@ -91,6 +91,7 @@ This is especially important against 8 Moon, also known as Dragon Stompy.
 I personally value style and like old border so I play two Flooded Strand and two Bloodstained Mire but there may be some really fringe benefits of splitting them up against Pithing Needle or representing another deck.
 And of course you play four Wastelands, especially now that Harbingers don't kill Sagas anymore.
 The only possible adaptation is if you have a bigger build, for example with Dauthi Voidwalkers instead of Nethergoyfs, you can add a second Undercity Sewers as a 20th land and go down to two Daze.
+The second Sewers also makes you look like Reanimator and if you dont play Goyf, high-level opponents may sideboard incorrectly.
 
 ### Core Cards
 
@@ -117,16 +118,32 @@ You almost always play one or two Brazen Borrower just as a catch-all answer to 
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
 #### Tamiyo, Inquisitive Student
-TODO
+
+Bowmastering at their endstep to draw the Brainstorm out is OK sometimes.
+APNAP comes into play: Active players triggers go on stack first.
+On their turn if they Brainstorm you play Bowmasters, ping something, they draw 3 triggering Bowmasters 3 times and triggering Tamiyo's flip, resolve brainstorm, flip goes on stack, then your 3 Bowmasters triggers, and hopefully kill their Tamiyo, so probably not a good play, but on our turn these triggers are switched.
+This allows you to consider flipping Tamiyo at odd times in the face of a Bowman if you have an answer to their consequent boardstate.
+Often against Bowmasters mirrors, just using your mana efficiently to sorcery speed a clue away from Bowmasters mana is correct.
+
 
 #### Nethergoyf
+<mtg-card name="Nethergoyf"/>
+<mtg-card name="Murktide Regent"/>
+<mtg-card name="Rest in Peace"/>
+<mtg-card name="Rest in Peace"/>
+
 People were initially skeptical but most play 4 now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
+Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Peace, Nihil Spellbomb, Leyline of the Void, Dauthi Voidwalker).
+Against izzet try to play at 3/4 or with instant speed growth to 3/4.
 
 #### Murktide Regent vs Barrowgoyf
 Murktide Kills faster against combo and control but Barrowgoyf stabilizes extremely well.
 Murktide is immune to Fatal Push but dies to Pyroblast.
 Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimator.
+Blue count g1 is a consideration here, how many decks in the upper meta is Barrowgoyf good against vs Murktide?
+Murktide: Reanimator, Izzet, UB Tempo, Oops, can mention others but those are the main perks.
+Barrowgoyf: Red Stompy, Izzet, UB Tempo.
 
 #### Brazen Borrower
 <mtg-card name="Brazen Borrower"/>
@@ -134,6 +151,7 @@ Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimato
 Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of the Void, Ensnaring Bridge, Marit Lage, a flipped Tamiyo and much much more.
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
 Maybe Wizards will print a UB command in the future?
+Can also bait an opponent to play Orcish Bowmasters on the 3/1, allowing you to follow up with your own Bowmasters.
 
 #### Fatal Push
 <mtg-card name="Fatal Push"/>
@@ -147,6 +165,25 @@ Core cantrips, 4 of each are required, but I sometimes board out a Ponder.
 <mtg-card name="Kaito, Bane of Nightmares"/>
 
 Formerly niche card but since the Frog ban firmly established as a two of value engine that is hard to remove and can disable creatures like Murktide Regent or even Emrakul.
+If you are attacking with a creature with power >3 on MTGO, set a stop at the damage step and ninjitsu Kaito in, you get the damage and the planeswalker, very good with Barrowgoyf and Murktide situationally.
+It's important to set a stop in combat because if you play with stops there, your opponent will know you are not Reanimator because you have Kaito in the deck.
+Important to consider stun and tick up timing:
+If you stun something first you are at 2 loyalty, they lose one stun counter, now if you draw with Kaito you will need to tick up on the next turn in order to stun again if you havent found an answer.
+The boardstate will determine the right move but important to consider.
+Remember you can ninjutsu your Kaito with another Kaito.
+
+
+### Nihil Spellbomb
+<mtg-card name="Nihil Spellbomb"/>
+
+Besides the obvious applications it also grows your own Murktide Regent.
+You must consider Spellbombing when the opponent could play Murktide Regent next turn, so pay attention to the number of cards in your opponents graveyard.
+Against reanimator you need a bit more nuance here, can you beat Murktide otherwise?
+Do you have FoW?
+Can you afford to unlock their graveyard?
+Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desireable or not.
+Are you about to draw a push and you have hydroblast in hand but they have a red creature and a problematic red permanent for example.
+
 
 <!--
 A bit expensive but great against control and also in fair matchups that don’t swarm with creatures, so it feels more widely applicable than Court of Cunning and other anti-control cards.
@@ -170,6 +207,14 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 <mtg-card name="Hymn to Tourach"/>
 
 * Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
+
+### Dauthi Voidwalker
+Easy for Izzet to remove but still a must deal with card early on, probably not the right choice for a bolt meta.
+Insane against certain decks.
+I [Minyafriend] have cast The One Ring and Karn against Forge, Sheoldred against Doomsday, Maelstrom Wanderer against mississippi river, Undercity Informer with Faerie Macabre in hand against Oops, Doomsday against Doomsday.
+It allows you to protect your own play if Force of Will is exiled, Fable of the Mirrorbreaker spamming your own Bowmasters, just use your imagination.
+The floor is pretty good and the ceiling is crazy high.
+Best friends with thoughtseize and counterspells.
 
 Eco:
 
@@ -221,6 +266,11 @@ Eco:
 * Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deckbuilding. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
 * Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
+
+Minyafriend:
+> I played a few challenges with Web and found it very underwelming, main point is that Urzas Saga untaps level 1 because it doesn't have the other abilities yet.
+> Current lands does not get punished enough by this card.
+> Pithing needle seems better if you want to stay UB and stop land strats.
 
 ## Not Recommended Sideboard Cards
 
@@ -286,6 +336,17 @@ Even if you don’t suspect your opponent is on nonbasic land hate it is often a
 A great game plan of this deck is to stick an early Tamiyo and then protect it and disrupt the opponent with Wasteland, Force, Daze and removal.
 Nethergoyf doesn’t really fit that plan but it is the only card that really does damage early which can actually end the game reasonably fast other than Murktide which comes later.
 This deck is super fun but is also hard to play, you need a lot of practice and care not to timeout, it is much more value focused and slower than Delver.
+
+Minyafriend:
+
+I do not agree to liberally fetch basics.
+It hinders your ability to double spell and makes Wasteland much better late in the game.
+Basics are a trap in this deck but a necessary evil due to Blood Moon.
+If you play Harbinger, then you have to consider the Swamp at some point.
+This is thinking that deserves nuance but I think more often than not we are hurting ourselves with fetching basics.
+Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and ninjitsu katios and cast Barrowgoyfs.
+Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our progression.
+I need to smell blood or have good information to blindly wasteland the opponent.
 
 ## Own Card Guide
 <mtg-card name="Nethergoyf"/>
@@ -419,6 +480,18 @@ However then they are just a worse tempo deck than you are so it’s probably be
 Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways. Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
 It’s also super hard to win two games in a row on the play and draw, so having mainboard grave hate like Nihil Spellbomb really helps.
 
+Minyafriend:
+
+> Identify what kind of UB Reanimator you are playing against.
+> Do they have push main, Inquisition of Kozilek in the sideboard, they go harder on combo, no midrange plan other than Tamiyo, no Bowmasters?
+> Are there Murktides and Barrowgoyfs main? Then it's midrange with I-win-button.
+> Stifles and murktides main indicate tempo/combo.
+> Voidwalkers main usually read as UB reanimator, probably midrange sideboard plan.
+> Are they a Wasteland version?
+> Definitely heavily recommend looking up opponents in challenges to see what style they are known for and make decisions accordingly.
+> This deck has ALOT of options to build around.
+> I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
+
 #### Sideboarding:
 
 <mtg-card name="Grafdigger's Cage"/>
@@ -471,6 +544,9 @@ Hopefully they run out of haymakers before you run out of answers.
 Hydroblasts and Consign to Memory are most important here but Goyfs are great as well.
 Null Rod?
 
+Minyafriend:
+> Not a big fan of Null Rod. Try not to get your Goyfs Furied but what can you do.
+
 ### Lands
 Bad matchup but can sometimes be beaten by Harbingers of the Seas, hopefully they don't stick a Saga on 2 before that enters.
 
@@ -494,6 +570,9 @@ Super fun to play and much loved by the community but even with the new Rakshasa
 Theoretically it is built to counter Tempo decks such as UB because it has more value while still having enough threats to not being clunky, but due to the high power level of the current UB cards it is still somewhat even, as Tamiyo or Kaito can often outvalue them if they don't have multiple Beans out.
 A flipped Tamiyo can easily be killed by Witherbloom Command but Kaito is very hard to stop for them, as they usually only play a single Sheoldred's Edict, so focusing on T3 Kaito is often a great path to victory, for example by starting with basic Island and Swamp so that they can't delay Kaito with Wasteland.
 There are different variations with a lot of potential one or two-offs so keep in mind what they could have, such as Spell Pierce, Daze, Stifle, Wasteland or Endurance, but don't overrespect them because you are the aggressor and the chance of them having any such particular card is low.
+
+Minyafriend:
+> I do bring in Force of Negation at the very least on the draw as you will be up a card already and you really do not want Beanstalk or Carpet to resolve.
 
 #### Sideboarding
 
@@ -564,7 +643,6 @@ Tamiyo is an out to Empty the Warrens goblin tokens but it’s often hard to fli
 Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
 
 ### Initiative Stompy
-
 
 
 
@@ -655,7 +733,8 @@ Out:
 <mtg-card name="Mystic Forge"/>
 <mtg-card name="Glaring Fleshraker"/>
 
-Because of Glaring Fleshraker, 
+Because of Glaring Fleshraker, you may have to keep a few Fatal Pushes in.
+If you land Null Rod, you need to be aware of Nexus making white mana for portable hole.
 
 #### Cloudpost Ramp (<1%)
 
@@ -667,15 +746,14 @@ Because of Glaring Fleshraker,
 
 
 Can have a green splash for Crop Rotation.
-
 Bad matchup but gets better with 1-2 Null Rod.
-
-
 
 
 ### Bant Nadu
 
-Bad matchup.
+Minyafriend:
+
+Funnily enough Bant Nadu is a bad matchup.
 
 ### Cephalid Breakfast
 
@@ -688,19 +766,30 @@ Bad matchup.
 
 <youtube-video id="cQAHgwzGWTA" t="120"/>
 
+Minyafriend:
+Breakfast I find to be pretty good as we are fairly well equipped to deal with their creatures.
+Just pay attention to what their next turn could be and if you can play around it do so.
+T2-T3 are sensitive times where you can just lose games you shouldn't out of the blue if you are careless.
+
 #### Sideboarding
 
-##### In
+Games can go long so:
+Out: daze In: removal
 
-<mtg-card name="Sheoldred's Edict"/>
+Their manabase is shaky so it is reasonable to think OTP daze can be useful.
+Just pay attention to how the opponent plays.
+I rarely if ever bring it in but is Consign considerable so you dont lose to saga tokens and Thoracle trigger?
+If you play Harbinger then I would not bring consigns in.
+I think you can beat this deck without the Consign but im starting to wonder, some breakfast players are even bringing in Soul Cauldron.
 
 Eco:
 > Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
 
+##### In
+<mtg-card name="Sheoldred's Edict"/>
 Sheoldred's Edict is nice because it does not target so it can sometimes trade 1 for 1 with Nadu.
 
 ##### Out
-
 I used to board out Nethergoyfs to go for a control play style with Harbinger as the finisher but after the Saga rules change this is more risky and is also weak into Teferi uptick + combo next turn.
 
 ### Hybrid Decks
@@ -760,6 +849,11 @@ If they have creatures, you can trim a Wasteland and not bring in Consign.
 <mtg-card name="Lightning Bolt"/>
 <mtg-card name="Daze"/>
 
+
+Minyafriend:
+> Be aware Stifle is a thing.
+> In: blasts, removal, goyfs Out: FoW, Thoughtseize
+
 Eco:
 
 Black Daze vs. Red Daze is a cool matchup where they fold to a lot of your cards.
@@ -769,7 +863,6 @@ Sometimes we can respect Daze, but if you respect it too much, you will get run 
 Build basics if possible.
 
 #### Sideboarding
-
 
 ##### In
 <mtg-card name="Hydroblast"/>

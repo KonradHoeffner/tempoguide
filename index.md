@@ -1065,6 +1065,43 @@ Value-grave hate like Nihil Spellbomb is fine.
 
 * Daze
 
+### Burn (<1% Meta game)
+<mtg-card name="Lava Spike"/>
+<mtg-card name="Goblin Guide"/>
+<mtg-card name="Fireblast"/>
+<mtg-card name="Monastery Swiftspear"/>
+<mtg-card name="Eidolon of the Great Revel"/>
+
+Good matchup if you have enough Barrowgoyfs.
+Can also race with Nethergoyf.
+
+#### Sideboarding
+
+##### In
+
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Flusterstorm"/>
+
+Consign to Memory against Riftbolt may also be worth it and it pitches to Force.
+
+##### Out
+
+<mtg-card name="Thoughtseize"/>
+<mtg-card name="Orcish Bowmasters"/>
+
+You can also shave on Wasteland but Barrowgoyf T3 is important.
+
+Their plan: 
+
+They will bring in Pyroblast.
+Sometimes they have Roiling Vortex or Ensnaring Bridge so I would keep a Brazen Borrower in if there isn't anything better.
+
+<mtg-card name="Pyroblast"/>
+<mtg-card name="Roiling Vortex"/>
+<mtg-card name="Ensnaring Bridge"/>
+
 
 ### Pox (<1% Meta game)
 

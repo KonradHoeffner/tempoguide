@@ -752,8 +752,12 @@ Bad matchup but gets better with 1-2 Null Rod.
 ### Bant Nadu
 
 Minyafriend:
+> Funnily enough Bant Nadu is a bad matchup.
 
-Funnily enough Bant Nadu is a bad matchup.
+Flodope from the other side:
+> I would say as a Bant Nadu player I don't like very aggressive starts out of the ub tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdiggers Cage hurts.
+> Sometimes I see toxic deluge boarded against me which is not so nice.
+> Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
 
 ### Cephalid Breakfast
 

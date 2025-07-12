@@ -226,15 +226,16 @@ Eco:
 
 ## Sideboard
 
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Hydroblast"/>
+<mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Consign to Memory"/>
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Grafdigger's Cage"/>
 <mtg-card name="Cursed Totem"/>
 <mtg-card name="Counterbalance"/>
 <mtg-card name="Damping Sphere"/>
 <mtg-card name="Engineered Explosives"/>
 <mtg-card name="Force of Negation"/>
-<mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Null Rod"/>
 <mtg-card name="Pithing Needle"/>
 <mtg-card name="Spell Pierce"/>
@@ -243,8 +244,6 @@ Eco:
 <mtg-card name="Thoughtseize"/>
 <mtg-card name="Toxic Deluge"/>
 <mtg-card name="Tsabo’s Web"/>
-
-* Grafdigger's Cage - Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options.
 
 Eco:
 
@@ -271,6 +270,27 @@ Minyafriend:
 > I played a few challenges with Web and found it very underwelming, main point is that Urzas Saga untaps level 1 because it doesn't have the other abilities yet.
 > Current lands does not get punished enough by this card.
 > Pithing needle seems better if you want to stay UB and stop land strats.
+
+### Graveyard Hate
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Ghost Vacuum"/>
+<mtg-card name="Unlicensed Hearse"/>
+
+|                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     |
+|---------------------|------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| Leyline of the Void | 0    | yes                   |                                                                                                                                                                                                         | enchantment removal, bounce                     |
+| Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi.                                                                                               | discard, Stifle                                 |
+| Surgical Extraction | 0    | no                    | Also good against Life from the Loam and Uro, combat trick for Nethergoyf, in rare cases discard and win condition library removal. Can be bought back by Tamiyo.                                       | discard, countermagic                           |
+| Nihil Spellbomb     | 1    | depends               | Cantrips. Great support to kill opposing Dragon's Rage Channeler's and Nethergoyfs. Can prevent Murktide Regent.                                                                                        | EE on 1, artifact removal, bounce, countermagic |
+| Grafdigger's Cage   | 1    | yes                   | Stops Green Sun's Zenith and Mystic Forge but not Living End and Beseech the Mirror! Also prevents them from reanimating out of your own graveyard but also stops your own Nethergoyf from coming back. | EE on 1, artifact removal, bounce, countermagic |
+| Ghost Vacuum        | 1    | no                    | Win condition in the rare case you get to 6 mana. Often prevents Delirium and Murktide Regent.                                                                                                          | EE on 1, artifact removal, bounce, countermagic |
+| Unlicensed Hearse   | 2    | no                    | Can eventually attack and block so you don't risk overboarding against hybrid decks. Almost always prevents Delirium and Murktide Regent.                                                               | artifact removal, bounce, countermagic          |
+| Dauthi Voidwalker   | 2    | yes                   | Also a clock and can use their opponent's cards against them. Keeps Dragon's Rage Channeler and Nethergoyf small and prevents Murktide Regent if played early enough.                                   | creature removal, bounce, countermagic          |
+
+* Grafdigger's Cage Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options. It's also one of the few cards that completely shuts down 
+* Nihil Spellbomb: Mostly played in the main deck because it replaces itself and pumps Nethergoyf but you could also put it in the side.
 
 ## Not Recommended Sideboard Cards
 

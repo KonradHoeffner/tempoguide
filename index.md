@@ -1055,6 +1055,14 @@ With the example list I would -1 Wasteland -4 Daze -1 Nihil Spellbomb +1 Hearse 
 Their Plan: Their plan is already good so they won’t change much, probably Collector Ouphe out and Choke in.
 
 
+### Death and Taxes
+
+<mtg-card name="Aether Vial"/>
+<mtg-card name="Stoneforge Mystic"/>
+<mtg-card name="Phelia, Exuberant Shepherd"/>
+
+TODO
+
 ### Mono Black Aggro (<1% Meta game)
 
 <mtg-card name="Stalactite Stalker"/>

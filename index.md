@@ -770,7 +770,8 @@ If you land Null Rod, you need to be aware of Nexus making white mana for portab
 <mtg-card name="Nihil Spellbomb"/>
 <mtg-card name="Orcish Bowmasters"/>
 <mtg-card name="Fatal Push"/>
-<mtg-card name="Undercity Sewers"/>
+
+You can also shave Daze.
 
 #### Cloudpost Ramp (<1%)
 

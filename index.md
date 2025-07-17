@@ -743,8 +743,8 @@ Similar to UB Tempo and UB Reanimator, there are two decks with a common core th
 <mtg-card name="Urza's Workshop"/>
 
 #### Sideboarding
-
-In: Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
+#### In
+Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
  
 Out: 
 
@@ -753,8 +753,24 @@ Out:
 <mtg-card name="Mystic Forge"/>
 <mtg-card name="Glaring Fleshraker"/>
 
-Because of Glaring Fleshraker, you may have to keep a few Fatal Pushes in.
+Because of Glaring Fleshraker and Karn, the Edicts are useful.
 If you land Null Rod, you need to be aware of Nexus making white mana for portable hole.
+
+#### Sideboarding
+#### In
+
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Null Rod"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Harbinger of the Seas"/>
+
+#### Out
+
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Undercity Sewers"/>
 
 #### Cloudpost Ramp (<1%)
 

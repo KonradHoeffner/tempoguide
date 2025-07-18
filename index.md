@@ -536,14 +536,11 @@ When in doubt it’s better to assume Reanimator if you aren’t sure because it
 
 ### Oops All Spells
 
-Mostly played by ellaone on MTGO, who has a lot of experience and will outplay you if you make a single mistake.
+This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
 Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassas Oracle.
-*TODO: update, its more widely played now*
 
-This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
-With Force of Negation you may have to force Dark Ritual because their combo pieces are creatures.
-They may have a pivot to creatures (if you don't see Pact of Negation) or to Goblin Charbelcher, but that is not great for them because your countermagic still works against it.
+
 
 #### Sideboarding
 
@@ -552,10 +549,21 @@ They may have a pivot to creatures (if you don't see Pact of Negation) or to Gob
 <mtg-card name="Grafdigger's Cage"/>
 <mtg-card name="Faerie Macabre"/>
 <mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Null Rod"/>
 
-* All graveyard hate and countermagic including Force of Negation and Consign to Memory, Null Rod, 
+Bring in all graveyard hate and countermagic including Force of Negation and Consign to Memory.
+With Force of Negation you may have to force Dark Ritual because their combo pieces are creatures.
+They may have a pivot to creatures (if you don't see Pact of Negation) or to Goblin Charbelcher, but that is not great for them because your countermagic still works against it, often they still do it so bring in the Null Rods.
 
-Out: 
+Null Rod, 
+
+#### Out
+
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Fatal Push"/>
+
+Shave Wasteland if that isn't enough.
 
 ### Dragon Stompy
 

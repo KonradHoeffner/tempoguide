@@ -742,56 +742,60 @@ In: Consign to Memory, Force of Negation, Harbingers of the Seas
 Out: 
 
 
-### Planar Nexus Decks
-Similar to UB Tempo and UB Reanimator, there are two decks with a common core that are hard to differentiate.
+### Planar Nexus Decks: Mystic Forge and Cloudpost Ramp
+As ramp strategies they want to establish a giant mana advantage and then overwhelm you with game ending threats until you run out of Forces or they play Ugin, Eye of the Storms, and if they ever resolve The One Ring, they never run out of cards.
+You can try to close out the game fast with Nethergoyf and Murktide while countering key spells but in my experience the best way to beat them is to stick Null Rod, respectively Harbingers of the Seas, and finish them afters.
+Similar to UB Tempo and UB Reanimator, they are two ramp decks with a lot of overlap, but in different numbers, that are hard to differentiate, but thankfully the same sideboard cards are good against both of them though in different degrees, so take that in mind for mulliganning postboard and cantripping.
+For example Null Rod is the key card vs Mystic Forge but still reasonable vs Cloudpost where Harbinger of the Seas is better.
+Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Forge. 
 
+#### Common Core
 <mtg-card name="Ancient Tomb"/>
 <mtg-card name="Planar Nexus"/>
 <mtg-card name="Urza's Tower"/>
 <mtg-card name="Urza's Workshop"/>
+<mtg-card name="The One Ring"/>
+<mtg-card name="Karn, the Great Creator"/>
+<mtg-card name="Kozilek's Command"/>
+<mtg-card name="Ugin, Eye of the Storms"/>
+
+#### Karn Wishboard
+<mtg-card name="Ensnaring Bridge"/>
+<mtg-card name="Mycosynth Lattice"/>
+<mtg-card name="Liquimetal Coating"/>
 
 #### Sideboarding
-#### In
-Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
- 
-Out: 
+##### In
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Null Rod"/>
+<mtg-card name="Sheoldred's Edict"/>
+
+##### Out
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Fatal Push"/>
+
+Unsure if Daze is a better cut than Bowmasters (only good against the One Ring and may not be enough).
 
 #### Mystic Forge (4%)
 
 <mtg-card name="Mystic Forge"/>
 <mtg-card name="Glaring Fleshraker"/>
+<mtg-card name="Manifold Key"/>
+<mtg-card name="Grim Monolith"/>
 
-Because of Glaring Fleshraker and Karn, the Edicts are useful.
-If you land Null Rod, you need to be aware of Nexus making white mana for portable hole.
-
-#### Sideboarding
-#### In
-
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Null Rod"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Harbinger of the Seas"/>
-
-#### Out
-
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Fatal Push"/>
-
-You can also shave Daze.
+Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
+If you land Null Rod, you need to be aware of Nexus making white mana for portable hole out of their sideboard / wishboard but they don't always play it.
 
 #### Cloudpost Ramp (<1%)
 
+<mtg-card name="Cloudpost"/>
+<mtg-card name="Glimmerpost"/>
 
-<mtg-card name="Manifold Key"/>
-<mtg-card name="Grim Monolith"/>
-<mtg-card name="The One Ring"/>
-<mtg-card name="Karn, the Great Creator"/>
-
-
-Can have a green splash for Crop Rotation.
-Bad matchup but gets better with 1-2 Null Rod.
+Can have a green splash for Crop Rotation and sideboard Veil of Summer.
+Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember postboard.
 
 
 ### Bant Nadu

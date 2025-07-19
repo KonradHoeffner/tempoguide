@@ -744,8 +744,8 @@ Out:
 
 ### Planar Nexus Decks: Mystic Forge and Cloudpost Ramp
 As ramp strategies they want to establish a giant mana advantage and then overwhelm you with game ending threats until you run out of Forces or they play Ugin, Eye of the Storms, and if they ever resolve The One Ring, they never run out of cards.
-You can try to close out the game fast with Nethergoyf and Murktide while countering key spells but in my experience the best way to beat them is to stick Null Rod, respectively Harbingers of the Seas, and finish them afters.
-Similar to UB Tempo and UB Reanimator, they are two ramp decks with a lot of overlap, but in different numbers, that are hard to differentiate, but thankfully the same sideboard cards are good against both of them though in different degrees, so take that in mind for mulliganning postboard and cantripping.
+You can try to close out the game fast with Nethergoyf and Murktide while countering key spells but in my experience the best way to beat them is to stick Null Rod, respectively Harbingers of the Seas, and finish them after.
+Similar to UB Tempo and UB Reanimator, the decks have lot of overlap, but in different numbers, that are hard to differentiate, but thankfully the same sideboard cards are good against both of them though in different degrees, so take that in mind for mulliganning postboard and cantripping.
 For example Null Rod is the key card vs Mystic Forge but still reasonable vs Cloudpost where Harbinger of the Seas is better.
 Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Forge. 
 

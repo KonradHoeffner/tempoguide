@@ -28,7 +28,7 @@ Ebook formats like EPUB would also be nice in case someone wants to read this on
 Feel free to request topics that you feel are lacking as an [issue](https://github.com/KonradHoeffner/tempoguide/issues).
 Or even better, contribute directly with a GitHub account!
 
-Current contributors: Ecobaronen, kirdie.
+Contributors: Ecobaronen, minyafriend, doggybones35 (Luke), kirdie (Konrad).
 
 ## Licensing
 

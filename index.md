@@ -633,12 +633,17 @@ Eco:
 Very bad matchup but fortunately not widely played.
 It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
-### Black Saga Storm
+### Black Saga Storm (~ 1% Meta game)
 
+<mtg-card name="Dark Ritual"/>
+<mtg-card name="Mox Opal"/>
+<mtg-card name="Lion's Eye Diamond"/>
 <mtg-card name="Beseech the Mirror"/>
+<mtg-card name="Gaea's Will"/>
+<mtg-card name="Tendrils of Agony"/>
 <mtg-card name="Echo of Eons"/>
-<mtg-card name="Urza's Saga"/>
 <mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Urza's Saga"/>
 
 Super difficult to play against as they have so many different threats and you never know what they are up to this game.
 Nihil Spellbomb is often bad as they keep priority between sacrificing Lion's Eye Diamond and casting Echo of Eons.
@@ -661,8 +666,64 @@ Most of the time it’s correct to counter Veil of Summer as they often play tha
 Tamiyo is an out to Empty the Warrens goblin tokens but it’s often hard to flip her if you don’t have Brainstorm and have a Null Rod in play as Clues are artifacts.
  Consign to Memory can counter multiple Saga triggers
 
-* In: FON, BEB, CB, Null Rod, Powder Keg/Sylex/Explosives, 2 Harbinger of the Seas, Consign to Memory
-* Out: 4 Fatal Push, other removal, Nihil Spellbomb, Brazen Borrower, shave Tamiyo, shave 3+ mana creatures, maybe basic Island
+#### Play Patterns and Interactions
+
+##### Soft Lock
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Null Rod"/>
+If they don't already have big creatures or a Saga on 2. this soft lock can only be broken by Elvish Spirit Guide + Boseiju, Who Endures or double Bowmaster trigger.
+
+##### The Nonbo
+<mtg-card name="Null Rod"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Clue"/>
+Especially painful if you lose to Empty the Warrens and stop your own Tamiyo flip, I always board out Nihil Spellbomb though.
+
+##### Stop the Wheels
+<mtg-card name="Lion's Eye Diamond"/>
+<mtg-card name="Lion's Eye Diamond"/>
+<mtg-card name="Echo of Eons"/>
+<mtg-card name="Echo of Eons"/>
+<mtg-card name="Force of Will"/>
+<mtg-card name="Faerie Macabre"/>
+You don't get priority after a Lion's Eye Diamond activation before an Echo of Eons cast but at least you can exile one with the other on the stack and then counter the first.
+
+#### Sideboarding
+
+#### In
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Null Rod"/>
+<mtg-card name="Engineered Explosives"/>
+<mtg-card name="Grafdigger's Cage"/>
+
+If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spellpierce, Mindbreak Trap and so on of course bring it all in.
+
+#### Out
+<mtg-card name="Fatal Push"/>
+
+#### Maybe
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Surgical Extraction"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Swamp"/>
+<mtg-card name="Island"/>
+
+I have played this match a lot against an excellent player and we could not come to a conclusion for the last few slots, so make your own decision based on your opponents variant, playstyle and play/draw.
+The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre > Nihil Spellbomb.
+
+#### Cards they may have MB or SB
+
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Veil of Summer"/>
+<mtg-card name="Elvish Spirit Guide"/>
+<mtg-card name="Carpet of Flowers"/>
+<mtg-card name="Boseiju, Who Endures"/>
+
+
 * Their Plan: Beseech + Gaea’s Will, Echo + Tendrils, Echo + Bowmasters, Constructs, maybe Empty the Warrens
 
 

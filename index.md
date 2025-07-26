@@ -586,7 +586,7 @@ I have played with Triumph in the past, and almost always ended up paying life. 
 <mtg-card name="Go for the Throat"/>
 These two cards are essentially the same, and reminiscent of Doom Blade, in that they ask "What kind of creature are you fine with being unable to kill?" While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones. Shoot the Sheriff cannot kill Dauthi Voidwalker or Broadside Bombardiers, and Go for the Throat cannot kill Construct tokens. If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for. Your local meta will inform your choice. I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
 
-I rank the removal options as follows, from best to worst: Sheoldred's Ddict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
+I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
 
 
 ### Discerning Reanimator and UB Tempo

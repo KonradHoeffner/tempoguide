@@ -881,10 +881,13 @@ Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Fo
 <mtg-card name="Kozilek's Command"/>
 <mtg-card name="Ugin, Eye of the Storms"/>
 
-#### Karn Wishboard
+#### Karn and Tezzereth Wishboard
 <mtg-card name="Ensnaring Bridge"/>
 <mtg-card name="Mycosynth Lattice"/>
 <mtg-card name="Liquimetal Coating"/>
+<mtg-card name="Portable Hole"/>
+<mtg-card name="Soul-Guide Lantern"/>
+<mtg-card name="Tormod's Crypt"/>
 
 #### Sideboarding
 ##### In
@@ -907,6 +910,7 @@ Unsure if Daze is a better cut than Bowmasters (only good against the One Ring a
 <mtg-card name="Glaring Fleshraker"/>
 <mtg-card name="Manifold Key"/>
 <mtg-card name="Grim Monolith"/>
+<mtg-card name="Tezzereth, Cruel Captain"/>
 
 Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
 If you land Null Rod, you need to be aware of Nexus making white mana for portable hole out of their sideboard / wishboard but they don't always play it.

@@ -111,7 +111,7 @@ We are a blue Tempo deck so no surprises here, all four-offs except only three D
 <mtg-card name="Murktide Regent"/>
 <mtg-card name="Barrowgoyf"/>
 
-There is the basic core of Nethergoyfs and Tamyos and Orcish Bowmasters.
+There is the basic core of Nethergoyfs and Tamiyo's and Orcish Bowmasters.
 You play at least three of each but I always play 4 Nethergoyf and 4 Orcish Bowmasters.
 Some people play less Nethergoyfs and play more Baleful Strix but here I only cover the variant with at least three Nethergoyfs.
 You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
@@ -119,10 +119,10 @@ And the name of the game of this deck is consistency so this fits really well, a
 
 #### Tamiyo, Inquisitive Student
 
-Bowmastering at their endstep to draw the Brainstorm out is OK sometimes.
+Bowmastering at their end step to draw the Brainstorm out is OK sometimes.
 APNAP comes into play: Active players triggers go on stack first.
 On their turn if they Brainstorm you play Bowmasters, ping something, they draw 3 triggering Bowmasters 3 times and triggering Tamiyo's flip, resolve brainstorm, flip goes on stack, then your 3 Bowmasters triggers, and hopefully kill their Tamiyo, so probably not a good play, but on our turn these triggers are switched.
-This allows you to consider flipping Tamiyo at odd times in the face of a Bowman if you have an answer to their consequent boardstate.
+This allows you to consider flipping Tamiyo at odd times in the face of a Bowman if you have an answer to their consequent board state.
 Often against Bowmasters mirrors, just using your mana efficiently to sorcery speed a clue away from Bowmasters mana is correct.
 
 
@@ -135,7 +135,7 @@ Often against Bowmasters mirrors, just using your mana efficiently to sorcery sp
 People were initially skeptical but most play 4 now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
 Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Peace, Nihil Spellbomb, Leyline of the Void, Dauthi Voidwalker).
-Against izzet try to play at 3/4 or with instant speed growth to 3/4.
+Against Izzet try to play at 3/4 or with instant speed growth to 3/4.
 
 #### Murktide Regent vs Barrowgoyf
 Murktide Kills faster against combo and control but Barrowgoyf stabilizes extremely well.
@@ -165,11 +165,11 @@ Core cantrips, 4 of each are required, but I sometimes board out a Ponder.
 <mtg-card name="Kaito, Bane of Nightmares"/>
 
 Formerly niche card but since the Frog ban firmly established as a two of value engine that is hard to remove and can disable creatures like Murktide Regent or even Emrakul.
-If you are attacking with a creature with power >3 on MTGO, set a stop at the damage step and ninjitsu Kaito in, you get the damage and the planeswalker, very good with Barrowgoyf and Murktide situationally.
+If you are attacking with a creature with power >3 on MTGO, set a stop at the damage step and Ninjutsu Kaito in, you get the damage and the planeswalker, very good with Barrowgoyf and Murktide situationally.
 It's important to set a stop in combat because if you play with stops there, your opponent will know you are not Reanimator because you have Kaito in the deck.
 Important to consider stun and tick up timing:
-If you stun something first you are at 2 loyalty, they lose one stun counter, now if you draw with Kaito you will need to tick up on the next turn in order to stun again if you havent found an answer.
-The boardstate will determine the right move but important to consider.
+If you stun something first you are at 2 loyalty, they lose one stun counter, now if you draw with Kaito you will need to tick up on the next turn in order to stun again if you haven't found an answer.
+The board state will determine the right move but important to consider.
 Remember you can ninjutsu your Kaito with another Kaito.
 
 
@@ -178,11 +178,11 @@ Remember you can ninjutsu your Kaito with another Kaito.
 
 Besides the obvious applications it also grows your own Murktide Regent.
 You must consider Spellbombing when the opponent could play Murktide Regent next turn, so pay attention to the number of cards in your opponents graveyard.
-Against reanimator you need a bit more nuance here, can you beat Murktide otherwise?
+Against Reanimator you need a bit more nuance here, can you beat Murktide otherwise?
 Do you have FoW?
 Can you afford to unlock their graveyard?
-Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desireable or not.
-Are you about to draw a push and you have hydroblast in hand but they have a red creature and a problematic red permanent for example.
+Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desirable or not.
+Are you about to draw a push and you have Hydroblast in hand but they have a red creature and a problematic red permanent for example.
 
 
 <!--
@@ -211,17 +211,17 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 ### Dauthi Voidwalker
 Easy for Izzet to remove but still a must deal with card early on, probably not the right choice for a bolt meta.
 Insane against certain decks.
-I [Minyafriend] have cast The One Ring and Karn against Forge, Sheoldred against Doomsday, Maelstrom Wanderer against mississippi river, Undercity Informer with Faerie Macabre in hand against Oops, Doomsday against Doomsday.
-It allows you to protect your own play if Force of Will is exiled, Fable of the Mirrorbreaker spamming your own Bowmasters, just use your imagination.
+I [Minyafriend] have cast The One Ring and Karn against Forge, Sheoldred against Doomsday, Maelstrom Wanderer against Mississippi river, Undercity Informer with Faerie Macabre in hand against Oops, Doomsday against Doomsday.
+It allows you to protect your own play if Force of Will is exiled, Fable of the Mirror-breaker spamming your own Bowmasters, just use your imagination.
 The floor is pretty good and the ceiling is crazy high.
-Best friends with thoughtseize and counterspells.
+Best friends with Thoughtseize and counterspells.
 
 Eco:
 
 * Dauthi Voidwalker: I like this card because it’s never a bad draw and some decks HAVE to remove it. You have to play this on TOP of your normal graveyard hate because it doesn’t let you keep more hands vs. Oops.
 * Stock Up: If the format slows down significantly, we can play this card. For example if Beanstalk becomes a good deck.
 * Baleful Strix: Same philosophy. If we have to play a lot of mirrors and grindy matchups, Strix is good.
-* Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the metagame for Hymn to be good. These days, we have to play to the board a lot.
+* Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good. These days, we have to play to the board a lot.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
 ## Sideboard
@@ -259,15 +259,15 @@ Eco:
 
 * Graveyard hate: Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline). In paper, you can play your Cages to have crossover against Zenith.
 * Null Rod: Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher. It also beats bad Storm decks.
-* Pithing Needle: This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc. It’s often good deckbuilding to play it.
+* Pithing Needle: This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc. It’s often good deck building to play it.
 * Spell Pierce/Flusterstorm: I don’t like the one-mana counters because they force me to hold up mana. Every mana unused in today’s Magic gets you closer to losing. Forces, Daze and Thoughtseize will cover for me.
 * Subtlety: If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
-* Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deckbuilding. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
+* Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deck building. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
 * Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
 Minyafriend:
-> I played a few challenges with Web and found it very underwelming, main point is that Urzas Saga untaps level 1 because it doesn't have the other abilities yet.
+> I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
 > Current lands does not get punished enough by this card.
 > Pithing needle seems better if you want to stay UB and stop land strats.
 
@@ -364,7 +364,7 @@ It hinders your ability to double spell and makes Wasteland much better late in 
 Basics are a trap in this deck but a necessary evil due to Blood Moon.
 If you play Harbinger, then you have to consider the Swamp at some point.
 This is thinking that deserves nuance but I think more often than not we are hurting ourselves with fetching basics.
-Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and ninjitsu katios and cast Barrowgoyfs.
+Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and ninjitsu Kaitos and cast Barrowgoyfs.
 Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our progression.
 I need to smell blood or have good information to blindly wasteland the opponent.
 
@@ -475,7 +475,7 @@ Undercity Sewers can be a hail Mary to hope for a favorable flip or you may even
 If you come from a control background you probably prefer to set up with cantrips early but early threats can snowball the game much better, especially Tamiyo.
 Of course this heavily depends on the matchup, for example vs Oops your best T1 play is Nihil Spellbomb and your second best is Thoughtseize.
 If you are on a single blue source, think about how probable it is that you get Wastelanded depending on what the opponent shows you.
-Orcish Bowmasters are often better later in Bowmaster mirrors but against decks with no removal like Show and Tell mainphasing it as early as possible is often good.
+Orcish Bowmasters are often better later in Bowmaster mirrors but against decks with no removal like Show and Tell main phasing it as early as possible is often good.
 
 ## Matchups
 
@@ -505,11 +505,11 @@ Minyafriend:
 > Identify what kind of UB Reanimator you are playing against.
 > Do they have push main, Inquisition of Kozilek in the sideboard, they go harder on combo, no midrange plan other than Tamiyo, no Bowmasters?
 > Are there Murktides and Barrowgoyfs main? Then it's midrange with I-win-button.
-> Stifles and murktides main indicate tempo/combo.
-> Voidwalkers main usually read as UB reanimator, probably midrange sideboard plan.
+> Stifles and Murktides main indicate tempo/combo.
+> Voidwalkers main usually read as UB Reanimator, probably midrange sideboard plan.
 > Are they a Wasteland version?
 > Definitely heavily recommend looking up opponents in challenges to see what style they are known for and make decisions accordingly.
-> This deck has ALOT of options to build around.
+> This deck has A LOT of options to build around.
 > I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 #### Sideboarding:
@@ -565,19 +565,19 @@ Let's take a look at some of the things that Sheoldred's Edict answers:
 <mtg-card name="Orcish Bowmasters"/>
 
 * Flipped Tamiyo: Something that will end the game if not answered, or at the very least, accumulate value with the pseudo-regrowth effect and create a sub-game that takes pressure off of life total. 
-* Kaito (creature): Kaito has hexproof during the controller's turn, so Sheoldred's Edict is the only 2 mana removal spell I have included in this section that offers an answer to Kaito in creature form. This relies on the opponent not having any other non-token creatures in play, so be cautious if they have 2 mana available. It would be disastrous to have your edict blown out by a bowmaster when you could have just waited until your own turn to have them sacrifice a planeswalker.
-* Kaito (planeswalker): Although it is not ideal, sometimes you just have to make a play because it is the only one available to you. There will be times when you or your opponent will have to cast Kaito for 4 mana and pass. If you have the edict and the mana for this particular case, and they don't have another non-token creature, great, you've just made their lack luster play even more embarassing. If not, and you find the edict in your draw step or with a cantrip, the chances of the sacrifice a planeswalker mode working are quite high, but not 100%. If they have Tamiyo in play, an open blue mana, and 1 card in hand, it is in the realm of possibility that they flip the Tamiyo and sacrifice it to save Kaito. If you have a creature that may have pressured they Kaito, they likely will have used the -2 ability to stun it to take the pressure off of Kaito while they look for a way to protect it or develop their own board. This is where edict provides a clean answer to Kaito in planeswalker form.
-* Murktide: Murktide cannot be removed with Fatal Push, leaving 3-4 temporary answers in the form of Kaito -2 and Petty Theft if you are not lucky enough to snipe a Murktide with Daze or Thoughtseize. Sheoldred's Edict can remove Murktide, but be cautious of instant speed bowmasters. You may be required to use your push, Petty Theft, and bowmasters to clean up any non-token creatures in order to kill the Murktide with edict.
-* Barrowgoyf: Barrowgoyf is a must-answer threat. It provides large life total swings, trades with anything that blocks it, provided there is at least 1 card among both graveyards, fuels the yard for Murktide, and can provide card advantange by finding additional threats. Thankfully, there are more answers to Barrowgoyf than Murktide in the mirror. Revolt is reasonable to gain access to thanks to Wasteland, fetches, clue tokens, etc, so Fatal Push is often live against Barrogoyf. Sheoldred's Edict works much the same as an answer to Barrowgoyf as it does to Murktide, and the same precautionary measures should be taken.
-* Orcish Bowmasters: If you are in dire circumstances, Sheoldred's Edict offers a choice to remove either the bowmaster, or a large orc army token that may have grown as a result of desperation digging with Brainstorm or Ponder. You have to do what you have to do, and win is a win, whether you crushed your opponent or barely clawed your way to victory. In the UB Tempo mirror, you are more likely to encounter the latter.
+* Kaito (creature): Kaito has hexproof during the controller's turn, so Sheoldred's Edict is the only 2 mana removal spell I have included in this section that offers an answer to Kaito in creature form. This relies on the opponent not having any other non-token creatures in play, so be cautious if they have 2 mana available. It would be disastrous to have your edict blown out by a Bowmaster when you could have just waited until your own turn to have them sacrifice a planeswalker.
+* Kaito (planeswalker): Although it is not ideal, sometimes you just have to make a play because it is the only one available to you. There will be times when you or your opponent will have to cast Kaito for 4 mana and pass. If you have the edict and the mana for this particular case, and they don't have another non-token creature, great, you've just made their lack luster play even more embarrassing. If not, and you find the edict in your draw step or with a cantrip, the chances of the sacrifice a planeswalker mode working are quite high, but not 100%. If they have Tamiyo in play, an open blue mana, and 1 card in hand, it is in the realm of possibility that they flip the Tamiyo and sacrifice it to save Kaito. If you have a creature that may have pressured they Kaito, they likely will have used the -2 ability to stun it to take the pressure off of Kaito while they look for a way to protect it or develop their own board. This is where edict provides a clean answer to Kaito in planeswalker form.
+* Murktide: Murktide cannot be removed with Fatal Push, leaving 3-4 temporary answers in the form of Kaito -2 and Petty Theft if you are not lucky enough to snipe a Murktide with Daze or Thoughtseize. Sheoldred's Edict can remove Murktide, but be cautious of instant speed Bowmasters. You may be required to use your push, Petty Theft, and Bowmasters to clean up any non-token creatures in order to kill the Murktide with edict.
+* Barrowgoyf: Barrowgoyf is a must-answer threat. It provides large life total swings, trades with anything that blocks it, provided there is at least 1 card among both graveyards, fuels the yard for Murktide, and can provide card advantage by finding additional threats. Thankfully, there are more answers to Barrowgoyf than Murktide in the mirror. Revolt is reasonable to gain access to thanks to Wasteland, fetches, clue tokens, etc, so Fatal Push is often live against Barrowgoyf. Sheoldred's Edict works much the same as an answer to Barrowgoyf as it does to Murktide, and the same precautionary measures should be taken.
+* Orcish Bowmasters: If you are in dire circumstances, Sheoldred's Edict offers a choice to remove either the Bowmaster, or a large orc army token that may have grown as a result of desperation digging with Brainstorm or Ponder. You have to do what you have to do, and win is a win, whether you crushed your opponent or barely clawed your way to victory. In the UB Tempo mirror, you are more likely to encounter the latter.
 
 <mtg-card name="Dismember"/>
-Dismember is a card that I have seen others play in the past as a way to deal with a resolved Magus of the Moon in 3+ color decks without access to a basic swamp. This is an insufficient argument for the inclusion of Dismember when we have access to one of each basic in our colors. I find Dismember to be unreliable in killing Murktide and to a lesser extent, Barrowgoyf. It is worth mentioning that Dismember can be used as a combat trick to allow your creatures to survive and set up favorable trades, or in combination with a timely bowmaster ping to remove a 6 toughness creature.
+Dismember is a card that I have seen others play in the past as a way to deal with a resolved Magus of the Moon in 3+ color decks without access to a basic swamp. This is an insufficient argument for the inclusion of Dismember when we have access to one of each basic in our colors. I find Dismember to be unreliable in killing Murktide and to a lesser extent, Barrowgoyf. It is worth mentioning that Dismember can be used as a combat trick to allow your creatures to survive and set up favorable trades, or in combination with a timely Bowmaster ping to remove a 6 toughness creature.
 
-The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
+The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active Bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
 
 <mtg-card name="Bitter Triumph"/>
-Bitter Triumpth plays a bit like a compromise between Sheoldred's Edict and Dismember. It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whataever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
+Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember. It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
 
 I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
 
@@ -599,7 +599,7 @@ When in doubt it’s better to assume Reanimator if you aren’t sure because it
 
 This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
-Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassas Oracle.
+Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassa's Oracle.
 
 
 
@@ -758,7 +758,7 @@ You don't get priority after a Lion's Eye Diamond activation before an Echo of E
 <mtg-card name="Engineered Explosives"/>
 <mtg-card name="Grafdigger's Cage"/>
 
-If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spellpierce, Mindbreak Trap and so on of course bring it all in.
+If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pierce, Mindbreak Trap and so on of course bring it all in.
 
 #### Out
 <mtg-card name="Fatal Push"/>
@@ -773,7 +773,7 @@ If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spellpie
 <mtg-card name="Swamp"/>
 <mtg-card name="Island"/>
 
-I have played this match a lot against an excellent player and we could not come to a conclusion for the last few slots, so make your own decision based on your opponents variant, playstyle and play/draw.
+I have played this match a lot against an excellent player and we could not come to a conclusion for the last few slots, so make your own decision based on your opponents variant, play style and play/draw.
 The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre > Nihil Spellbomb.
 
 #### Cards they may have MB or SB
@@ -828,7 +828,7 @@ Unfortunately Kaito does not count as a creature in your hand so you cannot brin
 ### Show and Tell (Omni Tell)
 
 The mono blue basic land variant is very hard to deal with as they ignore most of your preboard interaction (Fatal Push, Wasteland, Nihil Spellbomb) and puts you into the rare position that you may have blanks in your board after sideboarding.
-Fortunately that version has a very low playrate as most include some nonbasics so you get value out of Wasteland.
+Fortunately that version has a very low play rate as most include some nonbasics so you get value out of Wasteland.
 
 #### Sideboarding
 
@@ -867,7 +867,7 @@ Out:
 ### Planar Nexus Decks: Mystic Forge and Cloudpost Ramp
 As ramp strategies they want to establish a giant mana advantage and then overwhelm you with game ending threats until you run out of Forces or they play Ugin, Eye of the Storms, and if they ever resolve The One Ring, they never run out of cards.
 You can try to close out the game fast with Nethergoyf and Murktide while countering key spells but in my experience the best way to beat them is to stick Null Rod, respectively Harbingers of the Seas, and finish them after.
-Similar to UB Tempo and UB Reanimator, the decks have lot of overlap, but in different numbers, that are hard to differentiate, but thankfully the same sideboard cards are good against both of them though in different degrees, so take that in mind for mulliganning postboard and cantripping.
+Similar to UB Tempo and UB Reanimator, the decks have lot of overlap, but in different numbers, that are hard to differentiate, but thankfully the same sideboard cards are good against both of them though in different degrees, so take that in mind for mulliganning post board and cantripping.
 For example Null Rod is the key card vs Mystic Forge but still reasonable vs Cloudpost where Harbinger of the Seas is better.
 Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Forge. 
 
@@ -881,10 +881,11 @@ Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Fo
 <mtg-card name="Kozilek's Command"/>
 <mtg-card name="Ugin, Eye of the Storms"/>
 
-#### Karn and Tezzereth Wishboard
+#### Karn Wishboard
 <mtg-card name="Ensnaring Bridge"/>
 <mtg-card name="Mycosynth Lattice"/>
 <mtg-card name="Liquimetal Coating"/>
+<mtg-card name="Pithing Needle"/>
 <mtg-card name="Portable Hole"/>
 <mtg-card name="Soul-Guide Lantern"/>
 <mtg-card name="Tormod's Crypt"/>
@@ -896,24 +897,49 @@ Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Fo
 <mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Null Rod"/>
 <mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Brazen Borrower"/>
 
 ##### Out
 <mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Orcish Bowmasters"/>
 <mtg-card name="Fatal Push"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Daze"/>
 
 Unsure if Daze is a better cut than Bowmasters (only good against the One Ring and may not be enough).
 
-#### Mystic Forge (4%)
+#### Mystic Forge (8%)
 
 <mtg-card name="Mystic Forge"/>
 <mtg-card name="Glaring Fleshraker"/>
 <mtg-card name="Manifold Key"/>
 <mtg-card name="Grim Monolith"/>
-<mtg-card name="Tezzereth, Cruel Captain"/>
+<mtg-card name="Tezzeret, Cruel Captain"/>
 
+As long as it's play rate is that high, Null Rod and Consign to Memory have a lot of value in the sideboard.
 Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
-If you land Null Rod, you need to be aware of Nexus making white mana for portable hole out of their sideboard / wishboard but they don't always play it.
+If you land Null Rod, you need to be aware of Planar Nexus and Mox Opal making white mana for portable hole out of their sideboard / wishboard but they don't always play it.
+
+#### Tezzeret, Cruel Captain
+<mtg-card name="Tezzeret, Cruel Captain"/>
+
+Recent addition, so the number of copies varies between 0 and 4.
+Together with Karn this gives them a lot of interaction against Null Rod, Tamiyo and Bowmasters.
+Unlike Karn, it tutors from the main instead of sideboard so you should be safe from Portable Hole preboard.
+Unlike Urza's Saga, its tutor condition is based on mana value not mana cost, allowing Portable Hole and Walking Ballista (if they have it).
+
+##### Mainboard Tutor Targets
+<mtg-card name="Lotus Petal"/>
+<mtg-card name="Manifold Key"/>
+<mtg-card name="Voltaic Key"/>
+<mtg-card name="Mox Opal"/>
+<mtg-card name="Pithing Needle"/>
+<mtg-card name="Soul-Guide Lantern"/>
+
+##### Sideboard Tutor Targets
+<mtg-card name="Portable Hole"/>
+<mtg-card name="Tormod's Crypt"/>
+<mtg-card name="Walking Ballista"/>
+
 
 #### Cloudpost Ramp (<1%)
 
@@ -921,7 +947,7 @@ If you land Null Rod, you need to be aware of Nexus making white mana for portab
 <mtg-card name="Glimmerpost"/>
 
 Can have a green splash for Crop Rotation and sideboard Veil of Summer.
-Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember postboard.
+Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember post board.
 
 
 ### Bant Nadu
@@ -930,7 +956,7 @@ Minyafriend:
 > Funnily enough Bant Nadu is a bad matchup.
 
 Flodope from the other side:
-> I would say as a Bant Nadu player I don't like very aggressive starts out of the ub tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdiggers Cage hurts.
+> I would say as a Bant Nadu player I don't like very aggressive starts out of the UB tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdigger's Cage hurts.
 > Sometimes I see toxic deluge boarded against me which is not so nice.
 > Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
 
@@ -957,9 +983,9 @@ Out: daze In: removal
 
 Their manabase is shaky so it is reasonable to think OTP daze can be useful.
 Just pay attention to how the opponent plays.
-I rarely if ever bring it in but is Consign considerable so you dont lose to saga tokens and Thoracle trigger?
+I rarely if ever bring it in but is Consign considerable so you don't lose to saga tokens and Thoracle trigger?
 If you play Harbinger then I would not bring consigns in.
-I think you can beat this deck without the Consign but im starting to wonder, some breakfast players are even bringing in Soul Cauldron.
+I think you can beat this deck without the Consign but I'm starting to wonder, some breakfast players are even bringing in Soul Cauldron.
 
 Eco:
 > Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
@@ -1031,7 +1057,7 @@ If they have creatures, you can trim a Wasteland and not bring in Consign.
 
 Minyafriend:
 > Be aware Stifle is a thing.
-> In: blasts, removal, goyfs Out: FoW, Thoughtseize
+> In: blasts, removal, Goyfs Out: FoW, Thoughtseize
 
 Eco:
 
@@ -1199,11 +1225,11 @@ Hard to say exactly what they play as it is pretty rare so keep your eyes open f
 
 They play Wastelands so start with basics to keep from falling behind in tempo.
 Additional tricks:
-Lands in the graveyard grow Knight of the Reliquary (+2/+2 through a fetchland)
+Lands in the graveyard grow Knight of the Reliquary (+2/+2 through a Fetchland)
 Karakas can bounce a legendary creature such as Tamiyo.
 
 Sideboarding: Similar to Cradle Control
-* In: Barrowgoyf, Hearse, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldreds Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
+* In: Barrowgoyf, Hearse, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
 
 *TODO: update*
 With the example list I would -1 Wasteland -4 Daze -1 Nihil Spellbomb +1 Hearse +1 Barrowgoyf +1 Sheoldred’s Edict +1 Toxic Deluge +1 Long Goodbye +1 Brazen Borrower
@@ -1267,7 +1293,7 @@ Can also race with Nethergoyf.
 <mtg-card name="Force of Negation"/>
 <mtg-card name="Flusterstorm"/>
 
-Consign to Memory against Riftbolt may also be worth it and it pitches to Force.
+Consign to Memory against Rift bolt may also be worth it and it pitches to Force.
 
 ##### Out
 
@@ -1323,7 +1349,7 @@ If you don’t have grave hate, stick early threats, counter their enabler (anyt
 Be careful with Thoughtseize if they are low on cards because you might win them the game by being forced to discard a dredger.
 
 * In: All graveyard hate, FoN, BEB (Faithless Looting, Ox of Agonas), Counterbalance, 
-Barrowgoyf, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldreds Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
+Barrowgoyf, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
 * Out: Fatal Push, Orcish Bowmaster, 
 * Their Plan: Win game 1 and hope to get one of the postboard games.
 

@@ -1235,14 +1235,100 @@ Sideboarding: Similar to Cradle Control
 With the example list I would -1 Wasteland -4 Daze -1 Nihil Spellbomb +1 Hearse +1 Barrowgoyf +1 Sheoldred’s Edict +1 Toxic Deluge +1 Long Goodbye +1 Brazen Borrower
 Their Plan: Their plan is already good so they won’t change much, probably Collector Ouphe out and Choke in.
 
+### Elves (<1%)
 
-### Death and Taxes
+<mtg-card name="Heritage Druid"/>
+<mtg-card name="Nettle Sentinel"/>
+<mtg-card name="Glimpse of Nature"/>
+<mtg-card name="Allosaurus Shepherd"/>
+<mtg-card name="Gaea's Cradle"/>
+<mtg-card name="Green Sun's Zenith"/>
+<mtg-card name="Natural Order"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-card name="Craterhoof Behemoth"/>
 
-<mtg-card name="Aether Vial"/>
-<mtg-card name="Stoneforge Mystic"/>
-<mtg-card name="Phelia, Exuberant Shepherd"/>
+Marquee Legacy creature combo + value deck a long time ago that got powercrept out of the top decks over time, then Orcish Bowmasters caused most Elves players to switch to Cradle Control.
+Their main Glimpse of Nature combo gets destroyed by Orcish Bowmasters so they probably board that out.
+If go wide creature strategies ever become a significant factor in your meta you can crush them with 1-2 Toxic Deluge in your sideboard but the power level of UB tempo is so high that you can often win without any board wipes.
+Still structurally advantaged against midrange and tempo due to them going wide, producing enough mana so Daze and Wasteland aren't as strong, having some tricks against removal and Allosaurus Shepherd turning off your countermagic.
+Also if you aren't a long time Legacy player you probably lose a few games at first due to failling for their various tricks or misjudging which of their various plans they are trying to go for.
 
-TODO
+They have multiple plans though as a non-blue deck they can't always choose which one they go for, you should learn them to identify pressure points for your interaction:
+
+### Glimpse Combo
+
+<mtg-card name="Heritage Druid"/>
+<mtg-card name="Birchlore Rangers"/>
+<mtg-card name="Nettle Sentinel"/>
+<mtg-card name="Glimpse of Nature"/>
+<mtg-card name="Gaea's Cradle"/>
+
+As they don't usually play Veil of Summer, Orcish Bowmasters destroys this combo.
+If you don't have that, killing Heritage Druid often prevents them getting too much value.
+You can also Force the Glimpse though that may be a bluff, for example if they already made their land drop to play around Daze and cannot threaten a Heritage Druid activation.
+Daze on Glimpse can also be worth it if they are low on mana.
+
+### Grind Mode
+
+<mtg-card name="Allosaurus Shepherd"/>
+<mtg-card name="Elvish Visionary"/>
+<mtg-card name="Wirewood Symbiote"/>
+<mtg-card name="Eladamri, Korvecdal"/>
+<mtg-card name="Quirion Ranger"/>
+<mtg-card name="Dryad Arbor"/>
+<mtg-card name="Grist, the Hunger Tide"/>
+
+They can nullify most of your interaction and try to accumulate value over time while stalling your ground offensive by bouncing Elves with Wirewood Symbiote and Dryad Arbor with Quirion Ranger.
+A quick and large Murktide can often kill them before they accrue too much value.
+Spot removal needs to kill Wirewood Symbiote first as it cannot bounce itself unless they make it an Elf (like Mirror Entity, which noone plays in Legacy anymore).
+
+### Big Creature
+
+<mtg-card name="Natural Order"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-card name="Craterhoof Behemoth"/>
+<mtg-card name="Allosaurus Shepherd"/>
+<mtg-card name="Gaea's Cradle"/>
+<mtg-card name="Eladamri, Korvecdal"/>
+
+Whether you can FoW or FoN a Natural Order probably decides who will win or lose that game.
+If they have an Allosaurus Shepherd, you can kill it while Natural Order is on the stack and then counter.
+They can also just get enough mana to hardcast Craterhoof or sometimes even Atraxa using the colored mana from Birchlore Rangers.
+
+#### Sideboarding
+
+
+##### In
+<mtg-card name="Toxic Deluge"/>
+<mtg-card name="Engineered Explosives"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Force of Negation"/>
+
+* any mass removal has extreme value
+* any spot removal, even Sheoldred's Edict which often doesn't kill what you want but at least they can't use bounce tricks
+* Cage stops both Green Sun's Zenith and Natural Order (except for Grist)
+
+##### Out
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Baleful Strix"/>
+<mtg-card name="Daze"/>
+
+Barrowgoyf is too easy for them to stall.
+Even with Wasteland, Daze is hard to keep active on the draw due to Gaea's Cradle and Heritage Druid.
+On the play you can also keep Daze in and not bring in FoN, especially if you have Cage.
+
+##### Their Plan
+<mtg-card name="Glimpse of Nature"/>
+<mtg-card name="Endurance"/>
+<mtg-card name="Keen-Eyed Curator"/>
+<mtg-card name="Choke"/>
+<mtg-card name="Abrupt Decay"/>
+
+Due to Orcish Bowmasters they probably board out Glimpse of Nature and bring in Endurance and Keen-Eyed Curator to both handle your graveyard synergies and present threats that don't need synergy.
+They may also bring in Choke so fetch a basic swamp if it doesn't hinder your game plan too much.
+They may also board out some or all Dryad Arbor as I feel it is not as impactful.
 
 ### Mono Black Aggro (<1% Meta game)
 
@@ -1260,6 +1346,7 @@ Grindy fair deck that aims to win a battle of attrition.
 Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.
 Be careful with fetching and brainstorming, they could Dark Ritual into Bowmaster and (postboard?) Opposition Agent.
 Value-grave hate like Nihil Spellbomb is fine.
+Can also have a small red splash for sideboard Pyroblast.
 
 #### Sideboarding
 

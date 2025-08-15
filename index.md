@@ -34,11 +34,16 @@ customElements.define('youtube-video', YoutubeVideo);
 //document.body.style.visibility = 'visible';
 </script>
 
-# MTG Legacy UB Tempo Guide
+**DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
-**EARLY DRAFT, CONTRIBUTIONS WELCOME, SEE <https://github.com/KonradHoeffner/tempoguide>**
+<mtg-card name="Nethergoyf"/>
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Kaito, Bane of Nightmares"/>
+<mtg-card name="Daze"/>
+<mtg-card name="Wasteland"/>
 
-## Example UB List
+## Example List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
 * 4 Nethergoyf
 * 3 Tamiyo, Inquisitive Student
@@ -55,20 +60,20 @@ customElements.define('youtube-video', YoutubeVideo);
 * 3 Thoughtseize
 * 2 Bloodstained Mire
 * 4 Polluted Delta
-* 2 Flooded Strand
+* 1 Flooded Strand
+* 1 Scalding Tarn
 * 4 Underground Sea
 * 1 Undercity Sewers
 * 1 Island
 * 1 Swamp
 * 4 Wasteland
 
-* 2 Hydroblast
-* 1 Faerie Macabre
+* 2 Blue Elemental Blast
+* 2 Faerie Macabre
 * 2 Force of Negation
 * 2 Barrowgoyf
 * 2 Harbinger of the Seas
 * 2 Consign to Memory
-* 1 Engineered Explosives
 * 1 Null Rod
 * 2 Sheoldred’s Edict
 

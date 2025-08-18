@@ -446,7 +446,8 @@ You can Consign to Memory any of the chapter abilities but not the activated one
 
 ### Crop Rotation
 <mtg-card name="Crop Rotation"/>
-Most of the time it's correct to force it, Wasteland on the opponents turn if you have FoN in hand, even if they have no mana, they may play Elvish Spirit Guide.
+Most of the time it's correct to force it.
+Wasteland on the opponents turn if you have FoN in hand, even if they have no mana, they may play Elvish Spirit Guide.
 
 ### Timing Guide
 
@@ -652,16 +653,95 @@ Null Rod?
 Minyafriend:
 > Not a big fan of Null Rod. Try not to get your Goyfs Furied but what can you do.
 
-### Lands
-Bad matchup but can sometimes be beaten by Harbingers of the Seas, hopefully they don't stick a Saga on 2 before that enters.
+### Lands (6%)
+<mtg-card name="Dark Depths"/>
+<mtg-card name="Thespian's Stage"/>
+<mtg-card name="Wasteland"/>
+<mtg-card name="Ghost Quarter"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Maze of Ith"/>
+<mtg-card name="The Tabernacle at Pendrell Vale"/>
+<mtg-card name="Exploration"/>
+<mtg-card name="Life from the Loam"/>
+<mtg-card name="Mox Diamond"/>
+
+Bad matchup but can sometimes be beaten, especially with a quick Tamiyo ultimate (if you play around Karakas) and Kaito (cannot be Mazed) as they are hard to for them to handle.
+If they don't splash white and you can prevent Maze of Ith, a quick Murktide Regent can also work but ground combat with a mix of Nethergoyf and Bowmasters is less reliable due to Bojuka Bog, Tabernacle and constructs.
+Sometimes you can cut them off colored mana as they have surprisingly few of that (e.g. Wasteland on Yavimaya).
+
+<mtg-card name="Thespian's Stage"/>
+<mtg-card name="Dark Depths"/>
+<mtg-card name="Wasteland"/>
+<mtg-card name="Forest"/>
+<mtg-card name="Urza's Saga"/>
+
+Creates two triggers when used on Dark Depths, which has an intervening if-clause.
+You can let the first one happen and then Wasteland the leftover Dark Depths after the legend rule takes effect to have them lose both lands.
+With enough time they can protect against that by copying a basic land first, then you can't waste the Stage anymore.
+Stage can also copy Urza's Saga and then copy something else the next turn to keep it permanently on chapter two.
 
 #### Sideboarding
+Postboard it gets a little bit better because you have a lot of almost-blanks to board out and they don't gain much except maybe Choke, Endurance, Dismember and another Pithing Needle.
+
+##### In
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Engineered Explosives"/>
+<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Surgical Extraction"/>
+<mtg-card name="Tsabo's Web"/>
+
+<mtg-card name="Harbinger of the Seas"/>
+<mtg-card name="Urza's Saga"/>
+
+Most players went off Harbingers since the Urza's Saga rules, but if you are one of the Harbinger-diehards you are in luck as it still massively improves the matchup.
+You only have to be careful about them getting a Saga to chapter two before Harbinger enters, so you might have to use Consign to Memory on the second chapter or Wasteland first (which admittedly is a big ask).
+
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Life from the Loam"/>
+<mtg-card name="Crop Rotation"/>
+
 Force of Negation is good because it prevents Life from the Loam from coming back.
-Similarly if there is a lot of lands it may be worth it to switch one of your graveyard hate pieces to Surgical Extraction.
-A single Surgical is a nice against Loam and as you have so many dead cards like Push and Bowmasters it is surely better than those and can get rid of some other card as well in a pinch.
-Harbinger is still great, you may just need to Wasteland a Saga first in some spots which complicates things a bit.
-Consign to Memory is not great but still better than Bowmasters and Push, it can counter an artifact or a Saga Trigger or maybe Bojuka Bog or something else.
-You can try Tsabo's Web if it is a lot of lands (never tried it though).
+Consider Wastelanding them on their turn if you have FoN in hand in case they have Crop Rotation, which is almost always worth a force.
+
+<mtg-card name="Surgical Extraction"/>
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Life from the Loam"/>
+
+If there is a lot of lands in your meta it may be worth it to switch one of your graveyard hate pieces to Surgical Extraction.
+A single Surgical is nice against Loam and as you have so many dead cards like Push and Bowmasters it is surely better than those and can get rid of some other card as well in a pinch.
+Similarily, I would also keep Nihil Spellbomb in as it can sometimes weaken Life from the Loam as there are worse cards.
+
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Sphere of Resistance"/>
+<mtg-card name="Bojuka Bog"/>
+<mtg-card name="Endurance"/>
+<mtg-card name="Sejiri Steppe"/>
+
+Consign to Memory is not great but still better than Bowmasters and Push.
+Using Consign on Dark Depths does not help as it immediately retriggers.
+However it can counter an artifact, one or multiple Saga triggers at the same time.
+It may also allow you to push for lethal by protecting your Nethergoyfs from a Bojuka Bog or Endurance trigger or counter the game deciding Sejiri Steppe trigger when you want to bounce or block the Marit Lage token.
+
+<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Sheoldred's Edict"/>
+
+Removal is generally bad against lands but Brazen Borrower (care for Sejiri Steppe) and Sheoldred's Edict (if there is no construct token) are some of the few that can get rid of Marit Lage.
+
+<mtg-card name="Tsabo's Web"/>
+
+You can try Tsabo's Web if there is a lot of lands (never tried it though and it's not recommended).
+
+##### Out
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Orcish Bowmasters"/>
+
+As long as they don't play Elvish Reclaimer, Push does nothing else than removing a single construct.
+If you need more room, shave Daze.
+A single Barrowgoyf is also arguable as a way to survive constructs.
 
 ### BUG Beans
 

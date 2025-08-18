@@ -43,7 +43,7 @@ customElements.define('youtube-video', YoutubeVideo);
 <mtg-card name="Daze"/>
 <mtg-card name="Wasteland"/>
 
-## Example List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
+## Stock List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
 * 4 Nethergoyf
 * 3 Tamiyo, Inquisitive Student
@@ -76,6 +76,17 @@ customElements.define('youtube-video', YoutubeVideo);
 * 2 Consign to Memory
 * 1 Null Rod
 * 2 Sheoldred’s Edict
+
+## League Notes
+Short notes on how I deviate any given week from the stock list for the current MTGO League meta.
+
+### 2025-08-18
+* until further notice I'm on 4 Tamiyo 3 Nethergoyf for a while as Tamiyo is extremely strong against fair blue and also better than Goyf against Lands.
+* due to UB Reanimator currently on 1 Brazen 3 Nihil main, 1 Brazen 1 Faerie side
+* other deviations: 0 Harbinger 2 Null Rod 1 EE
+* want to have at least 1 Harbinger again against Lands, Depths, Cloudpost, Forge, Breakfast
+* Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
+* keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
 
 ## Card Choices
 

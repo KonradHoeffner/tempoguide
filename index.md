@@ -692,8 +692,7 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 Bring in all graveyard hate and countermagic including Force of Negation and Consign to Memory.
 With Force of Negation you may have to force Dark Ritual because their combo pieces are creatures.
 They may have a pivot to creatures (if you don't see Pact of Negation) or to Goblin Charbelcher, but that is not great for them because your countermagic still works against it, often they still do it so bring in the Null Rods.
-
-Null Rod, 
+Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens though.
 
 #### Out
 
@@ -702,15 +701,52 @@ Null Rod,
 
 Shave Wasteland if that isn't enough.
 
-### Dragon Stompy
+### Dragon Stompy aka Red Prison
+<mtg-card name="Ancient Tomb"/>
+<mtg-card name="City of Traitors"/>
+<mtg-card name="Simian Spirit Guide"/>
+<mtg-card name="Chalice of the Void"/>
+<mtg-card name="Magus of the Moon"/>
+<mtg-card name="Blood Moon"/>
+<mtg-card name="Fable of the Mirror Breaker"/>
+<mtg-card name="Urza's Saga"/>
+<mtg-card name="Broadside Bombardiers"/>
+<mtg-card name="Pyrogoyf"/>
 
 Slightly unfavored matchup but can be beat by fetching basics ASAP and focusing on staying alive through the early turns.
-Hopefully they run out of haymakers before you run out of answers.
-Hydroblasts and Consign to Memory are most important here but Goyfs are great as well.
-Null Rod?
+Once you stop the initial onslaught you should be favoured as your cantrips give you better average draws but that's never a guarantee, they always have a chance to topdeck back-to-back threats and bury you.
+Mulligan for T1 interaction (Thoughtseize/Daze/Force OTP, Force OTD) as you don't have many outs to a resolved Chalice or Blood Moon.
+The tricky part is turning up the heat and killing them quickly as soon as you can afford to because of their overwhelming value with The One Ring and pressure.
+If you can stick Tamiyo or Kaito you may also switch into a control role but otherwise you will run out of interaction at some point when they jam a haymaker every other turn.
+
+##### In
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Blue Elemental Blast"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Engineered Explosives"/>
+
+Hydroblasts and Consign to Memory are extremely valuable in the matchup because they allow you to trade 1:1 which is very important as you often have to handle several threats in a row.
+Barrowgoyf is hard for them to handle and both the lifegain and the card advantage are sorely needed in the matchup.
+I personally also bring in one or two Null Rods but that's debatable.
 
 Minyafriend:
 > Not a big fan of Null Rod. Try not to get your Goyfs Furied but what can you do.
+
+#### Out
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Daze"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Thoughtseize"/>
+
+<todo/>
+
+Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide.
+Bowmasters are decent against Fable of the Mirror Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
+If you need more room, shave Thoughtseize.
 
 ### Lands (6%)
 <mtg-card name="Dark Depths"/>

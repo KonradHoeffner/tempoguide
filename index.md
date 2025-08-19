@@ -1,3 +1,15 @@
+<link href="https://fonts.cdnfonts.com/css/goudy-mediaeval" rel="stylesheet">
+<style>
+  @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
+  body {
+   font-family: 'EB Garamond';
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Goudy Mediaeval';
+    font-weight: 700;
+  }
+</style>
 <script>
 class Card extends HTMLElement {
     constructor() {super();}
@@ -748,6 +760,46 @@ Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide
 Bowmasters are decent against Fable of the Mirror Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
 If you need more room, shave Thoughtseize.
 
+### Cascade Crash
+<mtg-card name="Elvish Spirit Guide"/>
+<mtg-card name="Simian Spirit Guide"/>
+<mtg-card name="Shardless Agent"/>
+<mtg-card name="Violent Outburst"/>
+<mtg-card name="Crashing Footfalls"/>
+<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Fire / Ice"/>
+<mtg-card name="Minsc & Boo, Timeless Heroes"/>
+
+One of our best aggro matchups because Nethergoyf and Fatal Push line up well against a pair of 4/4s.
+They have mainboard Force of Negation so consider casting important spells on their turn.
+Be prepared to have your lands iced and your graveyard Endurance-d.
+
+#### Sideboarding
+
+##### In
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Hydroblast"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Barrowgoyf"/>
+<mtg-card name="Engineered Explosives"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Flusterstorm"/>
+
+Postboard is even better because Consign to Memory is a clean answer to the cascade trigger and Hydroblast is very efficient as well.
+Barrowgoyf just completely outclasses their threats.
+I rarely include it but if you do, Flusterstorm is amazing as well.
+They can prolong the game with Brazen Borrower but pitching Spirit Guides means that they should be empty handed quickly.
+Just be careful with postboard Mystical Dispute and Blood Moon if they even bring that in.
+
+##### Out
+<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Daze"/>
+
+### Initiative Stompy
+<mtg-todo/>
+
+
 ### Lands (6%)
 <mtg-card name="Dark Depths"/>
 <mtg-card name="Thespian's Stage"/>
@@ -983,9 +1035,6 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 <mtg-todo/>
 
 Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
-
-### Initiative Stompy
-<mtg-todo/>
 
 
 

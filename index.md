@@ -29,8 +29,17 @@ class YoutubeVideo extends HTMLElement {
     }
 }
 
+class Todo extends HTMLElement {
+    constructor() {super();}
+
+    connectedCallback() {
+        this.innerHTML = `<p>This section is unfinished and <a href="https://github.com/KonradHoeffner/tempoguide/edit/master/index.md">needs your help!</a></p>`;
+    }
+}
+
 customElements.define('mtg-card', Card);
 customElements.define('youtube-video', YoutubeVideo);
+customElements.define('mtg-todo', Todo);
 //document.body.style.visibility = 'visible';
 </script>
 
@@ -497,6 +506,48 @@ Orcish Bowmasters are often better later in Bowmaster mirrors but against decks 
 ## Matchups
 
 The deck is generally good against linear combo and red-based tempo decks but struggles against bigger fair decks.
+Some weaknesses can be adressed with sideboarding but not all at the same time.
+
+### Good Matchups
+<mtg-card name="Questing Druid"/>
+<mtg-card name="Sneak Attack"/>
+<mtg-card name="Balustrade Spy"/>
+<mtg-card name="Necrodominance"/>
+<mtg-card name="High Tide"/>
+<mtg-card name="Glistener Elf"/>
+<mtg-card name="Crashing Footfalls"/>
+<mtg-card name="Doomsday"/>
+
+### Even
+<mtg-card name="Cori-Steel Cutter"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-card name="Blood Moon"/>
+<mtg-card name="Cephalid Illusionist"/>
+<mtg-card name="Allosaurus Shepherd"/>
+<mtg-card name="Golgari Grave-Troll"/>
+<mtg-card name="Painter's Servant"/>
+<mtg-card name="Omniscience"/>
+
+### Bad Matchups
+<!-- aggro -->
+<mtg-card name="Ajani, Nacatl Pariah"/>
+<mtg-card name="Goblin Lackey"/>
+<mtg-card name="Flickerwisp"/>
+<mtg-card name="Gaea's Cradle"/>
+
+<mtg-card name="Nadu, Winged Wisdom"/><!-- bant nadu and nadu elves-->
+<mtg-card name="Mystic Forge"/>
+<mtg-card name="Cloudpost"/>
+<mtg-card name="Smallpox"/>
+<mtg-card name="Phyrexian Dreadnought"/>
+<mtg-card name="Mox Diamond"/>
+<mtg-card name="Dark Depths"/>
+<mtg-card name="Tendrils of Agony"/>
+<!-- control -->
+<mtg-card name="Teferi, Time Raveler"/><!--bant control-->
+<mtg-card name="Flame of Anor"/>
+<mtg-card name="Kolaghan's Command"/>
+
 
 ### UB Reanimator (20% Meta game)
 
@@ -613,6 +664,14 @@ The second Undercity Sewers is also an indicator but not always.
 When in doubt it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
 
 ### Oops All Spells
+<mtg-card name="Dark Ritual"/>
+<mtg-card name="Elvish Spirit Guide"/>
+<mtg-card name="Balustrade Spy"/>
+<mtg-card name="Undercity Informer"/>
+<mtg-card name="Poxwalkers"/>
+<mtg-card name="Narcomoeba"/>
+<mtg-card name="Dread Return"/>
+<mtg-card name="Thassa's Oracle"/>
 
 This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
@@ -885,10 +944,12 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 
 
 ### ANT
+<mtg-todo/>
 
 Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
 
 ### Initiative Stompy
+<mtg-todo/>
 
 
 
@@ -942,10 +1003,13 @@ Fortunately that version has a very low play rate as most include some nonbasics
 <mtg-card name="Barrowgoyf"/>
 
 ### Red Painter
+<mtg-todo/>
 
 ### Blue Painter
+<mtg-todo/>
 
 ### Stiflenought
+<mtg-todo/>
 
 ### Eldrazi
 <mtg-card name="Eye of Ugin"/>
@@ -1196,7 +1260,7 @@ Engineered Explosives may be necessary to survive long enough to stabilize with 
 On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
 
 ### Boros Energy (<1% Meta game)
-<mtg-card name="Goblin Bombardement"/>
+<mtg-card name="Goblin Bombardment"/>
 <mtg-card name="Guide of Souls"/>
 <mtg-card name="Ajani, Nacatl Pariah"/>
 
@@ -1235,6 +1299,9 @@ Similar to Boros Energy in that they are a go-wide aggro strategy but their crea
 Bring in in removal, Barrowgoyf and Blue Blasts, board wipes if you have them.
 Board out Nihil Spellbomb and Daze, shave Wasteland.
 If possible I would play around Blood Moon but not if it puts you too far behind as they don't always have it in the sideboard and may not bring it in.
+
+### Death and Taxes
+<mtg-todo/>
 
 ### Cradle Control (1% Meta game)
 

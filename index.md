@@ -2,7 +2,7 @@
 <style>
   @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
-  body {
+  body, body.markdown-body {
    font-family: 'EB Garamond';
   }
   h1, h2, h3, h4, h5 {

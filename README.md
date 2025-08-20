@@ -30,6 +30,20 @@ Or even better, contribute directly with a GitHub account!
 
 Contributors: Ecobaronen, minyafriend, doggybones35 (Luke), kirdie (Konrad).
 
+### Writing Style and Grammar
+
+To ensure the guide remains easy to read and understand for experienced and new players alike, please make sure your contributions meet a basic standard of grammatical correctness, capitalization and clarity.
+
+**❌ Bad Example:**
+> murk > goyf cause its not pushable, otoh murk is blast foddder an goyf owns against aggro
+
+**✅  Good Example:**
+> In the current meta I prefer Murktide Regent in the main over Barrowgoyf because Murktide Regent is immune to Fatal Push.
+> On the other hand, Murktide Regent dies to Pyroblast and Barrowgoyf stabilizes extremely well against aggro decks, though if red-based aggro decks ever take over the meta this recommendation may change.
+
+**Too much**
+> In this tumultuous, ever-shifting strategic paradigm we call the meta, I have cast aside the terrestrial brute, the humble Barrowgoyf, and instead pledge my fealty to the magnificent, the ethereal, the truly transcendent Murktide Regent as my primary champion...
+
 ## Licensing
 
 This guide is free for everyone to read but should not be redistributed for profit.

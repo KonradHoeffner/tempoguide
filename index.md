@@ -175,7 +175,7 @@ Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Pea
 Against Izzet try to play at 3/4 or with instant speed growth to 3/4.
 
 #### Murktide Regent vs Barrowgoyf
-Murktide Kills faster against combo and control but Barrowgoyf stabilizes extremely well.
+Murktide kills faster against combo and control but Barrowgoyf stabilizes extremely well.
 Murktide is immune to Fatal Push but dies to Pyroblast.
 Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimator.
 Blue count g1 is a consideration here, how many decks in the upper meta is Barrowgoyf good against vs Murktide?

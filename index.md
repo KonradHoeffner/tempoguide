@@ -3,24 +3,42 @@
   @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
   body, body.markdown-body {
-   font-family: 'EB Garamond';
+    font-family: 'EB Garamond';
+    max-width: 80rem;
+    text-align: justify;
+    font-size: larger;
   }
   h1, h2, h3, h4, h5 {
     font-family: 'Goudy Mediaeval';
     font-weight: 700;
+    font-size: larger;
   }
 </style>
 <script>
+const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
+
 class Card extends HTMLElement {
     constructor() {super();}
 
-    connectedCallback() {
+    async connectedCallback() {
         const cardName = this.getAttribute('name');
         if (cardName) {
-            const encodedCardName = encodeURIComponent(cardName);
-            const imageUrl = `https://api.scryfall.com/cards/named?exact=${encodedCardName}&format=image&version=small`;
-            // https://github.com/konradhoeffner/mtgindex would give nicer versions but loading timing it is complicated in Markdown
-            this.innerHTML = `<img src="${imageUrl}" alt="${cardName}" title="${cardName}">`;
+            // scryfall API is easier to use but often fails with many images due to rate limits
+            //const encodedCardName = encodeURIComponent(cardName);
+            //const imageUrl = `https://api.scryfall.com/cards/named?exact=${encodedCardName}&format=image&version=small`;
+            // instead we use my own MTG index with opinionated art
+            // first show a placeholder (Kird Ape art crop) so that initial processing doesn't fail
+            // when I skipped this step, only one image in a row was shown
+            const placeholder = 'https://cards.scryfall.io/art_crop/front/e/b/ebe8845e-df1c-481c-949c-aab84af99a05.jpg?1562939239';
+            const img = document.createElement('img');
+            img.src = placeholder;
+            img.alt = cardName;
+            img.title = cardName;
+            img.style = "max-width: 20vw;max-height:40vh;";
+            this.append(img);
+            // now we can asynchronously load the real image without causing errors
+            const src = (await mtgIndex)[cardName];
+            img.src = src;
         }
     }
 }
@@ -57,12 +75,14 @@ customElements.define('mtg-todo', Todo);
 
 **DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
+<div>
 <mtg-card name="Nethergoyf"/>
 <mtg-card name="Tamiyo, Inquisitive Student"/>
 <mtg-card name="Orcish Bowmasters"/>
 <mtg-card name="Kaito, Bane of Nightmares"/>
 <mtg-card name="Daze"/>
 <mtg-card name="Wasteland"/>
+</div>
 
 ## Stock List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
@@ -308,6 +328,11 @@ Minyafriend:
 > Current lands does not get punished enough by this card.
 > Pithing needle seems better if you want to stay UB and stop land strats.
 
+Happysappyclappy:
+> I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
+> Flute also synergizes effectively with Thoughtseize, enhancing its utility.
+> Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
+
 ### Graveyard Hate
 <mtg-card name="Grafdigger's Cage"/>
 <mtg-card name="Nihil Spellbomb"/>
@@ -333,7 +358,7 @@ Minyafriend:
 
 <mtg-card name="Winter Orb"/>
 <mtg-card name="Winter Moon"/>
-<mtg-card name="Emrakul, the Aeon's Torn"/>
+<mtg-card name="Emrakul, the Aeons Torn"/>
 <mtg-card name="Court of Cunning"/>
 <mtg-card name="Court of Locthwain"/>
 <mtg-card name="Liliana of the Veil"/>
@@ -521,7 +546,7 @@ The deck is generally good against linear combo and red-based tempo decks but st
 Some weaknesses can be adressed with sideboarding but not all at the same time.
 
 ### Good Matchups
-<mtg-card name="Questing Druid"/>
+<mtg-card name="Questing Druid // Seek the Beast"/>
 <mtg-card name="Sneak Attack"/>
 <mtg-card name="Balustrade Spy"/>
 <mtg-card name="Necrodominance"/>

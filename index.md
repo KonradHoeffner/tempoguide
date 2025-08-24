@@ -4,7 +4,7 @@
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
   body, body.markdown-body {
     font-family: 'EB Garamond';
-    max-width: 80rem;
+    max-width: 100rem;
     text-align: justify;
     font-size: larger;
     margin: 0 auto;
@@ -14,8 +14,8 @@
     font-weight: 700;
     font-size: larger;
   }
-  .card {
-    max-width: 20%;
+  img.card {
+    max-width: 25%;
     max-height:40vh;
   }
 </style>

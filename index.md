@@ -7,6 +7,7 @@
     max-width: 80rem;
     text-align: justify;
     font-size: larger;
+    margin: 0 auto;
   }
   h1, h2, h3, h4, h5 {
     font-family: 'Goudy Mediaeval';

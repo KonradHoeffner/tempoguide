@@ -13,6 +13,10 @@
     font-weight: 700;
     font-size: larger;
   }
+  .card {
+    max-width: 20%;
+    max-height:40vh;
+  }
 </style>
 <script>
 const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
@@ -34,7 +38,7 @@ class Card extends HTMLElement {
             img.src = placeholder;
             img.alt = cardName;
             img.title = cardName;
-            img.style = "max-width: 20%;max-height:40vh;";
+            img.class = "card";
             this.append(img);
             // now we can asynchronously load the real image without causing errors
             const src = (await mtgIndex)[cardName];

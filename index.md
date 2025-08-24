@@ -39,7 +39,7 @@ class Card extends HTMLElement {
             img.src = placeholder;
             img.alt = cardName;
             img.title = cardName;
-            img.class = "card";
+            img.className = "card";
             this.append(img);
             // now we can asynchronously load the real image without causing errors
             const src = (await mtgIndex)[cardName];

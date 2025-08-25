@@ -624,8 +624,12 @@ Minyafriend:
 
 #### Videos
 
-<youtube-video id="Evb8f2Vqz0s" t="4971"/>
 <youtube-video id="Evb8f2Vqz0s" t="5705"/>
+<youtube-video id="Evb8f2Vqz0s" t="4971"/>
+<youtube-video id="hjrBnyX9j1s"/>
+<youtube-video id="3r_bdJwb83E"/>
+<youtube-video id="gILa0Q1G30U"/>
+<youtube-video id="rvXujBKWM6g" t="2804" />
 
 #### Sideboarding:
 
@@ -642,6 +646,8 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
 ### UB Tempo Mirror (6% Meta game)
+
+<youtube-video id="rvXujBKWM6g" t="4394" />
 
 Luke:
 
@@ -727,6 +733,8 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 #### Videos
 
 <youtube-video id="Evb8f2Vqz0s" t="7098"/>
+<youtube-video id="rvXujBKWM6g" t="1731" />
+<youtube-video id="rvXujBKWM6g" t="2324" />
 
 #### Sideboarding
 
@@ -978,8 +986,19 @@ Eco:
 > Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show up. You can keep it
 
 ### Jeskai Control
+<mtg-todo/>
 Very bad matchup but fortunately not widely played.
 It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
+
+### Jeskai Wizards
+<mtg-todo/>
+
+<youtube-video id="rvXujBKWM6g" t="9804" />
+
+### (Yorion) 4/5c Beanstalk Control
+<mtg-todo/>
+
+<youtube-video id="rvXujBKWM6g" t="4394" />
 
 ### Black Saga Storm (~ 1% Meta game)
 
@@ -1168,6 +1187,10 @@ We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and 
 ### Stiflenought
 <mtg-todo/>
 
+#### Videos
+
+<youtube-video id="rvXujBKWM6g" t="12" />
+
 ### Eldrazi
 <mtg-card name="Eye of Ugin"/>
 <mtg-card name="Eldrazi Temple"/>
@@ -1232,9 +1255,13 @@ Unsure if Daze is a better cut than Bowmasters (only good against the One Ring a
 <mtg-card name="Grim Monolith"/>
 <mtg-card name="Tezzeret, Cruel Captain"/>
 
+##### Videos
+<youtube-video id="Evb8f2Vqz0s" t="2302"/>
+
 As long as it's play rate is that high, Null Rod and Consign to Memory have a lot of value in the sideboard.
 Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
 If you land Null Rod, you need to be aware of Planar Nexus and Mox Opal making white mana for portable hole out of their sideboard / wishboard but they don't always play it.
+
 
 #### Tezzeret, Cruel Captain
 <mtg-card name="Tezzeret, Cruel Captain"/>
@@ -1266,6 +1293,10 @@ Unlike Urza's Saga, its tutor condition is based on mana value not mana cost, al
 Can have a green splash for Crop Rotation and sideboard Veil of Summer.
 Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember post board.
 
+##### Videos
+
+<youtube-video id="94-4G2___5o" t="5572"/>
+<youtube-video id="94-4G2___5o" t="7968"/>
 
 ### Bant Nadu
 
@@ -1456,6 +1487,10 @@ Similar to Boros Energy in that they are a go-wide aggro strategy but their crea
 Bring in in removal, Barrowgoyf and Blue Blasts, board wipes if you have them.
 Board out Nihil Spellbomb and Daze, shave Wasteland.
 If possible I would play around Blood Moon but not if it puts you too far behind as they don't always have it in the sideboard and may not bring it in.
+
+#### Videos
+
+<youtube-video id="94-4G2___5o" t="2565"/>
 
 ### Death and Taxes
 <mtg-todo/>

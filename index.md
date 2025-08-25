@@ -630,6 +630,9 @@ Minyafriend:
 <youtube-video id="3r_bdJwb83E"/>
 <youtube-video id="gILa0Q1G30U"/>
 <youtube-video id="rvXujBKWM6g" t="2804" />
+<youtube-video id="HzgspkNRJ3E"/>
+<youtube-video id="X17fCga0pWE" t="1843"/>
+<youtube-video id="WEhaPr-ua-o" t="1597"/>
 
 #### Sideboarding:
 
@@ -645,9 +648,16 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
+### Turbo Reanimator
+
+<mtg-todo/>
+
+<youtube-video id="X17fCga0pWE" t="3785"/>
+
 ### UB Tempo Mirror (6% Meta game)
 
-<youtube-video id="rvXujBKWM6g" t="4394" />
+<youtube-video id="rvXujBKWM6g" t="4394"/>
+<youtube-video id="a4blaLDSMNA"/>
 
 Luke:
 
@@ -732,6 +742,7 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 
 #### Videos
 
+<youtube-video id="WEhaPr-ua-o" t="73"/>
 <youtube-video id="Evb8f2Vqz0s" t="7098"/>
 <youtube-video id="rvXujBKWM6g" t="1731" />
 <youtube-video id="rvXujBKWM6g" t="2324" />
@@ -758,7 +769,7 @@ Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens t
 
 Shave Wasteland if that isn't enough.
 
-### Dragon Stompy aka Red Prison
+### Red Stompy AKA Dragon Stompy AKA Red Prison
 <mtg-card name="Ancient Tomb"/>
 <mtg-card name="City of Traitors"/>
 <mtg-card name="Simian Spirit Guide"/>
@@ -804,6 +815,11 @@ Minyafriend:
 Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide.
 Bowmasters are decent against Fable of the Mirror Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
 If you need more room, shave Thoughtseize.
+
+### Black Stompy
+
+<mtg-todo/>
+<youtube-video id="5AwtoVA4y0A" t="2080"/>
 
 ### Cascade Crash
 <mtg-card name="Elvish Spirit Guide"/>
@@ -871,6 +887,10 @@ Creates two triggers when used on Dark Depths, which has an intervening if-claus
 You can let the first one happen and then Wasteland the leftover Dark Depths after the legend rule takes effect to have them lose both lands.
 With enough time they can protect against that by copying a basic land first, then you can't waste the Stage anymore.
 Stage can also copy Urza's Saga and then copy something else the next turn to keep it permanently on chapter two.
+
+#### Videos
+
+<youtube-video id="dLoANQnS5nk"/>
 
 #### Sideboarding
 Postboard it gets a little bit better because you have a lot of almost-blanks to board out and they don't gain much except maybe Choke, Endurance, Dismember and another Pithing Needle.
@@ -995,10 +1015,12 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 <youtube-video id="rvXujBKWM6g" t="9804" />
 
-### (Yorion) 4/5c Beanstalk Control
+### (Yorion) Beanstalk Control
 <mtg-todo/>
 
-<youtube-video id="rvXujBKWM6g" t="4394" />
+<youtube-video id="rvXujBKWM6g" t="4394"/>
+<youtube-video id="5TAMjgtzrok"/>
+
 
 ### Black Saga Storm (~ 1% Meta game)
 
@@ -1011,6 +1033,9 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 <mtg-card name="Echo of Eons"/>
 <mtg-card name="Orcish Bowmasters"/>
 <mtg-card name="Urza's Saga"/>
+
+<youtube-video id="WEhaPr-ua-o" t="4115"/>
+<youtube-video id="V1lHxege1h0" t="3169"/>
 
 Super difficult to play against as they have so many different threats and you never know what they are up to this game.
 Nihil Spellbomb is often bad as they keep priority between sacrificing Lion's Eye Diamond and casting Echo of Eons.
@@ -1116,6 +1141,11 @@ Play too passive and you get buried by their Stock Ups but play too aggressive a
 I like a single Sheoldred's Edict as an out to Emrakul.
 Unfortunately Kaito does not count as a creature in your hand so you cannot bring it in with Show and Tell.
 
+<youtube-video id="BfZVYhNqUw4"/>
+<youtube-video id="=r_pYbcq92_c" t="1878"/><!--2025-06-26 wingzerofnc-->
+<youtube-video id="V1lHxege1h0" t="3865"/><!-- 2025-06-27 CyNightfox-->
+
+#### Sideboarding
 ##### In
 
 <mtg-card name="Force of Negation"/>
@@ -1179,7 +1209,10 @@ There is also a very rare mono blue basic land variant is very hard to deal with
 We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and can accumulate an unbeatable hand, so I almost always Force a Carpet.
 
 ### Red Painter
+Sometimes with white or black splash.
 <mtg-todo/>
+
+<youtube-video id="5AwtoVA4y0A" t="4128"/>
 
 ### Blue Painter
 <mtg-todo/>
@@ -1192,10 +1225,14 @@ We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and 
 <youtube-video id="rvXujBKWM6g" t="12" />
 
 ### Eldrazi
+<mtg-todo/>
+
 <mtg-card name="Eye of Ugin"/>
 <mtg-card name="Eldrazi Temple"/>
 <mtg-card name="Kozilek's Command"/>
 <mtg-card name=""/>
+
+<youtube-video id="X17fCga0pWE" t="28" />
 
 After the ban of Sowing Mycospawn, the deck is much less oppressive but still structurally favored due to Chalice of the Void and a long stream of large, potentially uncounterable threats.
 
@@ -1257,6 +1294,8 @@ Unsure if Daze is a better cut than Bowmasters (only good against the One Ring a
 
 ##### Videos
 <youtube-video id="Evb8f2Vqz0s" t="2302"/>
+<youtube-video id="2mo4zYBPFTs"/>
+<youtube-video id="V1lHxege1h0" t="1040"/>
 
 As long as it's play rate is that high, Null Rod and Consign to Memory have a lot of value in the sideboard.
 Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
@@ -1297,6 +1336,7 @@ Harbinger of the Seas is the best card but try to setup a Force of Will in case 
 
 <youtube-video id="94-4G2___5o" t="5572"/>
 <youtube-video id="94-4G2___5o" t="7968"/>
+<youtube-video id="ubp8N8VCSYQ"/>
 
 ### Bant Nadu
 
@@ -1307,6 +1347,8 @@ Flodope from the other side:
 > I would say as a Bant Nadu player I don't like very aggressive starts out of the UB tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdigger's Cage hurts.
 > Sometimes I see toxic deluge boarded against me which is not so nice.
 > Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
+
+<youtube-video id="69uBXY4Ywa0"/>
 
 ### Cephalid Breakfast
 
@@ -1396,12 +1438,15 @@ Vs Doomsday you should look for Personal Tutors, Cabal Rituals and 2nd green cyc
 If they have those, they are focused on Combo.
 If they have creatures, you can trim a Wasteland and not bring in Consign. 
 
+### UB Ninjas
+<mtg-todo/>
+<youtube-video id="V1lHxege1h0" t="33"/>
+
 ### Red Daze Decks
 
 <mtg-card name="Dragon's Rage Channeler"/>
 <mtg-card name="Lightning Bolt"/>
 <mtg-card name="Daze"/>
-
 
 Minyafriend:
 > Be aware Stifle is a thing.
@@ -1424,10 +1469,16 @@ Build basics if possible.
 <mtg-card name="Sheldred's Edict"/>
 
 ##### Out
+<mtg-card name="Force of Will"/>
+<mtg-card name="Thoughtseize"/>
+
+Boarding out Daze instead of Thoughtseize is also an option.
 
 ## RUG Druid
 <mtg-card name="Delver of Secrets"/>
 <mtg-card name="Questing Druid"/>
+
+<youtube-video id="X17fCga0pWE" t="1378" />
 
 Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
 If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
@@ -1442,6 +1493,10 @@ Taking away Delirium can also be useful to save your creatures from Unholy Heat.
 <mtg-card name="Cori-Steel Cutter"/>
 <mtg-card name="Mishra's Bauble"/>
 
+<youtube-video id="1CWAQ_oUBBw"/>
+<youtube-video id="=r_pYbcq92_c" t="5810"/>
+
+A matching that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
 Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
 Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
@@ -1495,7 +1550,12 @@ If possible I would play around Blood Moon but not if it puts you too far behind
 ### Death and Taxes
 <mtg-todo/>
 
+<youtube-video id="X17fCga0pWE" t="4760"/>
+<youtube-video id="=r_pYbcq92_c" t="3369"/>
+
 ### Cradle Control (1% Meta game)
+
+<youtube-video id="=r_pYbcq92_c" t="7791"/>
 
 ### Example Decklist
 Austrian Challenge @ Gamestore (Linz, Austria) 1st place by Simon Ritter 2025-06-21
@@ -1601,6 +1661,8 @@ Their Plan: Their plan is already good so they won’t change much, probably Col
 <mtg-card name="Natural Order"/>
 <mtg-card name="Atraxa, Grand Unifier"/>
 <mtg-card name="Craterhoof Behemoth"/>
+
+<youtube-video id="IhcxBU4w1v8"/>
 
 Marquee Legacy creature combo + value deck a long time ago that got powercrept out of the top decks over time, then Orcish Bowmasters caused most Elves players to switch to Cradle Control.
 Their main Glimpse of Nature combo gets destroyed by Orcish Bowmasters so they probably board that out.
@@ -1823,6 +1885,15 @@ Out: Force of Will
 Quick Tips:
 Assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
 Don’t forget about Kaito! For example you should always block Tamiyo if you can. It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
+
+### Brews and Rare Decks
+
+WUR Mintaurs:
+<youtube-video id="5AwtoVA4y0A" t="28"/>
+BUG Reanimator Beans:
+<youtube-video id="5AwtoVA4y0A" t="6697"/>
+GB Rumble Painter:
+<youtube-video id="=r_pYbcq92_c" t="31"/>
 
 ## Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.

@@ -973,9 +973,7 @@ Minyafriend:
 
 #### Videos
 
-<youtube-video id="KDX_2YdZM2Q"/>
-
-The same match from BeeExcellent's perspective:
+From BeeExcellent's perspective:
 <youtube-video id="efXSq_whdqA" t="5274"/>
 
 #### Sideboarding
@@ -1479,6 +1477,7 @@ Boarding out Daze instead of Thoughtseize is also an option.
 <mtg-card name="Questing Druid"/>
 
 <youtube-video id="X17fCga0pWE" t="1378" />
+<youtube-video id="8Bn3nKYBz0s"/><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
 
 Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
 If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.

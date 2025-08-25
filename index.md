@@ -622,6 +622,11 @@ Minyafriend:
 > This deck has A LOT of options to build around.
 > I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
+#### Videos
+
+<youtube-video id="Evb8f2Vqz0s" t="4971"/>
+<youtube-video id="Evb8f2Vqz0s" t="5705"/>
+
 #### Sideboarding:
 
 <mtg-card name="Grafdigger's Cage"/>
@@ -719,7 +724,9 @@ This is one of the few matchups where I mulligan aggressively for turn 1 interac
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
 Double Daze + Surgical is not enough on the draw as the zombies will kill you in three turns after memories journey even if you surgical the Thassa's Oracle.
 
+#### Videos
 
+<youtube-video id="Evb8f2Vqz0s" t="7098"/>
 
 #### Sideboarding
 
@@ -936,6 +943,13 @@ There are different variations with a lot of potential one or two-offs so keep i
 Minyafriend:
 > I do bring in Force of Negation at the very least on the draw as you will be up a card already and you really do not want Beanstalk or Carpet to resolve.
 
+#### Videos
+
+<youtube-video id="KDX_2YdZM2Q"/>
+
+The same match from BeeExcellent's perspective:
+<youtube-video id="efXSq_whdqA" t="5274"/>
+
 #### Sideboarding
 
 After boarding, prevent Carpet of Flowers at all costs, then you may be able to Tempo them out or lock/kill them with your additional nonbasic hate of choice (Harbinger, Price of Progress, ...).
@@ -1070,9 +1084,13 @@ Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your 
 
 ### Sneak and Show
 
+<mtg-card name="Ancient Tomb"/>
+<mtg-card name="Volcanic Island"/>
+<mtg-card name="Stock Up"/>
 <mtg-card name="Show and Tell"/>
 <mtg-card name="Sneak Attack"/>
 <mtg-card name="Emrakul, the Aeon's Torn"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
 
 Good matchup but can easily be lost if you misidentify the critical turn after which you don't tap out anymore.
 Play too passive and you get buried by their Stock Ups but play too aggressive and they just combo you out.
@@ -1099,8 +1117,21 @@ Unfortunately Kaito does not count as a creature in your hand so you cannot brin
 
 ### Show and Tell (Omni Tell)
 
-The mono blue basic land variant is very hard to deal with as they ignore most of your preboard interaction (Fatal Push, Wasteland, Nihil Spellbomb) and puts you into the rare position that you may have blanks in your board after sideboarding.
-Fortunately that version has a very low play rate as most include some nonbasics so you get value out of Wasteland.
+<mtg-card name="Ancient Tomb"/>
+<mtg-card name="Tropical Island"/>
+<mtg-card name="Mistrise Village"/>
+<mtg-card name="Stock Up"/>
+<mtg-card name="Show and Tell"/>
+<mtg-card name="Omniscience"/>
+<mtg-card name="Emrakul, the Aeon's Torn"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
+
+Most common with a green splash for Veil of Summer (main and sideboard) and often postboard Carpet of Flowers.
+There is also a very rare mono blue basic land variant is very hard to deal with as they ignore most of your preboard interaction (Fatal Push, Wasteland, Nihil Spellbomb) and puts you into the rare position that you may have blanks in your board after sideboarding.
+
+#### Videos
+
+<youtube-video id="Evb8f2Vqz0s" t="94"/>
 
 #### Sideboarding
 
@@ -1116,6 +1147,17 @@ Fortunately that version has a very low play rate as most include some nonbasics
 <mtg-card name="Nihil Spellbomb"/>
 <mtg-card name="Baleful Strix"/>
 <mtg-card name="Barrowgoyf"/>
+
+##### Their Plan
+
+<mtg-card name="Carpet of Flowers"/>
+<mtg-card name="Veil of Summer"/>
+<mtg-card name="Defense Grid"/>
+<mtg-card name="Mistrise Village"/>
+<mtg-card name="Stock Up"/>
+<mtg-card name="Show and Tell"/>
+
+We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and can accumulate an unbeatable hand, so I almost always Force a Carpet.
 
 ### Red Painter
 <mtg-todo/>

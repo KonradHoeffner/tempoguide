@@ -680,21 +680,39 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
 ### Turbo Reanimator
+<mtg-card name="Unmask"/>
+<mtg-card name="Dark Ritual"/>
+<mtg-card name="Lotus Petal"/>
+<mtg-card name="Entomb"/>
+<mtg-card name="Animate Dead"/>
+<mtg-card name="Reanimate"/>
+<mtg-card name="Griselbrand"/>
+<mtg-card name="Archon of Cruelty"/>
+<mtg-card name="Atraxa, Grand Unifier"/>
 
-<mtg-todo/>
+In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
+While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivised to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
+Nihil Spellbomb is extremely strong in game 1.
 
 <youtube-video id="X17fCga0pWE" t="3785"/>
 
 #### Postboard Pivots
+<mtg-card name="Show and Tell"/>
+<mtg-card name="Stronghold Gambit"/>
+<mtg-card name="Witherbloom Apprentice"/>
+
 Because Turbo Reanimator is much more all in and vulnerable to graveyard hate then UB Reanimator, they often do a full or partial juke (pivot) to a different strategy.
 Your generic combo hate, like Thoughtseize, Force of Will and Force of Negation, works against most of them so you should still be favored even if you hedge for a pivot that they don't do.
-
-todo: show and tell, break open(?)
-creatures?
+Their splash colors restrict which pivots they have access to:
+Blue for Show and Tell, green for Chain of Smog + Witherbloom Apprentice, red for Stronghold Gambit (probably not good against you).
+Theoretically they could also pivot to castable non-combo creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalker and Opposition Agent but I rarely see that.
 
 #### Chain of Smog Combo
 <mtg-card name="Witherbloom Apprentice"/>
 <mtg-card name="Chain of Smog"/>
+<mtg-card name="Spoils of the Vault"/>
+
+Often paired with Spoils of the Vault, this two-card combo kills you immediately by draining you for unlimited life points.
 
 <mtg-card name="Force of Will"/>
 <mtg-card name="Force of Negation"/>

@@ -196,13 +196,16 @@ You almost always play one or two Brazen Borrower just as a catch-all answer to 
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
 #### Tamiyo, Inquisitive Student
+<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Brainstorm"/>
 
 Bowmastering at their end step to draw the Brainstorm out is OK sometimes.
 APNAP comes into play: Active players triggers go on stack first.
 On their turn if they Brainstorm you play Bowmasters, ping something, they draw 3 triggering Bowmasters 3 times and triggering Tamiyo's flip, resolve brainstorm, flip goes on stack, then your 3 Bowmasters triggers, and hopefully kill their Tamiyo, so probably not a good play, but on our turn these triggers are switched.
 This allows you to consider flipping Tamiyo at odd times in the face of a Bowman if you have an answer to their consequent board state.
 Often against Bowmasters mirrors, just using your mana efficiently to sorcery speed a clue away from Bowmasters mana is correct.
-
+If the opponent chump blocks with the Orc Army Token and it doesn't change the result (e.g. you attack with a 3/4 Nethergoyf into a 1/1 token) that can be a great timing to crack a clue without giving the opponent more than one damage.
 
 #### Nethergoyf
 <mtg-card name="Nethergoyf"/>
@@ -230,9 +233,11 @@ Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
 Maybe Wizards will print a UB command in the future?
 Can also bait an opponent to play Orcish Bowmasters on the 3/1, allowing you to follow up with your own Bowmasters.
+You can also build your own Vindicate with Petty Theft + Thoughtseize.
 
 #### Fatal Push
 <mtg-card name="Fatal Push"/>
+
 Kills most relevant creatures in Legacy, so play 4.
 
 #### Cantrips
@@ -321,7 +326,7 @@ Eco:
 <mtg-card name="Subtlety"/>
 <mtg-card name="Thoughtseize"/>
 <mtg-card name="Toxic Deluge"/>
-<mtg-card name="Tsabo’s Web"/>
+<mtg-card name="Tsabo's Web"/>
 
 Eco:
 
@@ -344,15 +349,21 @@ Eco:
 * Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
-Minyafriend:
-> I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
-> Current lands does not get punished enough by this card.
-> Pithing needle seems better if you want to stay UB and stop land strats.
+<mtg-card name="Tsabo's Web"/>
+<mtg-cite name="Minyafriend">
+I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
+Current lands does not get punished enough by this card.
+Pithing needle seems better if you want to stay UB and stop land strats.
+</mtg-cite>
 
-Happysappyclappy:
-> I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
-> Flute also synergizes effectively with Thoughtseize, enhancing its utility.
-> Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
+
+<mtg-card name="Disruptor Flute"/>
+<mtg-card name="Pithing Needle"/>
+<mtg-cite name="Happysappyclappy">
+I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
+Flute also synergizes effectively with Thoughtseize, enhancing its utility.
+Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
+</mtg-cite>
 
 ### Graveyard Hate
 <mtg-card name="Grafdigger's Cage"/>
@@ -386,12 +397,13 @@ Happysappyclappy:
 
 As someone who experiments a lot with off meta sideboard cards I want to tell you what doesn't work to make future exploration easier.
 
-* Winter Orb and Winter Moon
+<mtg-card name="Winter Orb"/>
+<mtg-card name="Winter Moon"/>
 
-Eco:
-> Winter Orb used to see play out of aggressive daze decks to force the opponent to play on your terms while you attack them with a Delver. These days, Blue/Black Tempo is closer to a Midrange deck and can’t take advantage of it - mainly due to Tamiyo’s clues and 3-drops. 
-
-> Winter Moon is interesting but very unreliable between opposing basics, Mox Diamond and your own need to fetch duals I’m certain games. Add in the fact that multiple Boseijus see play, and you end up with a very temporary false sense of security against Lands.
+<mtg-cite name="Eco">
+Winter Orb used to see play out of aggressive daze decks to force the opponent to play on your terms while you attack them with a Delver. These days, Blue/Black Tempo is closer to a Midrange deck and can’t take advantage of it - mainly due to Tamiyo’s clues and 3-drops. 
+Winter Moon is interesting but very unreliable between opposing basics, Mox Diamond and your own need to fetch duals I’m certain games. Add in the fact that multiple Boseijus see play, and you end up with a very temporary false sense of security against Lands.
+</mtg-cite>
 
 * Emrakul or any other shuffle Eldrazi: I tried this out after I played against 2 Painter opponents in the same league and then didn’t face any for the next three leagues…
 * Court of Cunning: Former anti-control card but probably not needed anymore after Kaito.
@@ -400,9 +412,10 @@ When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer f
 
 ## Variations
 
-Eco on the red splash:
-> I want to splash red if I go to Italy and play paper.
-> Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
+<mtg-cite name="Eco on the red splash">
+I want to splash red if I go to Italy and play paper.
+Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
+</mtg-cite>
 
 ## Comparison to red-based Delver decks
 Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
@@ -425,11 +438,12 @@ For a Tempo deck you have a surprisingly good end game when Tamiyo and Kaito dra
 
 ## Clock Management
 
-Eco:
+<mtg-cite name="Eco">
 Playing fast is important because it lets you slow down and take your time with hard, game-deciding decisions.
 Practice your Ponders, land drops, short cuts and using F6 at strategic moments where you don't give up bluff equity.
 It's the same in paper; play fast (and make your opponent play fast as well using the judge) from turn 1 of the game.
 We should not cheat with slow play and then when game two finishes with 8 minutes on the clock start playing fast there.
+</mtg-cite>
 
 ## General Deck Advice
 
@@ -440,8 +454,7 @@ A great game plan of this deck is to stick an early Tamiyo and then protect it a
 Nethergoyf doesn’t really fit that plan but it is the only card that really does damage early which can actually end the game reasonably fast other than Murktide which comes later.
 This deck is super fun but is also hard to play, you need a lot of practice and care not to timeout, it is much more value focused and slower than Delver.
 
-Minyafriend:
-
+<mtg-cite name="Minyafriend">
 I do not agree to liberally fetch basics.
 It hinders your ability to double spell and makes Wasteland much better late in the game.
 Basics are a trap in this deck but a necessary evil due to Blood Moon.
@@ -450,6 +463,7 @@ This is thinking that deserves nuance but I think more often than not we are hur
 Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and ninjitsu Kaitos and cast Barrowgoyfs.
 Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our progression.
 I need to smell blood or have good information to blindly wasteland the opponent.
+</mtg-cite>
 
 ## Own Card Guide
 <mtg-card name="Nethergoyf"/>
@@ -626,17 +640,18 @@ However then they are just a worse tempo deck than you are so it’s probably be
 Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways. Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
 It’s also super hard to win two games in a row on the play and draw, so having mainboard grave hate like Nihil Spellbomb really helps.
 
-Minyafriend:
 
-> Identify what kind of UB Reanimator you are playing against.
-> Do they have push main, Inquisition of Kozilek in the sideboard, they go harder on combo, no midrange plan other than Tamiyo, no Bowmasters?
-> Are there Murktides and Barrowgoyfs main? Then it's midrange with I-win-button.
-> Stifles and Murktides main indicate tempo/combo.
-> Voidwalkers main usually read as UB Reanimator, probably midrange sideboard plan.
-> Are they a Wasteland version?
-> Definitely heavily recommend looking up opponents in challenges to see what style they are known for and make decisions accordingly.
-> This deck has A LOT of options to build around.
-> I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
+<mtg-cite name="Minyafriend">
+Identify what kind of UB Reanimator you are playing against.
+Do they have push main, Inquisition of Kozilek in the sideboard, they go harder on combo, no midrange plan other than Tamiyo, no Bowmasters?
+Are there Murktides and Barrowgoyfs main? Then it's midrange with I-win-button.
+Stifles and Murktides main indicate tempo/combo.
+Voidwalkers main usually read as UB Reanimator, probably midrange sideboard plan.
+Are they a Wasteland version?
+Definitely heavily recommend looking up opponents in challenges to see what style they are known for and make decisions accordingly.
+This deck has A LOT of options to build around.
+I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
+</mtg-cite>
 
 #### Videos
 
@@ -687,13 +702,13 @@ creatures?
 <mtg-card name="Chain of Smog"/>
 
 The copy effect is not a trigger that you can Stifle or Consign to Memory but instead happens on resolution.
-This means that you can safely let them discard their hand first and then Force of Daze afterwards if you have enough life to spare.
+This means that you can safely let them discard their hand first and then Force or Daze afterwards if you have enough life to spare.
 If you have less than 4 cards in hand this may leave you unable to stop a reanimation effect.
 
 <mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave" about="MTG Legacy Reanimator Specialist">
-Sometimes it's correct not to let them discard before forcing
+Sometimes it's correct not to let them discard before forcing.
 Not usually, but sometimes.
-I've certainly used Smog as a self discard outlet to then reanimate a creature before
+I've certainly used Smog as a self discard outlet to then reanimate a creature before.
 </mtg-cite>
 
 <mtg-card name="Fatal Push"/>
@@ -712,8 +727,8 @@ But most of the time it's correct to let them discard their hand first and then 
 <mtg-card name="Witherbloom Apprentice"/>
 
 <mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
-Another thing of note is that in that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
-The final Smog copy will force them to discard their own apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand
+In that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
+The final Smog copy will force them to discard their own Apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand.
 </mtg-cite>
 
 ### UB Tempo Mirror (6% Meta game)
@@ -863,8 +878,9 @@ Hydroblasts and Consign to Memory are extremely valuable in the matchup because 
 Barrowgoyf is hard for them to handle and both the lifegain and the card advantage are sorely needed in the matchup.
 I personally also bring in one or two Null Rods but that's debatable.
 
-Minyafriend:
-> Not a big fan of Null Rod. Try not to get your Goyfs Furied but what can you do.
+<mtg-cite name="Minyafriend">
+Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
+</mtg-cite>
 
 #### Out
 <mtg-card name="Nihil Spellbomb"/>
@@ -1030,8 +1046,9 @@ Theoretically it is built to counter Tempo decks such as UB because it has more 
 A flipped Tamiyo can easily be killed by Witherbloom Command but Kaito is very hard to stop for them, as they usually only play a single Sheoldred's Edict, so focusing on T3 Kaito is often a great path to victory, for example by starting with basic Island and Swamp so that they can't delay Kaito with Wasteland.
 There are different variations with a lot of potential one or two-offs so keep in mind what they could have, such as Spell Pierce, Daze, Stifle, Wasteland or Endurance, but don't overrespect them because you are the aggressor and the chance of them having any such particular card is low.
 
-Minyafriend:
-> I do bring in Force of Negation at the very least on the draw as you will be up a card already and you really do not want Beanstalk or Carpet to resolve.
+<mtg-cite name="Minyafriend">
+I do bring in Force of Negation at the very least on the draw as you will be up a card already and you really do not want Beanstalk or Carpet to resolve.
+</mtg-cite>
 
 #### Videos
 
@@ -1062,8 +1079,9 @@ Against nonstandard variations with 3-4 Uro instead or in addition to Murktide y
 
 Fatal Push is bad against most of their deck but depending on your other removal you may need to keep two in depending on how many Tamiyos and Endurances they play.
 
-Eco:
-> Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show up. You can keep it
+<mtg-cite name="Eco">
+Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show up. You can keep it
+</mtg-cite>
 
 ### Jeskai Control
 <mtg-todo/>
@@ -1400,13 +1418,15 @@ Harbinger of the Seas is the best card but try to setup a Force of Will in case 
 
 ### Bant Nadu
 
-Minyafriend:
-> Funnily enough Bant Nadu is a bad matchup.
+<mtg-cite name="Minyafriend">
+Funnily enough Bant Nadu is a bad matchup.
+</mtg-cite>
 
-Flodope from the other side:
-> I would say as a Bant Nadu player I don't like very aggressive starts out of the UB tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdigger's Cage hurts.
-> Sometimes I see toxic deluge boarded against me which is not so nice.
-> Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
+<mtg-cite name="Flodope" about="Bant Nadu player">
+I would say as a Bant Nadu player I don't like very aggressive starts out of the UB tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdigger's Cage hurts.
+Sometimes I see Toxic Deluge boarded against me which is not so nice.
+Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
+</mtg-cite>
 
 <youtube-video id="69uBXY4Ywa0"/>
 
@@ -1437,8 +1457,8 @@ I rarely if ever bring it in but is Consign considerable so you don't lose to sa
 If you play Harbinger then I would not bring consigns in.
 I think you can beat this deck without the Consign but I'm starting to wonder, some breakfast players are even bringing in Soul Cauldron.
 
-Eco:
-> Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
+<mtg-cite name="Eco">Against Breakfast, I don’t bring in graveyard hate any more (keeping Nihil is good) because every card in my deck is good against them.
+</mtg-cite>
 
 ##### In
 <mtg-card name="Sheoldred's Edict"/>
@@ -1508,17 +1528,20 @@ If they have creatures, you can trim a Wasteland and not bring in Consign.
 <mtg-card name="Lightning Bolt"/>
 <mtg-card name="Daze"/>
 
-Minyafriend:
-> Be aware Stifle is a thing.
-> In: blasts, removal, Goyfs Out: FoW, Thoughtseize
+<mtg-cite name="Minyafriend">
+Be aware Stifle is a thing.
+In: blasts, removal, Goyfs
+Out: FoW, Thoughtseize
+</mtg-cite>
 
-Eco:
 
+<mtg-cite name="Eco">
 Black Daze vs. Red Daze is a cool matchup where they fold to a lot of your cards.
 Play the matchup some more, and you’ll win more games for sure.
 Focus on stopping aggression and accepting Daze instead of falling behind too much.
 Sometimes we can respect Daze, but if you respect it too much, you will get run over.
 Build basics if possible.
+</mtg-cite>
 
 #### Sideboarding
 
@@ -1930,7 +1953,7 @@ You have a great tempo matchup as you can remove almost anything, only Murktide,
 
 ### Red Delver decks
 
-*TODO: update (other people have other opinions on sideboarding)
+*TODO: update (other people have other opinions on sideboarding)*
 
 The most aggressive variants, focus on survival first.
 In: BEB, removal and creatures
@@ -1959,3 +1982,4 @@ GB Rumble Painter:
 ## Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.
 2. Stay curious and improvise. Use those guidelines only as a starting point, and adapt to the situation at hand.
+3. Citations may be incomplete, corrected or abbreviated.

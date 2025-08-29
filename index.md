@@ -75,9 +75,22 @@ class Todo extends HTMLElement {
     }
 }
 
+class Cite extends HTMLElement {
+    constructor() {super();this.attachShadow({ mode: 'open'});}
+    connectedCallback() {
+        const href = this.getAttribute('href');
+        let name = this.getAttribute('name');
+        const about = this.getAttribute('about');
+        if(href) {name = `<a href="${href}" target="_blank" title="${about}">${name}</a>`};
+        name = "🗨️ "+ name;
+        this.shadowRoot.innerHTML = `${name}:<blockquote><slot></slot></blockquote>`;
+    }
+}
+
 customElements.define('mtg-card', Card);
 customElements.define('youtube-video', YoutubeVideo);
 customElements.define('mtg-todo', Todo);
+customElements.define('mtg-cite', Cite);
 //document.body.style.visibility = 'visible';
 </script>
 
@@ -211,7 +224,7 @@ Murktide: Reanimator, Izzet, UB Tempo, Oops, can mention others but those are th
 Barrowgoyf: Red Stompy, Izzet, UB Tempo.
 
 #### Brazen Borrower
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 
 Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of the Void, Ensnaring Bridge, Marit Lage, a flipped Tamiyo and much much more.
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
@@ -668,10 +681,40 @@ creatures?
 <mtg-card name="Witherbloom Apprentice"/>
 <mtg-card name="Chain of Smog"/>
 
+<mtg-card name="Force of Will"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Daze"/>
+<mtg-card name="Chain of Smog"/>
+
 The copy effect is not a trigger that you can Stifle or Consign to Memory but instead happens on resolution.
 This means that you can safely let them discard their hand first and then Force of Daze afterwards if you have enough life to spare.
-If they still have Reanimate effects postboard they can however also discard a fattie and them make you discard, so if you have less than 4 cards in hand this may leave you unable to stop a reanimation effect.
+If you have less than 4 cards in hand this may leave you unable to stop a reanimation effect.
+
+<mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave" about="MTG Legacy Reanimator Specialist">
+Sometimes it's correct not to let them discard before forcing
+Not usually, but sometimes.
+I've certainly used Smog as a self discard outlet to then reanimate a creature before
+</mtg-cite>
+
+<mtg-card name="Fatal Push"/>
+<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Witherbloom Apprentice"/>
+
 If your interaction is a removal spell instead, you can still let them empty their hand but they can always make you discard two cards afterwards.
+
+<mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
+They'll almost always copy the spell to you if you kill the creature.
+In rare cases they may not, like if you push the creature while they still have cards in hand, they might not discard you because they want to keep their last cards and dont want you to copy it back at them. 
+But most of the time it's correct to let them discard their hand first and then they'll generally always point it at you after their creature is dead.
+</mtg-cite>
+
+<mtg-card name="Brazen Borrower // Petty Theft"/>
+<mtg-card name="Witherbloom Apprentice"/>
+
+<mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
+Another thing of note is that in that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
+The final Smog copy will force them to discard their own apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand
+</mtg-cite>
 
 ### UB Tempo Mirror (6% Meta game)
 
@@ -812,7 +855,7 @@ If you can stick Tamiyo or Kaito you may also switch into a control role but oth
 <mtg-card name="Consign to Memory"/>
 <mtg-card name="Force of Negation"/>
 <mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 <mtg-card name="Barrowgoyf"/>
 <mtg-card name="Engineered Explosives"/>
 
@@ -846,7 +889,7 @@ If you need more room, shave Thoughtseize.
 <mtg-card name="Shardless Agent"/>
 <mtg-card name="Violent Outburst"/>
 <mtg-card name="Crashing Footfalls"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 <mtg-card name="Fire / Ice"/>
 <mtg-card name="Minsc & Boo, Timeless Heroes"/>
 
@@ -918,7 +961,7 @@ Postboard it gets a little bit better because you have a lot of almost-blanks to
 <mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Force of Negation"/>
 <mtg-card name="Engineered Explosives"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 <mtg-card name="Sheoldred's Edict"/>
 <mtg-card name="Surgical Extraction"/>
 <mtg-card name="Tsabo's Web"/>
@@ -957,7 +1000,7 @@ Using Consign on Dark Depths does not help as it immediately retriggers.
 However it can counter an artifact, one or multiple Saga triggers at the same time.
 It may also allow you to push for lethal by protecting your Nethergoyfs from a Bojuka Bog or Endurance trigger or counter the game deciding Sejiri Steppe trigger when you want to bounce or block the Marit Lage token.
 
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 <mtg-card name="Sheoldred's Edict"/>
 
 Removal is generally bad against lands but Brazen Borrower (care for Sejiri Steppe) and Sheoldred's Edict (if there is no construct token) are some of the few that can get rid of Marit Lage.
@@ -1015,7 +1058,7 @@ Against nonstandard variations with 3-4 Uro instead or in addition to Murktide y
 
 <mtg-card name="Daze"/>
 <mtg-card name="Fatal Push"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 
 Fatal Push is bad against most of their deck but depending on your other removal you may need to keep two in depending on how many Tamiyos and Endurances they play.
 
@@ -1116,7 +1159,7 @@ If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pi
 <mtg-card name="Nihil Spellbomb"/>
 <mtg-card name="Surgical Extraction"/>
 <mtg-card name="Faerie Macabre"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 <mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Swamp"/>
 <mtg-card name="Island"/>
@@ -1291,7 +1334,7 @@ Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Fo
 <mtg-card name="Harbinger of the Seas"/>
 <mtg-card name="Null Rod"/>
 <mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Brazen Borrower"/>
+<mtg-card name="Brazen Borrower // Petty Theft"/>
 
 ##### Out
 <mtg-card name="Nihil Spellbomb"/>

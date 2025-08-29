@@ -2,7 +2,7 @@
 <style>
   @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
-  body, body.markdown-body {
+  body, .markdown-body {
     font-family: 'EB Garamond';
     max-width: 100rem;
     text-align: justify;
@@ -83,7 +83,7 @@ class Cite extends HTMLElement {
         const about = this.getAttribute('about');
         if(href) {name = `<a href="${href}" target="_blank" title="${about}">${name}</a>`};
         name = "🗨️ "+ name;
-        this.shadowRoot.innerHTML = `${name}:<blockquote><slot></slot></blockquote>`;
+        this.shadowRoot.innerHTML = `<p>${name}:<blockquote><slot></slot></blockquote></p>`;
     }
 }
 

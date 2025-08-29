@@ -55,11 +55,14 @@ class YoutubeVideo extends HTMLElement {
         const id = this.getAttribute('id');
         if (id) {
             const t = this.getAttribute('t');
-            //let href = "https://www.youtube.com/watch?v="+id;
-            //if(t) href+=`&t=${t}s`;
-            let embedUrl = "https://www.youtube.com/embed/"+id;
-            if(t) embedUrl+=`?start=${t}`;
-            this.innerHTML = `<iframe width="560" height="315" src="${embedUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+            // we have more than 50 videos, embedded takes too much bandwidth, time and space
+            //let embedUrl = "https://www.youtube.com/embed/"+id;
+            //if(t) embedUrl+=`?start=${t}`;
+            //this.innerHTML = `<iframe width="560" height="315" src="${embedUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+            let href = "https://www.youtube.com/watch?v="+id;
+            if(t) href+=`&t=${t}s`;
+            const thumbnailUrl = `https://img.youtube.com/vi/${id}/default.jpg`;
+            this.innerHTML = `<a href="${href}" target="_blank"><img src="${thumbnailUrl}" alt="YouTube video thumbnail" style="border:0; height: auto;"></a>`;
         }
     }
 }

@@ -657,6 +657,22 @@ Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force 
 
 <youtube-video id="X17fCga0pWE" t="3785"/>
 
+#### Postboard Pivots
+Because Turbo Reanimator is much more all in and vulnerable to graveyard hate then UB Reanimator, they often do a full or partial juke (pivot) to a different strategy.
+Your generic combo hate, like Thoughtseize, Force of Will and Force of Negation, works against most of them so you should still be favored even if you hedge for a pivot that they don't do.
+
+todo: show and tell, break open(?)
+creatures?
+
+#### Chain of Smog Combo
+<mtg-card name="Witherbloom Apprentice"/>
+<mtg-card name="Chain of Smog"/>
+
+The copy effect is not a trigger that you can Stifle or Consign to Memory but instead happens on resolution.
+This means that you can safely let them discard their hand first and then Force of Daze afterwards if you have enough life to spare.
+If they still have Reanimate effects postboard they can however also discard a fattie and them make you discard, so if you have less than 4 cards in hand this may leave you unable to stop a reanimation effect.
+If your interaction is a removal spell instead, you can still let them empty their hand but they can always make you discard two cards afterwards.
+
 ### UB Tempo Mirror (6% Meta game)
 
 <youtube-video id="rvXujBKWM6g" t="4394"/>

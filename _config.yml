@@ -4,3 +4,10 @@ description: >-
    Playing a lot certainly helps especially with experience playing other tempo decks but I believe a more structured learning process and community cooperation helps getting better faster.
    In the current day and age most of the discussion happens on sites like Discord and Reddit which are not optimized for cooperative knowledge sharing so as I'm comfortable with GitHub I will try it here.
    This guide is inspired by the excellent but currently unmaintained Delver Bible by Bob Huang.
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  toc_levels: [2,3]
+  input: GFM
+  parse_block_html: true

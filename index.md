@@ -187,8 +187,7 @@ UB Tempo is slower, has a more stable mana bases, can go longer through card adv
 #### UB Reanimator
 I often have to justify why I'm not just playing the best deck when it has so many cards in common but there are some legitimate advantages to playing UB Tempo instead.
 
-### Card Choices
-
+### Lands
 <mtg-cards names="Underground Sea|Polluted Delta|Flooded Strand|Bloodstained Mire|Undercity Sewers|Island|Swamp|Wasteland"></mtg-cards>
 
 You don't really have to think about tuning the mana base because it's always the same 19.
@@ -200,12 +199,17 @@ And of course you play four Wastelands, especially now that Harbingers don't kil
 The only possible adaptation is if you have a bigger build, for example with Dauthi Voidwalkers instead of Nethergoyfs, you can add a second Undercity Sewers as a 20th land and go down to two Daze.
 The second Sewers also makes you look like Reanimator and if you dont play Goyf, high-level opponents may sideboard incorrectly.
 
-#### Core Cards
+### Tempo Core
 
 <mtg-cards names="Force of Will|Daze|Wasteland|Ponder|Brainstorm"></mtg-cards>
 
 We are a blue Tempo deck so no surprises here, all four-offs except only three Daze because we are slightly slower then red Tempo and have 19 lands.
 
+#### Brainstorm
+Flipping Tamiyo T2 means a T5 ultimate if not stopped  which mostly wins the game.
+Don't forget to play around Orcish Bowmasters.
+
+### Threats
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Murktide Regent|Barrowgoyf"></mtg-cards>
 
 There is the basic core of Nethergoyfs and Tamiyo's and Orcish Bowmasters.
@@ -214,8 +218,22 @@ Some people play less Nethergoyfs and play more Baleful Strix but here I only co
 You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
-<mtg-cards names="Tamiyo, Inquisitive Student|Orcish Bowmasters|Brainstorm"></mtg-cards>
+#### Nethergoyf
+<mtg-cards names="Nethergoyf|Murktide Regent|Rest in Peace"></mtg-cards>
 
+People were initially skeptical but most play 4 now for good reasons.
+Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
+Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Peace, Nihil Spellbomb, Leyline of the Void, Dauthi Voidwalker).
+Against Izzet try to play at 3/4 or with instant speed growth to 3/4.
+Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
+Sometimes you don’t have a land in the graveyard and it’s good to fetch before attacking.
+Against damage based removal, consider delaying Nethergoyf until it survives. For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
+You can force a delirious DRC to attack, then clear their graveyard with Nihil Spellbomb in the attack step, then block and kill it with Nethergoyf.
+Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play.
+
+#### Tamiyo, Inquisitive Student
+
+<mtg-cards names="Tamiyo, Inquisitive Student|Orcish Bowmasters|Brainstorm"></mtg-cards>
 Bowmastering at their end step to draw the Brainstorm out is OK sometimes.
 APNAP comes into play: Active players triggers go on stack first.
 On their turn if they Brainstorm you play Bowmasters, ping something, they draw 3 triggering Bowmasters 3 times and triggering Tamiyo's flip, resolve brainstorm, flip goes on stack, then your 3 Bowmasters triggers, and hopefully kill their Tamiyo, so probably not a good play, but on our turn these triggers are switched.
@@ -223,20 +241,38 @@ This allows you to consider flipping Tamiyo at odd times in the face of a Bowman
 Often against Bowmasters mirrors, just using your mana efficiently to sorcery speed a clue away from Bowmasters mana is correct.
 If the opponent chump blocks with the Orc Army Token and it doesn't change the result (e.g. you attack with a 3/4 Nethergoyf into a 1/1 token) that can be a great timing to crack a clue without giving the opponent more than one damage.
 
-<mtg-cards names="Nethergoyf|Murktide Regent|Rest in Peace"></mtg-cards>
+#### Orcish Bowmasters
+<mtg-todo></mtg-todo>
 
-People were initially skeptical but most play 4 now for good reasons.
-Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
-Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Peace, Nihil Spellbomb, Leyline of the Void, Dauthi Voidwalker).
-Against Izzet try to play at 3/4 or with instant speed growth to 3/4.
-
-##### Murktide Regent vs Barrowgoyf
+##### Murktide Regent or Barrowgoyf
 Murktide kills faster against combo and control but Barrowgoyf stabilizes extremely well.
-Murktide is immune to Fatal Push but dies to Pyroblast.
-Barrowgoyfs main can free a sideboard slot but can backfire against UB Reanimator.
+The current meta is high on Fatal Push which is why Murktide is often a great counter to the meta removal, however it dies to Pyroblast.
+Barrowgoyfs main can free a sideboard slot but it can backfire against UB Reanimator because they might discard or kill it and then reanimate it.
 Blue count g1 is a consideration here, how many decks in the upper meta is Barrowgoyf good against vs Murktide?
 Murktide: Reanimator, Izzet, UB Tempo, Oops, can mention others but those are the main perks.
 Barrowgoyf: Red Stompy, Izzet, UB Tempo.
+
+### Removal
+
+#### Fatal Push
+<mtg-card name="Fatal Push"/>
+
+Kills most relevant creatures in Legacy, so play 4.
+Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nadu are relevant in the matchup.
+Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod. 
+You can target any creature with Fatal Push, even if it doesn’t have an effect.
+
+#### Shoot the Sheriff
+Does not hit Brazen Borrower and Broadside Bombardiers. 
+
+#### Go for the Throat
+Relevant artifact creatures: Constructs, Painter’s Servant, 
+
+#### Sheoldred's Edict
+Kaito is not a planeswalker on the owners turn, you need to choose creature in that case!
+So if they have an additional creature you need to wait until your turn to remove it.
+Creatures with Flash can make it unreliable, like Orcish Bowmasters, Endurance or half of Death and Taxes.
+
 
 ##### Brazen Borrower
 <mtg-card name="Brazen Borrower // Petty Theft"/>
@@ -247,14 +283,6 @@ Maybe Wizards will print a UB command in the future?
 Can also bait an opponent to play Orcish Bowmasters on the 3/1, allowing you to follow up with your own Bowmasters.
 You can also build your own Vindicate with Petty Theft + Thoughtseize.
 
-##### Fatal Push
-<mtg-card name="Fatal Push"/>
-
-Kills most relevant creatures in Legacy, so play 4.
-
-##### Cantrips
-
-Core cantrips, 4 of each are required, but I sometimes board out a Ponder.
 
 ##### Kaito, Bane of Nightmares
 <mtg-card name="Kaito, Bane of Nightmares"/>
@@ -271,6 +299,11 @@ Remember you can ninjutsu your Kaito with another Kaito.
 ##### Nihil Spellbomb
 <mtg-card name="Nihil Spellbomb"/>
 
+Great T1 nonsense protection in the current meta.
+Even if you see them as something else online, everyone seems to play Reanimator now.
+Doesn't stop LED -> Echo but stops 2 LED -> 2 Echos together with a Force.
+Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters. 
+
 Besides the obvious applications it also grows your own Murktide Regent.
 You must consider Spellbombing when the opponent could play Murktide Regent next turn, so pay attention to the number of cards in your opponents graveyard.
 Against Reanimator you need a bit more nuance here, can you beat Murktide otherwise?
@@ -278,7 +311,6 @@ Do you have FoW?
 Can you afford to unlock their graveyard?
 Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desirable or not.
 Are you about to draw a push and you have Hydroblast in hand but they have a red creature and a problematic red permanent for example.
-
 
 <!--
 A bit expensive but great against control and also in fair matchups that don’t swarm with creatures, so it feels more widely applicable than Court of Cunning and other anti-control cards.
@@ -434,46 +466,10 @@ I need to smell blood or have good information to blindly wasteland the opponent
 
 <mtg-cards names="Nethergoyf|Fatal Push|Shoot the Sheriff|Go for the Throat"></mtg-cards>
 
-### Nethergoyf
-Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
-Sometimes you don’t have a land in the graveyard and it’s good to fetch before attacking.
-Against damage based removal, consider delaying Nethergoyf until it survives. For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
-You can force a delirious DRC to attack, then clear their graveyard with Nihil Spellbomb in the attack step, then block and kill it with Nethergoyf.
-Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play.
-
-### Fatal Push
-
-Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nadu are relevant in the matchup.
-Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod. 
-You can target any creature with Fatal Push, even if it doesn’t have an effect.
-
-### Shoot the Sheriff
-Does not hit Brazen Borrower and Broadside Bombardiers. 
-
-### Go for the Throat
-Relevant artifact creatures: Constructs, Painter’s Servant, 
-
-### Sheoldred's Edict
-
-Kaito is not a planeswalker on the owners turn, you need to choose creature in that case!
-So if they have an additional creature you need to wait until your turn to remove it.
-Creatures with Flash can make it unreliable, like Orcish Bowmasters, Endurance or half of Death and Taxes.
-
-### Brainstorm
-Flipping Tamiyo T2 means a T5 ultimate if not stopped  which mostly wins the game.
-Don't forget to play around Orcish Bowmasters.
-
-### Murktide Regent
-The current meta is high on fatal push which is why Murktide is often a great counter to the meta removal.
-
 ### Counterbalance
 Personal pet card but I don't play it without Delver because you don’t have 4 DRC and 4 Mishra’s Bauble, so you only have Brainstorm (reactively), Ponder (proactively), and Fetchland + maybe Scryland (hopefully).
 It’s great against all kinds of blue cantrip decks, whether it’s combo, control or tempo.
 
-### Nihil Spellbomb
-Great T1 nonsense protection in the current meta. Even if you see them as something else online, everyone seems to play Reanimator now.
-Doesn't stop LED -> Echo.
-Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters. 
 
 ## Opponent Card Guide
 
@@ -603,6 +599,7 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
+### Turbo Reanimator
 <mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
 
 In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
@@ -699,7 +696,8 @@ Barrowgoyf has been discussed at length in this guide, and I will address its me
 <mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
 
 I will focus the majority of this section on removal spell choices.
-There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard. Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
+There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard.
+Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
 
 <mtg-cards names="Sheoldred's Edict"></mtg-cards>
 
@@ -720,13 +718,17 @@ Dismember is a card that I have seen others play in the past as a way to deal wi
 The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active Bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
 
 <mtg-cards names="Bitter Triumph"></mtg-cards>
-Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember. It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
-
+Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember.
+It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
 I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
 
 
 <mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
-These two cards are essentially the same, and reminiscent of Doom Blade, in that they ask "What kind of creature are you fine with being unable to kill?" While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones. Shoot the Sheriff cannot kill Dauthi Voidwalker or Broadside Bombardiers, and Go for the Throat cannot kill Construct tokens. If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for. Your local meta will inform your choice. I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
+These two cards are essentially the same, and reminiscent of Doomblade, in that they ask "What kind of creature are you fine with being unable to kill?"
+While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones.
+Shoot the Sheriff cannot kill Dauthi Voidwalker or Broadside Bombardiers, and Go for the Throat cannot kill Construct tokens.
+If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for.
+Your local meta will inform your choice. I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
 
 I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
 

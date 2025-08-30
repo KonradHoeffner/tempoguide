@@ -14,13 +14,24 @@
     font-weight: 700;
     font-size: large;
   }
-  img.card {
+  mtg-card img {
     max-width: 25%;
-    max-height:40vh;
+    max-height: 40vh;
+    display: inline-block;
   }
 </style>
 <script>
 const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
+
+class Cards extends HTMLElement {
+    constructor() {super();}
+
+    async connectedCallback() {
+        this.innerHTML = this.getAttribute('names').split("|")
+            .map(name => `<mtg-card name="${name}"></mtg-card>`)
+            .join("");
+    }
+}
 
 class Card extends HTMLElement {
     constructor() {super();}
@@ -88,6 +99,7 @@ class Cite extends HTMLElement {
 }
 
 customElements.define('mtg-card', Card);
+customElements.define('mtg-cards', Cards);
 customElements.define('youtube-video', YoutubeVideo);
 customElements.define('mtg-todo', Todo);
 customElements.define('mtg-cite', Cite);
@@ -96,14 +108,10 @@ customElements.define('mtg-cite', Cite);
 
 **DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
-<div>
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Kaito, Bane of Nightmares"/>
-<mtg-card name="Daze"/>
-<mtg-card name="Wasteland"/>
-</div>
+<mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
+
+* Table of Contents
+{:toc}
 
 ## Stock List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
@@ -152,15 +160,7 @@ Short notes on how I deviate any given week from the stock list for the current 
 
 ## Card Choices
 
-### Mana Base
-<mtg-card name="Underground Sea"/>
-<mtg-card name="Polluted Delta"/>
-<mtg-card name="Flooded Strand"/>
-<mtg-card name="Bloodstained Mire"/>
-<mtg-card name="Undercity Sewers"/>
-<mtg-card name="Island"/>
-<mtg-card name="Swamp"/>
-<mtg-card name="Wasteland"/>
+<mtg-cards names="Underground Sea|Polluted Delta|Flooded Strand|Bloodstained Mire|Undercity Sewers|Island|Swamp|Wasteland"></mtg-cards>
 
 You don't really have to think about tuning the mana base because it's always the same 19.
 You have four Underground Sea, four Polluted Delta, basic Island, basic Swamp, Undercity Sewers.
@@ -173,21 +173,11 @@ The second Sewers also makes you look like Reanimator and if you dont play Goyf,
 
 ### Core Cards
 
-#### Tempo Shell
-<mtg-card name="Force of Will"/>
-<mtg-card name="Daze"/>
-<mtg-card name="Wasteland"/>
-<mtg-card name="Ponder"/>
-<mtg-card name="Brainstorm"/>
+<mtg-cards names="Force of Will|Daze|Wasteland|Ponder|Brainstorm"></mtg-cards>
 
 We are a blue Tempo deck so no surprises here, all four-offs except only three Daze because we are slightly slower then red Tempo and have 19 lands.
 
-#### Creatures
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Murktide Regent"/>
-<mtg-card name="Barrowgoyf"/>
+<mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Murktide Regent|Barrowgoyf"></mtg-cards>
 
 There is the basic core of Nethergoyfs and Tamiyo's and Orcish Bowmasters.
 You play at least three of each but I always play 4 Nethergoyf and 4 Orcish Bowmasters.
@@ -195,10 +185,7 @@ Some people play less Nethergoyfs and play more Baleful Strix but here I only co
 You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
-#### Tamiyo, Inquisitive Student
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Brainstorm"/>
+<mtg-cards names="Tamiyo, Inquisitive Student|Orcish Bowmasters|Brainstorm"></mtg-cards>
 
 Bowmastering at their end step to draw the Brainstorm out is OK sometimes.
 APNAP comes into play: Active players triggers go on stack first.
@@ -207,11 +194,7 @@ This allows you to consider flipping Tamiyo at odd times in the face of a Bowman
 Often against Bowmasters mirrors, just using your mana efficiently to sorcery speed a clue away from Bowmasters mana is correct.
 If the opponent chump blocks with the Orc Army Token and it doesn't change the result (e.g. you attack with a 3/4 Nethergoyf into a 1/1 token) that can be a great timing to crack a clue without giving the opponent more than one damage.
 
-#### Nethergoyf
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Murktide Regent"/>
-<mtg-card name="Rest in Peace"/>
-<mtg-card name="Rest in Peace"/>
+<mtg-cards names="Nethergoyf|Murktide Regent|Rest in Peace"></mtg-cards>
 
 People were initially skeptical but most play 4 now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
@@ -282,12 +265,7 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 <mtg-card name=""/>
 -->
 
-### Niche Cards
-<mtg-card name="Mishra's Bauble"/>
-<mtg-card name="Dauthi Voidwalker"/>
-<mtg-card name="Baleful Strix"/>
-<mtg-card name="Stock Up"/>
-<mtg-card name="Hymn to Tourach"/>
+<mtg-cards names="Mishra's Bauble|Dauthi Voidwalker|Baleful Strix|Stock Up|Hymn to Tourach"></mtg-cards>
 
 * Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
 
@@ -309,24 +287,7 @@ Eco:
 
 ## Sideboard
 
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Cursed Totem"/>
-<mtg-card name="Counterbalance"/>
-<mtg-card name="Damping Sphere"/>
-<mtg-card name="Engineered Explosives"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Null Rod"/>
-<mtg-card name="Pithing Needle"/>
-<mtg-card name="Spell Pierce"/>
-<mtg-card name="Flusterstorm"/>
-<mtg-card name="Subtlety"/>
-<mtg-card name="Thoughtseize"/>
-<mtg-card name="Toxic Deluge"/>
-<mtg-card name="Tsabo's Web"/>
+<mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
 Eco:
 
@@ -349,7 +310,7 @@ Eco:
 * Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
-<mtg-card name="Tsabo's Web"/>
+<mtg-cards names="Tsabo's Web"></mtg-cards>
 <mtg-cite name="Minyafriend">
 I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
 Current lands does not get punished enough by this card.
@@ -357,48 +318,36 @@ Pithing needle seems better if you want to stay UB and stop land strats.
 </mtg-cite>
 
 
-<mtg-card name="Disruptor Flute"/>
-<mtg-card name="Pithing Needle"/>
+<mtg-cards names="Disruptor Flute|Pithing Needle"></mtg-cards>
 <mtg-cite name="Happysappyclappy">
 I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
 Flute also synergizes effectively with Thoughtseize, enhancing its utility.
 Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
 </mtg-cite>
 
-### Graveyard Hate
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Ghost Vacuum"/>
-<mtg-card name="Unlicensed Hearse"/>
+<mtg-cards names="Grafdigger's Cage|Nihil Spellbomb|Faerie Macabre|Ghost Vacuum|Unlicensed Hearse"></mtg-cards>
 
-|                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     |
-|---------------------|------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Leyline of the Void | 0    | yes                   |                                                                                                                                                                                                         | enchantment removal, bounce                     |
-| Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi.                                                                                               | discard, Stifle                                 |
-| Surgical Extraction | 0    | no                    | Also good against Life from the Loam and Uro, combat trick for Nethergoyf, in rare cases discard and win condition library removal. Can be bought back by Tamiyo.                                       | discard, countermagic                           |
-| Nihil Spellbomb     | 1    | depends               | Cantrips. Great support to kill opposing Dragon's Rage Channeler's and Nethergoyfs. Can prevent Murktide Regent.                                                                                        | EE on 1, artifact removal, bounce, countermagic |
-| Grafdigger's Cage   | 1    | yes                   | Stops Green Sun's Zenith and Mystic Forge but not Living End and Beseech the Mirror! Also prevents them from reanimating out of your own graveyard but also stops your own Nethergoyf from coming back. | EE on 1, artifact removal, bounce, countermagic |
-| Ghost Vacuum        | 1    | no                    | Win condition in the rare case you get to 6 mana. Often prevents Delirium and Murktide Regent.                                                                                                          | EE on 1, artifact removal, bounce, countermagic |
-| Unlicensed Hearse   | 2    | no                    | Can eventually attack and block so you don't risk overboarding against hybrid decks. Almost always prevents Delirium and Murktide Regent.                                                               | artifact removal, bounce, countermagic          |
-| Dauthi Voidwalker   | 2    | yes                   | Also a clock and can use their opponent's cards against them. Keeps Dragon's Rage Channeler and Nethergoyf small and prevents Murktide Regent if played early enough.                                   | creature removal, bounce, countermagic          |
+|                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     "></mtg-cards>
+|---------------------|------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------"></mtg-cards>
+| Leyline of the Void | 0    | yes                   |                                                                                                                                                                                                         | enchantment removal, bounce                     "></mtg-cards>
+| Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi.                                                                                               | discard, Stifle                                 "></mtg-cards>
+| Surgical Extraction | 0    | no                    | Also good against Life from the Loam and Uro, combat trick for Nethergoyf, in rare cases discard and win condition library removal. Can be bought back by Tamiyo.                                       | discard, countermagic                           "></mtg-cards>
+| Nihil Spellbomb     | 1    | depends               | Cantrips. Great support to kill opposing Dragon's Rage Channeler's and Nethergoyfs. Can prevent Murktide Regent.                                                                                        | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
+| Grafdigger's Cage   | 1    | yes                   | Stops Green Sun's Zenith and Mystic Forge but not Living End and Beseech the Mirror! Also prevents them from reanimating out of your own graveyard but also stops your own Nethergoyf from coming back. | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
+| Ghost Vacuum        | 1    | no                    | Win condition in the rare case you get to 6 mana. Often prevents Delirium and Murktide Regent.                                                                                                          | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
+| Unlicensed Hearse   | 2    | no                    | Can eventually attack and block so you don't risk overboarding against hybrid decks. Almost always prevents Delirium and Murktide Regent.                                                               | artifact removal, bounce, countermagic          "></mtg-cards>
+| Dauthi Voidwalker   | 2    | yes                   | Also a clock and can use their opponent's cards against them. Keeps Dragon's Rage Channeler and Nethergoyf small and prevents Murktide Regent if played early enough.                                   | creature removal, bounce, countermagic          "></mtg-cards>
 
 * Grafdigger's Cage Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options. It's also one of the few cards that completely shuts down 
 * Nihil Spellbomb: Mostly played in the main deck because it replaces itself and pumps Nethergoyf but you could also put it in the side.
 
 ## Not Recommended Sideboard Cards
 
-<mtg-card name="Winter Orb"/>
-<mtg-card name="Winter Moon"/>
-<mtg-card name="Emrakul, the Aeons Torn"/>
-<mtg-card name="Court of Cunning"/>
-<mtg-card name="Court of Locthwain"/>
-<mtg-card name="Liliana of the Veil"/>
+<mtg-cards names="Winter Orb|Winter Moon|Emrakul, the Aeons Torn|Court of Cunning|Court of Locthwain|Liliana of the Veil"></mtg-cards>
 
 As someone who experiments a lot with off meta sideboard cards I want to tell you what doesn't work to make future exploration easier.
 
-<mtg-card name="Winter Orb"/>
-<mtg-card name="Winter Moon"/>
+<mtg-cards names="Winter Orb|Winter Moon"></mtg-cards>
 
 <mtg-cite name="Eco">
 Winter Orb used to see play out of aggressive daze decks to force the opponent to play on your terms while you attack them with a Delver. These days, Blue/Black Tempo is closer to a Midrange deck and can’t take advantage of it - mainly due to Tamiyo’s clues and 3-drops. 
@@ -465,11 +414,7 @@ Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our 
 I need to smell blood or have good information to blindly wasteland the opponent.
 </mtg-cite>
 
-## Own Card Guide
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Shoot the Sheriff"/>
-<mtg-card name="Go for the Throat"/>
+<mtg-cards names="Nethergoyf|Fatal Push|Shoot the Sheriff|Go for the Throat"></mtg-cards>
 
 ### Nethergoyf
 Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
@@ -541,14 +486,7 @@ Wasteland on the opponents turn if you have FoN in hand, even if they have no ma
 
 ### Shrinking and Growing Creatures
 
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Murktide Regent"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Dragon's Rage Channeler"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Undercity Sewers"/>
+<mtg-cards names="Nethergoyf|Barrowgoyf|Murktide Regent|Nihil Spellbomb|Dragon's Rage Channeler|Tamiyo, Inquisitive Student|Orcish Bowmasters|Undercity Sewers"></mtg-cards>
 
 Both UB tempo and many other meta decks have lots of variable-sized creatures, mostly related to card types in the graveyard.
 
@@ -565,10 +503,7 @@ Undercity Sewers can be a hail Mary to hope for a favorable flip or you may even
 
 ### Threats First or Later
 
-<mtg-card name="Thoughtseize"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Ponder"/>
-<mtg-card name="Nethergoyf"/>
+<mtg-cards names="Thoughtseize|Tamiyo, Inquisitive Student|Ponder|Nethergoyf"></mtg-cards>
 
 If you come from a control background you probably prefer to set up with cantrips early but early threats can snowball the game much better, especially Tamiyo.
 Of course this heavily depends on the matchup, for example vs Oops your best T1 play is Nihil Spellbomb and your second best is Thoughtseize.
@@ -580,34 +515,15 @@ Orcish Bowmasters are often better later in Bowmaster mirrors but against decks 
 The deck is generally good against linear combo and red-based tempo decks but struggles against bigger fair decks.
 Some weaknesses can be adressed with sideboarding but not all at the same time.
 
-### Good Matchups
-<mtg-card name="Questing Druid // Seek the Beast"/>
-<mtg-card name="Sneak Attack"/>
-<mtg-card name="Balustrade Spy"/>
-<mtg-card name="Necrodominance"/>
-<mtg-card name="High Tide"/>
-<mtg-card name="Glistener Elf"/>
-<mtg-card name="Crashing Footfalls"/>
-<mtg-card name="Doomsday"/>
+<mtg-cards names="Questing Druid // Seek the Beast|Sneak Attack|Balustrade Spy|Necrodominance|High Tide|Glistener Elf|Crashing Footfalls|Doomsday"></mtg-cards>
 
-### Even
-<mtg-card name="Cori-Steel Cutter"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
-<mtg-card name="Blood Moon"/>
-<mtg-card name="Cephalid Illusionist"/>
-<mtg-card name="Allosaurus Shepherd"/>
-<mtg-card name="Golgari Grave-Troll"/>
-<mtg-card name="Painter's Servant"/>
-<mtg-card name="Omniscience"/>
+<mtg-cards names="Cori-Steel Cutter|Atraxa, Grand Unifier|Blood Moon|Cephalid Illusionist|Allosaurus Shepherd|Golgari Grave-Troll|Painter's Servant|Omniscience"></mtg-cards>
 
 ### Bad Matchups
-<!-- aggro -->
-<mtg-card name="Ajani, Nacatl Pariah"/>
-<mtg-card name="Goblin Lackey"/>
-<mtg-card name="Flickerwisp"/>
-<mtg-card name="Gaea's Cradle"/>
 
-<mtg-card name="Nadu, Winged Wisdom"/><!-- bant nadu and nadu elves-->
+<mtg-cards names="Ajani, Nacatl Pariah|Goblin Lackey|Flickerwisp|Gaea's Cradle"></mtg-cards>
+
+<mtg-cards names="Nadu, Winged Wisdom|<!-- bant nadu and nadu elves-->
 <mtg-card name="Mystic Forge"/>
 <mtg-card name="Cloudpost"/>
 <mtg-card name="Smallpox"/>
@@ -623,11 +539,7 @@ Some weaknesses can be adressed with sideboarding but not all at the same time.
 
 ### UB Reanimator (20% Meta game)
 
-<mtg-card name="Reanimate"/>
-<mtg-card name="Entomb"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
-<mtg-card name="Archon of Cruelty"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
+<mtg-cards names="Reanimate|Entomb|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
 
 The currently most played and probably strongest deck even after the Grief, Frog and Troll bans is a tempo combo hybrid that puts you in constant danger from two angles:
 If you keep or even mulligan to a hand with grave hate and Force of Will, they may just out-tempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf.
@@ -669,9 +581,7 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 ##### In
 
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Sheoldred's Edict"/>
+<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Sheoldred's Edict"></mtg-cards>
 
 All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
 Don’t board in FoN as it’s not good against their fair plan and also avoid Consign to Memory, as they probably board out Animate Dead.
@@ -684,16 +594,7 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
-### Turbo Reanimator
-<mtg-card name="Unmask"/>
-<mtg-card name="Dark Ritual"/>
-<mtg-card name="Lotus Petal"/>
-<mtg-card name="Entomb"/>
-<mtg-card name="Animate Dead"/>
-<mtg-card name="Reanimate"/>
-<mtg-card name="Griselbrand"/>
-<mtg-card name="Archon of Cruelty"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
 
 In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
 While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivised to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
@@ -701,10 +602,7 @@ Nihil Spellbomb is extremely strong in game 1.
 
 <youtube-video id="X17fCga0pWE" t="3785"/>
 
-#### Postboard Pivots
-<mtg-card name="Show and Tell"/>
-<mtg-card name="Stronghold Gambit"/>
-<mtg-card name="Witherbloom Apprentice"/>
+<mtg-cards names="Show and Tell|Stronghold Gambit|Witherbloom Apprentice"></mtg-cards>
 
 Because Turbo Reanimator is much more all in and vulnerable to graveyard hate then UB Reanimator, they often do a full or partial juke (pivot) to a different strategy.
 Your generic combo hate, like Thoughtseize, Force of Will and Force of Negation, works against most of them so you should still be favored even if you hedge for a pivot that they don't do.
@@ -712,17 +610,11 @@ Their splash colors restrict which pivots they have access to:
 Blue for Show and Tell, green for Chain of Smog + Witherbloom Apprentice, red for Stronghold Gambit (probably not good against you).
 Theoretically they could also pivot to castable non-combo creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalker and Opposition Agent but I rarely see that.
 
-#### Chain of Smog Combo
-<mtg-card name="Witherbloom Apprentice"/>
-<mtg-card name="Chain of Smog"/>
-<mtg-card name="Spoils of the Vault"/>
+<mtg-cards names="Witherbloom Apprentice|Chain of Smog|Spoils of the Vault"></mtg-cards>
 
 Often paired with Spoils of the Vault, this two-card combo kills you immediately by draining you for unlimited life points.
 
-<mtg-card name="Force of Will"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Daze"/>
-<mtg-card name="Chain of Smog"/>
+<mtg-cards names="Force of Will|Force of Negation|Daze|Chain of Smog"></mtg-cards>
 
 The copy effect is not a trigger that you can Stifle or Consign to Memory but instead happens on resolution.
 This means that you can safely let them discard their hand first and then Force or Daze afterwards if you have enough life to spare.
@@ -734,9 +626,7 @@ Not usually, but sometimes.
 I've certainly used Smog as a self discard outlet to then reanimate a creature before.
 </mtg-cite>
 
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Witherbloom Apprentice"/>
+<mtg-cards names="Fatal Push|Sheoldred's Edict|Witherbloom Apprentice"></mtg-cards>
 
 If your interaction is a removal spell instead, you can still let them empty their hand but they can always make you discard two cards afterwards.
 
@@ -746,8 +636,7 @@ In rare cases they may not, like if you push the creature while they still have 
 But most of the time it's correct to let them discard their hand first and then they'll generally always point it at you after their creature is dead.
 </mtg-cite>
 
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Witherbloom Apprentice"/>
+<mtg-cards names="Brazen Borrower // Petty Theft|Witherbloom Apprentice"></mtg-cards>
 
 <mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
 In that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
@@ -756,11 +645,7 @@ The final Smog copy will force them to discard their own Apprentice anyways, and
 
 #### Sideboarding vs BG
 
-##### In
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
+<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Consign to Memory"></mtg-cards>
 
 ##### Out
 
@@ -768,20 +653,13 @@ They probably board out some or all Griselbrands, so Bowmasters are quite useles
 I'm not sure about Consign because it's only really good vs Animate Dead and they may board that out.
 Theoretically you could also Consign an Atraxa or Archon trigger and then tap it Petty Theft or stun with Kaito.
 
-<mtg-card name="Orcish Bowmasters"/>
+<mtg-cards names="Orcish Bowmasters"></mtg-cards>
 
 #### Sideboarding vs BR
 
-##### In
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Hydroblast"/>
+<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Consign to Memory|Hydroblast"></mtg-cards>
 
-##### Out
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Fatal Push"/>
+<mtg-cards names="Orcish Bowmasters|Fatal Push"></mtg-cards>
 
 
 
@@ -806,25 +684,19 @@ In the mirror, we share most cards with our opponent, depending on whether they 
 +2 Barrowgoyf
 +2 Removal.
 
-<mtg-card name="Barrowgoyf"/>
+<mtg-cards names="Barrowgoyf"></mtg-cards>
 Barrowgoyf has been discussed at length in this guide, and I will address its merits again shortly.
 
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Bitter Triumph"/>
-<mtg-card name="Dismember"/>
+<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
 
 I will focus the majority of this section on removal spell choices.
 There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard. Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
 
-<mtg-card name="Sheoldred's Edict"/>
+<mtg-cards names="Sheoldred's Edict"></mtg-cards>
 
 Let's take a look at some of the things that Sheoldred's Edict answers:
 
-<mtg-card name="Tamiyo, Seasoned Scholar"/>
-<mtg-card name="Kaito, Bane of Nightmares"/>
-<mtg-card name="Murktide Regent"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Orcish Bowmasters"/>
+<mtg-cards names="Tamiyo, Seasoned Scholar|Kaito, Bane of Nightmares|Murktide Regent|Barrowgoyf|Orcish Bowmasters"></mtg-cards>
 
 * Flipped Tamiyo: Something that will end the game if not answered, or at the very least, accumulate value with the pseudo-regrowth effect and create a sub-game that takes pressure off of life total. 
 * Kaito (creature): Kaito has hexproof during the controller's turn, so Sheoldred's Edict is the only 2 mana removal spell I have included in this section that offers an answer to Kaito in creature form. This relies on the opponent not having any other non-token creatures in play, so be cautious if they have 2 mana available. It would be disastrous to have your edict blown out by a Bowmaster when you could have just waited until your own turn to have them sacrifice a planeswalker.
@@ -833,19 +705,18 @@ Let's take a look at some of the things that Sheoldred's Edict answers:
 * Barrowgoyf: Barrowgoyf is a must-answer threat. It provides large life total swings, trades with anything that blocks it, provided there is at least 1 card among both graveyards, fuels the yard for Murktide, and can provide card advantage by finding additional threats. Thankfully, there are more answers to Barrowgoyf than Murktide in the mirror. Revolt is reasonable to gain access to thanks to Wasteland, fetches, clue tokens, etc, so Fatal Push is often live against Barrowgoyf. Sheoldred's Edict works much the same as an answer to Barrowgoyf as it does to Murktide, and the same precautionary measures should be taken.
 * Orcish Bowmasters: If you are in dire circumstances, Sheoldred's Edict offers a choice to remove either the Bowmaster, or a large orc army token that may have grown as a result of desperation digging with Brainstorm or Ponder. You have to do what you have to do, and win is a win, whether you crushed your opponent or barely clawed your way to victory. In the UB Tempo mirror, you are more likely to encounter the latter.
 
-<mtg-card name="Dismember"/>
+<mtg-cards names="Dismember"></mtg-cards>
 Dismember is a card that I have seen others play in the past as a way to deal with a resolved Magus of the Moon in 3+ color decks without access to a basic swamp. This is an insufficient argument for the inclusion of Dismember when we have access to one of each basic in our colors. I find Dismember to be unreliable in killing Murktide and to a lesser extent, Barrowgoyf. It is worth mentioning that Dismember can be used as a combat trick to allow your creatures to survive and set up favorable trades, or in combination with a timely Bowmaster ping to remove a 6 toughness creature.
 
 The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active Bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
 
-<mtg-card name="Bitter Triumph"/>
+<mtg-cards names="Bitter Triumph"></mtg-cards>
 Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember. It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
 
 I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
 
 
-<mtg-card name="Shoot the Sheriff"/>
-<mtg-card name="Go for the Throat"/>
+<mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
 These two cards are essentially the same, and reminiscent of Doom Blade, in that they ask "What kind of creature are you fine with being unable to kill?" While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones. Shoot the Sheriff cannot kill Dauthi Voidwalker or Broadside Bombardiers, and Go for the Throat cannot kill Construct tokens. If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for. Your local meta will inform your choice. I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
 
 I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
@@ -857,15 +728,7 @@ It's sometimes hard to know whether you are versing the mirror or UB Reanimator 
 The second Undercity Sewers is also an indicator but not always. 
 When in doubt it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
 
-### Oops All Spells
-<mtg-card name="Dark Ritual"/>
-<mtg-card name="Elvish Spirit Guide"/>
-<mtg-card name="Balustrade Spy"/>
-<mtg-card name="Undercity Informer"/>
-<mtg-card name="Poxwalkers"/>
-<mtg-card name="Narcomoeba"/>
-<mtg-card name="Dread Return"/>
-<mtg-card name="Thassa's Oracle"/>
+<mtg-cards names="Dark Ritual|Elvish Spirit Guide|Balustrade Spy|Undercity Informer|Poxwalkers|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>
 
 This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
 Take your time, mulligan to enough turn 1 interaction and never give them an opening to combo.
@@ -882,11 +745,7 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 
 ##### In
 
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Null Rod"/>
+<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Consign to Memory|Null Rod"></mtg-cards>
 
 Bring in all graveyard hate and countermagic including Force of Negation and Consign to Memory.
 With Force of Negation you may have to force Dark Ritual because their combo pieces are creatures.
@@ -895,22 +754,11 @@ Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens t
 
 #### Out
 
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Fatal Push"/>
+<mtg-cards names="Orcish Bowmasters|Fatal Push"></mtg-cards>
 
 Shave Wasteland if that isn't enough.
 
-### Red Stompy AKA Dragon Stompy AKA Red Prison
-<mtg-card name="Ancient Tomb"/>
-<mtg-card name="City of Traitors"/>
-<mtg-card name="Simian Spirit Guide"/>
-<mtg-card name="Chalice of the Void"/>
-<mtg-card name="Magus of the Moon"/>
-<mtg-card name="Blood Moon"/>
-<mtg-card name="Fable of the Mirror Breaker"/>
-<mtg-card name="Urza's Saga"/>
-<mtg-card name="Broadside Bombardiers"/>
-<mtg-card name="Pyrogoyf"/>
+<mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
 
 Slightly unfavored matchup but can be beat by fetching basics ASAP and focusing on staying alive through the early turns.
 Once you stop the initial onslaught you should be favoured as your cantrips give you better average draws but that's never a guarantee, they always have a chance to topdeck back-to-back threats and bury you.
@@ -918,15 +766,7 @@ Mulligan for T1 interaction (Thoughtseize/Daze/Force OTP, Force OTD) as you don'
 The tricky part is turning up the heat and killing them quickly as soon as you can afford to because of their overwhelming value with The One Ring and pressure.
 If you can stick Tamiyo or Kaito you may also switch into a control role but otherwise you will run out of interaction at some point when they jam a haymaker every other turn.
 
-##### In
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Blue Elemental Blast"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Engineered Explosives"/>
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Consign to Memory|Force of Negation|Sheoldred's Edict|Brazen Borrower // Petty Theft|Barrowgoyf|Engineered Explosives"></mtg-cards>
 
 Hydroblasts and Consign to Memory are extremely valuable in the matchup because they allow you to trade 1:1 which is very important as you often have to handle several threats in a row.
 Barrowgoyf is hard for them to handle and both the lifegain and the card advantage are sorely needed in the matchup.
@@ -936,11 +776,7 @@ I personally also bring in one or two Null Rods but that's debatable.
 Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
 </mtg-cite>
 
-#### Out
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Daze"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Thoughtseize"/>
+<mtg-cards names="Nihil Spellbomb|Daze|Orcish Bowmasters|Thoughtseize"></mtg-cards>
 
 <todo/>
 
@@ -953,15 +789,7 @@ If you need more room, shave Thoughtseize.
 <mtg-todo/>
 <youtube-video id="5AwtoVA4y0A" t="2080"/>
 
-### Cascade Crash
-<mtg-card name="Elvish Spirit Guide"/>
-<mtg-card name="Simian Spirit Guide"/>
-<mtg-card name="Shardless Agent"/>
-<mtg-card name="Violent Outburst"/>
-<mtg-card name="Crashing Footfalls"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Fire / Ice"/>
-<mtg-card name="Minsc & Boo, Timeless Heroes"/>
+<mtg-cards names="Elvish Spirit Guide|Simian Spirit Guide|Shardless Agent|Violent Outburst|Crashing Footfalls|Brazen Borrower // Petty Theft|Fire / Ice|Minsc & Boo, Timeless Heroes"></mtg-cards>
 
 One of our best aggro matchups because Nethergoyf and Fatal Push line up well against a pair of 4/4s.
 They have mainboard Force of Negation so consider casting important spells on their turn.
@@ -969,14 +797,7 @@ Be prepared to have your lands iced and your graveyard Endurance-d.
 
 #### Sideboarding
 
-##### In
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Engineered Explosives"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Flusterstorm"/>
+<mtg-cards names="Consign to Memory|Hydroblast|Force of Negation|Barrowgoyf|Engineered Explosives|Sheoldred's Edict|Flusterstorm"></mtg-cards>
 
 Postboard is even better because Consign to Memory is a clean answer to the cascade trigger and Hydroblast is very efficient as well.
 Barrowgoyf just completely outclasses their threats.
@@ -984,36 +805,19 @@ I rarely include it but if you do, Flusterstorm is amazing as well.
 They can prolong the game with Brazen Borrower but pitching Spirit Guides means that they should be empty handed quickly.
 Just be careful with postboard Mystical Dispute and Blood Moon if they even bring that in.
 
-##### Out
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Daze"/>
+<mtg-cards names="Nihil Spellbomb|Orcish Bowmasters|Daze"></mtg-cards>
 
 ### Initiative Stompy
 <mtg-todo/>
 
 
-### Lands (6%)
-<mtg-card name="Dark Depths"/>
-<mtg-card name="Thespian's Stage"/>
-<mtg-card name="Wasteland"/>
-<mtg-card name="Ghost Quarter"/>
-<mtg-card name="Urza's Saga"/>
-<mtg-card name="Maze of Ith"/>
-<mtg-card name="The Tabernacle at Pendrell Vale"/>
-<mtg-card name="Exploration"/>
-<mtg-card name="Life from the Loam"/>
-<mtg-card name="Mox Diamond"/>
+<mtg-cards names="Dark Depths|Thespian's Stage|Wasteland|Ghost Quarter|Urza's Saga|Maze of Ith|The Tabernacle at Pendrell Vale|Exploration|Life from the Loam|Mox Diamond"></mtg-cards>
 
 Bad matchup but can sometimes be beaten, especially with a quick Tamiyo ultimate (if you play around Karakas) and Kaito (cannot be Mazed) as they are hard to for them to handle.
 If they don't splash white and you can prevent Maze of Ith, a quick Murktide Regent can also work but ground combat with a mix of Nethergoyf and Bowmasters is less reliable due to Bojuka Bog, Tabernacle and constructs.
 Sometimes you can cut them off colored mana as they have surprisingly few of that (e.g. Wasteland on Yavimaya).
 
-<mtg-card name="Thespian's Stage"/>
-<mtg-card name="Dark Depths"/>
-<mtg-card name="Wasteland"/>
-<mtg-card name="Forest"/>
-<mtg-card name="Urza's Saga"/>
+<mtg-cards names="Thespian's Stage|Dark Depths|Wasteland|Forest|Urza's Saga"></mtg-cards>
 
 Creates two triggers when used on Dark Depths, which has an intervening if-clause.
 You can let the first one happen and then Wasteland the leftover Dark Depths after the legend rule takes effect to have them lose both lands.
@@ -1027,61 +831,40 @@ Stage can also copy Urza's Saga and then copy something else the next turn to ke
 #### Sideboarding
 Postboard it gets a little bit better because you have a lot of almost-blanks to board out and they don't gain much except maybe Choke, Endurance, Dismember and another Pithing Needle.
 
-##### In
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Engineered Explosives"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Surgical Extraction"/>
-<mtg-card name="Tsabo's Web"/>
+<mtg-cards names="Harbinger of the Seas|Force of Negation|Engineered Explosives|Brazen Borrower // Petty Theft|Sheoldred's Edict|Surgical Extraction|Tsabo's Web"></mtg-cards>
 
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Urza's Saga"/>
+<mtg-cards names="Harbinger of the Seas|Urza's Saga"></mtg-cards>
 
 Most players went off Harbingers since the Urza's Saga rules, but if you are one of the Harbinger-diehards you are in luck as it still massively improves the matchup.
 You only have to be careful about them getting a Saga to chapter two before Harbinger enters, so you might have to use Consign to Memory on the second chapter or Wasteland first (which admittedly is a big ask).
 
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Life from the Loam"/>
-<mtg-card name="Crop Rotation"/>
+<mtg-cards names="Force of Negation|Life from the Loam|Crop Rotation"></mtg-cards>
 
 Force of Negation is good because it prevents Life from the Loam from coming back.
 Consider Wastelanding them on their turn if you have FoN in hand in case they have Crop Rotation, which is almost always worth a force.
 
-<mtg-card name="Surgical Extraction"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Life from the Loam"/>
+<mtg-cards names="Surgical Extraction|Nihil Spellbomb|Life from the Loam"></mtg-cards>
 
 If there is a lot of lands in your meta it may be worth it to switch one of your graveyard hate pieces to Surgical Extraction.
 A single Surgical is nice against Loam and as you have so many dead cards like Push and Bowmasters it is surely better than those and can get rid of some other card as well in a pinch.
 Similarily, I would also keep Nihil Spellbomb in as it can sometimes weaken Life from the Loam as there are worse cards.
 
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Urza's Saga"/>
-<mtg-card name="Urza's Saga"/>
-<mtg-card name="Sphere of Resistance"/>
-<mtg-card name="Bojuka Bog"/>
-<mtg-card name="Endurance"/>
-<mtg-card name="Sejiri Steppe"/>
+<mtg-cards names="Consign to Memory|Urza's Saga|Urza's Saga|Sphere of Resistance|Bojuka Bog|Endurance|Sejiri Steppe"></mtg-cards>
 
 Consign to Memory is not great but still better than Bowmasters and Push.
 Using Consign on Dark Depths does not help as it immediately retriggers.
 However it can counter an artifact, one or multiple Saga triggers at the same time.
 It may also allow you to push for lethal by protecting your Nethergoyfs from a Bojuka Bog or Endurance trigger or counter the game deciding Sejiri Steppe trigger when you want to bounce or block the Marit Lage token.
 
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Sheoldred's Edict"/>
+<mtg-cards names="Brazen Borrower // Petty Theft|Sheoldred's Edict"></mtg-cards>
 
 Removal is generally bad against lands but Brazen Borrower (care for Sejiri Steppe) and Sheoldred's Edict (if there is no construct token) are some of the few that can get rid of Marit Lage.
 
-<mtg-card name="Tsabo's Web"/>
+<mtg-cards names="Tsabo's Web"></mtg-cards>
 
 You can try Tsabo's Web if there is a lot of lands (never tried it though and it's not recommended).
 
-##### Out
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Orcish Bowmasters"/>
+<mtg-cards names="Fatal Push|Orcish Bowmasters"></mtg-cards>
 
 As long as they don't play Elvish Reclaimer, Push does nothing else than removing a single construct.
 If you need more room, shave Daze.
@@ -1089,11 +872,7 @@ A single Barrowgoyf is also arguable as a way to survive constructs.
 
 ### BUG Beans
 
-<mtg-card name="Up the Beanstalk"/>
-<mtg-card name="Rakshasa's Bargain"/>
-<mtg-card name="Witherbloom Command"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Murktide Regent"/>
+<mtg-cards names="Up the Beanstalk|Rakshasa's Bargain|Witherbloom Command|Orcish Bowmasters|Murktide Regent"></mtg-cards>
 
 Super fun to play and much loved by the community but even with the new Rakshasa's Bargain it does seem to compete at the absolute top of the meta game right now so the play rate is currently not that high.
 Theoretically it is built to counter Tempo decks such as UB because it has more value while still having enough threats to not being clunky, but due to the high power level of the current UB cards it is still somewhat even, as Tamiyo or Kaito can often outvalue them if they don't have multiple Beans out.
@@ -1116,9 +895,7 @@ Fortunately they don't usually play more than one or at most two Carpets in the 
 
 ##### In
 
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Harbinger of the Seas"/>
+<mtg-cards names="Sheoldred's Edict|Barrowgoyf|Harbinger of the Seas"></mtg-cards>
 
 Sheoldred's Edict is much more flexible than Fatal Push because it can also kill Murktide and a flipped Tamiyo.
 We don't board in Force of Negation because it's too much card disadvantage and they play a lot of creatures too.
@@ -1127,9 +904,7 @@ Against nonstandard variations with 3-4 Uro instead or in addition to Murktide y
 
 ##### Out
 
-<mtg-card name="Daze"/>
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
+<mtg-cards names="Daze|Fatal Push|Brazen Borrower // Petty Theft"></mtg-cards>
 
 Fatal Push is bad against most of their deck but depending on your other removal you may need to keep two in depending on how many Tamiyos and Endurances they play.
 
@@ -1156,15 +931,7 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 ### Black Saga Storm (~ 1% Meta game)
 
-<mtg-card name="Dark Ritual"/>
-<mtg-card name="Mox Opal"/>
-<mtg-card name="Lion's Eye Diamond"/>
-<mtg-card name="Beseech the Mirror"/>
-<mtg-card name="Gaea's Will"/>
-<mtg-card name="Tendrils of Agony"/>
-<mtg-card name="Echo of Eons"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Urza's Saga"/>
+<mtg-cards names="Dark Ritual|Mox Opal|Lion's Eye Diamond|Beseech the Mirror|Gaea's Will|Tendrils of Agony|Echo of Eons|Orcish Bowmasters|Urza's Saga"></mtg-cards>
 
 <youtube-video id="WEhaPr-ua-o" t="4115"/>
 <youtube-video id="V1lHxege1h0" t="3169"/>
@@ -1192,60 +959,32 @@ Tamiyo is an out to Empty the Warrens goblin tokens but it’s often hard to fli
 
 #### Play Patterns and Interactions
 
-##### Soft Lock
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Null Rod"/>
+<mtg-cards names="Harbinger of the Seas|Null Rod"></mtg-cards>
 If they don't already have big creatures or a Saga on 2. this soft lock can only be broken by Elvish Spirit Guide + Boseiju, Who Endures or double Bowmaster trigger.
 
-##### The Nonbo
-<mtg-card name="Null Rod"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Clue"/>
+<mtg-cards names="Null Rod|Nihil Spellbomb|Clue"></mtg-cards>
 Especially painful if you lose to Empty the Warrens and stop your own Tamiyo flip, I always board out Nihil Spellbomb though.
 
-##### Stop the Wheels
-<mtg-card name="Lion's Eye Diamond"/>
-<mtg-card name="Lion's Eye Diamond"/>
-<mtg-card name="Echo of Eons"/>
-<mtg-card name="Echo of Eons"/>
-<mtg-card name="Force of Will"/>
-<mtg-card name="Faerie Macabre"/>
+<mtg-cards names="Lion's Eye Diamond|Lion's Eye Diamond|Echo of Eons|Echo of Eons|Force of Will|Faerie Macabre"></mtg-cards>
 You don't get priority after a Lion's Eye Diamond activation before an Echo of Eons cast but at least you can exile one with the other on the stack and then counter the first.
 
 #### Sideboarding
 
-#### In
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Null Rod"/>
-<mtg-card name="Engineered Explosives"/>
-<mtg-card name="Grafdigger's Cage"/>
+<mtg-cards names="Force of Negation|Consign to Memory|Null Rod|Engineered Explosives|Grafdigger's Cage"></mtg-cards>
 
 If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pierce, Mindbreak Trap and so on of course bring it all in.
 
 #### Out
 <mtg-card name="Fatal Push"/>
 
-#### Maybe
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Surgical Extraction"/>
-<mtg-card name="Faerie Macabre"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Swamp"/>
-<mtg-card name="Island"/>
+<mtg-cards names="Barrowgoyf|Nihil Spellbomb|Surgical Extraction|Faerie Macabre|Brazen Borrower // Petty Theft|Harbinger of the Seas|Swamp|Island"></mtg-cards>
 
 I have played this match a lot against an excellent player and we could not come to a conclusion for the last few slots, so make your own decision based on your opponents variant, play style and play/draw.
 The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre > Nihil Spellbomb.
 
 #### Cards they may have MB or SB
 
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Veil of Summer"/>
-<mtg-card name="Elvish Spirit Guide"/>
-<mtg-card name="Carpet of Flowers"/>
-<mtg-card name="Boseiju, Who Endures"/>
+<mtg-cards names="Orcish Bowmasters|Veil of Summer|Elvish Spirit Guide|Carpet of Flowers|Boseiju, Who Endures"></mtg-cards>
 
 
 * Their Plan: Beseech + Gaea’s Will, Echo + Tendrils, Echo + Bowmasters, Constructs, maybe Empty the Warrens
@@ -1260,13 +999,7 @@ Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your 
 
 ### Sneak and Show
 
-<mtg-card name="Ancient Tomb"/>
-<mtg-card name="Volcanic Island"/>
-<mtg-card name="Stock Up"/>
-<mtg-card name="Show and Tell"/>
-<mtg-card name="Sneak Attack"/>
-<mtg-card name="Emrakul, the Aeon's Torn"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-cards names="Ancient Tomb|Volcanic Island|Stock Up|Show and Tell|Sneak Attack|Emrakul, the Aeon's Torn|Atraxa, Grand Unifier"></mtg-cards>
 
 Good matchup but can easily be lost if you misidentify the critical turn after which you don't tap out anymore.
 Play too passive and you get buried by their Stock Ups but play too aggressive and they just combo you out.
@@ -1280,10 +1013,7 @@ Unfortunately Kaito does not count as a creature in your hand so you cannot brin
 #### Sideboarding
 ##### In
 
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Flusterstorm"/>
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Surgical Extraction"/>
+<mtg-cards names="Force of Negation|Flusterstorm|Hydroblast|Surgical Extraction"></mtg-cards>
 
 + Hydroblast, FoN, Consign
 + 1 Sheoldred's Edict?
@@ -1291,21 +1021,11 @@ Unfortunately Kaito does not count as a creature in your hand so you cannot brin
 
 ##### Out
 
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Baleful Strix"/>
-<mtg-card name="Barrowgoyf"/>
+<mtg-cards names="Fatal Push|Nihil Spellbomb|Baleful Strix|Barrowgoyf"></mtg-cards>
 
 ### Show and Tell (Omni Tell)
 
-<mtg-card name="Ancient Tomb"/>
-<mtg-card name="Tropical Island"/>
-<mtg-card name="Mistrise Village"/>
-<mtg-card name="Stock Up"/>
-<mtg-card name="Show and Tell"/>
-<mtg-card name="Omniscience"/>
-<mtg-card name="Emrakul, the Aeon's Torn"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
+<mtg-cards names="Ancient Tomb|Tropical Island|Mistrise Village|Stock Up|Show and Tell|Omniscience|Emrakul, the Aeon's Torn|Atraxa, Grand Unifier"></mtg-cards>
 
 Most common with a green splash for Veil of Summer (main and sideboard) and often postboard Carpet of Flowers.
 There is also a very rare mono blue basic land variant is very hard to deal with as they ignore most of your preboard interaction (Fatal Push, Wasteland, Nihil Spellbomb) and puts you into the rare position that you may have blanks in your board after sideboarding.
@@ -1318,25 +1038,15 @@ There is also a very rare mono blue basic land variant is very hard to deal with
 
 ##### In
 
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Flusterstorm"/>
-<mtg-card name="Surgical Extraction"/>
+<mtg-cards names="Force of Negation|Flusterstorm|Surgical Extraction"></mtg-cards>
 
 ##### Out
 
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Baleful Strix"/>
-<mtg-card name="Barrowgoyf"/>
+<mtg-cards names="Fatal Push|Nihil Spellbomb|Baleful Strix|Barrowgoyf"></mtg-cards>
 
 ##### Their Plan
 
-<mtg-card name="Carpet of Flowers"/>
-<mtg-card name="Veil of Summer"/>
-<mtg-card name="Defense Grid"/>
-<mtg-card name="Mistrise Village"/>
-<mtg-card name="Stock Up"/>
-<mtg-card name="Show and Tell"/>
+<mtg-cards names="Carpet of Flowers|Veil of Summer|Defense Grid|Mistrise Village|Stock Up|Show and Tell"></mtg-cards>
 
 We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and can accumulate an unbeatable hand, so I almost always Force a Carpet.
 
@@ -1359,10 +1069,7 @@ Sometimes with white or black splash.
 ### Eldrazi
 <mtg-todo/>
 
-<mtg-card name="Eye of Ugin"/>
-<mtg-card name="Eldrazi Temple"/>
-<mtg-card name="Kozilek's Command"/>
-<mtg-card name=""/>
+<mtg-cards names="Eye of Ugin|Eldrazi Temple|Kozilek's Command|"></mtg-cards>
 
 <youtube-video id="X17fCga0pWE" t="28" />
 
@@ -1380,49 +1087,20 @@ Similar to UB Tempo and UB Reanimator, the decks have lot of overlap, but in dif
 For example Null Rod is the key card vs Mystic Forge but still reasonable vs Cloudpost where Harbinger of the Seas is better.
 Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Forge. 
 
-#### Common Core
-<mtg-card name="Ancient Tomb"/>
-<mtg-card name="Planar Nexus"/>
-<mtg-card name="Urza's Tower"/>
-<mtg-card name="Urza's Workshop"/>
-<mtg-card name="The One Ring"/>
-<mtg-card name="Karn, the Great Creator"/>
-<mtg-card name="Kozilek's Command"/>
-<mtg-card name="Ugin, Eye of the Storms"/>
+<mtg-cards names="Ancient Tomb|Planar Nexus|Urza's Tower|Urza's Workshop|The One Ring|Karn, the Great Creator|Kozilek's Command|Ugin, Eye of the Storms"></mtg-cards>
 
-#### Karn Wishboard
-<mtg-card name="Ensnaring Bridge"/>
-<mtg-card name="Mycosynth Lattice"/>
-<mtg-card name="Liquimetal Coating"/>
-<mtg-card name="Pithing Needle"/>
-<mtg-card name="Portable Hole"/>
-<mtg-card name="Soul-Guide Lantern"/>
-<mtg-card name="Tormod's Crypt"/>
+<mtg-cards names="Ensnaring Bridge|Mycosynth Lattice|Liquimetal Coating|Pithing Needle|Portable Hole|Soul-Guide Lantern|Tormod's Crypt"></mtg-cards>
 
 #### Sideboarding
-##### In
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Consign to Memory"/>
-<mtg-card name="Harbinger of the Seas"/>
-<mtg-card name="Null Rod"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Brazen Borrower // Petty Theft"/>
+<mtg-cards names="Force of Negation|Consign to Memory|Harbinger of the Seas|Null Rod|Sheoldred's Edict|Brazen Borrower // Petty Theft"></mtg-cards>
 
-##### Out
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Fatal Push"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Daze"/>
+<mtg-cards names="Nihil Spellbomb|Fatal Push|Orcish Bowmasters|Daze"></mtg-cards>
 
 Unsure if Daze is a better cut than Bowmasters (only good against the One Ring and may not be enough).
 
 #### Mystic Forge (8%)
 
-<mtg-card name="Mystic Forge"/>
-<mtg-card name="Glaring Fleshraker"/>
-<mtg-card name="Manifold Key"/>
-<mtg-card name="Grim Monolith"/>
-<mtg-card name="Tezzeret, Cruel Captain"/>
+<mtg-cards names="Mystic Forge|Glaring Fleshraker|Manifold Key|Grim Monolith|Tezzeret, Cruel Captain"></mtg-cards>
 
 ##### Videos
 <youtube-video id="Evb8f2Vqz0s" t="2302"/>
@@ -1442,24 +1120,14 @@ Together with Karn this gives them a lot of interaction against Null Rod, Tamiyo
 Unlike Karn, it tutors from the main instead of sideboard so you should be safe from Portable Hole preboard.
 Unlike Urza's Saga, its tutor condition is based on mana value not mana cost, allowing Portable Hole and Walking Ballista (if they have it).
 
-##### Mainboard Tutor Targets
-<mtg-card name="Lotus Petal"/>
-<mtg-card name="Manifold Key"/>
-<mtg-card name="Voltaic Key"/>
-<mtg-card name="Mox Opal"/>
-<mtg-card name="Pithing Needle"/>
-<mtg-card name="Soul-Guide Lantern"/>
+<mtg-cards names="Lotus Petal|Manifold Key|Voltaic Key|Mox Opal|Pithing Needle|Soul-Guide Lantern"></mtg-cards>
 
-##### Sideboard Tutor Targets
-<mtg-card name="Portable Hole"/>
-<mtg-card name="Tormod's Crypt"/>
-<mtg-card name="Walking Ballista"/>
+<mtg-cards names="Portable Hole|Tormod's Crypt|Walking Ballista"></mtg-cards>
 
 
 #### Cloudpost Ramp (<1%)
 
-<mtg-card name="Cloudpost"/>
-<mtg-card name="Glimmerpost"/>
+<mtg-cards names="Cloudpost|Glimmerpost"></mtg-cards>
 
 Can have a green splash for Crop Rotation and sideboard Veil of Summer.
 Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember post board.
@@ -1486,10 +1154,7 @@ Teferi can be very good but also quite awkward, I like additional Endurance agai
 
 ### Cephalid Breakfast
 
-<mtg-card name="Cephalid Illusionist"/>
-<mtg-card name="Nadu, Winged Wisdom"/>
-<mtg-card name="Nomads en-Kor"/>
-<mtg-card name="Shuko"/>
+<mtg-cards names="Cephalid Illusionist|Nadu, Winged Wisdom|Nomads en-Kor|Shuko"></mtg-cards>
 
 #### Videos
 
@@ -1578,9 +1243,7 @@ If they have creatures, you can trim a Wasteland and not bring in Consign.
 
 ### Red Daze Decks
 
-<mtg-card name="Dragon's Rage Channeler"/>
-<mtg-card name="Lightning Bolt"/>
-<mtg-card name="Daze"/>
+<mtg-cards names="Dragon's Rage Channeler|Lightning Bolt|Daze"></mtg-cards>
 
 <mtg-cite name="Minyafriend">
 Be aware Stifle is a thing.
@@ -1599,21 +1262,13 @@ Build basics if possible.
 
 #### Sideboarding
 
-##### In
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Blue Elemental Blast"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Sheldred's Edict"/>
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheldred's Edict"></mtg-cards>
 
-##### Out
-<mtg-card name="Force of Will"/>
-<mtg-card name="Thoughtseize"/>
+<mtg-cards names="Force of Will|Thoughtseize"></mtg-cards>
 
 Boarding out Daze instead of Thoughtseize is also an option.
 
-## RUG Druid
-<mtg-card name="Delver of Secrets"/>
-<mtg-card name="Questing Druid"/>
+<mtg-cards names="Delver of Secrets|Questing Druid"></mtg-cards>
 
 <youtube-video id="X17fCga0pWE" t="1378" />
 <youtube-video id="8Bn3nKYBz0s"/><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
@@ -1627,9 +1282,7 @@ If they have a delirious Dragon's Rage Channeler then using it in the attack ste
 However a resolved Murktide is often a huge problem for you and once it is in play the Spellbomb may even grow it, so you may have to use it earlier.
 Taking away Delirium can also be useful to save your creatures from Unholy Heat.
 
-### UR Cutter
-<mtg-card name="Cori-Steel Cutter"/>
-<mtg-card name="Mishra's Bauble"/>
+<mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
 
 <youtube-video id="1CWAQ_oUBBw"/>
 <youtube-video id="=r_pYbcq92_c" t="5810"/>
@@ -1640,10 +1293,7 @@ Beware of their combat tricks as they can get lots of prowess triggers and even 
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
 On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
 
-### Boros Energy (<1% Meta game)
-<mtg-card name="Goblin Bombardment"/>
-<mtg-card name="Guide of Souls"/>
-<mtg-card name="Ajani, Nacatl Pariah"/>
+<mtg-cards names="Goblin Bombardment|Guide of Souls|Ajani, Nacatl Pariah"></mtg-cards>
 
 #### Sideboarding
 Grindy go-wide aggro deck that we are disadvantaged against without Toxic Deluge but with the current MTGO meta it is hard to justify that sideboard slot.
@@ -1667,12 +1317,7 @@ Barrowgoyf is the perfect creature for matchups like this but they also have a l
 
 ### Goblins (<1% Meta game)
 
-<mtg-card name="Cavern of Souls"/>
-<mtg-card name="Aether Vial"/>
-<mtg-card name="Goblin Lackey"/>
-<mtg-card name="Broadside Bombardiers"/>
-<mtg-card name="Goblin Matron"/>
-<mtg-card name="Muxus, Goblin Grandee"/>
+<mtg-cards names="Cavern of Souls|Aether Vial|Goblin Lackey|Broadside Bombardiers|Goblin Matron|Muxus, Goblin Grandee"></mtg-cards>
 
 If you see green-producing lands, they may be on Food Chain (rare), adapt accordingly with more countermagic.
 
@@ -1741,12 +1386,7 @@ It is hard to beat for Tempo without board wipes like Rough/Tumble due to their 
 They have a slew of combat tricks that they are probably much more experienced with than you so think twice before blocking a seemingly stupid attack.
 Putting any land from their library into play with Elvish Reclaimer and Wight of the Reliquary can do the following:
 
-<mtg-card name="Bojuka Bog"/>
-<mtg-card name="Elvish Reclaimer"/>
-<mtg-card name="Wight of the Reliquary"/>
-<mtg-card name="Gaea's Cradle"/>
-<mtg-card name="Dryad Arbor"/>
-<mtg-card name="Talon Gates of Madara"/>
+<mtg-cards names="Bojuka Bog|Elvish Reclaimer|Wight of the Reliquary|Gaea's Cradle|Dryad Arbor|Talon Gates of Madara"></mtg-cards>
 
 * Bojuka Bog can shrink your Nethergoyf
 * Lands in the graveyard grow Elvish Reclaimer.
@@ -1790,15 +1430,7 @@ Their Plan: Their plan is already good so they won’t change much, probably Col
 
 ### Elves (<1%)
 
-<mtg-card name="Heritage Druid"/>
-<mtg-card name="Nettle Sentinel"/>
-<mtg-card name="Glimpse of Nature"/>
-<mtg-card name="Allosaurus Shepherd"/>
-<mtg-card name="Gaea's Cradle"/>
-<mtg-card name="Green Sun's Zenith"/>
-<mtg-card name="Natural Order"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
-<mtg-card name="Craterhoof Behemoth"/>
+<mtg-cards names="Heritage Druid|Nettle Sentinel|Glimpse of Nature|Allosaurus Shepherd|Gaea's Cradle|Green Sun's Zenith|Natural Order|Atraxa, Grand Unifier|Craterhoof Behemoth"></mtg-cards>
 
 <youtube-video id="IhcxBU4w1v8"/>
 
@@ -1812,11 +1444,7 @@ They have multiple plans though as a non-blue deck they can't always choose whic
 
 ### Glimpse Combo
 
-<mtg-card name="Heritage Druid"/>
-<mtg-card name="Birchlore Rangers"/>
-<mtg-card name="Nettle Sentinel"/>
-<mtg-card name="Glimpse of Nature"/>
-<mtg-card name="Gaea's Cradle"/>
+<mtg-cards names="Heritage Druid|Birchlore Rangers|Nettle Sentinel|Glimpse of Nature|Gaea's Cradle"></mtg-cards>
 
 As they don't usually play Veil of Summer, Orcish Bowmasters destroys this combo.
 If you don't have that, killing Heritage Druid often prevents them getting too much value.
@@ -1825,13 +1453,7 @@ Daze on Glimpse can also be worth it if they are low on mana.
 
 ### Grind Mode
 
-<mtg-card name="Allosaurus Shepherd"/>
-<mtg-card name="Elvish Visionary"/>
-<mtg-card name="Wirewood Symbiote"/>
-<mtg-card name="Eladamri, Korvecdal"/>
-<mtg-card name="Quirion Ranger"/>
-<mtg-card name="Dryad Arbor"/>
-<mtg-card name="Grist, the Hunger Tide"/>
+<mtg-cards names="Allosaurus Shepherd|Elvish Visionary|Wirewood Symbiote|Eladamri, Korvecdal|Quirion Ranger|Dryad Arbor|Grist, the Hunger Tide"></mtg-cards>
 
 They can nullify most of your interaction and try to accumulate value over time while stalling your ground offensive by bouncing Elves with Wirewood Symbiote and Dryad Arbor with Quirion Ranger.
 A quick and large Murktide can often kill them before they accrue too much value.
@@ -1839,12 +1461,7 @@ Spot removal needs to kill Wirewood Symbiote first as it cannot bounce itself un
 
 ### Big Creature
 
-<mtg-card name="Natural Order"/>
-<mtg-card name="Atraxa, Grand Unifier"/>
-<mtg-card name="Craterhoof Behemoth"/>
-<mtg-card name="Allosaurus Shepherd"/>
-<mtg-card name="Gaea's Cradle"/>
-<mtg-card name="Eladamri, Korvecdal"/>
+<mtg-cards names="Natural Order|Atraxa, Grand Unifier|Craterhoof Behemoth|Allosaurus Shepherd|Gaea's Cradle|Eladamri, Korvecdal"></mtg-cards>
 
 Whether you can FoW or FoN a Natural Order probably decides who will win or lose that game.
 If they have an Allosaurus Shepherd, you can kill it while Natural Order is on the stack and then counter.
@@ -1853,33 +1470,19 @@ They can also just get enough mana to hardcast Craterhoof or sometimes even Atra
 #### Sideboarding
 
 
-##### In
-<mtg-card name="Toxic Deluge"/>
-<mtg-card name="Engineered Explosives"/>
-<mtg-card name="Sheoldred's Edict"/>
-<mtg-card name="Grafdigger's Cage"/>
-<mtg-card name="Force of Negation"/>
+<mtg-cards names="Toxic Deluge|Engineered Explosives|Sheoldred's Edict|Grafdigger's Cage|Force of Negation"></mtg-cards>
 
 * any mass removal has extreme value
 * any spot removal, even Sheoldred's Edict which often doesn't kill what you want but at least they can't use bounce tricks
 * Cage stops both Green Sun's Zenith and Natural Order (except for Grist)
 
-##### Out
-<mtg-card name="Nihil Spellbomb"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Baleful Strix"/>
-<mtg-card name="Daze"/>
+<mtg-cards names="Nihil Spellbomb|Barrowgoyf|Baleful Strix|Daze"></mtg-cards>
 
 Barrowgoyf is too easy for them to stall.
 Even with Wasteland, Daze is hard to keep active on the draw due to Gaea's Cradle and Heritage Druid.
 On the play you can also keep Daze in and not bring in FoN, especially if you have Cage.
 
-##### Their Plan
-<mtg-card name="Glimpse of Nature"/>
-<mtg-card name="Endurance"/>
-<mtg-card name="Keen-Eyed Curator"/>
-<mtg-card name="Choke"/>
-<mtg-card name="Abrupt Decay"/>
+<mtg-cards names="Glimpse of Nature|Endurance|Keen-Eyed Curator|Choke|Abrupt Decay"></mtg-cards>
 
 Due to Orcish Bowmasters they probably board out Glimpse of Nature and bring in Endurance and Keen-Eyed Curator to both handle your graveyard synergies and present threats that don't need synergy.
 They may also bring in Choke so fetch a basic swamp if it doesn't hinder your game plan too much.
@@ -1887,15 +1490,7 @@ They may also board out some or all Dryad Arbor as I feel it is not as impactful
 
 ### Mono Black Aggro (<1% Meta game)
 
-<mtg-card name="Stalactite Stalker"/>
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Dauthi Voidwalker"/>
-<mtg-card name="Hymn to Tourach"/>
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Opposition Agent"/>
-<mtg-card name="Dark Ritual"/>
-<mtg-card name="Volrath's Stronghold"/>
-<mtg-card name="Wasteland"/>
+<mtg-cards names="Stalactite Stalker|Nethergoyf|Dauthi Voidwalker|Hymn to Tourach|Barrowgoyf|Opposition Agent|Dark Ritual|Volrath's Stronghold|Wasteland"></mtg-cards>
 
 Grindy fair deck that aims to win a battle of attrition.
 Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.
@@ -1905,7 +1500,7 @@ Can also have a small red splash for sideboard Pyroblast.
 
 #### Sideboarding
 
-<mtg-card name="Sheoldred's Edict"/>
+<mtg-cards names="Sheoldred's Edict"></mtg-cards>
 
 ##### In
 
@@ -1916,12 +1511,7 @@ Can also have a small red splash for sideboard Pyroblast.
 
 * Daze
 
-### Burn (<1% Meta game)
-<mtg-card name="Lava Spike"/>
-<mtg-card name="Goblin Guide"/>
-<mtg-card name="Fireblast"/>
-<mtg-card name="Monastery Swiftspear"/>
-<mtg-card name="Eidolon of the Great Revel"/>
+<mtg-cards names="Lava Spike|Goblin Guide|Fireblast|Monastery Swiftspear|Eidolon of the Great Revel"></mtg-cards>
 
 Good matchup if you have enough Barrowgoyfs.
 Can also race with Nethergoyf.
@@ -1930,17 +1520,13 @@ Can also race with Nethergoyf.
 
 ##### In
 
-<mtg-card name="Barrowgoyf"/>
-<mtg-card name="Hydroblast"/>
-<mtg-card name="Force of Negation"/>
-<mtg-card name="Flusterstorm"/>
+<mtg-cards names="Barrowgoyf|Hydroblast|Force of Negation|Flusterstorm"></mtg-cards>
 
 Consign to Memory against Rift bolt may also be worth it and it pitches to Force.
 
 ##### Out
 
-<mtg-card name="Thoughtseize"/>
-<mtg-card name="Orcish Bowmasters"/>
+<mtg-cards names="Thoughtseize|Orcish Bowmasters"></mtg-cards>
 
 You can also shave on Wasteland but Barrowgoyf T3 is important.
 
@@ -1949,18 +1535,12 @@ Their plan:
 They will bring in Pyroblast.
 Sometimes they have Roiling Vortex or Ensnaring Bridge so I would keep a Brazen Borrower in if there isn't anything better.
 
-<mtg-card name="Pyroblast"/>
-<mtg-card name="Roiling Vortex"/>
-<mtg-card name="Ensnaring Bridge"/>
+<mtg-cards names="Pyroblast|Roiling Vortex|Ensnaring Bridge"></mtg-cards>
 
 
 ### Pox (<1% Meta game)
 
-<mtg-card name="Smallpox"/>
-<mtg-card name="Liliana of the Veil"/>
-<mtg-card name="Karn, the Great Creator"/>
-<mtg-card name="Urza's Saga"/>
-<mtg-card name="Leyline of the Void"/>
+<mtg-cards names="Smallpox|Liliana of the Veil|Karn, the Great Creator|Urza's Saga|Leyline of the Void"></mtg-cards>
 
 Ultra grindy creatureless matchup which you may win on the clock on MTGO if they go for Ensnaring Bridge, but in paper you have to play fast and be ready to call a judge to prevent slow play.
 They have lots of creature removal but struggle with planeswalkers, so going for a quick Tamiyo ultimate may help.

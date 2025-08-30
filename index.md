@@ -119,7 +119,7 @@ customElements.define('mtg-cite', Cite);
 * Table of Contents
 {:toc}
 
-## Maindeck
+## Build
 ### Stock List
 Played in the [MTGO Challenge on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
@@ -165,6 +165,27 @@ Short notes on how I deviate any given week from the stock list for the current 
 * want to have at least 1 Harbinger again against Lands, Depths, Cloudpost, Forge, Breakfast
 * Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
 * keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
+
+### Variations and similar decks
+I [kirdie] almost always play the stock variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
+I only deviate in small events with a known and very specific metagame but feel free to explore different variations.
+
+#### Red Splash
+<mtg-cite name="Eco on the red splash">
+I want to splash red if I go to Italy and play paper.
+Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
+</mtg-cite>
+
+#### Going Bigger
+You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs with Baleful Strix, Dauthi Voidwalkers and/or Stock Up.
+Those rare variants often go up to 20 lands (e.g. by adding a second Undercity Sewers) and down to two Daze.
+
+#### Red-based Delver decks
+Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
+UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
+
+#### UB Reanimator
+I often have to justify why I'm not just playing the best deck when it has so many cards in common but there are some legitimate advantages to playing UB Tempo instead.
 
 ### Card Choices
 
@@ -277,7 +298,7 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 
 * Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
 
-### Dauthi Voidwalker
+#### Dauthi Voidwalker
 Easy for Izzet to remove but still a must deal with card early on, probably not the right choice for a bolt meta.
 Insane against certain decks.
 I [Minyafriend] have cast The One Ring and Karn against Forge, Sheoldred against Doomsday, Maelstrom Wanderer against Mississippi river, Undercity Informer with Faerie Macabre in hand against Oops, Doomsday against Doomsday.
@@ -293,7 +314,7 @@ Eco:
 * Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good. These days, we have to play to the board a lot.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
-## Sideboard
+### Sideboard
 
 <mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
@@ -349,7 +370,7 @@ Additionally, instant-speed Needle effects can be significantly more impactful, 
 * Grafdigger's Cage Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options. It's also one of the few cards that completely shuts down 
 * Nihil Spellbomb: Mostly played in the main deck because it replaces itself and pumps Nethergoyf but you could also put it in the side.
 
-## Not Recommended Sideboard Cards
+#### Not Recommended Sideboard Cards
 
 <mtg-cards names="Winter Orb|Winter Moon|Emrakul, the Aeons Torn|Court of Cunning|Court of Locthwain|Liliana of the Veil"></mtg-cards>
 
@@ -366,17 +387,6 @@ Winter Moon is interesting but very unreliable between opposing basics, Mox Diam
 * Court of Cunning: Former anti-control card but probably not needed anymore after Kaito.
 When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer for 3 leagues but they never did anything and the Adventurer even lost me a game where my opponent just Pyrogoyfed my creature and won with the initiative. 
 * Liliana of the Veil: Not powerful enough anymore.
-
-## Variations
-
-<mtg-cite name="Eco on the red splash">
-I want to splash red if I go to Italy and play paper.
-Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
-</mtg-cite>
-
-## Comparison to red-based Delver decks
-Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
-UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
 
 ## Strategy
 

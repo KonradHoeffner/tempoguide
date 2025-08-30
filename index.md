@@ -12,7 +12,7 @@
   h1, h2, h3, h4, h5 {
     font-family: 'Goudy Mediaeval';
     font-weight: 700;
-    font-size: larger;
+    font-size: large;
   }
   img.card {
     max-width: 25%;
@@ -667,14 +667,19 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 #### Sideboarding:
 
+##### In
+
 <mtg-card name="Grafdigger's Cage"/>
 <mtg-card name="Faerie Macabre"/>
 <mtg-card name="Sheoldred's Edict"/>
 
-In: All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
+All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
 Don’t board in FoN as it’s not good against their fair plan and also avoid Consign to Memory, as they probably board out Animate Dead.
 
-Out: Shave Daze, Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers. All Barrowgoyfs as they are too dangerous to get reanimated against you.
+##### Out
+
+Daze, shave Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers.
+All Barrowgoyfs as they are too dangerous to get reanimated against you.
 I used to board out 4 Wasteland but you need the mana against Daze and to crack clues and you want to keep them below 5-6 mana for hardcast FoW, and the Ghost Vacuum in case they being that in. 
 
 Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
@@ -748,6 +753,37 @@ But most of the time it's correct to let them discard their hand first and then 
 In that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
 The final Smog copy will force them to discard their own Apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand.
 </mtg-cite>
+
+#### Sideboarding vs BG
+
+##### In
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+
+##### Out
+
+They probably board out some or all Griselbrands, so Bowmasters are quite useless.
+I'm not sure about Consign because it's only really good vs Animate Dead and they may board that out.
+Theoretically you could also Consign an Atraxa or Archon trigger and then tap it Petty Theft or stun with Kaito.
+
+<mtg-card name="Orcish Bowmasters"/>
+
+#### Sideboarding vs BR
+
+##### In
+<mtg-card name="Grafdigger's Cage"/>
+<mtg-card name="Faerie Macabre"/>
+<mtg-card name="Force of Negation"/>
+<mtg-card name="Consign to Memory"/>
+<mtg-card name="Hydroblast"/>
+
+##### Out
+<mtg-card name="Orcish Bowmasters"/>
+<mtg-card name="Fatal Push"/>
+
+
 
 ### UB Tempo Mirror (6% Meta game)
 

@@ -14,13 +14,29 @@
     font-weight: 700;
     font-size: large;
   }
-  img.card {
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  mtg-card {
+    margin: 0;
     max-width: 25%;
     max-height:40vh;
+    display: inline-block;
   }
 </style>
 <script>
 const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
+
+class Cards extends HTMLElement {
+    constructor() {super();this.attachShadow({ mode: 'open'});}
+
+    async connectedCallback() {
+        this.shadowRoot.innerHTML = `<div class="cards"><slot></slot></div>`;
+    }
+}
 
 class Card extends HTMLElement {
     constructor() {super();}
@@ -88,6 +104,7 @@ class Cite extends HTMLElement {
 }
 
 customElements.define('mtg-card', Card);
+customElements.define('mtg-cards', Cards);
 customElements.define('youtube-video', YoutubeVideo);
 customElements.define('mtg-todo', Todo);
 customElements.define('mtg-cite', Cite);
@@ -96,13 +113,13 @@ customElements.define('mtg-cite', Cite);
 
 **DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
-<div>
-<mtg-card name="Nethergoyf"/>
-<mtg-card name="Tamiyo, Inquisitive Student"/>
-<mtg-card name="Orcish Bowmasters"/>
-<mtg-card name="Kaito, Bane of Nightmares"/>
-<mtg-card name="Daze"/>
-<mtg-card name="Wasteland"/>
+<div class="cards">
+<mtg-card name="Nethergoyf"/></mtg-card>
+<mtg-card name="Tamiyo, Inquisitive Student"/></mtg-card>
+<mtg-card name="Orcish Bowmasters"/></mtg-card>
+<mtg-card name="Kaito, Bane of Nightmares"/></mtg-card>
+<mtg-card name="Daze"/></mtg-card>
+<mtg-card name="Wasteland"/></mtg-card>
 </div>
 
 ## Stock List: [MTGO Challenge 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)

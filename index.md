@@ -262,19 +262,8 @@ Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nad
 Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod. 
 You can target any creature with Fatal Push, even if it doesn’t have an effect.
 
-#### Shoot the Sheriff
-Does not hit Brazen Borrower and Broadside Bombardiers. 
 
-#### Go for the Throat
-Relevant artifact creatures: Constructs, Painter’s Servant, 
-
-#### Sheoldred's Edict
-Kaito is not a planeswalker on the owners turn, you need to choose creature in that case!
-So if they have an additional creature you need to wait until your turn to remove it.
-Creatures with Flash can make it unreliable, like Orcish Bowmasters, Endurance or half of Death and Taxes.
-
-
-##### Brazen Borrower
+#### Brazen Borrower
 <mtg-card name="Brazen Borrower // Petty Theft"/>
 
 Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of the Void, Ensnaring Bridge, Marit Lage, a flipped Tamiyo and much much more.
@@ -346,7 +335,55 @@ Eco:
 * Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good. These days, we have to play to the board a lot.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
-### Sideboard
+## Sideboard
+
+### Removal
+<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
+
+I [Luke] will focus the majority of this section on removal spell choices.
+<mtg-cite name="Luke" href="https://github.com/doggybones35">
+There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard.
+Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
+</mtg-cite>
+
+<mtg-cards names="Sheoldred's Edict"></mtg-cards>
+
+Let's take a look at some of the things that Sheoldred's Edict answers:
+
+<mtg-cards names="Tamiyo, Seasoned Scholar|Kaito, Bane of Nightmares|Murktide Regent|Barrowgoyf|Orcish Bowmasters"></mtg-cards>
+
+* Flipped Tamiyo: Something that will end the game if not answered, or at the very least, accumulate value with the pseudo-regrowth effect and create a sub-game that takes pressure off of life total. 
+* Kaito (creature): Kaito has hexproof during the controller's turn, so Sheoldred's Edict is the only 2 mana removal spell I have included in this section that offers an answer to Kaito in creature form. This relies on the opponent not having any other non-token creatures in play, so be cautious if they have 2 mana available. It would be disastrous to have your edict blown out by a Bowmaster when you could have just waited until your own turn to have them sacrifice a planeswalker.
+* Kaito (planeswalker): Although it is not ideal, sometimes you just have to make a play because it is the only one available to you. There will be times when you or your opponent will have to cast Kaito for 4 mana and pass. If you have the edict and the mana for this particular case, and they don't have another non-token creature, great, you've just made their lack luster play even more embarrassing. If not, and you find the edict in your draw step or with a cantrip, the chances of the sacrifice a planeswalker mode working are quite high, but not 100%. If they have Tamiyo in play, an open blue mana, and 1 card in hand, it is in the realm of possibility that they flip the Tamiyo and sacrifice it to save Kaito. If you have a creature that may have pressured they Kaito, they likely will have used the -2 ability to stun it to take the pressure off of Kaito while they look for a way to protect it or develop their own board. This is where edict provides a clean answer to Kaito in planeswalker form.
+* Murktide: Murktide cannot be removed with Fatal Push, leaving 3-4 temporary answers in the form of Kaito -2 and Petty Theft if you are not lucky enough to snipe a Murktide with Daze or Thoughtseize. Sheoldred's Edict can remove Murktide, but be cautious of instant speed Bowmasters. You may be required to use your push, Petty Theft, and Bowmasters to clean up any non-token creatures in order to kill the Murktide with edict.
+* Barrowgoyf: Barrowgoyf is a must-answer threat. It provides large life total swings, trades with anything that blocks it, provided there is at least 1 card among both graveyards, fuels the yard for Murktide, and can provide card advantage by finding additional threats. Thankfully, there are more answers to Barrowgoyf than Murktide in the mirror. Revolt is reasonable to gain access to thanks to Wasteland, fetches, clue tokens, etc, so Fatal Push is often live against Barrowgoyf. Sheoldred's Edict works much the same as an answer to Barrowgoyf as it does to Murktide, and the same precautionary measures should be taken.
+* Orcish Bowmasters: If you are in dire circumstances, Sheoldred's Edict offers a choice to remove either the Bowmaster, or a large orc army token that may have grown as a result of desperation digging with Brainstorm or Ponder. You have to do what you have to do, and win is a win, whether you crushed your opponent or barely clawed your way to victory. In the UB Tempo mirror, you are more likely to encounter the latter.
+
+Kaito is not a planeswalker on the owners turn, you need to choose creature in that case!
+So if they have an additional creature you need to wait until your turn to remove it.
+Creatures with Flash can make it unreliable, like Orcish Bowmasters, Endurance or half of Death and Taxes.
+
+<mtg-cards names="Dismember"></mtg-cards>
+Dismember is a card that I have seen others play in the past as a way to deal with a resolved Magus of the Moon in 3+ color decks without access to a basic swamp. This is an insufficient argument for the inclusion of Dismember when we have access to one of each basic in our colors. I find Dismember to be unreliable in killing Murktide and to a lesser extent, Barrowgoyf. It is worth mentioning that Dismember can be used as a combat trick to allow your creatures to survive and set up favorable trades, or in combination with a timely Bowmaster ping to remove a 6 toughness creature.
+
+The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active Bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
+
+<mtg-cards names="Bitter Triumph"></mtg-cards>
+Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember.
+It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
+I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
+
+
+<mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
+These two cards are essentially the same, and reminiscent of Doomblade, in that they ask "What kind of creature are you fine with being unable to kill?"
+While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones.
+Shoot the Sheriff cannot kill Dauthi Voidwalker, Brazen Borrower or Broadside Bombardiers, and Go for the Throat cannot kill Painter's Servant and Construct tokens.
+If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for.
+Your local meta will inform your choice.
+I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
+
+I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
+
 
 <mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
@@ -693,45 +730,7 @@ In the mirror, we share most cards with our opponent, depending on whether they 
 <mtg-cards names="Barrowgoyf"></mtg-cards>
 Barrowgoyf has been discussed at length in this guide, and I will address its merits again shortly.
 
-<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
-
-I will focus the majority of this section on removal spell choices.
-There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard.
-Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
-
-<mtg-cards names="Sheoldred's Edict"></mtg-cards>
-
-Let's take a look at some of the things that Sheoldred's Edict answers:
-
-<mtg-cards names="Tamiyo, Seasoned Scholar|Kaito, Bane of Nightmares|Murktide Regent|Barrowgoyf|Orcish Bowmasters"></mtg-cards>
-
-* Flipped Tamiyo: Something that will end the game if not answered, or at the very least, accumulate value with the pseudo-regrowth effect and create a sub-game that takes pressure off of life total. 
-* Kaito (creature): Kaito has hexproof during the controller's turn, so Sheoldred's Edict is the only 2 mana removal spell I have included in this section that offers an answer to Kaito in creature form. This relies on the opponent not having any other non-token creatures in play, so be cautious if they have 2 mana available. It would be disastrous to have your edict blown out by a Bowmaster when you could have just waited until your own turn to have them sacrifice a planeswalker.
-* Kaito (planeswalker): Although it is not ideal, sometimes you just have to make a play because it is the only one available to you. There will be times when you or your opponent will have to cast Kaito for 4 mana and pass. If you have the edict and the mana for this particular case, and they don't have another non-token creature, great, you've just made their lack luster play even more embarrassing. If not, and you find the edict in your draw step or with a cantrip, the chances of the sacrifice a planeswalker mode working are quite high, but not 100%. If they have Tamiyo in play, an open blue mana, and 1 card in hand, it is in the realm of possibility that they flip the Tamiyo and sacrifice it to save Kaito. If you have a creature that may have pressured they Kaito, they likely will have used the -2 ability to stun it to take the pressure off of Kaito while they look for a way to protect it or develop their own board. This is where edict provides a clean answer to Kaito in planeswalker form.
-* Murktide: Murktide cannot be removed with Fatal Push, leaving 3-4 temporary answers in the form of Kaito -2 and Petty Theft if you are not lucky enough to snipe a Murktide with Daze or Thoughtseize. Sheoldred's Edict can remove Murktide, but be cautious of instant speed Bowmasters. You may be required to use your push, Petty Theft, and Bowmasters to clean up any non-token creatures in order to kill the Murktide with edict.
-* Barrowgoyf: Barrowgoyf is a must-answer threat. It provides large life total swings, trades with anything that blocks it, provided there is at least 1 card among both graveyards, fuels the yard for Murktide, and can provide card advantage by finding additional threats. Thankfully, there are more answers to Barrowgoyf than Murktide in the mirror. Revolt is reasonable to gain access to thanks to Wasteland, fetches, clue tokens, etc, so Fatal Push is often live against Barrowgoyf. Sheoldred's Edict works much the same as an answer to Barrowgoyf as it does to Murktide, and the same precautionary measures should be taken.
-* Orcish Bowmasters: If you are in dire circumstances, Sheoldred's Edict offers a choice to remove either the Bowmaster, or a large orc army token that may have grown as a result of desperation digging with Brainstorm or Ponder. You have to do what you have to do, and win is a win, whether you crushed your opponent or barely clawed your way to victory. In the UB Tempo mirror, you are more likely to encounter the latter.
-
-<mtg-cards names="Dismember"></mtg-cards>
-Dismember is a card that I have seen others play in the past as a way to deal with a resolved Magus of the Moon in 3+ color decks without access to a basic swamp. This is an insufficient argument for the inclusion of Dismember when we have access to one of each basic in our colors. I find Dismember to be unreliable in killing Murktide and to a lesser extent, Barrowgoyf. It is worth mentioning that Dismember can be used as a combat trick to allow your creatures to survive and set up favorable trades, or in combination with a timely Bowmaster ping to remove a 6 toughness creature.
-
-The urgent nature of an early Tamiyo and the presence of Daze often results in casting Dismember for 1, which is a nice option, but the reduction in your life total cushion is felt in late game scenarios where you need to push for lethal or cantrip into an active Bowmaster to find lethal or an answer to an impending threat. Lastly, Dismember cannot kill Kaito or a flipped Tamiyo. For these reasons, I do not play it.
-
-<mtg-cards names="Bitter Triumph"></mtg-cards>
-Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember.
-It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
-I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
-
-
-<mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
-These two cards are essentially the same, and reminiscent of Doomblade, in that they ask "What kind of creature are you fine with being unable to kill?"
-While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones.
-Shoot the Sheriff cannot kill Dauthi Voidwalker or Broadside Bombardiers, and Go for the Throat cannot kill Construct tokens.
-If you should decide to play Shoot the Sheriff or Go for the Throat in your 2 removal sideboard slots, those are the main creatures to look out for.
-Your local meta will inform your choice. I strongly urge you against playing these cards over Sheoldred's Edict or Bitter Triumph, especially in the context of the UB Tempo mirror.
-
-I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
-
+TODO: link to removal section
 
 ### Discerning Reanimator and UB Tempo
 
@@ -739,6 +738,7 @@ It's sometimes hard to know whether you are versing the mirror or UB Reanimator 
 The second Undercity Sewers is also an indicator but not always. 
 When in doubt it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
 
+### Oops All Spells
 <mtg-cards names="Dark Ritual|Elvish Spirit Guide|Balustrade Spy|Undercity Informer|Poxwalkers|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>
 
 This is one of the few matchups where I mulligan aggressively for turn 1 interaction they are so fast.
@@ -1626,4 +1626,4 @@ GB Rumble Painter:
 ## Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.
 2. Stay curious and improvise. Use those guidelines only as a starting point, and adapt to the situation at hand.
-3. Citations may be incomplete, corrected or abbreviated.
+3. Citations may be corrected, abbreviated, extended and updated. This is not a newspaper or scientific article, so reading experience is prioritized over accurate citation.

@@ -579,6 +579,85 @@ Some weaknesses can be adressed with sideboarding but not all at the same time.
 <!-- control -->
 <!--bant control-->
 
+### Tempo Decks
+
+Quick Tips:
+Assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
+Don’t forget about Kaito! For example you should always block Tamiyo if you can. It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
+
+*TODO: some disagree with that and keep Force in, update*
+
+Always the first thought when I build a sideboard is that I want to have exactly as many cards to bring in as I want to bring out.
+The easiest way to achieve that is number of Thoughtseize + Forces main = number of BEB + removal + creatures side (not counting Harbinger) 
+The reason for the Thoughtseize-BEB switch is that DRC + Bolt kill you quickly.
+It’s OK to have 1-2 FoW in your mapping isn’t perfect, can also board out 1 Daze and keep in 1 Force on the draw.
+You have a great tempo matchup as you can remove almost anything, only Murktide, Counterbalance and Kaito can be difficult to handle. 
+
+### Red Delver decks
+*TODO: update (other people have other opinions on sideboarding)*
+
+The most aggressive variants, focus on survival first.
+In: BEB, removal and creatures
+Out: Force of Negation, Force of Will, Thoughtseize, Daze
+
+
+### UB Ninjas
+<mtg-todo/>
+<youtube-video id="V1lHxege1h0" t="33"/>
+
+### Red Daze Decks
+
+<mtg-cards names="Dragon's Rage Channeler|Lightning Bolt|Daze"></mtg-cards>
+
+<mtg-cite name="Minyafriend">
+Be aware Stifle is a thing.
+In: blasts, removal, Goyfs
+Out: FoW, Thoughtseize
+</mtg-cite>
+
+<mtg-cite name="Eco">
+Black Daze vs. Red Daze is a cool matchup where they fold to a lot of your cards.
+Play the matchup some more, and you’ll win more games for sure.
+Focus on stopping aggression and accepting Daze instead of falling behind too much.
+Sometimes we can respect Daze, but if you respect it too much, you will get run over.
+Build basics if possible.
+</mtg-cite>
+
+#### Sideboarding
+
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+
+<mtg-cards names="Force of Will|Thoughtseize"></mtg-cards>
+
+Boarding out Daze instead of Thoughtseize is also an option.
+
+### RUG Druid
+<mtg-cards names="Delver of Secrets|Questing Druid // Seek the Beast"></mtg-cards>
+
+<youtube-video id="X17fCga0pWE" t="1378" />
+<youtube-video id="8Bn3nKYBz0s"/><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
+
+Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
+If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
+Barrowgoyf is extremely hard to handle for them.
+
+Your Nihil Spellbomb timing is very important here:
+If they have a delirious Dragon's Rage Channeler then using it in the attack step can be used to chump block it with a Nethergoyf or an Orc Army token.
+However a resolved Murktide is often a huge problem for you and once it is in play the Spellbomb may even grow it, so you may have to use it earlier.
+Taking away Delirium can also be useful to save your creatures from Unholy Heat.
+
+### UR Cutter
+<mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
+
+<youtube-video id="1CWAQ_oUBBw"/>
+<youtube-video id="=r_pYbcq92_c" t="5810"/>
+
+A matching that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
+Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
+Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
+Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
+On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
+
 ### UB Reanimator (20% Meta game)
 
 <mtg-cards names="Reanimate|Entomb|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
@@ -1245,69 +1324,13 @@ Force of Negation is great against turbo and control, e.g. if you see Personal T
 Stifle works both against Fetchlands and against the Oracle trigger, so if you have it I would always keep it.
 Consign to Memory 
 
-
-Eco:
-
+<mtg-cite name="Eco">
 Vs Doomsday you should look for Personal Tutors, Cabal Rituals and 2nd green cycler+2nd Street Wraith.
 If they have those, they are focused on Combo.
 If they have creatures, you can trim a Wasteland and not bring in Consign. 
-
-### UB Ninjas
-<mtg-todo/>
-<youtube-video id="V1lHxege1h0" t="33"/>
-
-### Red Daze Decks
-
-<mtg-cards names="Dragon's Rage Channeler|Lightning Bolt|Daze"></mtg-cards>
-
-<mtg-cite name="Minyafriend">
-Be aware Stifle is a thing.
-In: blasts, removal, Goyfs
-Out: FoW, Thoughtseize
 </mtg-cite>
 
-
-<mtg-cite name="Eco">
-Black Daze vs. Red Daze is a cool matchup where they fold to a lot of your cards.
-Play the matchup some more, and you’ll win more games for sure.
-Focus on stopping aggression and accepting Daze instead of falling behind too much.
-Sometimes we can respect Daze, but if you respect it too much, you will get run over.
-Build basics if possible.
-</mtg-cite>
-
-#### Sideboarding
-
-<mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
-
-<mtg-cards names="Force of Will|Thoughtseize"></mtg-cards>
-
-Boarding out Daze instead of Thoughtseize is also an option.
-
-<mtg-cards names="Delver of Secrets|Questing Druid // Seek the Beast"></mtg-cards>
-
-<youtube-video id="X17fCga0pWE" t="1378" />
-<youtube-video id="8Bn3nKYBz0s"/><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
-
-Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
-If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
-Barrowgoyf is extremely hard to handle for them.
-
-Your Nihil Spellbomb timing is very important here:
-If they have a delirious Dragon's Rage Channeler then using it in the attack step can be used to chump block it with a Nethergoyf or an Orc Army token.
-However a resolved Murktide is often a huge problem for you and once it is in play the Spellbomb may even grow it, so you may have to use it earlier.
-Taking away Delirium can also be useful to save your creatures from Unholy Heat.
-
-<mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
-
-<youtube-video id="1CWAQ_oUBBw"/>
-<youtube-video id="=r_pYbcq92_c" t="5810"/>
-
-A matching that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
-Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
-Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
-Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
-On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
-
+### WR Energy
 <mtg-cards names="Goblin Bombardment|Guide of Souls|Ajani, Nacatl Pariah"></mtg-cards>
 
 #### Sideboarding
@@ -1316,7 +1339,6 @@ Still winnable without if you get an engine (Tamiyo, Barrowgoyf, Kaito) into pla
 
 ##### In
 Barrowgoyf is the perfect creature for matchups like this but they also have a lot to deal with it like Swords to Plowshares and Static Prison, see if you can play around Galvanic Discharge at least.
-
 
 * Barrowgoyf
 * removal
@@ -1588,35 +1610,6 @@ Be careful with Thoughtseize if they are low on cards because you might win them
 Barrowgoyf, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
 * Out: Fatal Push, Orcish Bowmaster, 
 * Their Plan: Win game 1 and hope to get one of the postboard games.
-
-
-### Tempo Decks
-
-*TODO: some disagree with that and keep Force in, update*
-Always the first thought when I build a sideboard is that I want to have exactly as many cards to bring in as I want to bring out.
-The easiest way to achieve that is number of Thoughtseize + Forces main = number of BEB + removal + creatures side (not counting Harbinger) 
-The reason for the Thoughtseize-BEB switch is that DRC + Bolt kill you quickly.
-It’s OK to have 1-2 FoW in your mapping isn’t perfect, can also board out 1 Daze and keep in 1 Force on the draw.
-You have a great tempo matchup as you can remove almost anything, only Murktide, Counterbalance and Kaito can be difficult to handle. 
-
-### Red Delver decks
-
-*TODO: update (other people have other opinions on sideboarding)*
-
-The most aggressive variants, focus on survival first.
-In: BEB, removal and creatures
-Out: Thoughtseize, Force of Will
-
-
-UB Delver/Tempo
-In: Removal and creatures
-Out: Force of Will
-(% Meta game)
-
-
-Quick Tips:
-Assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
-Don’t forget about Kaito! For example you should always block Tamiyo if you can. It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
 
 ### Brews and Rare Decks
 

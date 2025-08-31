@@ -821,7 +821,7 @@ Just be careful with postboard Mystical Dispute and Blood Moon if they even brin
 ### Initiative Stompy
 <mtg-todo/>
 
-
+### Lands
 <mtg-cards names="Dark Depths|Thespian's Stage|Wasteland|Ghost Quarter|Urza's Saga|Maze of Ith|The Tabernacle at Pendrell Vale|Exploration|Life from the Loam|Mox Diamond"></mtg-cards>
 
 Bad matchup but can sometimes be beaten, especially with a quick Tamiyo ultimate (if you play around Karakas) and Kaito (cannot be Mazed) as they are hard to for them to handle.
@@ -842,7 +842,17 @@ Stage can also copy Urza's Saga and then copy something else the next turn to ke
 #### Sideboarding
 Postboard it gets a little bit better because you have a lot of almost-blanks to board out and they don't gain much except maybe Choke, Endurance, Dismember and another Pithing Needle.
 
+##### In
 <mtg-cards names="Harbinger of the Seas|Force of Negation|Engineered Explosives|Brazen Borrower // Petty Theft|Sheoldred's Edict|Surgical Extraction|Tsabo's Web"></mtg-cards>
+
+##### Out
+<mtg-cards names="Fatal Push|Orcish Bowmasters"></mtg-cards>
+
+As long as they don't play Elvish Reclaimer, Push does nothing else than removing a single construct.
+If you need more room, shave Daze.
+A single Barrowgoyf is also arguable as a way to survive constructs.
+
+#### Explanation
 
 <mtg-cards names="Harbinger of the Seas|Urza's Saga"></mtg-cards>
 
@@ -874,12 +884,6 @@ Removal is generally bad against lands but Brazen Borrower (care for Sejiri Step
 <mtg-cards names="Tsabo's Web"></mtg-cards>
 
 You can try Tsabo's Web if there is a lot of lands (never tried it though and it's not recommended).
-
-<mtg-cards names="Fatal Push|Orcish Bowmasters"></mtg-cards>
-
-As long as they don't play Elvish Reclaimer, Push does nothing else than removing a single construct.
-If you need more room, shave Daze.
-A single Barrowgoyf is also arguable as a way to survive constructs.
 
 ### BUG Beans
 

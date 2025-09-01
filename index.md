@@ -113,7 +113,6 @@ customElements.define('mtg-cite', Cite);
 
 **DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
-### Mana Base
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
 
 #### Table of Contents
@@ -338,10 +337,47 @@ Eco:
 
 ## Sideboard
 
+<mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
+
+Eco:
+
+* Hydroblast: Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
+* Consign to Memory: After Eldrazi’s ban, this is mainly a hate card for Mystic Forge. It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about. 
+* Cursed Totem: This card is viable if your meta game has both Cradle Control, Breakfast and Bant Nadu - maybe with some bad decks like Goblins (Skirk Prospector) or old school D+T (Mother) mixed in. Two mana is a lot for a niche card.
+* Counterbalance: I liked this card quite a bit in Izzet where you also have Channeler to manipulate your top card. Furthermore, Dimir has a wider range of MV which makes Counterbalance less reliable for the cheap MVs. We also want to fetch swamp sometimes (Izzet plays 0 mountains), so UU is rough.
+* Damping Sphere: Maybe some combination of 12-post, Forge and Storm can warrant this card.
+* Engineered Explosives: I mainly view this as Chalice removal that can randomly kill Rhinos, Constructs or Empty goblins.
+* Force of Negation: Great card to fight Show and Tell, Chalice, Forge, Storm and other combo decks. Always worth 2 slots for me.
+* 1B removal: My current favorite is Edict which can kill walkers (mainly Tamiyo and Karn, but also against bad decks with Teferi and Narset) and doesn’t give bonus to Nadu. It sometimes can’t kill the Murktide on the field which is a shame. The other ones have to do with the amount of Voidwalker/Bombardier/Brazen vs. Dreadnought/Painter/Constructs in your meta.
+* Harbinger of the Seas: I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). (this was written before the rules change)
+
+* Graveyard hate: Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline). In paper, you can play your Cages to have crossover against Zenith.
+* Null Rod: Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher. It also beats bad Storm decks.
+* Pithing Needle: This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc. It’s often good deck building to play it.
+* Spell Pierce/Flusterstorm: I don’t like the one-mana counters because they force me to hold up mana. Every mana unused in today’s Magic gets you closer to losing. Forces, Daze and Thoughtseize will cover for me.
+* Subtlety: If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
+* Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deck building. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
+* Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
+* Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
+
+<mtg-cards names="Tsabo's Web"></mtg-cards>
+<mtg-cite name="Minyafriend">
+I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
+Current lands does not get punished enough by this card.
+Pithing needle seems better if you want to stay UB and stop land strats.
+</mtg-cite>
+
+
+<mtg-cards names="Disruptor Flute|Pithing Needle"></mtg-cards>
+<mtg-cite name="Happysappyclappy">
+I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
+Flute also synergizes effectively with Thoughtseize, enhancing its utility.
+Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
+</mtg-cite>
+
 ### Removal
 <mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
 
-I [Luke] will focus the majority of this section on removal spell choices.
 <mtg-cite name="Luke" href="https://github.com/doggybones35">
 There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard.
 Now, I will outline the pros and cons of the various removal spells as they relate specifically to the UB Tempo mirror.
@@ -385,60 +421,22 @@ I strongly urge you against playing these cards over Sheoldred's Edict or Bitter
 
 I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
 
-### Sideboard
-<mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
-
-Eco:
-
-* Hydroblast: Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
-* Consign to Memory: After Eldrazi’s ban, this is mainly a hate card for Mystic Forge. It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about. 
-* Cursed Totem: This card is viable if your meta game has both Cradle Control, Breakfast and Bant Nadu - maybe with some bad decks like Goblins (Skirk Prospector) or old school D+T (Mother) mixed in. Two mana is a lot for a niche card.
-* Counterbalance: I liked this card quite a bit in Izzet where you also have Channeler to manipulate your top card. Furthermore, Dimir has a wider range of MV which makes Counterbalance less reliable for the cheap MVs. We also want to fetch swamp sometimes (Izzet plays 0 mountains), so UU is rough.
-* Damping Sphere: Maybe some combination of 12-post, Forge and Storm can warrant this card.
-* Engineered Explosives: I mainly view this as Chalice removal that can randomly kill Rhinos, Constructs or Empty goblins.
-* Force of Negation: Great card to fight Show and Tell, Chalice, Forge, Storm and other combo decks. Always worth 2 slots for me.
-* 1B removal: My current favorite is Edict which can kill walkers (mainly Tamiyo and Karn, but also against bad decks with Teferi and Narset) and doesn’t give bonus to Nadu. It sometimes can’t kill the Murktide on the field which is a shame. The other ones have to do with the amount of Voidwalker/Bombardier/Brazen vs. Dreadnought/Painter/Constructs in your meta.
-* Harbinger of the Seas: I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). (this was written before the rules change)
-
-* Graveyard hate: Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline). In paper, you can play your Cages to have crossover against Zenith.
-* Null Rod: Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher. It also beats bad Storm decks.
-* Pithing Needle: This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc. It’s often good deck building to play it.
-* Spell Pierce/Flusterstorm: I don’t like the one-mana counters because they force me to hold up mana. Every mana unused in today’s Magic gets you closer to losing. Forces, Daze and Thoughtseize will cover for me.
-* Subtlety: If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
-* Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deck building. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
-* Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
-* Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
-
-<mtg-cards names="Tsabo's Web"></mtg-cards>
-<mtg-cite name="Minyafriend">
-I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
-Current lands does not get punished enough by this card.
-Pithing needle seems better if you want to stay UB and stop land strats.
-</mtg-cite>
-
-
-<mtg-cards names="Disruptor Flute|Pithing Needle"></mtg-cards>
-<mtg-cite name="Happysappyclappy">
-I prefer Disruptor Flute over Pithing Needle in several matchups, including Karn Forge, Oops All Spells, Lands, and namesake combo decks like Show and Tell or Painter.
-Flute also synergizes effectively with Thoughtseize, enhancing its utility.
-Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
-</mtg-cite>
 
 ### Graveyard Hate
 <mtg-cards names="Grafdigger's Cage|Nihil Spellbomb|Faerie Macabre|Ghost Vacuum|Unlicensed Hearse"></mtg-cards>
 
-|                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     "></mtg-cards>
-|---------------------|------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------"></mtg-cards>
-| Leyline of the Void | 0    | yes                   |                                                                                                                                                                                                         | enchantment removal, bounce                     "></mtg-cards>
-| Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi.                                                                                               | discard, Stifle                                 "></mtg-cards>
-| Surgical Extraction | 0    | no                    | Also good against Life from the Loam and Uro, combat trick for Nethergoyf, in rare cases discard and win condition library removal. Can be bought back by Tamiyo.                                       | discard, countermagic                           "></mtg-cards>
-| Nihil Spellbomb     | 1    | depends               | Cantrips. Great support to kill opposing Dragon's Rage Channeler's and Nethergoyfs. Can prevent Murktide Regent.                                                                                        | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
-| Grafdigger's Cage   | 1    | yes                   | Stops Green Sun's Zenith and Mystic Forge but not Living End and Beseech the Mirror! Also prevents them from reanimating out of your own graveyard but also stops your own Nethergoyf from coming back. | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
-| Ghost Vacuum        | 1    | no                    | Win condition in the rare case you get to 6 mana. Often prevents Delirium and Murktide Regent.                                                                                                          | EE on 1, artifact removal, bounce, countermagic "></mtg-cards>
-| Unlicensed Hearse   | 2    | no                    | Can eventually attack and block so you don't risk overboarding against hybrid decks. Almost always prevents Delirium and Murktide Regent.                                                               | artifact removal, bounce, countermagic          "></mtg-cards>
-| Dauthi Voidwalker   | 2    | yes                   | Also a clock and can use their opponent's cards against them. Keeps Dragon's Rage Channeler and Nethergoyf small and prevents Murktide Regent if played early enough.                                   | creature removal, bounce, countermagic          "></mtg-cards>
+|                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     |
+|---------------------|------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| Leyline of the Void | 0    | yes                   |                                                                                                                                                                                                         | enchantment removal, bounce                     |
+| Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi.                                                                                               | discard, Stifle                                 |
+| Surgical Extraction | 0    | no                    | Also good against Life from the Loam and Uro, combat trick for Nethergoyf, in rare cases discard and win condition library removal. Can be bought back by Tamiyo.                                       | discard, countermagic                           |
+| Nihil Spellbomb     | 1    | depends               | Cantrips. Great support to kill opposing Dragon's Rage Channeler's and Nethergoyfs. Can prevent Murktide Regent.                                                                                        | EE on 1, artifact removal, bounce, countermagic |
+| Grafdigger's Cage   | 1    | yes                   | Stops Green Sun's Zenith and Mystic Forge but not Living End and Beseech the Mirror! Also prevents them from reanimating out of your own graveyard but also stops your own Nethergoyf from coming back. | EE on 1, artifact removal, bounce, countermagic |
+| Ghost Vacuum        | 1    | no                    | Win condition in the rare case you get to 6 mana. Often prevents Delirium and Murktide Regent.                                                                                                          | EE on 1, artifact removal, bounce, countermagic |
+| Unlicensed Hearse   | 2    | no                    | Can eventually attack and block so you don't risk overboarding against hybrid decks. Almost always prevents Delirium and Murktide Regent.                                                               | artifact removal, bounce, countermagic          |
+| Dauthi Voidwalker   | 2    | yes                   | Also a clock and can use their opponent's cards against them. Keeps Dragon's Rage Channeler and Nethergoyf small and prevents Murktide Regent if played early enough.                                   | creature removal, bounce, countermagic          |
 
-* Grafdigger's Cage Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options. It's also one of the few cards that completely shuts down 
+* Grafdigger's Cage: Graveyard hate that also hits Green Sun’s Zenith and Natural Order like Elves, 5c Zenith, Nadu Zenith, Cradle Control (except Grist). I don’t like it that much against UB Reanimator because it gets hit by both Brazen Borrower and Keg/Explosives/Sylex, and we can’t kill them quickly, so as long as UB Reanimator is >20% of the meta and GSZ decks have a low play rate I’d rather play one of the other options. It's also one of the few cards that completely shuts down 
 * Nihil Spellbomb: Mostly played in the main deck because it replaces itself and pumps Nethergoyf but you could also put it in the side.
 
 #### Not Recommended Sideboard Cards

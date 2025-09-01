@@ -113,6 +113,7 @@ customElements.define('mtg-cite', Cite);
 
 **DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
 
+### Mana Base
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
 
 #### Table of Contents
@@ -232,7 +233,6 @@ You can force a delirious DRC to attack, then clear their graveyard with Nihil S
 Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play.
 
 #### Tamiyo, Inquisitive Student
-
 <mtg-cards names="Tamiyo, Inquisitive Student|Orcish Bowmasters|Brainstorm"></mtg-cards>
 Bowmastering at their end step to draw the Brainstorm out is OK sometimes.
 APNAP comes into play: Active players triggers go on stack first.
@@ -315,6 +315,7 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 <mtg-card name=""/>
 -->
 
+### Niche Cards
 <mtg-cards names="Mishra's Bauble|Dauthi Voidwalker|Baleful Strix|Stock Up|Hymn to Tourach"></mtg-cards>
 
 * Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
@@ -384,7 +385,7 @@ I strongly urge you against playing these cards over Sheoldred's Edict or Bitter
 
 I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
 
-
+### Sideboard
 <mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
 Eco:
@@ -423,6 +424,7 @@ Flute also synergizes effectively with Thoughtseize, enhancing its utility.
 Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
 </mtg-cite>
 
+### Graveyard Hate
 <mtg-cards names="Grafdigger's Cage|Nihil Spellbomb|Faerie Macabre|Ghost Vacuum|Unlicensed Hearse"></mtg-cards>
 
 |                     | turn | stops Oops completely | side benefits                                                                                                                                                                                           | counterplay                                     "></mtg-cards>
@@ -501,6 +503,7 @@ Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our 
 I need to smell blood or have good information to blindly wasteland the opponent.
 </mtg-cite>
 
+### Own Card Guide
 <mtg-cards names="Nethergoyf|Fatal Push|Shoot the Sheriff|Go for the Throat"></mtg-cards>
 
 ### Counterbalance
@@ -625,8 +628,10 @@ Build basics if possible.
 
 #### Sideboarding
 
+##### In
 <mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
 
+##### Out
 <mtg-cards names="Force of Will|Thoughtseize"></mtg-cards>
 
 Boarding out Daze instead of Thoughtseize is also an option.
@@ -724,6 +729,7 @@ Nihil Spellbomb is extremely strong in game 1.
 
 <youtube-video id="X17fCga0pWE" t="3785"/>
 
+#### Postboard Pivots
 <mtg-cards names="Show and Tell|Stronghold Gambit|Witherbloom Apprentice"></mtg-cards>
 
 Because Turbo Reanimator is much more all in and vulnerable to graveyard hate then UB Reanimator, they often do a full or partial juke (pivot) to a different strategy.
@@ -732,6 +738,7 @@ Their splash colors restrict which pivots they have access to:
 Blue for Show and Tell, green for Chain of Smog + Witherbloom Apprentice, red for Stronghold Gambit (probably not good against you).
 Theoretically they could also pivot to castable non-combo creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalker and Opposition Agent but I rarely see that.
 
+#### Chain of Smog Combo
 <mtg-cards names="Witherbloom Apprentice|Chain of Smog|Spoils of the Vault"></mtg-cards>
 
 Often paired with Spoils of the Vault, this two-card combo kills you immediately by draining you for unlimited life points.
@@ -765,25 +772,41 @@ In that situation where you only have a couple cards in hand, if you have the ch
 The final Smog copy will force them to discard their own Apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand.
 </mtg-cite>
 
-#### Sideboarding vs BG
+#### Sideboarding
 
-<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Consign to Memory"></mtg-cards>
+##### Always In
+<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Flusterstorm"></mtg-cards>
 
-##### Out
+Naturally you want all the grave hate and counterspells you can get.
 
-They probably board out some or all Griselbrands, so Bowmasters are quite useless.
-I'm not sure about Consign because it's only really good vs Animate Dead and they may board that out.
-Theoretically you could also Consign an Atraxa or Archon trigger and then tap it Petty Theft or stun with Kaito.
-
+##### Almost Always Out
 <mtg-cards names="Orcish Bowmasters"></mtg-cards>
 
-#### Sideboarding vs BR
+They probably board out some or all Griselbrands and even if they don't they may not draw into open mana, so Bowmasters are quite useless, unless they also play Faithless Looting.
 
-<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Force of Negation|Consign to Memory|Hydroblast"></mtg-cards>
+##### Situational Cards
+<mtg-cards names="Hydroblast|Blue Elemental Blast"></mtg-cards>
 
-<mtg-cards names="Orcish Bowmasters|Fatal Push"></mtg-cards>
+If they show red spells like Faithless Looting you want blue blasts for sure.
+If you see red producing lands but no red spells, the splash may only be for a sideboard Stronghold Gambit that they may not bring in, so decide based on the information you have but blue blasts always pitch to Force so they are never completely useless.
 
+<mtg-cards names="Consign to Memory"></mtg-cards>
+I'm not sure about Consign because it's only really good vs Animate Dead and they may board that out.
+Theoretically you could also Consign an Atraxa or Archon trigger and then Petty Theft the creature or stun it with Kaito.
 
+<mtg-cards names="Fatal Push|Sheoldred's Edict"></mtg-cards>
+If they show green for the Witherbloom Combo, removal can be game deciding.
+Even if they don't, they may bring in a few creatures like Dauthi Voidwalkers that you don't want to waste a Force of Will on, so it may be worth keeping in a small amount of removal.
+
+##### Cards I don't like to Cut
+
+<mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Murktide Regent|Kaito, Bane of Nightmares|Wasteland|Daze|Island"></mtg-cards>
+I don't like to cut threats other than Orcish Bowmasters because when accumulating enough damage Reanimate becomes uncastable at some point, Spoils of the Vault becomes more risky and when you don't have a draw engine you also want to finish the game as soon as possible.
+Both sides of Tamiyo are really strong.
+I prefer to flip her as early as possible and recur interaction (mostly Thoughtseize or a Force), as going for the ultimate is often too risky.
+Tamiyo, Murktide and Kaito and are pitch cards for your Forces.
+You can shave one Kaito but in rare situations you can actually bring it into play and lock the game up after a lot of early trading or even tap a fattie to get in the last few points of damage.
+They have a lot of mana sources but still play into Daze a lot and Wastelands make Daze stronger and can turn off offcolor spells like Show and Tell or Witherbloom Apprentice.
 
 ### UB Tempo Mirror (6% Meta game)
 
@@ -848,6 +871,7 @@ Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens t
 
 Shave Wasteland if that isn't enough.
 
+### Red Stompy AKA Dragon Stompy AKA Red Prison
 <mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
 
 Slightly unfavored matchup but can be beat by fetching basics ASAP and focusing on staying alive through the early turns.
@@ -856,6 +880,7 @@ Mulligan for T1 interaction (Thoughtseize/Daze/Force OTP, Force OTD) as you don'
 The tricky part is turning up the heat and killing them quickly as soon as you can afford to because of their overwhelming value with The One Ring and pressure.
 If you can stick Tamiyo or Kaito you may also switch into a control role but otherwise you will run out of interaction at some point when they jam a haymaker every other turn.
 
+#### In
 <mtg-cards names="Hydroblast|Blue Elemental Blast|Consign to Memory|Force of Negation|Sheoldred's Edict|Brazen Borrower // Petty Theft|Barrowgoyf|Engineered Explosives"></mtg-cards>
 
 Hydroblasts and Consign to Memory are extremely valuable in the matchup because they allow you to trade 1:1 which is very important as you often have to handle several threats in a row.
@@ -866,6 +891,7 @@ I personally also bring in one or two Null Rods but that's debatable.
 Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
 </mtg-cite>
 
+#### Out
 <mtg-cards names="Nihil Spellbomb|Daze|Orcish Bowmasters|Thoughtseize"></mtg-cards>
 
 <todo/>
@@ -879,6 +905,7 @@ If you need more room, shave Thoughtseize.
 <mtg-todo/>
 <youtube-video id="5AwtoVA4y0A" t="2080"/>
 
+### Cascade Crash
 <mtg-cards names="Elvish Spirit Guide|Simian Spirit Guide|Shardless Agent|Violent Outburst|Crashing Footfalls|Brazen Borrower // Petty Theft|Fire / Ice|Minsc & Boo, Timeless Heroes"></mtg-cards>
 
 One of our best aggro matchups because Nethergoyf and Fatal Push line up well against a pair of 4/4s.
@@ -887,6 +914,7 @@ Be prepared to have your lands iced and your graveyard Endurance-d.
 
 #### Sideboarding
 
+##### In
 <mtg-cards names="Consign to Memory|Hydroblast|Force of Negation|Barrowgoyf|Engineered Explosives|Sheoldred's Edict|Flusterstorm"></mtg-cards>
 
 Postboard is even better because Consign to Memory is a clean answer to the cascade trigger and Hydroblast is very efficient as well.
@@ -895,6 +923,7 @@ I rarely include it but if you do, Flusterstorm is amazing as well.
 They can prolong the game with Brazen Borrower but pitching Spirit Guides means that they should be empty handed quickly.
 Just be careful with postboard Mystical Dispute and Blood Moon if they even bring that in.
 
+##### Out
 <mtg-cards names="Nihil Spellbomb|Orcish Bowmasters|Daze"></mtg-cards>
 
 ### Initiative Stompy
@@ -1053,19 +1082,21 @@ Tamiyo is an out to Empty the Warrens goblin tokens but it’s often hard to fli
 
 #### Play Patterns and Interactions
 
+##### Soft Lock
 <mtg-cards names="Harbinger of the Seas|Null Rod"></mtg-cards>
 If they don't already have big creatures or a Saga on 2. this soft lock can only be broken by Elvish Spirit Guide + Boseiju, Who Endures or double Bowmaster trigger.
 
+##### Nonbo
 <mtg-cards names="Null Rod|Nihil Spellbomb|Clue"></mtg-cards>
 Especially painful if you lose to Empty the Warrens and stop your own Tamiyo flip, I always board out Nihil Spellbomb though.
 
+##### Stop the Wheels
 <mtg-cards names="Lion's Eye Diamond|Lion's Eye Diamond|Echo of Eons|Echo of Eons|Force of Will|Faerie Macabre"></mtg-cards>
 You don't get priority after a Lion's Eye Diamond activation before an Echo of Eons cast but at least you can exile one with the other on the stack and then counter the first.
 
 #### Sideboarding
 
 ##### In
-
 <mtg-cards names="Force of Negation|Consign to Memory|Null Rod|Engineered Explosives|Grafdigger's Cage"></mtg-cards>
 
 If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pierce, Mindbreak Trap and so on of course bring it all in.
@@ -1073,6 +1104,7 @@ If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pi
 ##### Out
 <mtg-card name="Fatal Push"/>
 
+##### Maybe
 <mtg-cards names="Barrowgoyf|Nihil Spellbomb|Surgical Extraction|Faerie Macabre|Brazen Borrower // Petty Theft|Harbinger of the Seas|Swamp|Island"></mtg-cards>
 
 I have played this match a lot against an excellent player and we could not come to a conclusion for the last few slots, so make your own decision based on your opponents variant, play style and play/draw.
@@ -1081,7 +1113,6 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 #### Cards they may have MB or SB
 
 <mtg-cards names="Orcish Bowmasters|Veil of Summer|Elvish Spirit Guide|Carpet of Flowers|Boseiju, Who Endures"></mtg-cards>
-
 
 * Their Plan: Beseech + Gaea’s Will, Echo + Tendrils, Echo + Bowmasters, Constructs, maybe Empty the Warrens
 
@@ -1185,11 +1216,18 @@ Similar to UB Tempo and UB Reanimator, the decks have lot of overlap, but in dif
 For example Null Rod is the key card vs Mystic Forge but still reasonable vs Cloudpost where Harbinger of the Seas is better.
 Fatal Push is useless vs Cloudpost but may hit a Glaring Fleshraker vs Mystic Forge. 
 
-<mtg-cards names="Ancient Tomb|Planar Nexus|Urza's Tower|Urza's Workshop|The One Ring|Karn, the Great Creator|Kozilek's Command|Ugin, Eye of the Storms|Ensnaring Bridge|Mycosynth Lattice|Liquimetal Coating|Pithing Needle|Portable Hole|Soul-Guide Lantern|Tormod's Crypt"></mtg-cards>
+#### Common Core
+<mtg-cards names="Ancient Tomb|Planar Nexus|Urza's Tower|Urza's Workshop|The One Ring|Karn, the Great Creator|Kozilek's Command|Ugin, Eye of the Storms"></mtg-cards>
+
+#### Karn Wishboard
+<mtg-cards names="Ensnaring Bridge|Mycosynth Lattice|Liquimetal Coating|Pithing Needle|Portable Hole|Soul-Guide Lantern|Tormod's Crypt"></mtg-cards>
 
 #### Sideboarding
+
+##### In
 <mtg-cards names="Force of Negation|Consign to Memory|Harbinger of the Seas|Null Rod|Sheoldred's Edict|Brazen Borrower // Petty Theft"></mtg-cards>
 
+##### Out
 <mtg-cards names="Nihil Spellbomb|Fatal Push|Orcish Bowmasters|Daze"></mtg-cards>
 
 Unsure if Daze is a better cut than Bowmasters (only good against the One Ring and may not be enough).
@@ -1216,8 +1254,10 @@ Together with Karn this gives them a lot of interaction against Null Rod, Tamiyo
 Unlike Karn, it tutors from the main instead of sideboard so you should be safe from Portable Hole preboard.
 Unlike Urza's Saga, its tutor condition is based on mana value not mana cost, allowing Portable Hole and Walking Ballista (if they have it).
 
+##### Mainboard Tutor Targets
 <mtg-cards names="Lotus Petal|Manifold Key|Voltaic Key|Mox Opal|Pithing Needle|Soul-Guide Lantern"></mtg-cards>
 
+##### Sideboard Tutor Targets
 <mtg-cards names="Portable Hole|Tormod's Crypt|Walking Ballista"></mtg-cards>
 
 
@@ -1330,7 +1370,7 @@ If they have those, they are focused on Combo.
 If they have creatures, you can trim a Wasteland and not bring in Consign. 
 </mtg-cite>
 
-### WR Energy
+### Boros Energy
 <mtg-cards names="Goblin Bombardment|Guide of Souls|Ajani, Nacatl Pariah"></mtg-cards>
 
 #### Sideboarding
@@ -1506,18 +1546,21 @@ They can also just get enough mana to hardcast Craterhoof or sometimes even Atra
 
 #### Sideboarding
 
+##### In
 <mtg-cards names="Toxic Deluge|Engineered Explosives|Sheoldred's Edict|Grafdigger's Cage|Force of Negation"></mtg-cards>
 
 * any mass removal has extreme value
 * any spot removal, even Sheoldred's Edict which often doesn't kill what you want but at least they can't use bounce tricks
 * Cage stops both Green Sun's Zenith and Natural Order (except for Grist)
 
+##### Out
 <mtg-cards names="Nihil Spellbomb|Barrowgoyf|Baleful Strix|Daze"></mtg-cards>
 
 Barrowgoyf is too easy for them to stall.
 Even with Wasteland, Daze is hard to keep active on the draw due to Gaea's Cradle and Heritage Druid.
 On the play you can also keep Daze in and not bring in FoN, especially if you have Cage.
 
+##### Their Plan
 <mtg-cards names="Glimpse of Nature|Endurance|Keen-Eyed Curator|Choke|Abrupt Decay"></mtg-cards>
 
 Due to Orcish Bowmasters they probably board out Glimpse of Nature and bring in Endurance and Keen-Eyed Curator to both handle your graveyard synergies and present threats that don't need synergy.
@@ -1547,6 +1590,7 @@ Can also have a small red splash for sideboard Pyroblast.
 
 * Daze
 
+### Burn
 <mtg-cards names="Lava Spike|Goblin Guide|Fireblast|Monastery Swiftspear|Eidolon of the Great Revel"></mtg-cards>
 
 Good matchup if you have enough Barrowgoyfs.

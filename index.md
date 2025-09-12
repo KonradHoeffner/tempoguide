@@ -870,7 +870,7 @@ Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens t
 Shave Wasteland if that isn't enough.
 
 ### Red Stompy AKA Dragon Stompy AKA Red Prison
-<mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
+<mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror-Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
 
 Slightly unfavored matchup but can be beat by fetching basics ASAP and focusing on staying alive through the early turns.
 Once you stop the initial onslaught you should be favoured as your cantrips give you better average draws but that's never a guarantee, they always have a chance to topdeck back-to-back threats and bury you.
@@ -895,7 +895,7 @@ Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
 <todo/>
 
 Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide.
-Bowmasters are decent against Fable of the Mirror Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
+Bowmasters are decent against Fable of the Mirror-Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
 If you need more room, shave Thoughtseize.
 
 ### Black Stompy
@@ -1175,11 +1175,33 @@ There is also a very rare mono blue basic land variant is very hard to deal with
 
 We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and can accumulate an unbeatable hand, so I almost always Force a Carpet.
 
+### Painter
+<mtg-cards names="Painter's Servant|Grindstone|Ancient Tomb|Urza's Saga|Lotus Petal|Mox Opal"></mtg-cards>
+
+Hybrid combo deck that can also overwhelm you with construct tokens or grind you out with various engines.
+
+#### The Combo
+<mtg-cards names="Painter's Servant|Grindstone|Ancient Tomb|Urza's Saga"></mtg-cards>
+
+As the core is all colorless, there are a lot of variants based on the colors they play.
+
 ### Red Painter
+<mtg-cards names="Simian Spirit Guide|Pyroblast|Red Elemental Blast|Fable of the Mirror-Breaker|Goblin Welder|Goblin Engineer|Lightning Bolt"></mtg-cards>
+
 Sometimes with white or black splash.
+
 <mtg-todo/>
 
 <youtube-video id="5AwtoVA4y0A" t="4128"/>
+
+#### Sideboarding
+
+##### In
+
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Consign to Memory|Engineered Explosives|Sheoldred's Edict|Barrowgoyf|Emrakul, the Aeons Torn"></mtg-cards>
+
+##### Out
+<mtg-cards names="Daze|Force of Will|Orcish Bowmasters"></mtg-cards>
 
 ### Blue Painter
 <mtg-todo/>

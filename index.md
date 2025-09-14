@@ -1693,7 +1693,7 @@ BUG Reanimator Beans:
 GB Rumble Painter:
 <youtube-video id="=r_pYbcq92_c" t="31"/>
 
-## Excercises
+## Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
 These excercises allow you to practice even if you are just sitting in the tram or waiting at the doctor's office.
 Also, focussed practise allows you to train one area in isolation and can thus be even more effective than just playing games.
@@ -1705,14 +1705,12 @@ Those hands were given during the Ecobaronen EU Tempo Team EW 2025 preparation b
 Anyways, the main point is not what is right or wrong but to get you to think about the different scenarious that can happen and weigh them against each other.
 Feel free to contribute your own opinions on them by editing this guide.
 
+<ol>
+<li>
 <mtg-cards names="Bloodstained Mire|Ponder|Orcish Bowmasters|Daze|Thoughtseize|Tamiyo, Inquisitive Student|Wasteland"></mtg-cards>
-<mtg-cards names="Polluted Delta|Swamp|Nihil Spellbomb|Fatal Push|Brainstorm|Thoughtseize|Tamiyo, Inquisitive Student"></mtg-cards>
-<mtg-cards names="Bloodstained Mire|Thoughtseize|Tamiyo, Inquisitive Student|Nihil Spellbomb|Ponder|Underground Sea|Force of Will"></mtg-cards>
-<mtg-cards names="Polluted Delta|Orcish Bowmasters|Undercity Sewers|Thoughtseize|Tamiyo, Inquisitive Student|Tamiyo, Inquisitive Student|Kaito, Bane of Nightmares"></mtg-cards>
-
 <details>
-<summary>Kirdie's Thoughts</summary>
-1. Marsh Flats, fetch Underground Sea, play Tamiyo.
+<summary markdown="0">Kirdie's Thoughts</summary>
+Marsh Flats, fetch Underground Sea, play Tamiyo.
 We could lose to Wasteland but we are the Tempo deck and need to accept our role.
 Starting on Thoughtseize means if they have Wasteland we are even worse off, as they are more incentivised to Wasteland us when we aren't ahead on board.
 We also don't need to Thoughtseize T1 because we have Daze as protection.
@@ -1721,16 +1719,46 @@ We don't even know what we want to Ponder for yet besides another land.
 Ponder next turn could also prepare a T3 Kaito.
 Notably this is all because it's on the blind.
 If we knew for example that we were facing Oops we would start with Thoughtseize instead.
-2. If our opponent mulls to 5 or 4 we could think about Oops and play the Spellbomb to get an instant concession into lunch break but assuming the opponent keeps 7 or 6: This time we don't have Daze to protect both us and Tamiyo so starting on Thoughtseize seems more reasonable here. If we are playing against combo we can take a combo piece and if we are against a fair deck we can take removal for Tamiyo. What I don't like about this hand is that the basic swamp really limits our options on T2. Because of our basic Swamp in hand we can think about fetching Polluted Delta for a basic island here, but then we may lose the shuffle effect after brainstorm. Our hand is very weak to Chalice of the Void, so I think I start with Basic Swamp into Thoughtseize here. Next turn we can play Tamiyo and Nihil Spellbomb or Push which may not be optimal in the matchup. If they get Magus of the Moon in play desite our Thoughtseize we can get revolt by saccing Nihil Spellbomb. A close second line would be to fetch basic island and play Tamiyo but if our Tamiyo get's killed we have a purely reactive hand and we also cannot stop a strong T1 play so I like T1 Thoughtseize more. 
-3. Similar to hand nr. 1, I'm more inclined to start on Tamiyo if I have a free counter to protect her or us. As Bloodstained Mire cannot fetch Island, I would start on Underground Sea + Tamiyo and force a removal spell on her. But I could also understand starting with Underground Sea + Thoughtseize to clear the way first if we aren't comfortable Forcing a Fatal Push.
-4. Fetch Underground Sea + play Tamiyo.
+</details>
+</li>
+<li>
+<mtg-cards names="Polluted Delta|Swamp|Nihil Spellbomb|Fatal Push|Brainstorm|Thoughtseize|Tamiyo, Inquisitive Student"></mtg-cards>
+<details>
+<summary markdown="0">Kirdie's Thoughts</summary>
+If our opponent mulls to 5 or 4 we could think about Oops and play the Spellbomb to get an instant concession into lunch break but assuming the opponent keeps 7 or 6:
+This time we don't have Daze to protect both us and Tamiyo so starting on Thoughtseize seems more reasonable here.
+If we are playing against combo we can take a combo piece and if we are against a fair deck we can take removal for Tamiyo.
+What I don't like about this hand is that the basic swamp really limits our options on T2.
+Because of our basic Swamp in hand we can think about fetching Polluted Delta for a basic island here, but then we may lose the shuffle effect after brainstorm.
+Our hand is very weak to Chalice of the Void, so I think I start with Basic Swamp into Thoughtseize here.
+Next turn we can play Tamiyo and Nihil Spellbomb or Push which may not be optimal in the matchup.
+If they get Magus of the Moon in play desite our Thoughtseize we can get revolt by saccing Nihil Spellbomb.
+A close second line would be to fetch basic island and play Tamiyo but if our Tamiyo get's killed we have a purely reactive hand and we also cannot stop a strong T1 play so I like T1 Thoughtseize more. 
+</details>
+</li>
+<li>
+<mtg-cards names="Bloodstained Mire|Thoughtseize|Tamiyo, Inquisitive Student|Nihil Spellbomb|Ponder|Underground Sea|Force of Will"></mtg-cards>
+<details>
+<summary markdown="0">Kirdie's Thoughts</summary>
+Similar to hand nr. 1, I'm more inclined to start on Tamiyo if I have a free counter to protect her or us.
+As Bloodstained Mire cannot fetch Island, I would start on Underground Sea + Tamiyo and force a removal spell on her.
+But I could also understand starting with Underground Sea + Thoughtseize to clear the way first if we aren't comfortable Forcing a Fatal Push.
+<details>
+</li>
+<li>
+<mtg-cards names="Polluted Delta|Orcish Bowmasters|Undercity Sewers|Thoughtseize|Tamiyo, Inquisitive Student|Tamiyo, Inquisitive Student|Kaito, Bane of Nightmares"></mtg-cards>
+<summary markdown="0">Kirdie's Thoughts</summary>
+Fetch Underground Sea + play Tamiyo.
 If she gets killed we can play another one next turn + a Thoughtseize if we draw an untapped land.
 But because we have so many threats and so little interaction and might not draw land nr 3, maybe playing the surveil land is a better move.
 Thoughtseize is also a possibility.
+</details>
+</li>
 
+<details>
+<summary markdown="0">Other opinions</summary>
 However Eco/Andreas said that Thoughtseize on the blind T1 OTP is worth delaying Tamiyo in all those cases because it allows us to prevent strong plays from the opponent, clear the way for Tamiyo and plan out our future interaction.
 </details>
-
 
 ### What's The Play
 

@@ -700,6 +700,7 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 <youtube-video id="HzgspkNRJ3E"/>
 <youtube-video id="X17fCga0pWE" t="1843"/>
 <youtube-video id="WEhaPr-ua-o" t="1597"/>
+<youtube-video id="kWIJ3agy-qU" t="295"/>
 
 #### Sideboarding:
 
@@ -712,11 +713,19 @@ Don’t board in FoN as it’s not good against their fair plan and also avoid C
 
 ##### Out
 
-Daze, shave Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers.
+<mtg-cards names="Daze|Wasteland|Fatal Push"></mtg-cards>
+
+
+Daze, shave Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers but I like to keep all Pushes i.
 All Barrowgoyfs as they are too dangerous to get reanimated against you.
 I used to board out 4 Wasteland but you need the mana against Daze and to crack clues and you want to keep them below 5-6 mana for hardcast FoW, and the Ghost Vacuum in case they being that in. 
 
-Alternative: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
+Alternative 1: INF likes to shave two Nethergoyf on the draw:
+<mtg-cite name="_INF" href="https://youtu.be/kWIJ3agy-qU?si=IIAzuHbgJdR40tis&t=407" about="Tempo expert">
+Basically, UB Reani shifts to a tempo plan, so we aim to control the board by applying removal spells appropriately. The game tends to slow down, so we're reducing the number of Nethergoifs, which only serve to attack. (Since the opponent's creatures have evasion, goyf don't become blockers that stop the board.
+</mtg-cite>
+
+Alternative 2 : If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
 ### Turbo Reanimator
 <mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>

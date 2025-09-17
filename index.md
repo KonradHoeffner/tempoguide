@@ -24,6 +24,12 @@ title: MTG Legacy UB Tempo Guide
     max-height: 25vh;
     display: inline-block;
   }
+  img.wtp {
+    max-width: 70em;
+    max-height: 80vh;
+    margin: 0 auto;
+    display: block;
+  }
 </style>
 <script>
 const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
@@ -254,7 +260,7 @@ Barrowgoyf: Red Stompy, Izzet, UB Tempo.
 ### Removal
 
 #### Fatal Push
-<mtg-card name="Fatal Push"/>
+<mtg-card name="Fatal Push"></mtg-card>
 
 Kills most relevant creatures in Legacy, so play 4.
 Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nadu are relevant in the matchup.
@@ -263,7 +269,7 @@ You can target any creature with Fatal Push, even if it doesn’t have an effect
 
 
 #### Brazen Borrower
-<mtg-card name="Brazen Borrower // Petty Theft"/>
+<mtg-card name="Brazen Borrower // Petty Theft"></mtg-card>
 
 Can bounce stuff that Fatal Push doesn’t hit, like Murktide Regent, Chalice of the Void, Ensnaring Bridge, Marit Lage, a flipped Tamiyo and much much more.
 While bounce is less powerful than removal in a vacuum, UB doesn’t have flexible 2 mana removal spells like Molten Collapse or Witherbloom Command, so this is currently our best option.
@@ -273,7 +279,7 @@ You can also build your own Vindicate with Petty Theft + Thoughtseize.
 
 
 ##### Kaito, Bane of Nightmares
-<mtg-card name="Kaito, Bane of Nightmares"/>
+<mtg-card name="Kaito, Bane of Nightmares"></mtg-card>
 
 Formerly niche card but since the Frog ban firmly established as a two of value engine that is hard to remove and can disable creatures like Murktide Regent or even Emrakul.
 If you are attacking with a creature with power >3 on MTGO, set a stop at the damage step and Ninjutsu Kaito in, you get the damage and the planeswalker, very good with Barrowgoyf and Murktide situationally.
@@ -285,7 +291,7 @@ Remember you can ninjutsu your Kaito with another Kaito.
 
 
 ##### Nihil Spellbomb
-<mtg-card name="Nihil Spellbomb"/>
+<mtg-card name="Nihil Spellbomb"></mtg-card>
 
 Great T1 nonsense protection in the current meta.
 Even if you see them as something else online, everyone seems to play Reanimator now.
@@ -311,7 +317,7 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 -->
 
 <!--
-<mtg-card name=""/>
+<mtg-card name=""></mtg-card>
 -->
 
 ### Niche Cards
@@ -512,18 +518,18 @@ It’s great against all kinds of blue cantrip decks, whether it’s combo, cont
 ## Opponent Card Guide
 
 ### Gaea’s Cradle
-<mtg-card name="Gaea's Cradle"/>
+<mtg-card name="Gaea's Cradle"></mtg-card>
 
 Sometimes they have a dual land and a Gaea’s Cradle in play and you have to consider which to Wasteland, don’t always automatically kill Cradle as you might be able to mana screw them completely if they have no land in hand, though it is dangerous against decks with a lot of one drop creatures like Elves.
 
 ### Urza’s Saga (outdated by rules change)
-<mtg-card name="Urza's Saga"/>
+<mtg-card name="Urza's Saga"></mtg-card>
 I don’t know why most people don’t do this, but I almost always bring in my Harbingers of the Sea against Saga decks because having a 3 mana 2/2 that kills a Saga and does more later is really strong on it’s own as long as you remember to fetch basic swamp beforehand.
 You can Wasteland it with the first trigger on the stack so they never get mana.
 You can Consign to Memory any of the chapter abilities but not the activated one to create a token.
 
 ### Crop Rotation
-<mtg-card name="Crop Rotation"/>
+<mtg-card name="Crop Rotation"></mtg-card>
 Most of the time it's correct to force it.
 Wasteland on the opponents turn if you have FoN in hand, even if they have no mana, they may play Elvish Spirit Guide.
 
@@ -603,8 +609,8 @@ Out: Force of Negation, Force of Will, Thoughtseize, Daze
 
 
 ### UB Ninjas
-<mtg-todo/>
-<youtube-video id="V1lHxege1h0" t="33"/>
+<mtg-todo></mtg-todo>
+<youtube-video id="V1lHxege1h0" t="33"></youtube-video>
 
 ### Red Daze Decks
 
@@ -637,8 +643,8 @@ Boarding out Daze instead of Thoughtseize is also an option.
 ### RUG Druid
 <mtg-cards names="Delver of Secrets|Questing Druid // Seek the Beast"></mtg-cards>
 
-<youtube-video id="X17fCga0pWE" t="1378" />
-<youtube-video id="8Bn3nKYBz0s"/><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
+<youtube-video id="X17fCga0pWE" t="1378" ></youtube-video>
+<youtube-video id="8Bn3nKYBz0s"></youtube-video><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
 
 Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
 If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
@@ -652,8 +658,8 @@ Taking away Delirium can also be useful to save your creatures from Unholy Heat.
 ### UR Cutter
 <mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
 
-<youtube-video id="1CWAQ_oUBBw"/>
-<youtube-video id="=r_pYbcq92_c" t="5810"/>
+<youtube-video id="1CWAQ_oUBBw"></youtube-video>
+<youtube-video id="=r_pYbcq92_c" t="5810"></youtube-video>
 
 A matching that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
 Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
@@ -691,16 +697,16 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 #### Videos
 
-<youtube-video id="Evb8f2Vqz0s" t="5705"/>
-<youtube-video id="Evb8f2Vqz0s" t="4971"/>
-<youtube-video id="hjrBnyX9j1s"/>
-<youtube-video id="3r_bdJwb83E"/>
-<youtube-video id="gILa0Q1G30U"/>
-<youtube-video id="rvXujBKWM6g" t="2804" />
-<youtube-video id="HzgspkNRJ3E"/>
-<youtube-video id="X17fCga0pWE" t="1843"/>
-<youtube-video id="WEhaPr-ua-o" t="1597"/>
-<youtube-video id="kWIJ3agy-qU" t="295"/>
+<youtube-video id="Evb8f2Vqz0s" t="5705"></youtube-video>
+<youtube-video id="Evb8f2Vqz0s" t="4971"></youtube-video>
+<youtube-video id="hjrBnyX9j1s"></youtube-video>
+<youtube-video id="3r_bdJwb83E"></youtube-video>
+<youtube-video id="gILa0Q1G30U"></youtube-video>
+<youtube-video id="rvXujBKWM6g" t="2804" ></youtube-video>
+<youtube-video id="HzgspkNRJ3E"></youtube-video>
+<youtube-video id="X17fCga0pWE" t="1843"></youtube-video>
+<youtube-video id="WEhaPr-ua-o" t="1597"></youtube-video>
+<youtube-video id="kWIJ3agy-qU" t="295"></youtube-video>
 
 #### Sideboarding:
 
@@ -734,7 +740,7 @@ In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator trie
 While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivised to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
 Nihil Spellbomb is extremely strong in game 1.
 
-<youtube-video id="X17fCga0pWE" t="3785"/>
+<youtube-video id="X17fCga0pWE" t="3785"></youtube-video>
 
 #### Postboard Pivots
 <mtg-cards names="Show and Tell|Stronghold Gambit|Witherbloom Apprentice"></mtg-cards>
@@ -817,8 +823,8 @@ They have a lot of mana sources but still play into Daze a lot and Wastelands ma
 
 ### UB Tempo Mirror (6% Meta game)
 
-<youtube-video id="rvXujBKWM6g" t="4394"/>
-<youtube-video id="a4blaLDSMNA"/>
+<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
+<youtube-video id="a4blaLDSMNA"></youtube-video>
 
 Luke:
 
@@ -826,7 +832,7 @@ Luke:
 Thankfully, the sideboard plan for the mirror is straightforward and intuitive.
 
 ##### Out
-<mtg-card name="Force of Will"/>
+<mtg-card name="Force of Will"></mtg-card>
 
 -4 Force of Will.
 
@@ -856,10 +862,10 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 
 #### Videos
 
-<youtube-video id="WEhaPr-ua-o" t="73"/>
-<youtube-video id="Evb8f2Vqz0s" t="7098"/>
-<youtube-video id="rvXujBKWM6g" t="1731" />
-<youtube-video id="rvXujBKWM6g" t="2324" />
+<youtube-video id="WEhaPr-ua-o" t="73"></youtube-video>
+<youtube-video id="Evb8f2Vqz0s" t="7098"></youtube-video>
+<youtube-video id="rvXujBKWM6g" t="1731" ></youtube-video>
+<youtube-video id="rvXujBKWM6g" t="2324" ></youtube-video>
 
 #### Sideboarding
 
@@ -877,6 +883,133 @@ Be careful with Null Rod turning off your own Nihil Spellbombs and Clue tokens t
 <mtg-cards names="Orcish Bowmasters|Fatal Push"></mtg-cards>
 
 Shave Wasteland if that isn't enough.
+
+<h4 id="whats-the-play-oops">What's the Play</h4>
+
+##### A full game: postboard on on the draw
+
+###### Keep or Mull?
+<img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops1.jpg"/>
+
+<mtg-cite name="Nathan Lipetz" href="https://www.reddit.com/r/MTGLegacy/comments/1ku9kvq/how_to_beat_oops_all_spells_ama_about_oops/">
+The Mono B builds (either Belcher juke SB or creature juke SB) are 26.4% to t1 on a 7 or 6, 9.45% chance of that being protected t1 (if on PON over Unmask - I'll talk about that more later) on a 7, and 9.2% on a 6.
+</mtg-cite>
+
+<details>
+<summary markdown="0">Kirdie's Thoughts</summary>
+While I generally mull away hands that cannot interact with their T1,
+I'm willing to risk the ~26% chance of getting T1ed here because if I get to play Nihil Spellbomb, the game is heavily in my favor.
+</details>
+
+<details>
+<summary markdown="0">What happened</summary>
+Opponent Thoughtseized me, taking away the Nihil Spellbomb and passed back.
+</details>
+
+###### We survived to our Turn 1, how to proceed?
+<img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops2.jpg"/>
+
+1. Wasteland and pass
+2. Wasteland and kill their land
+3. Underground Sea and Brainstorm
+4. Underground Sea and pass
+5. Undercity Sewers
+
+<details>
+<summary markdown="0">What could they have in hand at worst next turn?</summary>
+The most threatening 4 cards would be a black mana source, Dark Ritual, a combo creature and either a Pact (if we Brainstorm for a Force) or another mana source (if we Wasteland them).
+They could also have land, 2 Elvish Spirit Guides and a combo creature, giving us no target for a Force of Negation but for Daze.
+</details>
+
+<details>
+<summary markdown="0">Kirdie's Play</summary>
+I only seriously considered options 2 and 4.
+If we had relevant zero mana spells like Tormod's Crypt, then I would also consider 3.
+As they have way more mana sources than Pact of Negations in their deck, I would vastly prefer a Force of Will to a Wasteland.
+However Wastelanding them is guaranteed while finding relevant interaction with Brainstorm is iffy.
+Even if we consider our 2 Force of Negation and 3 Daze in addition to our 4 Force of Wills, that is only 9 hits out of 52 cards.
+As we are playing on MTGO and Oops does not tax our timer, we can plug that into a hypergeometric calculator like <https://aetherhub.com/Apps/HyperGeometric> and get a 44.2% chance to draw at least one of them.
+As I don't like those chances, I decide to Wasteland instead.
+</details>
+
+
+##### Two turns later: What to Thoughtseize?
+<img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops3.jpg"/>
+The opponent could not combo and we are lucky to draw another Nihil Spellbomb T2 that we can't slam fast enough.
+T3 we draw Thoughtseize and immediately play it, what do we take?
+
+<details>
+<summary markdown="0">Kirdie's Thoughts I (no spoiler)</summary>
+If we didn't Wasteland the opponent earlier, they could have a protected combo by now.
+But since we got down a Nihil Spellbomb in the meantime, they are in a difficult spot.
+Their options for winning are now as follows:
+1. they could have a creature juke (unlikely with Pact)
+2. one more mana + artifact removal/bounce (+ mana/more turns for that)
+3. a lot more mana + Goblin Charbelcher (not great against our postboard configuration but many Oops players still board it in)
+4. two more mana + going through a multi-turn line involving Memory's Journey
+
+Which card do we take to make their comeback as hard as possible?
+</details>
+
+<details>
+<summary markdown="0">Kirdie's Thoughts II</summary>
+As we don't have a Force in hand, I decide to take the Elvish Spirit guide as that delays both a possible Goblin Charbelcher as well as Memory's Journey.
+</details>
+
+##### Playing Tight: How to wrap this up?
+<img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops4.jpg"/>
+We nearly won this game but we should always play tight and not give them any chance to come back.
+
+<details>
+<summary markdown="0">Kirdie's Mistake</summary>
+This game state is interesting because our options conflict with each other:
+Null Rod deactivates the Lotus Petals and a potential LED + Charbelcher but our Nihil Spellbomb as well.
+Ninjutsuing Kaito off Murktide gives us surveil + draw but reduces our damage.
+I chose to do just that, using Ninjutsu in the damage step (see my stops) to keep a 3 turn clock while still getting the surveil two + draw.
+</details>
+
+<details>
+<summary markdown="0">Can you find a better line?</summary>
+There is no single draw that the opponent could realistically have in their deck that wins next turn given that we know their hand.
+The graveyard combo can be delayed through Nihil Spellbomb and Goblin Charbelcher needs 7 mana to play and activate.
+Thus we should go for a next turn kill which we can achieve by either hardcasting Kaito (giving us surveil 2 + a card draw) or by playing Tamiyo and Ninjutsuing Kaito in next turn.
+This is easy to overlook if we are rushing our plays and conditioned always use Ninjutsu instead of hardcasting Kaito.
+If we aren't forced to use the Spellbomb, we could even pump Murktide by 2 but that isn't even necessary.
+</details>
+
+##### The Cabal Therapy
+<img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops4.jpg"/>
+
+Oops is flashbacking Cabal Therapy targetting us after milling their deck.
+How do we respond?
+Their exile is 2 Simian Spirit Guide 1 Pact of Negation.
+Our hidden board is 2 lands 2 Nethergoyf.
+I was playing on MTGO and had a lot of time to spare, so I took a whole 15 minutes to think this through.
+I suggest you to think it through in detail as well before opening the spoiler.
+
+<details>
+<summary markdown="0">What's in their hand?</summary>
+We don't see Thassa's Oracle anywhere, so unless they misbuilt their deck, that is their hand.
+</details>
+
+<details>
+<summary markdown="0">The Dilemma</summary>
+Responding to the Cabal Therapy by casting Surgical Extraction on Memory's Journey would probably lose because they can use the second Cabal Therapy on themselves, discarding it and then using Dread Return for the win.
+Surgical Extraction on something else also iffy because they can use Memory's Journey next upkeep to for example put 2 Lotus Petals on top of their deck and cast Oracle.
+Even if we take away the Lotus Petals, they could use Chrome Mox and a blue card and use Jack-o'-Lantern or just beat us down with Narcomoebas, Poxwalkers and Bridge Tokens.
+</details>
+
+<details>
+<summary markdown="0">Outside Context</summary>
+They did not see Surgical this match and I goldfished myself to verify that my last trophies were on Faerie not Surgical.
+</details>
+
+<details>
+<summary markdown="0">Kirdie's play</summary>
+I let Cabal Therapy resolve and they named Faerie Macabre, which I often have two of in my public results.
+Then they used the second Cabal Therapy and I responded with Surgical Extraction on Memory's Journey, taking away their only option of going for a multi-turn win as they now had no way left to discard Thassa's Oracle.
+Note that an absolute Oops-master respecting me to play perfectly could have logically excluded Faerie Macabre from being in my hand as I would have used that on both the other Cabal Therapy and Memory's Journey.
+</details>
 
 ### Red Stompy AKA Dragon Stompy AKA Red Prison
 <mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror-Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
@@ -909,8 +1042,8 @@ If you need more room, shave Thoughtseize.
 
 ### Black Stompy
 
-<mtg-todo/>
-<youtube-video id="5AwtoVA4y0A" t="2080"/>
+<mtg-todo></mtg-todo>
+<youtube-video id="5AwtoVA4y0A" t="2080"></youtube-video>
 
 ### Cascade Crash
 <mtg-cards names="Elvish Spirit Guide|Simian Spirit Guide|Shardless Agent|Violent Outburst|Crashing Footfalls|Brazen Borrower // Petty Theft|Fire / Ice|Minsc & Boo, Timeless Heroes"></mtg-cards>
@@ -934,7 +1067,7 @@ Just be careful with postboard Mystical Dispute and Blood Moon if they even brin
 <mtg-cards names="Nihil Spellbomb|Orcish Bowmasters|Daze"></mtg-cards>
 
 ### Initiative Stompy
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
 ### Lands
 <mtg-cards names="Dark Depths|Thespian's Stage|Wasteland|Ghost Quarter|Urza's Saga|Maze of Ith|The Tabernacle at Pendrell Vale|Exploration|Life from the Loam|Mox Diamond"></mtg-cards>
@@ -952,7 +1085,7 @@ Stage can also copy Urza's Saga and then copy something else the next turn to ke
 
 #### Videos
 
-<youtube-video id="dLoANQnS5nk"/>
+<youtube-video id="dLoANQnS5nk"></youtube-video>
 
 #### Sideboarding
 Postboard it gets a little bit better because you have a lot of almost-blanks to board out and they don't gain much except maybe Choke, Endurance, Dismember and another Pithing Needle.
@@ -1016,7 +1149,7 @@ I do bring in Force of Negation at the very least on the draw as you will be up 
 #### Videos
 
 From BeeExcellent's perspective:
-<youtube-video id="efXSq_whdqA" t="5274"/>
+<youtube-video id="efXSq_whdqA" t="5274"></youtube-video>
 
 #### Sideboarding
 
@@ -1043,20 +1176,20 @@ Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show u
 </mtg-cite>
 
 ### Jeskai Control
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 Very bad matchup but fortunately not widely played.
 It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 ### Jeskai Wizards
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
-<youtube-video id="rvXujBKWM6g" t="9804" />
+<youtube-video id="rvXujBKWM6g" t="9804" ></youtube-video>
 
 ### (Yorion) Beanstalk Control
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
-<youtube-video id="rvXujBKWM6g" t="4394"/>
-<youtube-video id="5TAMjgtzrok"/>
+<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
+<youtube-video id="5TAMjgtzrok"></youtube-video>
 
 ### Storm Decks
 <mtg-cards names="Dark Ritual|Lotus Petal|Lion's Eye Diamond|Tendrils of Agony"></mtg-cards>
@@ -1065,8 +1198,8 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 <mtg-cards names="Dark Ritual|Mox Opal|Lion's Eye Diamond|Beseech the Mirror|Gaea's Will|Tendrils of Agony|Echo of Eons|Orcish Bowmasters|Urza's Saga"></mtg-cards>
 
-<youtube-video id="WEhaPr-ua-o" t="4115"/>
-<youtube-video id="V1lHxege1h0" t="3169"/>
+<youtube-video id="WEhaPr-ua-o" t="4115"></youtube-video>
+<youtube-video id="V1lHxege1h0" t="3169"></youtube-video>
 
 Super difficult to play against as they have so many different threats and you never know what they are up to this game.
 Nihil Spellbomb is often bad as they keep priority between sacrificing Lion's Eye Diamond and casting Echo of Eons.
@@ -1111,7 +1244,7 @@ You don't get priority after a Lion's Eye Diamond activation before an Echo of E
 If you have nonstandard countermagic like Counterbalance, Flusterstorm, Spell pierce, Mindbreak Trap and so on of course bring it all in.
 
 ##### Out
-<mtg-card name="Fatal Push"/>
+<mtg-card name="Fatal Push"></mtg-card>
 
 ##### Maybe
 <mtg-cards names="Barrowgoyf|Nihil Spellbomb|Surgical Extraction|Faerie Macabre|Brazen Borrower // Petty Theft|Harbinger of the Seas|Swamp|Island"></mtg-cards>
@@ -1127,7 +1260,7 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 
 
 ### ANT
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
 Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
 
@@ -1142,9 +1275,9 @@ Play too passive and you get buried by their Stock Ups but play too aggressive a
 I like a single Sheoldred's Edict as an out to Emrakul.
 Unfortunately Kaito does not count as a creature in your hand so you cannot bring it in with Show and Tell.
 
-<youtube-video id="BfZVYhNqUw4"/>
-<youtube-video id="r_pYbcq92_c" t="1878"/><!--2025-06-26 wingzerofnc-->
-<youtube-video id="V1lHxege1h0" t="3865"/><!-- 2025-06-27 CyNightfox-->
+<youtube-video id="BfZVYhNqUw4"></youtube-video>
+<youtube-video id="r_pYbcq92_c" t="1878"></youtube-video><!--2025-06-26 wingzerofnc-->
+<youtube-video id="V1lHxege1h0" t="3865"></youtube-video><!-- 2025-06-27 CyNightfox-->
 
 #### Sideboarding
 ##### In
@@ -1168,7 +1301,7 @@ There is also a very rare mono blue basic land variant is very hard to deal with
 
 #### Videos
 
-<youtube-video id="Evb8f2Vqz0s" t="94"/>
+<youtube-video id="Evb8f2Vqz0s" t="94"></youtube-video>
 
 #### Sideboarding
 
@@ -1201,9 +1334,9 @@ As the core is all colorless, there are a lot of variants based on the colors th
 
 Sometimes with white or black splash.
 
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
-<youtube-video id="5AwtoVA4y0A" t="4128"/>
+<youtube-video id="5AwtoVA4y0A" t="4128"></youtube-video>
 
 #### Sideboarding
 
@@ -1215,21 +1348,21 @@ Sometimes with white or black splash.
 <mtg-cards names="Daze|Force of Will|Orcish Bowmasters"></mtg-cards>
 
 ### Blue Painter
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
 ### Stiflenought
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
 #### Videos
 
-<youtube-video id="rvXujBKWM6g" t="12" />
+<youtube-video id="rvXujBKWM6g" t="12" ></youtube-video>
 
 ### Eldrazi
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
 <mtg-cards names="Eye of Ugin|Eldrazi Temple|Kozilek's Command|"></mtg-cards>
 
-<youtube-video id="X17fCga0pWE" t="28" />
+<youtube-video id="X17fCga0pWE" t="28" ></youtube-video>
 
 After the ban of Sowing Mycospawn, the deck is much less oppressive but still structurally favored due to Chalice of the Void and a long stream of large, potentially uncounterable threats.
 
@@ -1268,9 +1401,9 @@ Unsure if Daze is a better cut than Bowmasters (only good against the One Ring a
 <mtg-cards names="Mystic Forge|Glaring Fleshraker|Manifold Key|Grim Monolith|Tezzeret, Cruel Captain"></mtg-cards>
 
 ##### Videos
-<youtube-video id="Evb8f2Vqz0s" t="2302"/>
-<youtube-video id="2mo4zYBPFTs"/>
-<youtube-video id="V1lHxege1h0" t="1040"/>
+<youtube-video id="Evb8f2Vqz0s" t="2302"></youtube-video>
+<youtube-video id="2mo4zYBPFTs"></youtube-video>
+<youtube-video id="V1lHxege1h0" t="1040"></youtube-video>
 
 As long as it's play rate is that high, Null Rod and Consign to Memory have a lot of value in the sideboard.
 Because of Glaring Fleshraker, removal may be more important than against Cloudpost but I think 2 Edicts should be enough.
@@ -1278,7 +1411,7 @@ If you land Null Rod, you need to be aware of Planar Nexus and Mox Opal making w
 
 
 #### Tezzeret, Cruel Captain
-<mtg-card name="Tezzeret, Cruel Captain"/>
+<mtg-card name="Tezzeret, Cruel Captain"></mtg-card>
 
 Recent addition, so the number of copies varies between 0 and 4.
 Together with Karn this gives them a lot of interaction against Null Rod, Tamiyo and Bowmasters.
@@ -1301,9 +1434,9 @@ Harbinger of the Seas is the best card but try to setup a Force of Will in case 
 
 ##### Videos
 
-<youtube-video id="94-4G2___5o" t="5572"/>
-<youtube-video id="94-4G2___5o" t="7968"/>
-<youtube-video id="ubp8N8VCSYQ"/>
+<youtube-video id="94-4G2___5o" t="5572"></youtube-video>
+<youtube-video id="94-4G2___5o" t="7968"></youtube-video>
+<youtube-video id="ubp8N8VCSYQ"></youtube-video>
 
 ### Bant Nadu
 
@@ -1317,7 +1450,7 @@ Sometimes I see Toxic Deluge boarded against me which is not so nice.
 Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
 </mtg-cite>
 
-<youtube-video id="69uBXY4Ywa0"/>
+<youtube-video id="69uBXY4Ywa0"></youtube-video>
 
 ### Cephalid Breakfast
 
@@ -1325,7 +1458,7 @@ Teferi can be very good but also quite awkward, I like additional Endurance agai
 
 #### Videos
 
-<youtube-video id="cQAHgwzGWTA" t="120"/>
+<youtube-video id="cQAHgwzGWTA" t="120"></youtube-video>
 
 Minyafriend:
 Breakfast I find to be pretty good as we are fairly well equipped to deal with their creatures.
@@ -1347,7 +1480,7 @@ I think you can beat this deck without the Consign but I'm starting to wonder, s
 </mtg-cite>
 
 ##### In
-<mtg-card name="Sheoldred's Edict"/>
+<mtg-card name="Sheoldred's Edict"></mtg-card>
 Sheoldred's Edict is nice because it does not target so it can sometimes trade 1 for 1 with Nadu.
 
 ##### Out
@@ -1436,17 +1569,17 @@ If possible I would play around Blood Moon but not if it puts you too far behind
 
 #### Videos
 
-<youtube-video id="94-4G2___5o" t="2565"/>
+<youtube-video id="94-4G2___5o" t="2565"></youtube-video>
 
 ### Death and Taxes
-<mtg-todo/>
+<mtg-todo></mtg-todo>
 
-<youtube-video id="X17fCga0pWE" t="4760"/>
-<youtube-video id="=r_pYbcq92_c" t="3369"/>
+<youtube-video id="X17fCga0pWE" t="4760"></youtube-video>
+<youtube-video id="=r_pYbcq92_c" t="3369"></youtube-video>
 
 ### Cradle Control (1% Meta game)
 
-<youtube-video id="=r_pYbcq92_c" t="7791"/>
+<youtube-video id="=r_pYbcq92_c" t="7791"></youtube-video>
 
 ### Example Decklist
 Austrian Challenge @ Gamestore (Linz, Austria) 1st place by Simon Ritter 2025-06-21
@@ -1540,7 +1673,7 @@ Their Plan: Their plan is already good so they won’t change much, probably Col
 
 <mtg-cards names="Heritage Druid|Nettle Sentinel|Glimpse of Nature|Allosaurus Shepherd|Gaea's Cradle|Green Sun's Zenith|Natural Order|Atraxa, Grand Unifier|Craterhoof Behemoth"></mtg-cards>
 
-<youtube-video id="IhcxBU4w1v8"/>
+<youtube-video id="IhcxBU4w1v8"></youtube-video>
 
 Marquee Legacy creature combo + value deck a long time ago that got powercrept out of the top decks over time, then Orcish Bowmasters caused most Elves players to switch to Cradle Control.
 Their main Glimpse of Nature combo gets destroyed by Orcish Bowmasters so they probably board that out.
@@ -1729,11 +1862,11 @@ All the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, 
 ### Brews and Rare Decks
 
 WUR Mintaurs:
-<youtube-video id="5AwtoVA4y0A" t="28"/>
+<youtube-video id="5AwtoVA4y0A" t="28"></youtube-video>
 BUG Reanimator Beans:
-<youtube-video id="5AwtoVA4y0A" t="6697"/>
+<youtube-video id="5AwtoVA4y0A" t="6697"></youtube-video>
 GB Rumble Painter:
-<youtube-video id="=r_pYbcq92_c" t="31"/>
+<youtube-video id="=r_pYbcq92_c" t="31"></youtube-video>
 
 ## Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
@@ -1785,10 +1918,11 @@ A close second line would be to fetch basic island and play Tamiyo but if our Ta
 Similar to hand nr. 1, I'm more inclined to start on Tamiyo if I have a free counter to protect her or us.
 As Bloodstained Mire cannot fetch Island, I would start on Underground Sea + Tamiyo and force a removal spell on her.
 But I could also understand starting with Underground Sea + Thoughtseize to clear the way first if we aren't comfortable Forcing a Fatal Push.
-<details>
+</details>
 </li>
 <li>
 <mtg-cards names="Polluted Delta|Orcish Bowmasters|Undercity Sewers|Thoughtseize|Tamiyo, Inquisitive Student|Tamiyo, Inquisitive Student|Kaito, Bane of Nightmares"></mtg-cards>
+<details>
 <summary markdown="0">Kirdie's Thoughts</summary>
 Fetch Underground Sea + play Tamiyo.
 If she gets killed we can play another one next turn + a Thoughtseize if we draw an untapped land.
@@ -1796,6 +1930,7 @@ But because we have so many threats and so little interaction and might not draw
 Thoughtseize is also a possibility.
 </details>
 </li>
+</ol>
 
 <details>
 <summary markdown="0">Other opinions</summary>
@@ -1803,6 +1938,9 @@ However Eco/Andreas said that Thoughtseize on the blind T1 OTP is worth delaying
 </details>
 
 ### What's The Play
+
+#### Situations vs Oops
+<a href="#whats-the-play-oops">See the Oops section</a>.
 
 ## Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.

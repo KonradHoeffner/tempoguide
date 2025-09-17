@@ -1058,6 +1058,8 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 <youtube-video id="rvXujBKWM6g" t="4394"/>
 <youtube-video id="5TAMjgtzrok"/>
 
+### Storm Decks
+<mtg-cards names="Dark Ritual|Lotus Petal|Lion's Eye Diamond|Tendrils of Agony"></mtg-cards>
 
 ### Black Saga Storm (~ 1% Meta game)
 
@@ -1647,7 +1649,7 @@ Sometimes they have Roiling Vortex or Ensnaring Bridge so I would keep a Brazen 
 <mtg-cards names="Pyroblast|Roiling Vortex|Ensnaring Bridge"></mtg-cards>
 
 
-### Pox (<1% Meta game)
+### Black Pox
 
 <mtg-cards names="Smallpox|Liliana of the Veil|Karn, the Great Creator|Urza's Saga|Leyline of the Void"></mtg-cards>
 
@@ -1658,16 +1660,47 @@ Besides preparing a lethal attack (take Sudden Edict into account) and then usin
 As the deck is rarely played competitively expect lots of variations and adapt to what you see.
 
 #### Sideboarding
+
 ##### In
-* Barrowgoyf
-* Brazen Borrower
-* Sheoldred's Edict
-* Force of Negation
+
+<mtg-cards names="Barrowgoyf|Brazen Borrower // Petty Theft|Sheoldred's Edict|Force of Negation"></mtg-cards>
 
 ##### Out
-* Daze
-* Fatal Push
-* Orcish Bowmasters
+
+<mtg-cards names="Daze|Fatal Push|Orcish Bowmasters"></mtg-cards>
+
+### BG Loam Pox
+
+<mtg-cards names="Smallpox|Life from the Loam|Mox Diamond|Thoughtseize|Witherbloom Command|Grist, the Hunger Tide|Orcish Bowmasters|Hogaak, Arisen Necropolis|Urza's Saga|Wasteland|Eumidian Hatchery"></mtg-cards>
+
+An experimental mixture between lands and Pox, so a lot of similar things apply:
+
+* Force of Negation stops Life from the Loam for good
+* Kaito and to a lesser extent a flipped Tamiyo are hard for them to handle
+* Fatal Push is of very limited value.
+* "normal" creatures like Nethergoyf and Murktide Regent have trouble getting though.
+
+However as the deck has neither the explosive Exploration draws, the 20/20 Marit Lage, nor the extreme grind power of black Pox, I find it easier to handle than both of them.
+They also lack the land tutors and utility lands like Karakas, Maze of Ith and Tabernacle of Pendrel Vale.
+
+Unlike vs lands, Orcish Bowmasters has a lot of use here:
+* to kill their Bowmasters
+* to enable Kaito (most of the time return the Bowmasters, not the token)
+* to prevent Hogaak from being cast if they have no other creatures, cast yours with their Bowmasters trigger on the stack, so they never have an empty stack and two creatures to cast Hoogak
+* as sacrifice fodder to protect your more important creatures
+
+Gravehate in general is quite important because Loam and Hogaak are the inevitability engine of their deck.
+Fetch basics unless you see Ghost Quarter.
+
+#### Sideboarding
+
+##### In
+
+<mtg-cards names="Barrowgoyf|Brazen Borrower // Petty Theft|Sheoldred's Edict|Force of Negation"></mtg-cards>
+
+##### Out
+
+<mtg-cards names="Daze|Fatal Push"></mtg-cards>
 
 ### LED Dredge (<1% Meta game)
 
@@ -1679,9 +1712,18 @@ Mulligan for grave hate, they are the beatdown.
 If you don’t have grave hate, stick early threats, counter their enabler (anything that discards cards) and try to kill them quickly.
 Be careful with Thoughtseize if they are low on cards because you might win them the game by being forced to discard a dredger.
 
-* In: All graveyard hate, FoN, BEB (Faithless Looting, Ox of Agonas), Counterbalance, 
-Barrowgoyf, Submerge, Emperor of Bones, Orcish Bowmasters, all the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
-* Out: Fatal Push, Orcish Bowmaster, 
+#### Sideboarding
+
+##### In
+
+<mtg-cards names="Nihil Spellbomb|Grafdigger's Cage|Unlicensed Hearse|Force of Negation|Hydroblast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+
+##### Out
+
+<mtg-cards names="Fatal Push|Orcish Bowmasters"></mtg-cards>
+
+All the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
+
 * Their Plan: Win game 1 and hope to get one of the postboard games.
 
 ### Brews and Rare Decks

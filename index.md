@@ -117,7 +117,7 @@ customElements.define('mtg-cite', Cite);
 //document.body.style.visibility = 'visible';
 </script>
 
-**DRAFT, [CONTRIBUTIONS WELCOME](https://github.com/KonradHoeffner/tempoguide)**
+**[IF YOU WANT TO THANK ME, CONTRIBUTE TO THE GUIDE :-)](https://github.com/KonradHoeffner/tempoguide)**
 
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
 
@@ -190,8 +190,74 @@ Those rare variants often go up to 20 lands (e.g. by adding a second Undercity S
 Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
 UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
 
-#### UB Reanimator
-I often have to justify why I'm not just playing the best deck when it has so many cards in common but there are some legitimate advantages to playing UB Tempo instead.
+### Why not play UB Reanimator?
+
+|                                  | UB Tempo                                                                           | UB Reanimator                                  |
+|----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
+| strength at competitive events   | high                                                                               | high                                           |
+| strength at casual events        | medium high                                                                        | very high                                      |
+| skill floor                      | high                                                                               | medium                                         |
+| skill ceiling                    | high                                                                               | high                                           |
+| weak to grave hate               | only certain ones (e.g. Nihil Spellbomb, Unlicensed Hearse) and in some situations | yes                                            |
+| archetype                        | tempo/midrange                                                                     | combo with a tempo/midrange backup plan        |
+| weakness to nonbasic land hate   | medium/low                                                                         | medium (2 basics but needs double black often) |
+| sideboard flexibility            | high                                                                               | medium                                         |
+| are people prepared against you  | more than the meta share suggests but you are still shielded by Reanimator         | very                                           |
+| danger of potential bans         | Tamiyo ban in 2025 unlikely                                                        | safe for EW 2025 NA, high afterwards           |
+
+Both UB Tempo and UB Reanimator are competitive decks that can win tournaments at the highest level, so just play the one you have more fun with and are more comfortable!
+As most and especially the most expensive cards are shared among both, no one is stopping you from trying out both of them in casual events like leagues.
+If you have equal fun with both of them, note down the wins and losses with any deck you play and you can choose the one with your personal highest win rate, given a resonable amount of matches.
+After all, what use is it to you if the average player has a higher win rate with UB Reanimator, if you personally perform better with UB Tempo?
+When I did this originally in 2024, I got around 52% win rate with UB Tempo and 42% win rate with UB Reanimator, so for me it was a clear choice.
+Now in 2025 I have ~59% win rate over 362 matches with UB Tempo and ~61% with UB Reanimator but those stats are mostly from leagues and I notice that deck comfort plays a huge role in important and larger events.
+Sure, I crushed some matches by going for a protected Entomb+Reanimate but the finer details take a long time to master, especially if in a meta saturated by grave hate like it is right now, with UB Reanimator having a huge target on its back.
+UB Tempo only gets hit with some splash damage like the Psychic Frog ban or mainboard grave hate but can also lead the opponent to expect you to be on the more popular UB Reanimator, and UB Tempo can quickly snowball on a slow start from an overly cautious opponent.
+
+As a cautionary tale, I got around 60% win rate with Tamiyo Psychic Frog Tempo Doomsday in 2024 from the comfort of my home in leagues where I could look up my opponents and take my sweet time to build my pile
+but I got absolutely crushed in the Eternal Weekend EU 2024 side event and switched back to UB tempo that night and next morning.
+I achieved a personal record large event result of <a href="https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804">7-3-1 (ID)</a> due to being so experienced and comfortable with the deck to carry me through stressful situations.
+But if you are still undecided and have equal or low experience with both and just want to win as much as possible in the short term, then UB Reanimator is probably the better pick for you, as UB Tempo is very sensitive to misplays and missing experience.
+
+Still, there are legitimate advantages to playing UB Tempo besides comfort so lets explore them.
+Let's first identify what they have in common besides the mana base (only 3 Wastelands but 2 Sewers in Reanimator):
+
+<mtg-cards names="Ponder|Brainstorm|Force of Will|Daze|Thoughtseize|Tamiyo, Seasoned Scholar|Murktide Regent"></mtg-cards>
+
+And now which cards are only in Reanimator:
+
+<mtg-cards names="Entomb|Reanimate|Animate Dead|Atraxa, Grand Unifier|Archon of Cruelty"></mtg-cards>
+
+Cards only in UB Tempo:
+
+<mtg-cards names="Nethergoyf|Kaito, Bane of Nightmares"></mtg-cards>
+
+Cards in UB Tempo that Reanimator has in lower numbers or in the sideboard only:
+
+<mtg-cards names="Fatal Push|Orcish Bowmasters|Nihil Spellbomb"></mtg-cards>
+
+We can already see that UB Tempo is better in scrappy situations where we only get a single spell like Nethergoyf off before trading back and forth with Wasteland and Daze or being Blood Mooned.
+UB Tempo can also play better on basic lands because we don't rely so heavily on double black mana, while UB Reanimator starting on basic Island means they cannot combo before their third turn, which allows the opponent to play more aggressively.
+UB Tempo is also favored in games centered around Tamiyo, especially preboard, because you can threaten it with Nethergoyf, keep it in check with Orcish Bowmasters, Fatal Push their Tamiyo and sometimes prevent Murktide using Nihil Spellbomb.
+However the threat of their combo forces you to often delay your creatures in favor of Thoughtseize or Nihil Spellbomb.
+But that specific matchup is discussed in way more detail in the <a href="#ub-reanimator">UB Reanimator</a> matchup section.
+
+Kaito is also very hard to deal with for some decks, especially for threat light control or midrange redless decks like BUG Beanstalk or Bant Control.
+Even in the rare occasion that a Rest in Peace hits the battlefield, you can often play on just fine by using that 0/1 Nethergoyf to bring in Kaito.
+
+However UB Tempo can be quite mediocre against a lot of nonblue fair decks that may be played at your local game store or some weeks in leagues like WR Energy or Elves.
+I find it a bit illogical if people play a lot of such anti-tempo decks while all Tempo decks combined are only around 10% of the metagame but if they do that and don't respect the graveyard, feel free to switch it up and bring UB Reanimator to take advantage of that for a while.
+
+#### Sideboard flexibility
+
+<mtg-cards names="Harbinger of the Seas|Null Rod|Hydroblast|Engineered Explosives|Toxic Deluge|Dread of Night"></mtg-cards>
+
+UB Reanimator has sideboard slots reserved for more midrange cards like Fatal Push and Orcish Bowmasters that UB Tempo has in the main deck, so UB Tempo has a lot more room to hate on certain types of decks.
+For example, if your local meta is high on Lands and Cloudpost, you have the room to add two Harbingers of the Seas to the sideboard.
+If there is a lot of Mystic Forge and Storm, pack two Null Rods.
+Elves, WR Energy and Goblins? Toxic Deluge, Hydroblast and Engineered Explosives help!
+
+*As this is a complex topic and I'm always open to other opinions, feel free to disagree or elaborate and add to this or other sections.*
 
 ### Lands
 <mtg-cards names="Underground Sea|Polluted Delta|Flooded Strand|Bloodstained Mire|Undercity Sewers|Island|Swamp|Wasteland"></mtg-cards>
@@ -667,7 +733,7 @@ Beware of their combat tricks as they can get lots of prowess triggers and even 
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
 On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
 
-### UB Reanimator (20% Meta game)
+### UB Reanimator
 
 <mtg-cards names="Reanimate|Entomb|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
 

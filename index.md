@@ -248,6 +248,15 @@ Even in the rare occasion that a Rest in Peace hits the battlefield, you can oft
 However UB Tempo can be quite mediocre against a lot of nonblue fair decks that may be played at your local game store or some weeks in leagues like WR Energy or Elves.
 I find it a bit illogical if people play a lot of such anti-tempo decks while all Tempo decks combined are only around 10% of the metagame but if they do that and don't respect the graveyard, feel free to switch it up and bring UB Reanimator to take advantage of that for a while.
 
+<mtg-cite name="gus">
+I actually find the matchup with those fair decks to be actually quite good against UB Reanimator if they are constructed appropriately (respecting GY in some capacity maindeck and seriously in the SB),
+because it is quite easy to shut off the Reanimator angle of the deck relative to the Tempo plan,
+i.e. drawing one or two graveyard hate pieces versus being structurally favored in a long game due to the rest of your 60.
+So I actually find it quite logical to play decks like cradle, BW blink, etc.
+Those decks do struggle vs Forge IMO, which is a different problem but considering only UB Reanimator I think they are good choices.
+Not having FoW of course opens you up to getting double forced and Entomb-Reanimated or similar nut draws, so I get the sentiment.
+</mtg-cite>
+
 #### Sideboard flexibility
 
 <mtg-cards names="Harbinger of the Seas|Null Rod|Hydroblast|Engineered Explosives|Toxic Deluge|Dread of Night"></mtg-cards>

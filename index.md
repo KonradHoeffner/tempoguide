@@ -663,31 +663,77 @@ Some weaknesses can be adressed with sideboarding but not all at the same time.
 
 ### Tempo Decks
 
-Quick Tips:
-Assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
-Don’t forget about Kaito! For example you should always block Tamiyo if you can. It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
-
-*TODO: some disagree with that and keep Force in, update*
-
-Always the first thought when I build a sideboard is that I want to have exactly as many cards to bring in as I want to bring out.
-The easiest way to achieve that is number of Thoughtseize + Forces main = number of BEB + removal + creatures side (not counting Harbinger) 
+As tempo decks are played a lot, our sideboard should have enough cards to bring in that trade one for one in those grind fests.
+The easiest way to achieve that is number of Thoughtseize + Forces main = number of BEB + removal + creatures side (not counting Harbinger).
 The reason for the Thoughtseize-BEB switch is that DRC + Bolt kill you quickly.
-It’s OK to have 1-2 FoW in your mapping isn’t perfect, can also board out 1 Daze and keep in 1 Force on the draw.
 You have a great tempo matchup as you can remove almost anything, only Murktide, Counterbalance and Kaito can be difficult to handle. 
 
-### Red Delver decks
-*TODO: update (other people have other opinions on sideboarding)*
+Update: UR variants using Cori-Steel Cutter instead of Delver are much more even and Thoughtseize is better there.
 
-The most aggressive variants, focus on survival first.
-In: BEB, removal and creatures
-Out: Force of Negation, Force of Will, Thoughtseize, Daze
+#### Sideboarding Philosophies: Grind vs Snowball
 
+I am following Ecobaronens late game focused approach of boarding out FoW and shaving Daze/Thoughtseize, so that we have lots of live draws after an early war of attrition.
+Note that there are also very successful tempo players that focus on an early game snowball instead, which is very well possible with cards like Delver of Secrets, Cori-Steel Cutter, Tamiyo, Murktide and Kaito.
+Those players tend to leave in some or all FoW and Daze depending on play/draw.
+If you are facing one of those players, adapt accordingly.
+
+#### Priorities
+
+* achieve a stable mana base and disrupt theirs
+* put as many threats on the board as you can (there are almost never board wipes) and handle their threats 
+
+### Black Daze including the mirror
+
+#### Are you playing against Reanimator, Tempo or Doomsday?
+
+If you see generic UB cards, assume UB Reanimator due to higher play rate until you see Nethergoyf, Kaito or main deck Nihil Spellbomb, most of the other cards are unfortunately shared between both decks.
+It's sometimes hard to know whether you are versing the mirror or UB Reanimator even after G1 unless you see Nethergoyf, Kaito or mainboard Fatal Push (UB Tempo) or Entomb, Reanimate, Atraxa, Archon of Cruelty or Animate Dead (UB Reanimator).
+The second Undercity Sewers is also an indicator but not always. 
+When in doubt, it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
+Due to its low play rate, I wouldn't assume Doomsday unless facing a known Doomsday player.
+
+
+Quick Tips:
+Don’t forget about Kaito!
+For example you should always block Tamiyo if you can if they have UBx available.
+It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
+
+
+### UB Tempo Mirror (6% Meta game)
+
+<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
+<youtube-video id="a4blaLDSMNA"></youtube-video>
+
+Luke:
+
+#### Sideboarding
+Thankfully, the sideboard plan for the mirror is straightforward and intuitive.
+
+##### Out
+<mtg-card name="Force of Will"></mtg-card>
+
+-4 Force of Will.
+
+In the mirror, we share most cards with our opponent, depending on whether they have elected to configure their deck around Dauthi Voidwalker or Nethergoyf. There are no "unfair" or "win the game on the spot" combos out of the UB Tempo deck, so the resulting matches are attrition style, back and forth games. Force of Will is a liability due to the requirement of exiling one of our other cards. We will replace them with cards that deal with threats after they have hit the board, as well as some additional threats of our own.
+
+##### In
++2 Barrowgoyf
++2 Removal.
+
+<mtg-cards names="Barrowgoyf"></mtg-cards>
+Barrowgoyf has been discussed at length in this guide, and I will address its merits again shortly.
+
+<a href="#removal-1">Removal discussion in the UB mirror context has been moved here.</a>
 
 ### UB Ninjas
 <mtg-todo></mtg-todo>
 <youtube-video id="V1lHxege1h0" t="33"></youtube-video>
 
-### Red Daze Decks
+### Red Daze decks including actual Delver
+
+The most aggressive variants, focus on survival first.
+In: BEB, removal and creatures
+Out: Force of Negation, Force of Will, Thoughtseize, Daze
 
 <mtg-cards names="Dragon's Rage Channeler|Lightning Bolt|Daze"></mtg-cards>
 
@@ -716,12 +762,11 @@ Build basics if possible.
 Boarding out Daze instead of Thoughtseize is also an option.
 
 ### RUG Druid
+
 <mtg-cards names="Delver of Secrets|Questing Druid // Seek the Beast"></mtg-cards>
 
-<youtube-video id="X17fCga0pWE" t="1378" ></youtube-video>
-<youtube-video id="8Bn3nKYBz0s"></youtube-video><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
 
-Before Cutter was printed this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
+Before Cutter was printed, this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
 If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
 Barrowgoyf is extremely hard to handle for them.
 
@@ -730,17 +775,26 @@ If they have a delirious Dragon's Rage Channeler then using it in the attack ste
 However a resolved Murktide is often a huge problem for you and once it is in play the Spellbomb may even grow it, so you may have to use it earlier.
 Taking away Delirium can also be useful to save your creatures from Unholy Heat.
 
+<youtube-video id="X17fCga0pWE" t="1378" ></youtube-video>
+<youtube-video id="8Bn3nKYBz0s"></youtube-video><!--Review of BeExcellent on UB Tempo vs RUG Delver-->
+
 ### UR Cutter
 <mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
 
-<youtube-video id="1CWAQ_oUBBw"></youtube-video>
-<youtube-video id="=r_pYbcq92_c" t="5810"></youtube-video>
-
-A matching that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
+A matchup that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
 Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
 Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
 On the draw you may have to cut one Kaito and you also may need to keep in some Forces even though they are bad against Pyroblast because the Cutter is so deadly and produces multiple threats.
+
+<youtube-video id="1CWAQ_oUBBw"></youtube-video>
+<youtube-video id="=r_pYbcq92_c" t="5810"></youtube-video>
+
+#### Sideboarding
+See general sideboarding vs Red Daze decks above but you can also bring in cards that deal with Cutter and/or the tokens (which are white Monks).
+
+<mtg-cards names="Engineered Explosives|Dread of Night"></mtg-cards>
+
 
 ### UB Reanimator
 
@@ -895,38 +949,6 @@ I prefer to flip her as early as possible and recur interaction (mostly Thoughts
 Tamiyo, Murktide and Kaito and are pitch cards for your Forces.
 You can shave one Kaito but in rare situations you can actually bring it into play and lock the game up after a lot of early trading or even tap a fattie to get in the last few points of damage.
 They have a lot of mana sources but still play into Daze a lot and Wastelands make Daze stronger and can turn off offcolor spells like Show and Tell or Witherbloom Apprentice.
-
-### UB Tempo Mirror (6% Meta game)
-
-<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
-<youtube-video id="a4blaLDSMNA"></youtube-video>
-
-Luke:
-
-#### Sideboarding
-Thankfully, the sideboard plan for the mirror is straightforward and intuitive.
-
-##### Out
-<mtg-card name="Force of Will"></mtg-card>
-
--4 Force of Will.
-
-In the mirror, we share most cards with our opponent, depending on whether they have elected to configure their deck around Dauthi Voidwalker or Nethergoyf. There are no "unfair" or "win the game on the spot" combos out of the UB Tempo deck, so the resulting matches are attrition style, back and forth games. Force of Will is a liability due to the requirement of exiling one of our other cards. We will replace them with cards that deal with threats after they have hit the board, as well as some additional threats of our own.
-
-##### In
-+2 Barrowgoyf
-+2 Removal.
-
-<mtg-cards names="Barrowgoyf"></mtg-cards>
-Barrowgoyf has been discussed at length in this guide, and I will address its merits again shortly.
-
-TODO: link to removal section
-
-### Discerning Reanimator and UB Tempo
-
-It's sometimes hard to know whether you are versing the mirror or UB Reanimator after G1 unless you see Nethergoyf, Kaito or mainboard Fatal Push (UB Tempo) or Entomb, Reanimate, Atraxa, Archon of Cruelty or Animate Dead (UB Reanimator).
-The second Undercity Sewers is also an indicator but not always. 
-When in doubt it’s better to assume Reanimator if you aren’t sure because it is played so often but I would not shave on Fatal Push then.
 
 ### Oops All Spells
 <mtg-cards names="Dark Ritual|Elvish Spirit Guide|Balustrade Spy|Undercity Informer|Poxwalkers|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>

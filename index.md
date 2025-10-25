@@ -836,6 +836,7 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 <youtube-video id="X17fCga0pWE" t="1843"></youtube-video>
 <youtube-video id="WEhaPr-ua-o" t="1597"></youtube-video>
 <youtube-video id="kWIJ3agy-qU" t="295"></youtube-video>
+<youtube-video id="w5DLsaJbYyA" t="4882" ></youtube-video>
 
 #### Sideboarding:
 
@@ -845,14 +846,13 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
 Don’t board in FoN as it’s not good against their fair plan and also avoid Consign to Memory, as they probably board out Animate Dead.
+You can bring in/keep if mainboard a Barrowgoyf but it's risky if they Thoughtseize/Force/Daze/Push it and then reanimate it.
 
 ##### Out
 
 <mtg-cards names="Daze|Wasteland|Fatal Push"></mtg-cards>
 
-
-Daze, shave Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers but I like to keep all Pushes i.
-All Barrowgoyfs as they are too dangerous to get reanimated against you.
+Daze, shave Wasteland, maybe 1 Fatal Push if you don't see Voidwalkers but I like to keep all Pushes in.
 I used to board out 4 Wasteland but you need the mana against Daze and to crack clues and you want to keep them below 5-6 mana for hardcast FoW, and the Ghost Vacuum in case they being that in. 
 
 Alternative 1: INF likes to shave two Nethergoyf on the draw:
@@ -860,7 +860,7 @@ Alternative 1: INF likes to shave two Nethergoyf on the draw:
 Basically, UB Reani shifts to a tempo plan, so we aim to control the board by applying removal spells appropriately. The game tends to slow down, so we're reducing the number of Nethergoifs, which only serve to attack. (Since the opponent's creatures have evasion, goyf don't become blockers that stop the board.
 </mtg-cite>
 
-Alternative 2 : If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
+Alternative 2: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
 ### Turbo Reanimator
 <mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
@@ -870,6 +870,7 @@ While against UB Reanimator starting with a Tamiyo and no interaction in hand is
 Nihil Spellbomb is extremely strong in game 1.
 
 <youtube-video id="X17fCga0pWE" t="3785"></youtube-video>
+<youtube-video id="ztrR7xJKJFg" t="5135"></youtube-video>
 
 #### Postboard Pivots
 <mtg-cards names="Show and Tell|Stronghold Gambit|Witherbloom Apprentice"></mtg-cards>
@@ -879,6 +880,7 @@ Your generic combo hate, like Thoughtseize, Force of Will and Force of Negation,
 Their splash colors restrict which pivots they have access to:
 Blue for Show and Tell, green for Chain of Smog + Witherbloom Apprentice, red for Stronghold Gambit (probably not good against you).
 Theoretically they could also pivot to castable non-combo creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalker and Opposition Agent but I rarely see that.
+Eternal Weekend NA also popularized a Doomsday pivot but that is a very specific UB Turbo Reanimator version with Tamiyo, cantrips and Force of Will.
 
 #### Chain of Smog Combo
 <mtg-cards names="Witherbloom Apprentice|Chain of Smog|Spoils of the Vault"></mtg-cards>
@@ -963,6 +965,7 @@ Double Daze + Surgical is not enough on the draw as the zombies will kill you in
 <youtube-video id="Evb8f2Vqz0s" t="7098"></youtube-video>
 <youtube-video id="rvXujBKWM6g" t="1731" ></youtube-video>
 <youtube-video id="rvXujBKWM6g" t="2324" ></youtube-video>
+<youtube-video id="ztrR7xJKJFg" t="2289"></youtube-video>
 
 #### Sideboarding
 
@@ -1108,6 +1111,34 @@ Then they used the second Cabal Therapy and I responded with Surgical Extraction
 Note that an absolute Oops-master respecting me to play perfectly could have logically excluded Faerie Macabre from being in my hand as I would have used that on both the other Cabal Therapy and Memory's Journey.
 </details>
 
+### Necrodominance Decks
+
+The fixed version of the banned Necropotence has both an all-in combo and a slower creature based value version.
+
+<mtg-cards names="Swamp|Dark Ritual|Necrodominance"></mtg-cards>
+
+### Necrodominance Combo
+One of the most all-in combo decks in the format, can kill you on turn 1 but has a hard time to rebuild, so just focus on staying alive.
+Oops all Spells is currently much more popular because it is nearly as fast but more resilient, except to grave hate.
+
+<mtg-cards names="Lotus Petal|Cabal Ritual|Elvish Spirit Guide|Simian Spirit Guide|Manamorphose|Pact of Negation|Summoner's Pact|Pact of Negation|Beseech the Mirror|Borned Upon a Wind|Valakut Awakening|Tendrils of Agony"></mtg-cards>
+
+#### Sideboarding
+
+##### In
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Consign to Memory|Force of Negation"></mtg-cards>
+
+##### Out
+<mtg-cards names="Fatal Push|Nihil Spellbomb|Kaito, Bane of Nightmares"></mtg-cards>
+
+##### Their Plan
+
+<mtg-cards names="Duress|Veil of Summer|Chancellor of the Annex"></mtg-cards>
+
+As an all-in combo deck they probably don't change much but they could bring in Duress and Veil of Summer, so Orcish Bowmasters oneshotting them is even less likely.
+
+<youtube-video id="ztrR7xJKJFg" t="590"></youtube-video>
+
 ### Red Stompy AKA Dragon Stompy AKA Red Prison
 <mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror-Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
 
@@ -1117,7 +1148,9 @@ Mulligan for T1 interaction (Thoughtseize/Daze/Force OTP, Force OTD) as you don'
 The tricky part is turning up the heat and killing them quickly as soon as you can afford to because of their overwhelming value with The One Ring and pressure.
 If you can stick Tamiyo or Kaito you may also switch into a control role but otherwise you will run out of interaction at some point when they jam a haymaker every other turn.
 
-#### In
+#### Sideboarding
+
+##### In
 <mtg-cards names="Hydroblast|Blue Elemental Blast|Consign to Memory|Force of Negation|Sheoldred's Edict|Brazen Borrower // Petty Theft|Barrowgoyf|Engineered Explosives"></mtg-cards>
 
 Hydroblasts and Consign to Memory are extremely valuable in the matchup because they allow you to trade 1:1 which is very important as you often have to handle several threats in a row.
@@ -1447,6 +1480,43 @@ Sometimes with white or black splash.
 ### Blue Painter
 <mtg-todo></mtg-todo>
 
+### 8-Cast
+<mtg-cards names="Ancient Tomb|Urza's Saga|Mishra's Bauble|Mox Opal|Thoughtcast|Thought Monitor|Emry, Lurker of the Loch|Kappa Cannoneer"></mtg-cards>
+
+Fair blue artifact-Saga deck with lots of card draw that used to terrorize Brainstorm decks due to having Chalice of the Void, Force of Will and extreme grind power.
+With Orcish Bowmasters, the deck is much more manageable nowadays but by no means easy.
+Contemporary builds often play less than 8 of the namesakes Thoughtcast and Thought Monitor and also often leave out Chalice of the Void or move it into the sideboard.
+Pinnacle Emissary is a recent and popular addition that allows early swarms of 1/1 flyer tokens, which at least can't block your Goyfs and can be weakened by Tamiyo.
+Sometimes they also play an 8-Cast-Painter hybrid.
+
+#### Sideboarding
+
+##### In
+
+<mtg-cards names="Null Rod|Consign to Memory|Engineered Explosives|Brazen Borrower // Petty Theft|Force of Negation|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+
+Null Rod is extremely strong against their deck; if you can play it early and protect it, you should be strongly favored to win the game.
+Engineered Explosives can be a total blowout by killing a lot of 0-mana artifacts.
+If you play a lot against 8-Cast locally you can even upgrade it to Powder Keg because that destroys artifact lands as well.
+Consign to Memory is obviously very strong as well, however it cannot counter colored artifacts like Kappa Cannoneer.
+Sheoldred's Edict is mostly an upgrade to Fatal Push because they often only have one nontoken creature in play and this allows us to get around ward.
+Brazen Borrower and Force of Negation are quite weak but may be needed as Chalice of the Void is such a beating against us.
+In an open decklist tournament if they don't have Chalice, you may be able to leave them out, which makes sideboarding a lot easier.
+As this deck has many variations, adapt to what you see, for example by bringing in Hydroblast if they splash for Cori-Steel Cutter in addition to Pinnacle Emissary.
+
+##### Out
+Finding cuts is hard because most of our cards do something relevant in the matchup and we have lots to bring in.
+Daze is the easiest one if they are on the Ancient Tomb or Planar Nexus versions because they have so much mana but I sometimes keep it in against the rare UR versions and they don't expect that.
+Nihil Spellbomb stops the overwhelming value train from Emry but it does nothing else except cantrip against the rest of their deck so I prefer to just destroying Emry.
+Speaking of that, we probably need to shave a few Fatal Pushes as well even though Emry is a must-answer, because the card is mediocre against the rest of their deck, similar to Fatal Push against control with Tamiyo.
+After that I may shave a Nethergoyf (hard to get through their tokens) and/or a Ponder but I'm unsure here, feel free to add your opinion here.
+
+<mtg-cards names="Daze|Nihil Spellbomb|Fatal Push"></mtg-cards>
+
+#### Videos
+
+<youtube-video id="w5DLsaJbYyA" t="93" ></youtube-video>
+
 ### Stiflenought
 <mtg-todo></mtg-todo>
 
@@ -1457,18 +1527,32 @@ Sometimes with white or black splash.
 ### Eldrazi
 <mtg-todo></mtg-todo>
 
-<mtg-cards names="Eye of Ugin|Eldrazi Temple|Kozilek's Command|"></mtg-cards>
+<mtg-cards names="Eye of Ugin|Eldrazi Temple|Lotus Petal|Kozilek's Command|Chalice of the Void|Glaring Fleshraker|Thought-Knot Seer|Eldrazi Linebreaker"></mtg-cards>
 
 <youtube-video id="X17fCga0pWE" t="28" ></youtube-video>
+<youtube-video id="GwVbDaAelSQ" t="1962"></youtube-video>
 
 After the ban of Sowing Mycospawn, the deck is much less oppressive but still structurally favored due to Chalice of the Void and a long stream of large, potentially uncounterable threats.
+It is back in popularity with red as the splash color (the primary one being colorless) due to the fast clock of Eldrazi Linebreaker.
+Try to prevent Chalice of the Void as you have a lot of one drops.
+They have limited removal, so then try to finish them quickly with Goyfs, Murktide and Kaito.
+Orcish Bowmasters aren't great but at least provide some pressure and are a surprise blockers against their smaller creatures.
 
 #### Sideboarding
 
 ##### In
-<mtg-cards names="Force of Negation|Consign to Memory|Harbinger of the Seas"></mtg-cards>
-Force of Negation, Consign to Memory and Harbingers of the Seas are good against both of them.
+<mtg-cards names="Consign to Memory|Barrowgoyf|Sheoldred's Edict|Force of Negation|Harbinger of the Seas|Engineered Explosives"></mtg-cards>
 
+Consign to Memory is *the* card against Eldrazi.
+Force of Negation doesn't hit much but is probably necessary against Chalice of the Void.
+Harbinger of the Seas may be too slow but I would consider it at least on the play as it can reduce their amount of mana if they don't have a Glaring Fleshraker yet and they may even be unable to cast their cards due to the explicit colorless requirement.
+It also turns off their 4 Cavern of Souls.
+
+##### Out
+
+<mtg-cards names="Nihil Spellbomb|Daze|Thoughtseize|Orcish Bowmasters"></mtg-cards>
+
+If you need more space, shave Tamiyo.
 
 ### Planar Nexus Decks: Mystic Forge and Cloudpost Ramp
 As ramp strategies they want to establish a giant mana advantage and then overwhelm you with game ending threats until you run out of Forces or they play Ugin, Eye of the Storms, and if they ever resolve The One Ring, they never run out of cards.
@@ -1528,12 +1612,15 @@ Unlike Urza's Saga, its tutor condition is based on mana value not mana cost, al
 
 Can have a green splash for Crop Rotation and sideboard Veil of Summer.
 Harbinger of the Seas is the best card but try to setup a Force of Will in case they have Dismember post board.
+Consign to Memory is also very strong here but they are very threat dense so you need a clock as well.
+A blue splash for Stock Up and Force of Will is currently getting popular and is very hard to beat due to its extreme grind power.
 
 ##### Videos
 
 <youtube-video id="94-4G2___5o" t="5572"></youtube-video>
 <youtube-video id="94-4G2___5o" t="7968"></youtube-video>
 <youtube-video id="ubp8N8VCSYQ"></youtube-video>
+<youtube-video id="GwVbDaAelSQ" t="390"></youtube-video>
 
 ### Bant Nadu
 
@@ -1549,6 +1636,10 @@ Teferi can be very good but also quite awkward, I like additional Endurance agai
 
 <youtube-video id="69uBXY4Ywa0"></youtube-video>
 
+### Nadu Elves (TODO)
+
+<youtube-video id="w5DLsaJbYyA" t="6028" ></youtube-video>
+
 ### Cephalid Breakfast
 
 <mtg-cards names="Cephalid Illusionist|Nadu, Winged Wisdom|Nomads en-Kor|Shuko"></mtg-cards>
@@ -1556,6 +1647,7 @@ Teferi can be very good but also quite awkward, I like additional Endurance agai
 #### Videos
 
 <youtube-video id="cQAHgwzGWTA" t="120"></youtube-video>
+<youtube-video id="w5DLsaJbYyA" t="2507" ></youtube-video>
 
 Minyafriend:
 Breakfast I find to be pretty good as we are fairly well equipped to deal with their creatures.
@@ -1903,14 +1995,14 @@ As the deck is rarely played competitively expect lots of variations and adapt t
 
 <mtg-cards names="Smallpox|Life from the Loam|Mox Diamond|Thoughtseize|Witherbloom Command|Grist, the Hunger Tide|Orcish Bowmasters|Hogaak, Arisen Necropolis|Urza's Saga|Wasteland|Eumidian Hatchery"></mtg-cards>
 
-An experimental mixture between lands and Pox, so a lot of similar things apply:
+A mixture between lands and Pox, so a lot of similar things apply:
 
 * Force of Negation stops Life from the Loam for good
 * Kaito and to a lesser extent a flipped Tamiyo are hard for them to handle
 * Fatal Push is of very limited value.
 * "normal" creatures like Nethergoyf and Murktide Regent have trouble getting though.
 
-However as the deck has neither the explosive Exploration draws, the 20/20 Marit Lage, nor the extreme grind power of black Pox, I find it easier to handle than both of them.
+However the deck has neither the explosive Exploration draws, the 20/20 Marit Lage, nor the extreme grind power of black Pox.
 They also lack the land tutors and utility lands like Karakas, Maze of Ith and Tabernacle of Pendrel Vale.
 
 Unlike vs lands, Orcish Bowmasters has a lot of use here:
@@ -1919,34 +2011,56 @@ Unlike vs lands, Orcish Bowmasters has a lot of use here:
 * to prevent Hogaak from being cast if they have no other creatures, cast yours with their Bowmasters trigger on the stack, so they never have an empty stack and two creatures to cast Hoogak
 * as sacrifice fodder to protect your more important creatures
 
-Gravehate in general is quite important because Loam and Hogaak are the inevitability engine of their deck.
 Fetch basics unless you see Ghost Quarter.
 
 #### Sideboarding
 
 ##### In
 
-<mtg-cards names="Barrowgoyf|Brazen Borrower // Petty Theft|Sheoldred's Edict|Force of Negation"></mtg-cards>
+<mtg-cards names="Barrowgoyf|Brazen Borrower // Petty Theft|Sheoldred's Edict|Force of Negation|Engineered Explosives|Unlicensed Hearse"></mtg-cards>
+
+Gravehate in general is quite important because Loam and Hogaak are the inevitability engine of their deck, however your Nihil Spellbombs should be enough, boarding in Faerie is probably overkill.
 
 ##### Out
 
 <mtg-cards names="Daze|Fatal Push"></mtg-cards>
 
-### LED Dredge (<1% Meta game)
+##### Unsure
 
-A unique graveyard deck that requires very specific answers to beat but you shouldn’t tune your sideboard in an open field because of the extremely low play rate.
-Good matchup as long as you have enough grave hate. 2 mainboard Nihil Spellbombs really help.
+<mtg-cards names="Harbinger of the Seas|Surgical Extraction"></mtg-cards>
 
-Play carefully, focus on sideboard, mulligan, early turns. Don’t let spells through too quickly, think what you want to counter! E.g. against most other decks you often let LED resolve but here you should counter it.
+#### Videos
+<!--<youtube-video id="5AwtoVA4y0A" t="28"></youtube-video>-->
+<youtube-video id="ztrR7xJKJFg" t="4283"></youtube-video>
+
+### Dredge (<1% Meta game)
+
+<mtg-cards names="Golgari Grave-Troll|Stinkweed Imp|Bridge from Below|Poxwalkers|Cabal Therapy"></mtg-cards>
+
+<a href="https://www.mtggoldfish.com/deck/visual/7366599">Sample List</a>
+
+A unique graveyard deck that requires very specific answers to beat but you shouldn’t tune your sideboard in an open field because almost noone except MafuzVanGogh currently plays it.
+How good the matchup is depends on the amount and type of grave hate you have.
+The deck takes a few turns to really go off but is quite resilient so you need to nuke the graveyard repeatedly or clock them fast.
+2-3 mainboard Nihil Spellbombs really help here.
+
+Play carefully, focus on sideboard, mulligan, early turns.
+Don’t let spells through too quickly, think what you want to counter! E.g. against most other decks you often let LED resolve but here you should counter it.
 Mulligan for grave hate, they are the beatdown. 
 If you don’t have grave hate, stick early threats, counter their enabler (anything that discards cards) and try to kill them quickly.
 Be careful with Thoughtseize if they are low on cards because you might win them the game by being forced to discard a dredger.
+They may have a Dread Return for Thassa's Oracle combo finish.
 
 #### Sideboarding
 
 ##### In
 
 <mtg-cards names="Nihil Spellbomb|Grafdigger's Cage|Unlicensed Hearse|Force of Negation|Hydroblast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+
+Hydroblast counters Faithless Looting, Ox of Agonas and postboard Shenanigans, but there are also versions without red so pay attention to their build, thankfully you often see a lot of cards in their graveyard.
+Barrowgoyf may seem strange against a combo deck but they often kill you with a large swarm of creatures and may even board out Thassa's Oracle, and Barrowgoyf stabilizes extremely well.
+One Barrowgoyf alone may not be enough if they really go off but in conjunction with a second one or something like Engineered Explosives it can often give you enough time.
+Be careful of going down so low that they can finish you with Narcomoeba.
 
 ##### Out
 
@@ -1956,6 +2070,8 @@ All the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, 
 
 * Their Plan: Win game 1 and hope to get one of the postboard games.
 
+
+
 ### Brews and Rare Decks
 
 WUR Mintaurs:
@@ -1964,6 +2080,10 @@ BUG Reanimator Beans:
 <youtube-video id="5AwtoVA4y0A" t="6697"></youtube-video>
 GB Rumble Painter:
 <youtube-video id="=r_pYbcq92_c" t="31"></youtube-video>
+GBW Cosmogoyf Helm:
+<youtube-video id="ztrR7xJKJFg" t="2821"></youtube-video>
+Esper Vial:
+<youtube-video id="w5DLsaJbYyA" t="3585" ></youtube-video>
 
 ## Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.

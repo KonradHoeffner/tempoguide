@@ -456,6 +456,9 @@ Flute also synergizes effectively with Thoughtseize, enhancing its utility.
 Additionally, instant-speed Needle effects can be significantly more impactful, as they force opponents to commit mana, often resulting in a time walk effect.
 </mtg-cite>
 
+<mtg-cards names="Powder Keg"></mtg-cards>
+I prefer it in local metas with lots of artifact lands which this one destroys but it's probably worse than Engineered Explosives in an open field due to it taking one turn more to kill 1-drops.
+
 ### Removal
 <mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
 

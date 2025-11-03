@@ -1200,7 +1200,36 @@ Just be careful with postboard Mystical Dispute and Blood Moon if they even brin
 <mtg-cards names="Nihil Spellbomb|Orcish Bowmasters|Daze"></mtg-cards>
 
 ### Initiative Stompy
-<mtg-todo></mtg-todo>
+<mtg-cards names="Cavern of Souls|Ancient Tomb|City of Traitors|Chrome Mox|Caves of Chaos Adventurer|Magus of the Moon|Seasoned Dungeoneer"></mtg-cards>
+
+The initiative is a very unique and descriptively named mechanic.
+In theory our mix of cheap threats, creature removal and free countermagic is well equipped to take back or outright prevent the namesake mechanic but that is often harder in practice than it seems, as they can have some nearly unbeatable starts especially on the play.
+For example if they start off with a Chancellor of the Annex trigger, Ancient Tomb and double Spirit Guide into Caves of Chaos Adventurer, it almost impossible to come back for us even if we have Fatal Push and Nethergoyf ready.
+This is one of the cases where UB Reanimator has an advantage as they can stabilize after a huge deficit with the large monsters.
+However those starts are rare since the banning of the three mana White Plume Adventurer so often they only get out their initiative creature on T2 which gives you time to play a Nethergoyf and then removal to take back the initiative.
+Thus I find it hard to mulligan an otherwise great hand just because it doesn't have a Force that may not even work if they have Cavern.
+All of your cards do something in the matchup and most of your sideboard is relevant as well so we need to make some hard and disciplined choices in sideboarding, mulliganning and playing of the early turns.
+Also as difficult as dealing with the Initiative can be, at least it is a 4 mana effect that you can sometimes come back from compared to a resolved The One Ring, which is almost unbeatable for us.
+
+
+#### Sideboarding
+
+There is quite some variance so adapt to what you see:
+
+* most play Chalice of the Void but not all, a few also have it in the sideboard
+* most splash green for Undermountain Adventurer 
+* some play Archon of Emeria 
+* Trinisphere and The One Ring are rare
+
+##### In
+
+<mtg-cards names="Hydroblast|Consign to Memory|Force of Negation|Barrowgoyf|Engineered Explosives|Brazen Borrower"></mtg-cards>
+
+##### Out
+
+<mtg-cards names="Daze|Orcish Bowmasters|Nihil Spellbomb"></mtg-cards>
+
+You can also shave Tamiyo and maybe a Ponder and Thoughtseize if you need more space.
 
 ### Lands
 <mtg-cards names="Dark Depths|Thespian's Stage|Wasteland|Ghost Quarter|Urza's Saga|Maze of Ith|The Tabernacle at Pendrell Vale|Exploration|Life from the Loam|Mox Diamond"></mtg-cards>

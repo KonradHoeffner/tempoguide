@@ -408,7 +408,7 @@ Can also bait an opponent to play Orcish Bowmasters on the 3/1, allowing you to 
 You can also build your own Vindicate with Petty Theft + Thoughtseize.
 
 
-##### Kaito, Bane of Nightmares
+#### Kaito, Bane of Nightmares
 <mtg-card name="Kaito, Bane of Nightmares"></mtg-card>
 
 Formerly niche card but since the Frog ban firmly established as a two of value engine that is hard to remove and can disable creatures like Murktide Regent or even Emrakul.
@@ -420,10 +420,10 @@ The board state will determine the right move but important to consider.
 Remember you can ninjutsu your Kaito with another Kaito.
 Some play without Kaito as they feel it's a win-more card but I'm personally still a big fan.
 
-#### Flex Slots
+### Flex Slots
 <mtg-cards names="Mishra's Bauble|Nihil Spellbomb"></mtg-cards>
 
-##### Nihil Spellbomb
+#### Nihil Spellbomb
 
 Great T1 nonsense protection that widely saw 2-3 mainboard copies pre Entomb-ban but currently down to 0.6 mainboard copies on average.
 Doesn't stop LED -> Echo but stops 2 LED -> 2 Echos together with a Force.
@@ -437,7 +437,7 @@ Can you afford to unlock their graveyard?
 Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desirable or not.
 Are you about to draw a push and you have Hydroblast in hand but they have a red creature and a problematic red permanent for example.
 
-##### Mishra's Bauble 
+#### Mishra's Bauble 
 
 With mainboard Nihil Spellbomb not being required post Entomb-ban, we are now free to include Mishra's Bauble, which makes our deck run more smoothly.
 Its main benefit is to grow our Nethergoyf to relevant size which is most relevant against red tempo (race them and grow out of bolt range),

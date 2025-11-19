@@ -195,6 +195,8 @@ I [kirdie] almost always play the stock variant because it is so well-balanced w
 I only deviate in small events with a known and very specific metagame but feel free to explore different variations.
 
 #### Red Splash
+<mtg-cards names="Molten Collapse|Pyroblast"></mtg-cards>
+
 <mtg-cite name="ecobaronen">
 I want to splash red if I go to Italy and play paper.
 Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
@@ -232,6 +234,8 @@ However the next game I was unable to fetch basic Island as the list doesn't inc
 Had I been able to fetch basic Island to play my T1 Tamiyo, I might have had a chance to get a few clues, eventually flip Tamiyo and maybe find an out to Magus such as Hydroblast.
 
 #### Going Bigger
+<mtg-cards names="Stock Up|Baleful Strix"></mtg-cards>
+
 You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs with Baleful Strix, Dauthi Voidwalkers and/or Stock Up.
 Those rare variants often go up to 20 lands (e.g. by adding a second Undercity Sewers) and down to two Daze.
 
@@ -239,8 +243,9 @@ Those rare variants often go up to 20 lands (e.g. by adding a second Undercity S
 Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
 UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
 
-### Why not play UB Reanimator?
 
+<details>
+<summary markdown="0">Outdated: Why not play UB Reanimator?</summary>
 |                                  | UB Tempo                                                                           | UB Reanimator                                  |
 |----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 | strength at competitive events   | high                                                                               | high                                           |
@@ -316,6 +321,7 @@ If there is a lot of Mystic Forge and Storm, pack two Null Rods.
 Elves, WR Energy and Goblins? Toxic Deluge, Hydroblast and Engineered Explosives help!
 
 *As this is a complex topic and I'm always open to other opinions, feel free to disagree or elaborate and add to this or other sections.*
+</details>
 
 ### Lands
 <mtg-cards names="Underground Sea|Polluted Delta|Flooded Strand|Bloodstained Mire|Undercity Sewers|Island|Swamp|Wasteland"></mtg-cards>
@@ -412,23 +418,50 @@ Important to consider stun and tick up timing:
 If you stun something first you are at 2 loyalty, they lose one stun counter, now if you draw with Kaito you will need to tick up on the next turn in order to stun again if you haven't found an answer.
 The board state will determine the right move but important to consider.
 Remember you can ninjutsu your Kaito with another Kaito.
+Some play without Kaito as they feel it's a win-more card but I'm personally still a big fan.
 
+#### Flex Slots
+<mtg-cards names="Mishra's Bauble|Nihil Spellbomb"></mtg-cards>
 
 ##### Nihil Spellbomb
-<mtg-card name="Nihil Spellbomb"></mtg-card>
 
-Great T1 nonsense protection in the current meta.
-Even if you see them as something else online, everyone seems to play Reanimator now.
+Great T1 nonsense protection that widely saw 2-3 mainboard copies pre Entomb-ban but currently down to 0.6 mainboard copies on average.
 Doesn't stop LED -> Echo but stops 2 LED -> 2 Echos together with a Force.
 Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters. 
 
 Besides the obvious applications it also grows your own Murktide Regent.
 You must consider Spellbombing when the opponent could play Murktide Regent next turn, so pay attention to the number of cards in your opponents graveyard.
-Against Reanimator you need a bit more nuance here, can you beat Murktide otherwise?
+Against Tempo Reanimator (if it is still a thing post-ban) you need a bit more nuance here, can you beat Murktide otherwise?
 Do you have FoW?
 Can you afford to unlock their graveyard?
 Undercity Sewers can help you make hard decisions by informing you of your next draw if it is desirable or not.
 Are you about to draw a push and you have Hydroblast in hand but they have a red creature and a problematic red permanent for example.
+
+##### Mishra's Bauble 
+
+With mainboard Nihil Spellbomb not being required post Entomb-ban, we are now free to include Mishra's Bauble, which makes our deck run more smoothly.
+Its main benefit is to grow our Nethergoyf to relevant size which is most relevant against red tempo (race them and grow out of bolt range),
+the mirror (whoever has the artifact in the yard often has the Nethergoyf advantage) and combo, where we need to close out the game and condense our deck thus increasing the chance to draw anti-combo cards.
+However against strictly UB and UR Tempo, Nihil Spellbomb is often stronger.
+
+G1 on the play against an unknown opponent is often difficult because we have so many possible T1 plays, so using Bauble on the opponent can be very helpful to restrict their deck range.
+For example, the best start with following hand is hugely dependant on the opponent's deck:
+<mtg-cards names="Polluted Delta|Mishra's Bauble|Nihil Spellbomb|Thoughtseize|Ponder|Tamiyo, Inquisitive Student|Daze"></mtg-cards>
+Depending on what we see with Mishra's Bauble, any of the following plays could make sense:
+
+* Balustrade Spy indicating Oops: Fetch Underground Sea, play Nihil Spellbomb and get an instant concession and a nice lunch break after a quick rest of the match.
+* Dark Ritual: Fetch Underground Sea and use Thoughtseize to break up the opponent's combo.
+* Cori-Steel Cutter: Fetch basic island and play either Ponder searching for a second land or Tamiyo with the intent of Pondering T2. Feel free to chime in which is better.
+* Leyline Binding indicating 4+ color Up The Beanstalk control: Low probability of Wasteland, fetch Underground Sea and play Tamiyo.
+* Magus of the Moon: This one is difficult as we can't Thoughtseize with basic Island. Underground Sea + Thoughtseize (grab a potential Chalice) or basic island + Ponder looking for Force/Daze?
+
+Make sure to practise with Bauble in paper if you haven't done so recently as forgetting the delayed trigger for the card draw can easily lose you the game.
+I personally have a blank Magic card (from the old championship decks) in a red sleeve to symbolize the trigger but you can also put a die on your library or use some other method.
+Maybe Kai Sawatari can paint a trigger card in the future? :-)
+
+Bauble can backfire against draw-punishers like Orcish Bowmasters, Narset, Parter of Veils or Hullbreacher and is also bad against taxing effects like Thalia, Archon of Emeria or Trinisphere.
+However in the current meta only Orcish Bowmasters sees widespread play.
+It can also break through a Chancellor of the Annex trigger on the play to enable turn 1 plays like Thoughtseize or Ponder for Force of Will.
 
 <!--
 A bit expensive but great against control and also in fair matchups that don’t swarm with creatures, so it feels more widely applicable than Court of Cunning and other anti-control cards.
@@ -445,17 +478,20 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 -->
 
 ### Niche Cards
-<mtg-cards names="Mishra's Bauble|Dauthi Voidwalker|Baleful Strix|Stock Up|Hymn to Tourach"></mtg-cards>
-
-* Mishra's Bauble is great with Nethergoyf but Nihil Spellbomb is needed right now
+<mtg-cards names="Dauthi Voidwalker|Baleful Strix|Stock Up|Hymn to Tourach"></mtg-cards>
 
 #### Dauthi Voidwalker
+
+<mtg-cite name="Minyafriend">
 Easy for Izzet to remove but still a must deal with card early on, probably not the right choice for a bolt meta.
 Insane against certain decks.
 I [Minyafriend] have cast The One Ring and Karn against Forge, Sheoldred against Doomsday, Maelstrom Wanderer against Mississippi river, Undercity Informer with Faerie Macabre in hand against Oops, Doomsday against Doomsday.
 It allows you to protect your own play if Force of Will is exiled, Fable of the Mirror-breaker spamming your own Bowmasters, just use your imagination.
 The floor is pretty good and the ceiling is crazy high.
 Best friends with Thoughtseize and counterspells.
+</mtg-cite>
+
+After the Entomb ban, Dauthi Voidwalker is even less viable now so I currently do not consider it.
 
 Eco:
 
@@ -464,6 +500,7 @@ Eco:
 * Baleful Strix: Same philosophy. If we have to play a lot of mirrors and grindy matchups, Strix is good.
 * Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good. These days, we have to play to the board a lot.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
+
 
 ## Sideboard
 
@@ -490,6 +527,9 @@ Eco:
 * Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
 * Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
 
+<mtg-cards names="Harbinger of the Seas"></mtg-cards>
+I love this card but don't currently run it because it is so hard to make it work against Urza's Saga after the rules change.
+
 <mtg-cards names="Tsabo's Web"></mtg-cards>
 <mtg-cite name="Minyafriend">
 I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
@@ -509,7 +549,7 @@ Additionally, instant-speed Needle effects can be significantly more impactful, 
 I prefer it in local metas with lots of artifact lands which this one destroys but it's probably worse than Engineered Explosives in an open field due to it taking one turn more to kill 1-drops.
 
 ### Removal
-<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember"></mtg-cards>
+<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember|Shoot the Sheriff|Go for the Throat|Feed the Cycle"></mtg-cards>
 
 <mtg-cite name="Luke" href="https://github.com/doggybones35">
 There are numerous options for removal spells in black. As of the writing of this contribution (July 2025), I believe Sheoldred's Edict is the best option, and have two copies in my sideboard.
@@ -543,7 +583,6 @@ Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Disme
 It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
 I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
 
-
 <mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
 These two cards are essentially the same, and reminiscent of Doomblade, in that they ask "What kind of creature are you fine with being unable to kill?"
 While there are many examples of creatures in Legacy that one or the other cannot kill, there are some major ones.
@@ -554,6 +593,34 @@ I strongly urge you against playing these cards over Sheoldred's Edict or Bitter
 
 I rank the removal options as follows, from best to worst: Sheoldred's Edict > Bitter Triumph > Go for the Throat / Shoot the Sheriff > Dismember
 
+<mtg-cite name="kirdie">
+Thanks Luke!
+Adding some recently popular and splash-color removal spells:
+</mtg-cite>
+
+<mtg-cards names="Feed the Cycle"></mtg-cards>
+Feed the Cycle has the flexibility of Sheoldred's Edict without suffering from the downsides when there are multiple targets (only losing out on its benefits against ward, hexproof and indestructible).
+However its graveyard dependency competes with Nethergoyf and Murktide Regent, thus I would only consider it in a list with Barrowgoyf main instead of Murktide.
+
+<mtg-cards names="Snuff Out"></mtg-cards>
+Free spells are great in a tempo deck but the lifeloss of this and Thoughtseize can hurt against red tempo and the inability to target black creatures can be problematic in the mirror (though Fatal Push covers those).
+I would only consider it in more aggressive versions with Delver of Secrets instead of Tamiyo.
+UB Delver is not my style but if it's yours please contribute to this guide.
+In case Tamyio ever becomes banned I may have to cover this topic in more detail.
+
+<mtg-cards names="Molten Collapse"></mtg-cards>
+A big benefit of splashing another color is much better removal.
+Molten Collapse kills a creature or planeswalker with no questions asked (though at sorcery speed)
+but with descended can remove otherwise hard to deal with permanents like a flipped Tamiyo (viable target for both modes), Chalice of the Void, Carpet of Flowers, Pithing Needle or Aether Vial.
+
+<mtg-cards names="Witherbloom Command"></mtg-cards>
+Doesn't hit many creatures other than Orcish Bowmasters but very flexible in non-creature permanent removal and is a two-for-one way more often as the land recursion mode is almost always relevant.
+The life drain and graveyard support is nice to have as well.
+In addition to the ones listed for Molten Collapse, it hits 2 CMC noncreature nonland permanents as well.
+While there aren't that many of those with a large current metashare, relevant targets include Cori-Steel Cutter, Grim Monolith, Ajani, Nacatl Pariah, Animate Dead and Up the Beanstalk.
+
+<mtg-cards names="Assassin's Trophy"></mtg-cards>
+Gifting your opponents a basic lands is at odds with the Daze-Wasteland angle but it's extremely flexible as it can hit nonlands as well and many decks with 1-2 basic lands will fetch for those against you, sometimes negating the downside.
 
 ### Graveyard Hate
 <mtg-cards names="Grafdigger's Cage|Nihil Spellbomb|Faerie Macabre|Ghost Vacuum|Unlicensed Hearse"></mtg-cards>
@@ -708,7 +775,7 @@ Some weaknesses can be adressed with sideboarding but not all at the same time.
 <mtg-cards names="Cori-Steel Cutter|Atraxa, Grand Unifier|Blood Moon|Cephalid Illusionist|Allosaurus Shepherd|Golgari Grave-Troll|Painter's Servant|Omniscience"></mtg-cards>
 
 #### Bad
-<mtg-cards names="Ajani, Nacatl Pariah|Goblin Lackey|Flickerwisp|Gaea's Cradle|Nadu, Winged Wisdom|Mystic Forge|Cloudpost|Smallpox|Phyrexian Dreadnought|Mox Diamond|Dark Depths|Tendrils of Agony|Teferi, Time Raveler|Flame of Anor|Kolaghan's Command"></mtg-cards>
+<mtg-cards names="Ajani, Nacatl Pariah|Goblin Lackey|Flickerwisp|Gaea's Cradle|Mystic Forge|Cloudpost|Smallpox|Phyrexian Dreadnought|Mox Diamond|Dark Depths|Tendrils of Agony|Teferi, Time Raveler|Flame of Anor|Kolaghan's Command"></mtg-cards>
 <!-- bant nadu and nadu elves-->
 <!-- control -->
 <!--bant control-->
@@ -848,7 +915,7 @@ See general sideboarding vs Red Daze decks above but you can also bring in cards
 <mtg-cards names="Engineered Explosives|Dread of Night"></mtg-cards>
 
 
-### UB Reanimator
+### UB Reanimator (outdated, future after entomb ban unclear)
 
 <mtg-cards names="Reanimate|Entomb|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
 
@@ -914,7 +981,7 @@ Basically, UB Reani shifts to a tempo plan, so we aim to control the board by ap
 
 Alternative 2: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
-### Turbo Reanimator
+### Turbo Reanimator (outdated, future after Entomb ban unclear)
 <mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
 
 In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
@@ -1703,27 +1770,9 @@ A blue splash for Stock Up and Force of Will is currently getting popular and is
 <youtube-video id="ubp8N8VCSYQ"></youtube-video>
 <youtube-video id="GwVbDaAelSQ" t="390"></youtube-video>
 
-### Bant Nadu
+### Cephalid Breakfast (outdated: Needs update after Nadu ban)
 
-<mtg-cite name="Minyafriend">
-Funnily enough Bant Nadu is a bad matchup.
-</mtg-cite>
-
-<mtg-cite name="Flodope" about="Bant Nadu player">
-I would say as a Bant Nadu player I don't like very aggressive starts out of the UB tempo deck, like fast Nethergoyfs backed up by Wasteland and Orcish Bowmasters, which make my cantrips costly when I try to dig out of the situation, an early Grafdigger's Cage hurts.
-Sometimes I see Toxic Deluge boarded against me which is not so nice.
-Teferi can be very good but also quite awkward, I like additional Endurance against UB Tempo more than multiple Teferis, because they handle Nethergoyfs and can prevent Murktides.
-</mtg-cite>
-
-<youtube-video id="69uBXY4Ywa0"></youtube-video>
-
-### Nadu Elves (TODO)
-
-<youtube-video id="w5DLsaJbYyA" t="6028" ></youtube-video>
-
-### Cephalid Breakfast
-
-<mtg-cards names="Cephalid Illusionist|Nadu, Winged Wisdom|Nomads en-Kor|Shuko"></mtg-cards>
+<mtg-cards names="Cephalid Illusionist|Nomads en-Kor|Shuko"></mtg-cards>
 
 #### Videos
 
@@ -1918,7 +1967,7 @@ Be careful not to confuse Wight and Knight: Wight sacrifices creatures and grows
 Grist is really confusing: You can’t Force of Negation it, Grafdigger’s Cage doesn’t stop it from coming into play, it grows Wight. But when it’s in play you can’t kill it with creature removal. Grist is very dangerous because if it gets going you never get any creatures into play and you lost the game.
 At least you can hit it with Orcish Bowmasters, attack it with a flyer (if Grist doesn’t kill it, maybe a Brazen Borrower), but best to just counter it or the Green Sun’s Zenith for 3.
 They play 4 Green Sun’s Zenith so it may be worth it to board in Grafdigger’s Cage so they can only get Grist and a GSZ for 4 mana you can hopefully Daze or Force at that time.
-Due to the low play rate it’s not worth it to play sideboard hate specifically for them but there is some overlap like Toxic Deluge that is great vs Nadu as well.
+Due to the low play rate it’s not worth it to play sideboard hate specifically for them but there is some overlap like Toxic Deluge.
 Traditionally, Submerge is often played in tempo if you expect lots of green creature decks but with black removal not caring about the toughness of creatures, UB does rarely play it.
 Hard graveyard hate like Surgical Extraction is not worth it due to it being card disadvantage but graveyard hate that can also be a threat is very useful to shrink their X of the Reliquary, for example Emperor of Bones or maybe Unlicensed Hearse or even Nihil Spellbomb.
 You can block a big creature with Tamiyo and then brainstorm to flip it before damage. If they have Orcish Bowmasters their trigger goes on the stack first and Tamiyo flips first and fizzles the triggers.
@@ -2121,6 +2170,7 @@ Gravehate in general is quite important because Loam and Hogaak are the inevitab
 <a href="https://www.mtggoldfish.com/deck/visual/7366599">Sample List</a>
 
 A unique graveyard deck that requires very specific answers to beat but you shouldn’t tune your sideboard in an open field because almost noone except MafuzVanGogh currently plays it.
+After the entomb ban mainboard grave hate is way down so this deck may become a lot better.
 How good the matchup is depends on the amount and type of grave hate you have.
 The deck takes a few turns to really go off but is quite resilient so you need to nuke the graveyard repeatedly or clock them fast.
 2-3 mainboard Nihil Spellbombs really help here.

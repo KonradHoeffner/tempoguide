@@ -127,42 +127,53 @@ customElements.define('mtg-cite', Cite);
 
 ## Build
 ### Stock List
-Played in the [MTGO Challenge on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 
 * 4 Nethergoyf
-* 3 Tamiyo, Inquisitive Student
-* 4 Orcish Bowmasters
+* 4 Tamiyo, Inquisitive Student
+* 3 Orcish Bowmasters
 * 2 Murktide Regent
 * 2 Brazen Borrower
 * 2 Kaito, Bane of Nightmares
 * 4 Brainstorm
-* 4 Ponder
-* 2 Nihil Spellbomb
+* 3 Ponder
+* 3 Mishra's Bauble
 * 4 Force of Will
+* 1 Force of Negation
 * 3 Daze
 * 4 Fatal Push
 * 3 Thoughtseize
-* 2 Bloodstained Mire
 * 4 Polluted Delta
-* 1 Flooded Strand
-* 1 Scalding Tarn
+* 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
+* 2 Flooded Strand / Scalding Tarn / Misty Rainforest
 * 4 Underground Sea
 * 1 Undercity Sewers
 * 1 Island
 * 1 Swamp
 * 4 Wasteland
 
-* 2 Blue Elemental Blast
-* 2 Faerie Macabre
-* 2 Force of Negation
+* 2 Hydroblast
+* 1 Force of Negation
+* 4 Consign to Memory
+* 2 Surgical Extraction
 * 2 Barrowgoyf
-* 2 Harbinger of the Seas
-* 2 Consign to Memory
-* 1 Null Rod
+* 1 Orcish Bowmasters
 * 2 Sheoldred’s Edict
+* 1 Engineered Explosives
 
-### Recent Adaptations
-Short notes on how I deviate any given week from the stock list for the current MTGO League meta.
+### Updates
+
+#### 2025-11-19
+Finally updating the guide after the recent bannings of Entomb and Nadu.
+Postban MTGO League match results have been:
+
+* 20-5 with UB Tempo (one 3-2, three 4-1, [one 5-0](https://www.mtggoldfish.com/deck/7458083))
+* 5-5 with UBg Tempo
+
+While this is a small sample size, my preliminary conclusions are:
+
+* The deck is still strong or even better than before the bannings.
+* Mainboard grave hate is currently not needed anymore.
+* The green splash is not worth it as the mana is weaker but your personal results may vary if you are more comfortable with 3 colors (it is more difficult to fetch correctly).
 
 #### 2025-08-18
 * until further notice I'm on 4 Tamiyo 3 Nethergoyf for a while as Tamiyo is extremely strong against fair blue and also better than Goyf against Lands.
@@ -172,15 +183,53 @@ Short notes on how I deviate any given week from the stock list for the current 
 * Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
 * keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
 
+### Results
+People often doubt the viability of this deck and while I'm not playing at the highest levels I can at least prove that the deck is somewhat competitive:
+
+* [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
+* [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
+* 11 [MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
+
 ### Variations and similar decks
 I [kirdie] almost always play the stock variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
 I only deviate in small events with a known and very specific metagame but feel free to explore different variations.
 
 #### Red Splash
-<mtg-cite name="Eco on the red splash">
+<mtg-cite name="ecobaronen">
 I want to splash red if I go to Italy and play paper.
 Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
 </mtg-cite>
+
+#### Green Splash
+<mtg-cards names="Witherbloom Command|Carpet of Flowers|Assassin's Trophy"></mtg-cards>
+
+The [highest placing UB Tempo variant in the 2025-11-16 Showcase](https://www.mtggoldfish.com/deck/7457355#paper) actually had a green splash.
+It cuts Baubles/Spellbombs and the basic Island and adds a Tropical Island and Bayou to the mana base and replaces the two Brazen Borrowers with Witherbloom Commands.
+In the sideboard we have Carpet of Flowers and Assassin's Trophy.
+Note the zero grave hate in the whole 75.
+
+In theory such a "good cards only" list has a lot of advantages:
+1. Brazen Borrower always has been the worst card that we had to include because UB doesn't have anything better.
+2. Witherbloom Command is a potential two-for-one and also fuels the graveyard for Murktide Regent, while Brazen only deals with a problem temporarily.
+3. Witherbloom Command is a really clean answer to things like Chalice or a flipped Tamiyo and can kill a Clue Token as well.
+4. With lots of Tempo around, Carpet of Flowers can be a mirror breaker by invalidating Daze and Wasteland.
+5. Tamiyo recurring Witherbloom Command and Assassin's Trophy gains you an extra mana.
+6. Assassin's Trophy can blow up troublesome lands such as Planar Nexus or Urza's Saga.
+
+However there are disadvantages as well:
+1. Land sequencing and fetching becomes a lot harder with three colors, which adds potential for errors and can be mentally taxing especially over large tournaments and can take brainpower away from other tasks such as deducing what your opponent's hand is.
+2. No artifacts like Mishra's Bauble means your Nethergoyfs are often outclassed in the pseudo mirror so you don't even have a clear edge there if your opponent is playing well. Against non-tempo decks having smaller Goyfs also means the game is harder to close out.
+3. No basic island: Magus of the Moon / Blood Moon can be game over and Wasteland can also be problematic if you don't have a Carpet vs blue.
+
+However this has performed way worse in [my testing](#updates) so I would recommend against bringing that to a major tournament unless you are very confident and have extensively tested it yourself.
+Anecdotally, a recent match vs Mono Red Prison illustrated the highs and lows of this deck very well:
+
+In one game, the opponent played Urza's Saga and Chalice of the Void on 1.
+I used Witherbloom Command to kill Chalice, recurr Wasteland, fill my graveyard and on the next turn Wasteland the Saga and play a large Murktide Regent.
+The game was won shortly afterwards and no other card would have done what Witherbloom Command enabled there.
+
+However the next game I was unable to fetch basic Island as the list doesn't include one and just died to Magus of the Moon with little pressure behind it.
+Had I been able to fetch basic Island to play my T1 Tamiyo, I might have had a chance to get a few clues, eventually flip Tamiyo and maybe find an out to Magus such as Hydroblast.
 
 #### Going Bigger
 You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs with Baleful Strix, Dauthi Voidwalkers and/or Stock Up.

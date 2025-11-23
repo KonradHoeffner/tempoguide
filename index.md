@@ -139,7 +139,7 @@ customElements.define('mtg-cite', Cite);
 * 3 Mishra's Bauble
 * 4 Force of Will
 * 1 Force of Negation
-* 3 Daze
+* 2 Daze
 * 4 Fatal Push
 * 3 Thoughtseize
 * 4 Polluted Delta

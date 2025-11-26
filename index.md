@@ -128,6 +128,8 @@ customElements.define('mtg-cite', Cite);
 ## Build
 ### Stock List
 
+Unfortunately I can't attend EW EU 2025 but this is what I would bring (modification of Andreas' latest suggestion):
+
 * 4 Nethergoyf
 * 4 Tamiyo, Inquisitive Student
 * 3 Orcish Bowmasters
@@ -138,8 +140,7 @@ customElements.define('mtg-cite', Cite);
 * 3 Ponder
 * 3 Mishra's Bauble
 * 4 Force of Will
-* 1 Force of Negation
-* 2 Daze
+* 3 Daze
 * 4 Fatal Push
 * 3 Thoughtseize
 * 4 Polluted Delta
@@ -152,15 +153,22 @@ customElements.define('mtg-cite', Cite);
 * 4 Wasteland
 
 * 2 Hydroblast
-* 1 Force of Negation
-* 4 Consign to Memory
-* 2 Surgical Extraction
+* 2 Force of Negation
+* 3 Consign to Memory
+* 1 Mystical Dispute
+* 1 Nihil Spellbomb
 * 2 Barrowgoyf
 * 1 Orcish Bowmasters
 * 2 Sheoldred’s Edict
 * 1 Engineered Explosives
 
+Disclaimer: It focuses on beating fair blue and disrespects graveyard decks.
+If you are not comfortable with hoping to dodge Oops, Dredge and new Reanimator builds, you could remove the 4th Bowmaster from the sideboard and play a Surgical Extraction instead.
+
 ### Updates
+
+#### 2025-11-26
+Updating the stock list for EW 25.
 
 #### 2025-11-19
 Finally updating the guide after the recent bannings of Entomb and Nadu.
@@ -873,12 +881,14 @@ Build basics if possible.
 #### Sideboarding
 
 ##### In
-<mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+<mtg-cards names="Hydroblast|Blue Elemental Blast|Barrowgoyf|Sheoldred's Edict|Engineered Explosives|Mystical Dispute|Nihil Spellbomb"></mtg-cards>
 
 ##### Out
-<mtg-cards names="Force of Will|Thoughtseize"></mtg-cards>
+<mtg-cards names="Force of Will|Force of Negation|Thoughtseize|Daze"></mtg-cards>
 
-Boarding out Daze instead of Thoughtseize is also an option.
+On the play you can keep Daze in and on the draw Thoughtseize.
+If you have so many good cards to bring in that you would board out all of countermagic and Thoughtseize, it may be get too clunky.
+In that case you may have to shave a Kaito or two to not get overrun early especially if they are on Cutter.
 
 ### RUG Druid
 
@@ -914,6 +924,14 @@ See general sideboarding vs Red Daze decks above but you can also bring in cards
 
 <mtg-cards names="Engineered Explosives|Dread of Night"></mtg-cards>
 
+With the Eternal Weekend 25 stock list I would board like this on the play:
+
+Out (10): 4 FoW, 3 Thoughtseize, 3 Daze
+In (10): 2 Barrowgoyf, 2 Edict, 1 Mystical Dispute, 1 EE, 1 Nihil Spellbomb, 2 Hydroblast, 1 Bowmaster
+
+With this strategy you have a strong lategame with great topdecks but you need to play tight and hit your land drops to not die early.
+Mulliganning hands with only one colored mana source with no cantrip may be necessary as you don't have free countermagic to bridge you over.
+On the draw, bring out 1-2 Kaito and keep 1-2 Fow/Thoughtseize/Daze in, I'm not sure which ones, to not get overrun early.
 
 ### UB Reanimator (outdated, future after entomb ban unclear)
 

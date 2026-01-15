@@ -202,6 +202,12 @@ People often doubt the viability of this deck and while I'm not playing at the h
 I [kirdie] almost always play the stock variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
 I only deviate in small events with a known and very specific metagame but feel free to explore different variations.
 
+#### Going Bigger
+<mtg-cards names="Murktide Regent|Barrowgoyf|Hymn to Tourach|Baleful Strix|Stock Up"></mtg-cards>
+
+You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs and Mishra's Baubles with a third Murktide Regent, mainboard Barrowgoyfs, the fourth copy of Orcish Bowmasters, Baleful Strix, Hymn to Tourach, Dauthi Voidwalkers and/or Stock Up.
+Those variants may go up to 20 lands (e.g. by adding a fifth blue Fetchland or a second Undercity Sewers) and down to two Daze.
+
 #### Red Splash
 <mtg-cards names="Molten Collapse|Pyroblast"></mtg-cards>
 
@@ -240,12 +246,6 @@ The game was won shortly afterwards and no other card would have done what Withe
 
 However the next game I was unable to fetch basic Island as the list doesn't include one and just died to Magus of the Moon with little pressure behind it.
 Had I been able to fetch basic Island to play my T1 Tamiyo, I might have had a chance to get a few clues, eventually flip Tamiyo and maybe find an out to Magus such as Hydroblast.
-
-#### Going Bigger
-<mtg-cards names="Stock Up|Baleful Strix"></mtg-cards>
-
-You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs with Baleful Strix, Dauthi Voidwalkers and/or Stock Up.
-Those rare variants often go up to 20 lands (e.g. by adding a second Undercity Sewers) and down to two Daze.
 
 #### Red-based Delver decks
 Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
@@ -485,8 +485,32 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 <mtg-card name=""></mtg-card>
 -->
 
+#### Baleful Strix
+<mtg-cards names="Baleful Strix|Orcish Bowmasters|Murktide Regent|Barrowgoyf"></mtg-cards>
+Very polarizing card.
+It does not meaningfully pressure the opponent and thus does very little across a wide range of matchups.
+It is also extremely bad against Orcish Bowmasters.
+
+However it interacts very favourably on the defensive against threats like Murktide Regent and Barrowgoyf.
+Interestingly, the power of Barrowgoyf has had hybrid decks like Tempo Doomsday go down on Bowmasters (rock) in favor of just Barrowgoyf + Murktide (paper) as plan B;
+If the meta shifts a bit with more grindy decks to punish Tempo, leading to hybrid decks getting played more, then I could see Strix (scissors) being not that bad because it is a low opportunity cost creature juke insurance that pitches to Force and replaces itself.
+
+<mtg-cite name="Ecobaronen">
+If we have to play a lot of mirrors and grindy matchups, Strix is good.
+</mtg-cite>
+
+#### Hymn to Tourach
+<mtg-card name="Hymn to Tourach"></mtg-card>
+
+<mtg-cite name="Ecobaronen before the Entomb ban">
+Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good.
+These days, we have to play to the board a lot.
+</mtg-cite>
+
+After the Entomb ban, Hymn has made a small comeback as the meta has much more fair decks than before, so anything between 0 and 3 copies can be reasonable.
+
 ### Niche Cards
-<mtg-cards names="Dauthi Voidwalker|Baleful Strix|Stock Up|Hymn to Tourach"></mtg-cards>
+<mtg-cards names="Dauthi Voidwalker|Stock Up"></mtg-cards>
 
 #### Dauthi Voidwalker
 
@@ -505,10 +529,42 @@ Eco:
 
 * Dauthi Voidwalker: I like this card because it’s never a bad draw and some decks HAVE to remove it. You have to play this on TOP of your normal graveyard hate because it doesn’t let you keep more hands vs. Oops.
 * Stock Up: If the format slows down significantly, we can play this card. For example if Beanstalk becomes a good deck.
-* Baleful Strix: Same philosophy. If we have to play a lot of mirrors and grindy matchups, Strix is good.
-* Hymn to Tourach: Time has mainly passed on this card. I think decks like Show and Tell would have to be 20% of the meta game for Hymn to be good. These days, we have to play to the board a lot.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
+### Not Recommended Mainboard Cards
+
+#### Moonshadow
+<mtg-card name="Moonshadow"></mtg-card>
+As a creature for one black mana it would need to be better than Nethergoyf on average which I don't think it is but let's compare it in detail:
+
+##### Advantages over Nethergoyf
+
+* Menace is huge. Often you are the beatdown with UB Tempo and Nethergoyf is easily blocked by creatures like Murktide, Barrowgoyf, Orc Army Token, Baleful Strix, opponents Nethergoyf, Eldrazi Spawn (e.G. from Rumble). Also very relevant if you try to prevent an early Tamiyo ultimate on the draw, which frequently happens if  you board out Forces and somes Dazes and you can also keep other planeswalkers like Kaito down.
+* Stays large even if your graveyard gets exiled by Delve, Bojuka Bog, Kozilek's Command, Ghost Vacuum, Nihil Spellbomb, Lion Sash, ... This is often relevant vs Mystic Forge when you try to finish them off with multiple Nethergoyfs and they get Tormod's Crypt.
+* Can grow through trigger-based permanent graveyard hate like Planar Void (is there any relevant currently played card like this?).
+* Not limited by card type, e.g. the second fetchland grows this but not Nethergoyf.
+* At least a 1/1 so e.g. you can still trigger surveil draw off a Kaito that is already in play against Rest in Peace when they have a big singular blocker (ok that is a bit far fetched...).
+
+##### Similarities with Nethergoyf
+
+* Size limited to 7/7 vs 6/7 with realistic decklists (no kindred, no enchantment, no battle).
+* Like Nethergoyf, cannot grow through replacement effect based graveyard hate like Dauthi Voidwalker.
+* Like Nethergoyf, you can grow it by cracking a fetchland, a Bauble, having a creature die, bouncing something with Brazen Borrower, getting Thoughtseized.
+* Like Nethergoyf, can be grown with a surveil land.
+* Like Nethergoyf, can be grown with Kaito +0 and Barrowgoyf but only as +1 at maximum because of the "one or more" wording. On the other hand it grows even if the type is already in the graveyard.
+* Like Nethergoyf, it does not grow when sacrificing clue tokens (because of the wording "permanent card").
+* Unlike Nethergoyf it ignores your own Murktide which can be good (does not get shrinked by Delve) or bad (cannot boost Murktide with Escape).
+* it enables Kaito more easily but when you replay it it starts back at 1/1
+
+##### Disadvantages over Nethergoyf
+
+* You can not grow it with non-adventure spells like Ponder, and it also can't be saved from a Bolt  with Daze they can pay for, Bolt in particular seems difficult to grow out of.
+* Generally weaker to bounce effects.
+* Worse late game when you need time to grow it.
+* Does not have recursion, which can be very relevant against decks with non-exile based removal.
+* Easily dies to Bowmasters.
+* Cannot grow with an existing graveyard if Dauthi Voidwalker is in play.
+* In general I would expect it to be much weaker on average because you don't put that many permanent cards in your graveyard.
 
 ## Sideboard
 

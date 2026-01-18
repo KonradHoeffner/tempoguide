@@ -1485,6 +1485,24 @@ Removal is generally bad against lands but Brazen Borrower (care for Sejiri Step
 
 You can try Tsabo's Web if there is a lot of lands (never tried it though and it's not recommended).
 
+### Beanstalk Control Variants
+<mtg-cards names="Up the Beanstalk|Leyline Binding|Swords to Plowshares|Quantum Riddler|Murktide Regent"></mtg-cards>
+
+There are a lot of Beanstalk variations so it depends but in general I want to sideboard out Daze (games go long, they sideboard in Carpet of Flowers), Brazen Borrower and Fatal Push.
+However the more targets for Fatal Push they have, the more you have to keep in: Do they play a single Tamiyo or the whole playset, do they play Phelia or Endurance as well?
+Usually there is the rule of three (post board one removal for each three targets) but Tamiyo is very threatening so you may need to increase it a bit.
+As long as they play some amount of creatures and/or planeswalkers, I like bringing in Sheoldred's Edict because it's quite flexible. So if they let's say play 3 Tamiyo and no other creatures I would probably bring in 2 Edict if I have them and no Fatal Push. Edict handles stuff like Phelia, Tamiyo in both modes, Murktide, Teferi, Uro and more.
+If you still have Harbinger of the Seas in the sideboard, bring them in as well but be ready to fight over Carpet of Flowers.
+Speaking of Carpet of Flowers, I usually like to bring in Force of Negation especially on the draw however there may not be room against very creature heavy BUG versions (especially if they are more BUG Midrange than real beanstalk). Also in the past they used to play only a single Carpet in the board which I always found strange, so again look at what they have especially if it's open decklist.
+Similarily to Fatal Push, the "rule of three" also applies to Surgical Extraction and Hydroblast:
+
+* 3 Uro or more? Surgical.
+* 3 Red Cards or more? Hydroblast.
+* Barrowgoyf I always like to bring in but it's a bit weaker vs white-based Beanstalk.
+* Mystical Dispute is always great to bring in.
+* Dauthi Voidwalker if you have it I always bring in but is especially great against BUG Beans because they use their graveyard a lot.
+* Against Yorion a single Daze could be reasonable and if they play Phelia as well a single Consign to Memory could keep their permanents in Exile permanently.
+
 ### BUG Beans
 
 <mtg-cards names="Up the Beanstalk|Rakshasa's Bargain|Witherbloom Command|Orcish Bowmasters|Murktide Regent"></mtg-cards>
@@ -1527,6 +1545,11 @@ Fatal Push is bad against most of their deck but depending on your other removal
 Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show up. You can keep it
 </mtg-cite>
 
+### White-Based (Yorion) Beanstalk Control
+<mtg-todo></mtg-todo>
+<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
+<youtube-video id="5TAMjgtzrok"></youtube-video>
+
 ### Jeskai Control
 <mtg-todo></mtg-todo>
 Very bad matchup but fortunately not widely played.
@@ -1536,12 +1559,6 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 <mtg-todo></mtg-todo>
 
 <youtube-video id="rvXujBKWM6g" t="9804" ></youtube-video>
-
-### (Yorion) Beanstalk Control
-<mtg-todo></mtg-todo>
-
-<youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
-<youtube-video id="5TAMjgtzrok"></youtube-video>
 
 ### Storm Decks
 <mtg-cards names="Dark Ritual|Lotus Petal|Lion's Eye Diamond|Tendrils of Agony"></mtg-cards>

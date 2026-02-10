@@ -1183,9 +1183,9 @@ Shave Wasteland if that isn't enough.
 
 ###### Keep or Mull?
 <img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops1.jpg"/>
-
 <mtg-cite name="Nathan Lipetz" href="https://www.reddit.com/r/MTGLegacy/comments/1ku9kvq/how_to_beat_oops_all_spells_ama_about_oops/">
-The Mono B builds (either Belcher juke SB or creature juke SB) are 26.4% to t1 on a 7 or 6, 9.45% chance of that being protected t1 (if on PON over Unmask - I'll talk about that more later) on a 7, and 9.2% on a 6.
+<!--The Mono B builds (either Belcher juke SB or creature juke SB) are 26.4% to t1 on a 7 or 6, 9.45% chance of that being protected t1 (if on PON over Unmask - I'll talk about that more later) on a 7, and 9.2% on a 6.-->
+Update: Citation temporarily removed on request. Apparently I misinterpreted the quote but I'm currently on vacation and will fix it later. The hand may be worse than it seems.
 </mtg-cite>
 
 <details>

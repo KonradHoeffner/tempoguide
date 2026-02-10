@@ -2,8 +2,6 @@
 
 [Link to the Guide](https://konradhoeffner.github.io/tempoguide/)
 
-EARLY DRAFT, UNDER CONSTRUCTION
-
 UB Tempo is a strong and fun MTG Legacy deck but hard to play and get good with.
 Playing a lot certainly helps especially with experience playing other tempo decks but I believe a more structured learning process and community cooperation helps getting better faster.
 In the current day and age most of the discussion happens on sites like Discord and Reddit which are not optimized for cooperative knowledge sharing so as I'm comfortable with GitHub I will try it here.

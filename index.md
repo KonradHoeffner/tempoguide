@@ -436,7 +436,6 @@ Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nad
 Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod.
 You can target any creature with Fatal Push, even if it doesn’t have an effect.
 
-
 #### Brazen Borrower
 <mtg-card name="Brazen Borrower // Petty Theft"></mtg-card>
 
@@ -446,6 +445,13 @@ Maybe Wizards will print a UB command in the future?
 Can also bait an opponent to play Orcish Bowmasters on the 3/1, allowing you to follow up with your own Bowmasters.
 You can also build your own Vindicate with Petty Theft + Thoughtseize.
 
+#### Snuff Out
+<mtg-card name="Snuff Out"></mtg-card>
+
+Kills creatures of any size, like Murktide Regent, at no mana cost.
+Destroying a Tamiyo without exposing yourself to Daze or while playing your own on turn 1 can lead to early game snowballs in the mirror.
+As black creatures like Barrowgoyf and Orcish Bowmasters are heavily played and the life loss adds up against aggressive decks, I'm only playing a single one right now.
+Against combo decks with Hexing Squelcher I also sometimes leave it in while boarding out Fatal Push, as it can enable your countermagic at the cost of 6 life even when tapped out.
 
 #### Kaito, Bane of Nightmares
 <mtg-card name="Kaito, Bane of Nightmares"></mtg-card>

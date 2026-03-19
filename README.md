@@ -1,6 +1,7 @@
 # MTG Legacy UB Tempo Guide
 
 [Link to the Guide](https://konradhoeffner.github.io/tempoguide/)
+[![Donations welcome](https://img.shields.io/badge/Donate_via_PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kirdiekirdie)
 
 UB Tempo is a strong and fun MTG Legacy deck but hard to play and get good with.
 Playing a lot certainly helps especially with experience playing other tempo decks but I believe a more structured learning process and community cooperation helps getting better faster.
@@ -9,17 +10,17 @@ This guide is inspired by the excellent but currently unmaintained Delver Bible 
 
 ## Future Work
 
-* almost everything (I just started :-))
+* more matchups
 * better card images
 * choose a license
-* ebook version
+* ebook and print version
 
 ## Accessibility and Viewing Formats
 
 The guide should be accessible to everyone, e.g. if you don't see well it should work with a screen reader, please tell us if there are problems we can fix.
-I will start with [Markdown](https://www.markdownguide.org/) and probably keep it that way, trying to include card images as well.
-In the end I would like to have a web version (trivial with Markdown) and maybe a PDF version as well but right now I'm figuring out how to start and how to structure everything, which formats to use and so on.
+I'm starting with [Markdown](https://www.markdownguide.org/) which is converted into a web version
 Ebook formats like EPUB would also be nice in case someone wants to read this on the beach.
+I am very motivated to get out a PDF and printed hardcover version as well but that is probably going to take a lot of effort.
 
 ## Contribute
 
@@ -45,5 +46,6 @@ To ensure the guide remains easy to read and understand for experienced and new 
 ## Licensing
 
 This guide is free for everyone to read but should not be redistributed for profit.
-There won't be any ads or other ways of making money with this, it is purely for sharing knowledge and I spend my time on it for free.
-However I did invest money into getting expert contributions so I won't complain if someone paypals me a few € to share that and get more contributions in the future :-).
+There aren't and never will be any ads.
+However I did invest some money and a lot of free time into it so PayPal donations are welcome as I'm currently on a part-time contract while supporting my family.
+A potential future printed book version may also cost something but would contain the same content as the free web version.

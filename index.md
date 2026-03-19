@@ -117,7 +117,8 @@ customElements.define('mtg-cite', Cite);
 //document.body.style.visibility = 'visible';
 </script>
 
-**[IF YOU WANT TO THANK ME, CONTRIBUTE TO THE GUIDE :-)](https://github.com/KonradHoeffner/tempoguide)**
+[![Donations welcome](https://img.shields.io/badge/Donate_via_PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kirdiekirdie)
+**[Contributions welcome](https://github.com/KonradHoeffner/tempoguide)**
 
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
 

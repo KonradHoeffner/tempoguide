@@ -156,7 +156,7 @@ It still has grindy elements like Tamiyo and Kaito.
 * 1 Swamp
 * 4 Wasteland
 
-### Example Midrange List without Nethergoyf
+### Example Midrange List with Barrowgoyf
 
 This list [(6th place at the same Showcase)](https://www.mtgo.com/decklist/legacy-showcase-challenge-2026-03-1512835271#deck_xfile) fully commits to the midrange plan with 3 maindeck Barrowgoyfs and a 9th Fetchland.
 
@@ -182,6 +182,35 @@ This list [(6th place at the same Showcase)](https://www.mtgo.com/decklist/legac
 * 1 Swamp
 * 4 Wasteland
 
+### Example Midrange List with Hymn + Strix
+
+I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#deck_kirdiekirdie](this list) based on Ecobaronen's Hymn + Strix build but went even more greedy with 3 Baleful Strix, 3 Kaito and 2 Hymn to Tourach.
+<a href="#baleful-strix">I used to dislike Baleful Strix but my opinion has shifted recently.</a>
+
+* 3 Baleful Strix
+* 1 Barrowgoyf
+* 1 Brazen Borrower
+* 2 Murktide Regent
+* 3 Orcish Bowmasters
+* 4 Tamiyo, Inquisitive Student
+* 4 Brainstorm
+* 3 Ponder
+* 4 Force of Will
+* 2 Daze
+* 1 Flusterstorm
+* 3 Fatal Push
+* 3 Kaito, Bane of Nightmares
+* 2 Hymn to Tourach
+* 1 Snuff Out
+* 3 Thoughtseize
+* 4 Polluted Delta
+* 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
+* 3 Flooded Strand / Scalding Tarn / Misty Rainforest
+* 4 Underground Sea
+* 1 Undercity Sewers
+* 1 Island
+* 1 Swamp
+* 4 Wasteland
 
 <!--
 Unfortunately I can't attend EW EU 2025 but this is what I would bring (modification of Andreas' latest suggestion):
@@ -387,24 +416,71 @@ Don't forget to play around Orcish Bowmasters.
 ### Threats
 <mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Murktide Regent|Barrowgoyf"></mtg-cards>
 
-There is the basic core of Nethergoyfs and Tamiyo's and Orcish Bowmasters.
-You play at least three of each but I always play 4 Nethergoyf and 4 Orcish Bowmasters.
-Some people play less Nethergoyfs and play more Baleful Strix but here I only cover the variant with at least three Nethergoyfs.
+There is the traditional core of Nethergoyf, and Tamiyo and Orcish Bowmasters.
+After the Entomb and Nadu ban, the threat suite has seen a major increase in variations.
+Moonshadow and Nethergoyf builds are even more aggressive while on the other end variants without any non-Tamiyo one drops are shedding most of the Tempo elements in favor of an even strong midrange gameplan.
 You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
 #### Nethergoyf
 <mtg-cards names="Nethergoyf|Murktide Regent|Rest in Peace"></mtg-cards>
 
-People were initially skeptical but most play 4 now for good reasons.
+People were initially skeptical but aggressive lists play three or four now for good reasons.
 Large and cheap beater, good blocker, enables Kaito and can even sometimes come back from the grave in grindy matches.
 Can grow Murktide Regent for lethal, weak to an anti-graveyard meta (Rest in Peace, Nihil Spellbomb, Leyline of the Void, Dauthi Voidwalker).
 Against Izzet try to play at 3/4 or with instant speed growth to 3/4.
 Normally you want to attack first and then cast your spells to get more information but Nethergoyf often prefers the other way around so if you spells get countered you may attack for more.
 Sometimes you don’t have a land in the graveyard and it’s good to fetch before attacking.
-Against damage based removal, consider delaying Nethergoyf until it survives. For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
+Against damage based removal, consider delaying Nethergoyf until it survives.
+For example T1 Ponder, T2 Brainstorm fetch Nethergoyf plays around Lightning Bolt. Alternatively you can also just fetch and Ponder and bait them into bolt, then save it with an instant.
 You can force a delirious DRC to attack, then clear their graveyard with Nihil Spellbomb in the attack step, then block and kill it with Nethergoyf.
 Don't forget the escape ability, as long as you don't have a Grafdigger's Cage in play.
+
+#### Moonshadow
+<mtg-card name="Moonshadow"></mtg-card>
+When this card was released, I was very sceptical as most new threats go through a hype phase and end up being worse than existing ones and get slowly phased out.
+Remember Stalactite Stalker, Mercurial Spelldancer, Katara, Waterbending Master, Abhorent Oculus and Wan Shi Tong, Librarian?
+When I bought some of those in the past, I was down a chunk of money and space as they rot in my Legacy binder.
+I also couldn't imagine this card being better than Nethergoyf as it has so many safeguards built in but I didn't expect it being played together with Nethergoyf in completely new aggressive builds.
+The "Whenever one or more permanent cards are put into your graveyard from anywhere" clause also triggers more often than I expected, e.g. from opposing discard spells.
+Sometimes it's also played as a replacement of Nethergoyf and not alongside it, which makes the strategy not that streamlined but even those variations have given me a lot of trouble as it can often kill my favourite clunky builds before I can stabilize with Barrowgoyf.
+Especially when combined with Super Shredder, both threats having Menace means that it's hard to block with Barrowgoyf and Baleful Strix and even if I get a hit in with Barrowgoyf, the typical 4 life are often not enough to get me out of lethal range.
+But that's what happens in the midrange wars: slightly bigger decks are favoured over smaller ones but go too big and you get outraced by the small ones.
+
+<mtg-cards names="Path of Peril"></mtg-cards>
+I'm still not playing Moonshadow right now as I am more comfortable with the midrangy builds but to combat it and similar aggressive decks I'm currently testing one or two Path of Peril as suggested by ecobaronen instead of Toxic Deluge to stabilize without losing too much life.
+
+Anyways, below is my original assessment of Moonshadow:
+As a creature for one black mana it would need to be better than Nethergoyf on average which I don't think it is but let's compare it in detail.
+
+##### Advantages over Nethergoyf
+
+* Menace is huge. Often you are the beatdown with UB Tempo and Nethergoyf is easily blocked by creatures like Murktide, Barrowgoyf, Orc Army Token, Baleful Strix, opponents Nethergoyf, Eldrazi Spawn (e.G. from Rumble). Also very relevant if you try to prevent an early Tamiyo ultimate on the draw, which frequently happens if you board out Forces and somes Dazes and you can also keep other planeswalkers like Kaito down.
+* Stays large even if your graveyard gets exiled by Delve, Bojuka Bog, Kozilek's Command, Ghost Vacuum, Nihil Spellbomb, Lion Sash, ... This is often relevant vs Mystic Forge when you try to finish them off with multiple Nethergoyfs and they get Tormod's Crypt.
+* Can grow through trigger-based permanent graveyard hate like Planar Void (is there any relevant currently played card like this?).
+* Not limited by card type, e.g. the second fetchland grows this but not Nethergoyf.
+* At least a 1/1 so e.g. you can still trigger surveil draw off a Kaito that is already in play against Rest in Peace when they have a big singular blocker (ok that is a bit far fetched...).
+
+##### Similarities with Nethergoyf
+
+* Size limited to 7/7 vs 6/7 with realistic decklists (no kindred, no enchantment, no battle).
+* Like Nethergoyf, cannot grow through replacement effect based graveyard hate like Dauthi Voidwalker.
+* Like Nethergoyf, you can grow it by cracking a fetchland, a Bauble, having a creature die, bouncing something with Brazen Borrower, getting Thoughtseized.
+* Like Nethergoyf, can be grown with a surveil land.
+* Like Nethergoyf, can be grown with Kaito +0 and Barrowgoyf but only as +1 at maximum because of the "one or more" wording. On the other hand it grows even if the type is already in the graveyard.
+* Like Nethergoyf, it does not grow when sacrificing clue tokens (because of the wording "permanent card").
+* Unlike Nethergoyf it ignores your own Murktide which can be good (does not get shrinked by Delve) or bad (cannot boost Murktide with Escape).
+* it enables Kaito more easily but when you replay it it starts back at 1/1.
+
+##### Disadvantages over Nethergoyf
+
+* You can not grow it with non-adventure spells like Ponder, and it also can't be saved from a Bolt  with Daze they can pay for, Bolt in particular seems difficult to grow out of.
+* Generally weaker to bounce effects.
+* Worse late game when you need time to grow it.
+* Does not have recursion, which can be very relevant against decks with non-exile based removal.
+* Easily dies to Bowmasters.
+* Cannot grow with an existing graveyard if Dauthi Voidwalker is in play.
+* In general I would expect it to be much weaker on average because you don't put that many permanent cards in your graveyard.
 
 #### Tamiyo, Inquisitive Student
 <mtg-cards names="Tamiyo, Inquisitive Student|Orcish Bowmasters|Brainstorm"></mtg-cards>
@@ -524,6 +600,7 @@ During your turn, Kaito is a 3/4 creature with hexproof. Together with the -2, t
 
 #### Baleful Strix
 <mtg-cards names="Baleful Strix|Orcish Bowmasters|Murktide Regent|Barrowgoyf"></mtg-cards>
+
 Very polarizing card.
 It does not meaningfully pressure the opponent and thus does very little across a wide range of matchups.
 It is also extremely bad against Orcish Bowmasters.
@@ -531,6 +608,8 @@ It is also extremely bad against Orcish Bowmasters.
 However it interacts very favourably on the defensive against threats like Murktide Regent and Barrowgoyf.
 Interestingly, the power of Barrowgoyf has had hybrid decks like Tempo Doomsday go down on Bowmasters (rock) in favor of just Barrowgoyf + Murktide (paper) as plan B;
 If the meta shifts a bit with more grindy decks to punish Tempo, leading to hybrid decks getting played more, then I could see Strix (scissors) being not that bad because it is a low opportunity cost creature juke insurance that pitches to Force and replaces itself.
+Update in March '26: With Tempo Doomsday going down to 0.8 Bowmasters on average and adopting Wasteland, I have been playing 2-3 Strixen for a while now as they pitch to force and provide juke ensurance.
+This weakness to hybrid combo has long been a thorn in my side and I will gladly adopt Baleful Strix to help patch this hole in this decks game plan.
 
 <mtg-cite name="Ecobaronen">
 If we have to play a lot of mirrors and grindy matchups, Strix is good.
@@ -567,41 +646,6 @@ Eco:
 * Dauthi Voidwalker: I like this card because it’s never a bad draw and some decks HAVE to remove it. You have to play this on TOP of your normal graveyard hate because it doesn’t let you keep more hands vs. Oops.
 * Stock Up: If the format slows down significantly, we can play this card. For example if Beanstalk becomes a good deck.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
-
-### Not Recommended Mainboard Cards
-
-#### Moonshadow
-<mtg-card name="Moonshadow"></mtg-card>
-As a creature for one black mana it would need to be better than Nethergoyf on average which I don't think it is but let's compare it in detail:
-
-##### Advantages over Nethergoyf
-
-* Menace is huge. Often you are the beatdown with UB Tempo and Nethergoyf is easily blocked by creatures like Murktide, Barrowgoyf, Orc Army Token, Baleful Strix, opponents Nethergoyf, Eldrazi Spawn (e.G. from Rumble). Also very relevant if you try to prevent an early Tamiyo ultimate on the draw, which frequently happens if  you board out Forces and somes Dazes and you can also keep other planeswalkers like Kaito down.
-* Stays large even if your graveyard gets exiled by Delve, Bojuka Bog, Kozilek's Command, Ghost Vacuum, Nihil Spellbomb, Lion Sash, ... This is often relevant vs Mystic Forge when you try to finish them off with multiple Nethergoyfs and they get Tormod's Crypt.
-* Can grow through trigger-based permanent graveyard hate like Planar Void (is there any relevant currently played card like this?).
-* Not limited by card type, e.g. the second fetchland grows this but not Nethergoyf.
-* At least a 1/1 so e.g. you can still trigger surveil draw off a Kaito that is already in play against Rest in Peace when they have a big singular blocker (ok that is a bit far fetched...).
-
-##### Similarities with Nethergoyf
-
-* Size limited to 7/7 vs 6/7 with realistic decklists (no kindred, no enchantment, no battle).
-* Like Nethergoyf, cannot grow through replacement effect based graveyard hate like Dauthi Voidwalker.
-* Like Nethergoyf, you can grow it by cracking a fetchland, a Bauble, having a creature die, bouncing something with Brazen Borrower, getting Thoughtseized.
-* Like Nethergoyf, can be grown with a surveil land.
-* Like Nethergoyf, can be grown with Kaito +0 and Barrowgoyf but only as +1 at maximum because of the "one or more" wording. On the other hand it grows even if the type is already in the graveyard.
-* Like Nethergoyf, it does not grow when sacrificing clue tokens (because of the wording "permanent card").
-* Unlike Nethergoyf it ignores your own Murktide which can be good (does not get shrinked by Delve) or bad (cannot boost Murktide with Escape).
-* it enables Kaito more easily but when you replay it it starts back at 1/1
-
-##### Disadvantages over Nethergoyf
-
-* You can not grow it with non-adventure spells like Ponder, and it also can't be saved from a Bolt  with Daze they can pay for, Bolt in particular seems difficult to grow out of.
-* Generally weaker to bounce effects.
-* Worse late game when you need time to grow it.
-* Does not have recursion, which can be very relevant against decks with non-exile based removal.
-* Easily dies to Bowmasters.
-* Cannot grow with an existing graveyard if Dauthi Voidwalker is in play.
-* In general I would expect it to be much weaker on average because you don't put that many permanent cards in your graveyard.
 
 ## Sideboard
 

@@ -664,36 +664,100 @@ Eco:
 
 ### Meta Adaptations
 
-#### Tuning Guide by Ecobaronen
+#### Sideboard Tuning Guide by Ecobaronen (2025)
 
-* Hydroblast: Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
-* Consign to Memory: After Eldrazi’s ban, this is mainly a hate card for Mystic Forge. It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about.
-* Cursed Totem: This card is viable if your meta game has both Cradle Control, Breakfast and Bant Nadu - maybe with some bad decks like Goblins (Skirk Prospector) or old school D+T (Mother) mixed in. Two mana is a lot for a niche card.
-* Counterbalance: I liked this card quite a bit in Izzet where you also have Channeler to manipulate your top card. Furthermore, Dimir has a wider range of MV which makes Counterbalance less reliable for the cheap MVs. We also want to fetch swamp sometimes (Izzet plays 0 mountains), so UU is rough.
-* Damping Sphere: Maybe some combination of 12-post, Forge and Storm can warrant this card.
-* Engineered Explosives: I mainly view this as Chalice removal that can randomly kill Rhinos, Constructs or Empty goblins.
-* Force of Negation: Great card to fight Show and Tell, Chalice, Forge, Storm and other combo decks. Always worth 2 slots for me.
-* 1B removal: My current favorite is Edict which can kill walkers (mainly Tamiyo and Karn, but also against bad decks with Teferi and Narset) and doesn’t give bonus to Nadu. It sometimes can’t kill the Murktide on the field which is a shame. The other ones have to do with the amount of Voidwalker/Bombardier/Brazen vs. Dreadnought/Painter/Constructs in your meta.
-* Harbinger of the Seas: I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). (this was written before the rules change)
+##### Hydroblast
+<mtg-cards names="Hydroblast|Blood Moon|Sneak Attack|Dragon's Rage Channeler|Goblin Welder|Burning Wish"></mtg-cards>
+Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
 
-* Graveyard hate: Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline). In paper, you can play your Cages to have crossover against Zenith.
-* Null Rod: Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher. It also beats bad Storm decks.
-* Pithing Needle: This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc. It’s often good deck building to play it.
-* Spell Pierce/Flusterstorm: I don’t like the one-mana counters because they force me to hold up mana. Every mana unused in today’s Magic gets you closer to losing. Forces, Daze and Thoughtseize will cover for me.
-* Subtlety: If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
-* Thoughtseize: Playing 4th Thoughtseize in the sideboard will often be bad deck building. It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot. If you like it, play 4 in the main.
-* Toxic Deluge: Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
-* Tsabo’s Web: As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
+##### Consign to Memory
+<mtg-cards names="Consign to Memory|Thought-Knot Seer|Mystic Forge|Ugin, Eye of the Storms|Painter's Servant|Mox Diamond|Flickerwisp"></mtg-cards>
+After Eldrazi’s ban, this is mainly a hate card for Mystic Forge. It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about.
 
-<mtg-cards names="Harbinger of the Seas"></mtg-cards>
-I love this card but don't currently run it because it is so hard to make it work against Urza's Saga after the rules change.
+##### Cursed Totem
+<mtg-cards names="Cursed Totem|Badgermole Cub|Nomads en-Kor|Skirk Prospector|Mother of Runes"></mtg-cards>
 
-<mtg-cards names="Tsabo's Web"></mtg-cards>
+This card is viable if your meta game has both Cradle Control, Breakfast and Bant Nadu [banned now] - maybe with some bad decks like Goblins (Skirk Prospector) or old school D+T (Mother) mixed in. Two mana is a lot for a niche card.
+
+##### Counterbalance
+<mtg-cards names="Counterbalance"></mtg-cards>
+I liked this card quite a bit in Izzet where you also have Channeler to manipulate your top card.
+Furthermore, Dimir has a wider range of MV which makes Counterbalance less reliable for the cheap MVs. We also want to fetch swamp sometimes (Izzet plays 0 mountains), so UU is rough.
+
+##### Damping Sphere
+<mtg-cards names="Damping Sphere|Cloudpost|Urza's Tower|Voltaic Key|Tendrils of Agony"></mtg-cards>
+Maybe some combination of 12-post, Forge and Storm can warrant this card.
+
+##### Engineered Explosives
+<mtg-cards names="Engineered Explosives|Chalice of the Void|Crashing Footfalls|Urza's Saga|Empty the Warrens"></mtg-cards>
+I mainly view this as Chalice removal that can randomly kill Rhinos, Constructs or Empty goblins.
+
+##### Force of Negation
+<mtg-cards names="Force of Negation|Show and Tell|Chalice of the Void|Mystic Forge|Dark Ritual"></mtg-cards>
+Great card to fight Show and Tell, Chalice, Forge, Storm and other combo decks.
+Always worth 2 slots for me.
+
+##### 1B removal
+<mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember|Shoot the Sheriff|Go for the Throat|Feed the Cycle"></mtg-cards>
+My current favorite is Edict which can kill walkers (mainly Tamiyo and Karn, but also against bad decks with Teferi and Narset) and doesn’t give bonus to Nadu.
+It sometimes can’t kill the Murktide on the field which is a shame.
+The other ones have to do with the amount of Voidwalker/Bombardier/Brazen vs. Dreadnought/Painter/Constructs in your meta.
+
+##### Harbinger of the Seas
+<mtg-cards names="Harbinger of the Seas|Leyline Binding|Urza's Saga"></mtg-cards>
+I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). [this was written before the rules change]
+
+<mtg-cite name="Konrad">
+I love this card as well but rarely currently run it because it is so hard to make it work against Urza's Saga after the rules change.
+</mtg-cite>
+
+
+##### Graveyard hate
+<mtg-cards names="Faerie Macabre|Surgical Extraction|Leyline of the Void|Grafdigger's Cage"></mtg-cards>
+Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline).
+In paper, you can play your Cages to have crossover against Zenith.
+
+##### Null Rod
+<mtg-cards names="Null Rod|Grim Monolith|Goblin Charbelcher|Lion's Eye Diamond"></mtg-cards>
+Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher.
+It also beats bad Storm decks.
+
+##### Pithing Needle
+<mtg-cards names="Pithing Needle|Urza's Saga|Nomads en-Kor|The One Ring"></mtg-cards>
+This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc.
+It’s often good deck building to play it.
+
+##### Spell Pierce/Flusterstorm
+<mtg-cards names="Spell Pierce|Flusterstorm"></mtg-cards>
+I don’t like the one-mana counters because they force me to hold up mana.
+Every mana unused in today’s Magic gets you closer to losing.
+Forces, Daze and Thoughtseize will cover for me.
+
+##### Subtlety
+<mtg-cards names="Subtlety|Balustrade Spy|Cavern of Souls"></mtg-cards>
+If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
+
+##### Thoughtseize
+<mtg-cards names="Thoughtseize"></mtg-cards>
+Playing 4th Thoughtseize in the sideboard will often be bad deck building.
+It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot.
+If you like it, play 4 in the main.
+
+##### Toxic Deluge
+<mtg-cards names="Toxic Deluge"></mtg-cards>
+Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
+
+##### Tsabo's Web
+<mtg-cards names="Tsabo's Web|Rishadan Port"></mtg-cards>
+As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
+
 <mtg-cite name="Minyafriend">
 I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
 Current lands does not get punished enough by this card.
 Pithing needle seems better if you want to stay UB and stop land strats.
 </mtg-cite>
+
+
 
 
 <mtg-cards names="Disruptor Flute|Pithing Needle"></mtg-cards>
@@ -1408,7 +1472,7 @@ The fixed version of the banned Necropotence has both an all-in combo and a slow
 One of the most all-in combo decks in the format, can kill you on turn 1 but has a hard time to rebuild, so just focus on staying alive.
 Oops all Spells is currently much more popular because it is nearly as fast but more resilient, except to grave hate.
 
-<mtg-cards names="Lotus Petal|Cabal Ritual|Elvish Spirit Guide|Simian Spirit Guide|Manamorphose|Pact of Negation|Summoner's Pact|Pact of Negation|Beseech the Mirror|Borned Upon a Wind|Valakut Awakening|Tendrils of Agony"></mtg-cards>
+<mtg-cards names="Lotus Petal|Cabal Ritual|Elvish Spirit Guide|Simian Spirit Guide|Manamorphose|Pact of Negation|Summoner's Pact|Pact of Negation|Beseech the Mirror|Borne Upon a Wind|Valakut Awakening|Tendrils of Agony"></mtg-cards>
 
 #### Sideboarding
 
@@ -2237,7 +2301,7 @@ They may also board out some or all Dryad Arbor as I feel it is not as impactful
 
 ### Mono Black Aggro (<1% Meta game)
 
-<mtg-cards names="Stalactite Stalker|Nethergoyf|Dauthi Voidwalker|Hymn to Tourach|Barrowgoyf|Opposition Agent|Dark Ritual|Volrath's Stronghold|Wasteland"></mtg-cards>
+<mtg-cards names="Moonshadow|Super Shredder|Nethergoyf|Dauthi Voidwalker|Hymn to Tourach|Barrowgoyf|Opposition Agent|Dark Ritual|Volrath's Stronghold|Wasteland"></mtg-cards>
 
 Grindy fair deck that aims to win a battle of attrition.
 Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.

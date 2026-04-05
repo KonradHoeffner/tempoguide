@@ -126,6 +126,10 @@ customElements.define('mtg-cite', Cite);
 * Table of Contents
 {:toc}
 
+## Introduction
+
+
+
 ## Mainboard
 
 ### Example Tempo List with Nethergoyf
@@ -1720,6 +1724,88 @@ It sucks to keep Fatal Pushes in but 2 are needed against Tamiyo.
 
 ### Storm Decks
 <mtg-cards names="Dark Ritual|Lotus Petal|Lion's Eye Diamond|Tendrils of Agony"></mtg-cards>
+
+#### Storm Basics
+<youtube-video id="4FTDEnHcrhk"></youtube-video>
+
+Let’s start a quick refresher on the basics:
+In one of the rare cases of descriptive naming, the Legacy Storm decks are based on the Storm mechanic, which copies a spell for each spell played before it this turn.
+With a tempo or midrange deck, it is important to disrupt our opponent’s plans, so let’s look at them.
+
+##### Natural Tendrils
+
+<mtg-cards names="Dark Ritual|Dark Ritual|Dark Ritual|Tendrils of Agony"></mtg-cards>
+
+If the storm player, lets call her Susi Storm, casts 10 spells and follows with Tendrils of Agony, even countering the Tendrils will still lose the tempo player, let’s call him Tobi Tempo, 20 life from the copies and probably the game.
+However the perceptive viewer will notice that with a maximum hand size of 7, that is quite hard to achieve.
+
+<mtg-cards names="Thoughtseize|Brainstorm|Dark Ritual|Dark Ritual|Dark Ritual|Tendrils of Agony"></mtg-cards>
+
+We can be nice and helpful to our opponent by lowering our life total with Thoughtseize, Fetching, Forcing and Snuff Outing our own creatures, so they need less storm count to win.
+We can also increase the Storm count by casting our own spells in the opponent’s turn.
+While a desperate and clever opponent may be able to achieve this so called "natural" Tendrils kill, relying on our cooperation is not a reliable game plan, so they have a few others. 
+
+##### Multiple Storm Spells
+
+<mtg-cards names="Dark Ritual|Dark Ritual|Dark Ritual|Dark Ritual|Tendrils of Agony|Tendrils of Agony"></mtg-cards>
+
+Susi *could* play two storm spells but that is more often seen in lower power formats like Modern than in Legacy where you have more efficient ways and you may only have a single Storm spell available.
+Quick beginner question: How much life loss would 4 Dark Rituals into 2 Tendrils be?
+
+<details>
+<summary markdown="0">Answer</summary>
+The first one does 10 and the second 12 for a total of 22.
+</details>
+
+<mtg-cite name="Storm copies" href="https://gatherer.wizards.com/SCG/en-us/75/tendrils-of-agony">
+The copies are put directly onto the stack.
+They aren't cast and won't be counted by other spells with storm cast later in the turn.
+</mtg-cite>
+
+##### Empty the Warrens
+<mtg-cards names="Dark Ritual|Dark Ritual|Dark Ritual|Dark Ritual|Empty the Warrens|Tamiyo, Seasoned Scholar|Engineered Explosives"></mtg-cards>
+
+A more realistic way to beat Tempo with a low storm count is to use a slower Storm spell that gives them more value, as we don’t have a combo to finish the game in a single turn.
+Traditionally, Empty the Warrens (70% share) has given Tempo decks the difficult decision on whether we should board in an otherwise useless sweeper like Pyroclasm but UB Tempo naturally counters this with a simple Tamiyo uptick, so leave Toxic Deluge in the sideboard. Engineered Explosives should always be brought in though because it can also sweep away artifact mana and construct tokens if they have Urza’s Saga. Just be careful with Null Rod as I’ve lost to Goblins while staring at my Engineered Explosives that I can’t activate or Clues that can’t flip Tamiyo.
+
+Creatures with Storm like Aeve and Stormscale Scion are rarely played nowadays so you shouldn’t overrespect their possibility unless you see them but it’s still important to know how they function.
+
+<mtg-cards names="Dark Ritual|Dark Ritual|Dark Ritual|Dark Ritual|Aeve, Progenitor Ooze|Engineered Explosives"></mtg-cards>
+For example, what happens when you activate an Engineered Explosives with 0 counters on it after the Susi played Aeve with storm count 4?
+
+<details>
+<summary markdown="0">Answer</summary>
+Both the original Aeve and the copy tokens will survive as they all have a mana value of 5.
+</details>
+
+<mtg-cite name="Copy rules" href="https://blogs.magicjudges.org/rules/comprehensive-rules/#rule-707">
+707.1. Some objects become or turn another object into a “copy” of a spell, permanent, or card. Some effects create a token that’s a copy of another object. [...]
+
+
+707.2. When copying an object, the copy acquires the copiable values of the original object’s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The copiable values are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty) [...]
+</mtg-cite>
+
+##### Engines (section under construction)
+While those examples of natural Tendrils and Aeve Tokens are really cool, it’s much more practical to play another card first that lets you cast more cards. We call those cards “engines”.
+
+Some of those engines draw cards, others put them into their hand without calling it drawing, others let them play spells from exile or from the graveyard. Wherever those spells are coming from, they are usually so many that you lose if the engine resolves. So if you aren’t sure which spell to put your counterspell at, an engine is usually a good target, but some of them have different ways of counterplay, so let’s look at them in more detail.
+
+###### Graveyard Recursion
+Graveyard recursion allows playing previous spells again. With Yawgmoth’s Will for 3 mana being banned, 4 mana seems to be what Wizards tolerates in Legacy for this effect, which often wins on the spot.
+
+Past in Flames gives your instant and sorcery cards flashback until end of turn. Example: Sam has an empty graveyard, a Swamp and Volcanic Island in play. How much life can she drain with a hand of Past in Flames, 3 Dark Rituals and Tendrils? Pause the video and unpause when you have the answer.
+
+###### Suspended Gaea’s Will
+
+<mtg-cite name="Suspend rules" href="https://blogs.magicjudges.org/rules/comprehensive-rules/#rule-702-62a">
+702.62a Suspend is a keyword that represents three abilities.
+The first is a static ability that functions while the card with suspend is in a player’s hand.
+The second and third are triggered abilities that function in the exile zone.
+“Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it.
+This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, you may play it without paying its mana cost if able.
+If you don’t, it remains exiled.
+If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
+</mtg-cite>
 
 ### Black Saga Storm (~ 1% Meta game)
 

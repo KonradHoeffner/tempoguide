@@ -653,20 +653,51 @@ Eco:
 
 ## Sideboard
 
-### Example Sideboard
+### Example Sideboard for the Nethergoyf build
 
 * 2 Hydroblast
 * 2 Force of Negation
-* 2 Consign to Memory
+* 3 Consign to Memory
 * 2 Surgical Extraction
-* 1 Dauthi Voidwalker
 * 2 Barrowgoyf
 * 2 Sheoldred’s Edict
-* 2 Toxic Deluge
+* 2 Massacre
 
-<mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
+### Printable Sideboard Map for the Nethergoyf build
+
+Assuming the above sideboard and the <a href="#example-tempo-list-with-nethergoyf">stock Nethergoyf maindeck</a>.
+See the matchup section for detailed explanations and adaptations based on your and the opponent's configuration.
+
+<mtg-todo></mtg-todo>
+
+| Matchup           | In                                    | Out                           | Notes |
+| :-------------    | :-------------------------            | :---                          | :--- |
+| **UB Mirror**     | +2 Barrow +2 Edict                    | -4 FoW                        | |
+| **UR Tempo**      | +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
+| **** | | | |
+| **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
+| **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
+| **Goblins**   |+2 Barrow +2 Edict +2 Hydro | -3 Daze -1 Brazen -2 ? | |
+| **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
+| **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
+| **Elves**         |+2 Edict +2 FoN ?           | -3 Daze -? | Barrowgoyf too easy to stall |
+| **** | | | |
+| **Oops with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
+| **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
+| **** | | | |
+| **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
+| **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
+| **Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now with Melded Moxite |
+| **** | | | |
+| **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
+| **** | | | |
+| **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
+| **** | | | |
+| **** | | | |
 
 ### Meta Adaptations
+
+<mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
 #### Sideboard Tuning Guide by Ecobaronen (2025)
 
@@ -2208,7 +2239,7 @@ Barrowgoyf is the perfect creature for matchups like this but they also have a l
 
 * Daze
 * Nihil Spellbomb
-* shave Wasteland
+* Brazen Borrower
 
 ### Goblins (<1% Meta game)
 

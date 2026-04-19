@@ -672,8 +672,8 @@ See the matchup section for detailed explanations and adaptations based on your 
 
 | Matchup           | In                                    | Out                           | Notes |
 | :-------------    | :-------------------------            | :---                          | :--- |
-| **UB Mirror**     | +2 Barrow +2 Edict                    | -4 FoW                        | |
-| **UR Tempo**      | +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
+| **UB Tempo Mirror**| +2 Barrow +2 Edict                    | -4 FoW                        | |
+| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
 | **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
@@ -681,9 +681,8 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
 | **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
 | **Elves**         |+2 Edict +2 FoN ?           | -3 Daze -? | Barrowgoyf too easy to stall |
-| **** | | | |
-| **Oops with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
-| **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
+| **Cascade Crash** | | | |
+| **Initiative Stompy** | | | |
 | **** | | | |
 | **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
 | **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
@@ -693,6 +692,12 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
 | **** | | | |
+| **UB Reanimator** |+2 Surgical   | | |
+| **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
+| **Turbo Rea. Smog pivot** |+2 Surgical +2 FoN           |-4 Bowmaster |green splash|
+| **Turbo Rea. red splash** |+2 Surgical +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
+| **Oops with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
+| **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
 | **** | | | |
 
 ### Meta Adaptations
@@ -1182,23 +1187,24 @@ With this strategy you have a strong lategame with great topdecks but you need t
 Mulliganning hands with only one colored mana source with no cantrip may be necessary as you don't have free countermagic to bridge you over.
 On the draw, bring out 1-2 Kaito and keep 1-2 Fow/Thoughtseize/Daze in, I'm not sure which ones, to not get overrun early.
 
-### UB Reanimator (outdated, future after entomb ban unclear)
+### UB Reanimator
 
-<mtg-cards names="Reanimate|Entomb|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
+<mtg-cards names="Reanimate|Careful Study|Tainted Indulgence|Atraxa, Grand Unifier|Archon of Cruelty|Tamiyo, Inquisitive Student"></mtg-cards>
 
-The currently most played and probably strongest deck even after the Grief, Frog and Troll bans is a tempo combo hybrid that puts you in constant danger from two angles:
-If you keep or even mulligan to a hand with grave hate and Force of Will, they may just out-tempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf.
-If you have threats and removal they may just reanimate a Fattie and against tempo the game is mostly over if a single Fattie hits the battlefield.
-However since the Frog ban, the tempo part of the deck is much weaker, especially before sideboarding, so you should prioritize not dying to their combo and your tempo plan will most likely win against theirs.
-Very skill testing, but good matchup for us if we have two Nihil Spellbomb in the main deck, just be prepared to fight over end of turn Petty Theft into their turn Reanimate.
-They have a sideboard juke to board out Entomb, Animate Dead and the Fatties and board in more creatures like Barrowgoyf and more removal.
+The formerly most played and strongest deck took several of bans over multiple years including Grief, Frog and Troll of Khazad-Dûm.
+It used to be a tempo combo hybrid that puts you in constant danger from two angles:
+If you keep or even mulligan to a hand with grave hate and Force of Will, they could just out-tempo you with Tamiyo, Orcish Bowmasters, Murktide Regent, Brazen Borrower or Barrowgoyf.
+If you have threats and removal they would just reanimate a Fattie and against tempo the game is mostly over if a single Fattie hits the battlefield.
+However since the Entomb ban, the tempo part of the deck is much weaker, especially before sideboarding, as they now have to run a lot more Reanimate targets.
+Thus you should treat it more like a real combo deck now and prioritize not dying to their combo and your tempo plan will most likely win against theirs.
+Very skill testing but good matchup for us even though we don't run Nihil Spellbomb in the main deck anymore, but you need to be super aware of when you are shields down e.g. vs Daze and when you are safe to apply pressure.
+They may have a sideboard juke to trim on the combo and board in more creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalkers, Fatal Push and more copies of Brazen Borrower and Bitter Triumph.
 However then they are just a worse tempo deck than you are so it’s probably best for them to not juke, unless they expect you to over-prepare for the reanimation plan.
 
-Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways. Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
-It’s also super hard to win two games in a row on the play and draw, so having mainboard grave hate like Nihil Spellbomb really helps.
+Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways.
+Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
 
-
-<mtg-cite name="Minyafriend">
+<mtg-cite name="Minyafriend (written before the Entomb ban)">
 Identify what kind of UB Reanimator you are playing against.
 Do they have push main, Inquisition of Kozilek in the sideboard, they go harder on combo, no midrange plan other than Tamiyo, no Bowmasters?
 Are there Murktides and Barrowgoyfs main? Then it's midrange with I-win-button.
@@ -1228,9 +1234,9 @@ I don't recommend siding out Force of Will even with Dauthi Voidwalkers.
 
 ##### In
 
-<mtg-cards names="Grafdigger's Cage|Faerie Macabre|Sheoldred's Edict"></mtg-cards>
+<mtg-cards names="Surgical Extraction|Grafdigger's Cage|Faerie Macabre|Sheoldred's Edict"></mtg-cards>
 
-All graveyard hate (normally I have 2 mainboard and another 2 sideboard).
+All graveyard hate (normally I have two in the sideboard).
 Don’t board in FoN as it’s not good against their fair plan and also avoid Consign to Memory, as they probably board out Animate Dead.
 You can bring in/keep if mainboard a Barrowgoyf but it's risky if they Thoughtseize/Force/Daze/Push it and then reanimate it.
 
@@ -1248,12 +1254,12 @@ Basically, UB Reani shifts to a tempo plan, so we aim to control the board by ap
 
 Alternative 2: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
 
-### Turbo Reanimator (outdated, future after Entomb ban unclear)
-<mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Entomb|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
+### Turbo Reanimator
+<mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Cabal Therapy|Faithless Looting|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
 
-In contrast to the slow and steady UB Reanimator behemoth, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
+In contrast to the slow and steady UB Reanimator, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
 While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivised to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
-Nihil Spellbomb is extremely strong in game 1.
+Nihil Spellbomb is extremely strong in game 1 if you still run it.
 
 <youtube-video id="X17fCga0pWE" t="3785"></youtube-video>
 <youtube-video id="ztrR7xJKJFg" t="5135"></youtube-video>
@@ -1555,11 +1561,6 @@ Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
 Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide.
 Bowmasters are decent against Fable of the Mirror-Breaker and good against The One Ring but it's better to prevent that from entering in the first place.
 If you need more room, shave Thoughtseize.
-
-### Black Stompy
-
-<mtg-todo></mtg-todo>
-<youtube-video id="5AwtoVA4y0A" t="2080"></youtube-video>
 
 ### Cascade Crash
 <mtg-cards names="Elvish Spirit Guide|Simian Spirit Guide|Shardless Agent|Violent Outburst|Crashing Footfalls|Brazen Borrower // Petty Theft|Fire / Ice|Minsc & Boo, Timeless Heroes"></mtg-cards>
@@ -2416,9 +2417,11 @@ Due to Orcish Bowmasters they probably board out Glimpse of Nature and bring in 
 They may also bring in Choke so fetch a basic swamp if it doesn't hinder your game plan too much.
 They may also board out some or all Dryad Arbor as I feel it is not as impactful.
 
-### Mono Black Aggro (<1% Meta game)
+### Mono Black Aggro / Black Stompy (<1% Meta game)
 
 <mtg-cards names="Moonshadow|Super Shredder|Nethergoyf|Dauthi Voidwalker|Hymn to Tourach|Barrowgoyf|Opposition Agent|Dark Ritual|Volrath's Stronghold|Wasteland"></mtg-cards>
+
+<youtube-video id="5AwtoVA4y0A" t="2080"></youtube-video>
 
 Grindy fair deck that aims to win a battle of attrition.
 Even though Force is a two-for-one I would still keep it, sometimes you can protect an Engine like Tamiyo or Kaito long enough to outvalue them.

@@ -686,7 +686,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
 | **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
-| **Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now with Melded Moxite |
+| **UR Artifacts and Painter **       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
 | **** | | | |
 | **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
 | **** | | | |
@@ -1994,6 +1994,12 @@ Sometimes with white or black splash.
 
 ### Blue Painter
 <mtg-todo></mtg-todo>
+
+### UR "Painterless Painter"
+
+<youtube-video id="je4klpq4fJU"></youtube-video>
+
+This deck is explained really well in the above podcast by In Response.
 
 ### 8-Cast
 <mtg-cards names="Ancient Tomb|Urza's Saga|Mishra's Bauble|Mox Opal|Thoughtcast|Thought Monitor|Emry, Lurker of the Loch|Kappa Cannoneer"></mtg-cards>

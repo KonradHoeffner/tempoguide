@@ -698,6 +698,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Turbo Rea. red splash** |+2 Surgical +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
 | **Oops with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
 | **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
+| **Dredge**|+2 Surgical +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
 | **** | | | |
 
 ### Meta Adaptations
@@ -2561,21 +2562,22 @@ They may have a Dread Return for Thassa's Oracle combo finish.
 
 ##### In
 
-<mtg-cards names="Nihil Spellbomb|Grafdigger's Cage|Unlicensed Hearse|Force of Negation|Hydroblast|Barrowgoyf|Sheoldred's Edict"></mtg-cards>
+<mtg-cards names="Nihil Spellbomb|Grafdigger's Cage|Unlicensed Hearse|Force of Negation|Hydroblast|Barrowgoyf|Consign to Memory"></mtg-cards>
 
 Hydroblast counters Faithless Looting, Ox of Agonas and postboard Shenanigans, but there are also versions without red so pay attention to their build, thankfully you often see a lot of cards in their graveyard.
 Barrowgoyf may seem strange against a combo deck but they often kill you with a large swarm of creatures and may even board out Thassa's Oracle, and Barrowgoyf stabilizes extremely well.
 One Barrowgoyf alone may not be enough if they really go off but in conjunction with a second one or something like Engineered Explosives it can often give you enough time.
 Be careful of going down so low that they can finish you with Narcomoeba.
+Consign to Memory only has a few targets like Lion's Eye Diamond but it's probably still worth bringing in.
 
 ##### Out
 
-<mtg-cards names="Fatal Push|Orcish Bowmasters"></mtg-cards>
+<mtg-cards names="Fatal Push|Snuff Out|Orcish Bowmasters"></mtg-cards>
 
-All the spot and mass removal, e.g. Fell, Shoot the Sheriff, Go for the Throat, Sheoldred's Edict, Toxic Deluge, Threads of Disloyalty (they have enchantment removal though), Submerge.
+Spot removal should be boarded out because it's more important to stop them from going off in the first place.
+Orcish Bowmasters is useful to remove Bridge from Below but I haven't found a less useful card to cut instead.
 
 * Their Plan: Win game 1 and hope to get one of the postboard games.
-
 
 
 ### Brews and Rare Decks

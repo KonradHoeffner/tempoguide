@@ -678,6 +678,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
 | **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
+| **Death and Taxes**   |+2 Barrow +2 Edict +2 Consign +2 Massacre | -1 Daze -4 FoW -3 Bowmaster | keep Bowmaster if Thalia, MoM...   |
 | **Goblins**   |+2 Barrow +2 Edict +2 Hydro | -3 Daze -1 Brazen -2 ? | |
 | **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
 | **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |

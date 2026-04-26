@@ -674,6 +674,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | :-------------    | :-------------------------            | :---                          | :--- |
 | **UB Tempo Mirror**| +2 Barrow +2 Edict                    | -4 FoW                        | |
 | **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
+| **UW Blink**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
 | **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
@@ -686,7 +687,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
 | **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
-| **UR Artifacts and Painter **       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
+| **UR Artifacts and Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
 | **** | | | |
 | **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
 | **** | | | |

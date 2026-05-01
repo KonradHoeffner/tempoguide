@@ -128,9 +128,37 @@ customElements.define('mtg-cite', Cite);
 
 ## Introduction
 
-
-
 ## Mainboard
+
+### Example Tempo List with Flow State and Nethergoyf
+
+I'm still figuring out Flow State but this is my current build.
+
+* 3 Nethergoyf
+* 4 Tamiyo, Inquisitive Student
+* 3 Orcish Bowmasters
+* 2 Murktide Regent
+* 4 Brainstorm
+* 4 Ponder
+* 4 Flow State
+* 2 Mishra's Bauble
+* 4 Force of Will
+* 3 Daze
+* 3 Fatal Push
+* 2 Snuff Out
+* 3 Thoughtseize
+* 4 Polluted Delta
+* 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
+* 2 Flooded Strand / Scalding Tarn / Misty Rainforest
+* 4 Underground Sea
+* 1 Undercity Sewers
+* 1 Island
+* 1 Swamp
+* 4 Wasteland
+
+
+<details>
+<summary>Old Lists Pre Flow State</summary>
 
 ### Example Tempo List with Nethergoyf
 
@@ -215,6 +243,7 @@ I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#dec
 * 1 Island
 * 1 Swamp
 * 4 Wasteland
+</details>
 
 <!--
 Unfortunately I can't attend EW EU 2025 but this is what I would bring (modification of Andreas' latest suggestion):
@@ -693,6 +722,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
 | **** | | | |
 | **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
+| **Doomsday** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **** | | | |
 | **UB Reanimator** |+2 Surgical   | | |
 | **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|

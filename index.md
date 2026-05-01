@@ -2072,11 +2072,28 @@ After that I may shave a Nethergoyf (hard to get through their tokens) and/or a 
 <youtube-video id="w5DLsaJbYyA" t="93" ></youtube-video>
 
 ### Stiflenought
-<mtg-todo></mtg-todo>
-
-#### Videos
 
 <youtube-video id="rvXujBKWM6g" t="12" ></youtube-video>
+<mtg-cards names="Phyrexian Dreadnought|Nulldrifter|Doorkeeper Thrull|Stifle|Torpor Orb|Dress Down|Swords to Plowshares|Urza's Saga|Tamiyo"></mtg-cards>
+
+Tempo/Control hybrid like us, but with higher ceiling (12/12 Dreadnought vs Nethergoyf), lower ceiling (Torpor Orb vs Nethergoyf), better removal and mana denial (often Stifle, sometimes Back to Basics).
+The deck has a low play rate and lots of variation (sometimes mono blue, sometimes Ancient Tomb + Stock Up, sometimes splash red for Pyroblast) so adapt to what you see, for example they may have Murktide Regent, Abhorrent Oculus or Curie, Emergent Intelligence.
+Our primary gameplan is to establish our mana against Stifle + Wasteland + potentially Back to Basics, prevent them from assembling one of their many A+B synergies, destroy Urza's Saga and establish a card advantage engine such as Tamiyo, Flow State or Kaito if you still play it.
+They have a lot of counterplay to Tamiyo in both forms with Swords, Prismatic Ending/Erode, Dress Down, Stifle, Karakas and sometimes postboard Pyroblast so it's important to play around those if you can and often better to cash in card advantage early rather then going for an all-in ultimate.
+Beating them down with just Nethergoyf, Murktide or Barrowgoyf alongside Daze and Wasteland can also work but is unreliable against all their cheap removal and basic lands.
+We are well equipped to deal with the Dreadnoughts with Fatal Push, Snuff Out, Brazen, Kaito tap, postboard Consign and basically any removal that isn't Go for the Throat.
+Sheoldred's Edict can fail if they have the Doorkeeper Thrull alongside it but if you can kill the Thrull with the Dreadnought on the stack you can get a nice two-for-one blowout.
+You won't get the blowout with Edict against Urza's Saga final ability on the stack because they can just get a skateboard instead but it's still worth it because afterwards they would just sacrifice the Thrull.
+The matchup is relatively even because they are still a basic land heavy Swords to Plowshares + Prismatic Ending (now Erode?) deck which is always a good place to be vs Tempo and they can grind us out with Nulldrifter, Tamiyo and Urza's Saga.
+
+Postboard we take out Daze as the game goes long and they spells are cheap and bring in Consign to Memory (Dreadnought, Nulldrifter has devoid, Urza's Saga in a pinch), removal and Barrowgoyfs.
+The other cuts are very hard to decide, if I suspect Rest in Peace I may cut Nethergoyf + Bauble.
+
+#### Rules Interactions
+
+* Murktide Regent enters with counters against Torpor Orb and Doorkeeper Thrull because it is not a trigger but enters as a 3/3 against Dress Down, the second ability gets prevented by all of that however because it is a triggered ability.
+* Dress Down can't stop Kaito from entering with counters because it enters as a Planeswalker and will not become a creature while DD is on the battlefield but it will temporarily remove the loyalty abilities. Kaito only has hexproof if it enters after the Dress Down.
+
 
 ### Eldrazi
 <mtg-todo></mtg-todo>

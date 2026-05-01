@@ -723,6 +723,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
 | **Doomsday** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
+| **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
 | **** | | | |
 | **UB Reanimator** |+2 Surgical   | | |
 | **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
@@ -2314,7 +2315,9 @@ If possible I would play around Blood Moon but not if it puts you too far behind
 <youtube-video id="94-4G2___5o" t="2565"></youtube-video>
 
 ### Death and Taxes
-<mtg-todo></mtg-todo>
+
+One of our worst matchups but can sometimes be beaten with a quick card advantage engine and boardwipes after sideboarding.
+
 
 <youtube-video id="X17fCga0pWE" t="4760"></youtube-video>
 <youtube-video id="=r_pYbcq92_c" t="3369"></youtube-video>

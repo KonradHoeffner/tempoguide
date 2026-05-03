@@ -2316,11 +2316,35 @@ If possible I would play around Blood Moon but not if it puts you too far behind
 
 ### Death and Taxes
 
-One of our worst matchups but can sometimes be beaten with a quick card advantage engine and boardwipes after sideboarding.
-
+<mtg-cards names="Aether Vial|Stoneforge Mystic|Phelia, Exuberant Shepherd|Recruiter of the Guard|Overlord of the Balemurk|Skyclave Apparition|White Orchid Phantom|Solitude|Swords to Plowshares|Thoughtseize"></mtg-cards>
 
 <youtube-video id="X17fCga0pWE" t="4760"></youtube-video>
 <youtube-video id="=r_pYbcq92_c" t="3369"></youtube-video>
+
+The prototypical anti-tempo deck but can sometimes be beaten with a quick card advantage engine and boardwipes after sideboarding.
+Be careful with the timer as the games are ultra grindy and there are lots of combat tricks to think about which your opponent will have more experience with.
+Often combined with Yorion as a finisher which buries us in value by blinking all their permanents with enter the battlefield abilities.
+
+#### Sideboarding
+
+##### In
+<mtg-cards names="Massacre|Toxic Deluge|Engineered Explosives|Consign to Memory|Barrowgoyf|Sheoldred's Edict|"></mtg-cards>
+
+Boardwipes are your best bet (and Massacre is the best of those) but I have often lost to their insane card advantage even when drawing two Massacres.
+
+##### Out
+<mtg-cards names="Force of Will|Daze|Orcish Bowmasters"></mtg-cards>
+
+While they have absurd amounts of card advantage, it doesn't involve drawing cards, so we board out Orcish Bowmasters.
+The initial Bowmaster ping alone isn't worth it because the number of one-toughness creatures in the new white-black builds is usually limited to four Recruiter of the Guard and a single Flickerwhisp, which still get their ETB effect, and Lion Sash, which they can grow.
+Bowmasters can still prevent those cards from being flickered or surprise block a Phelia.
+
+<mtg-cards names="Thalia, Guardian of Thraben|Esper Sentinel|Mother of Runes|Orcish Bowmasters"></mtg-cards>
+
+If they play an older mono white variant with more one-toughness one drops like Thalia and Mother of Runes you can keep Bowmasters in.
+
+
+
 
 ### Cradle Control (1% Meta game)
 

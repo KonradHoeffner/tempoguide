@@ -724,7 +724,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
 | **Doomsday** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
-| **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   |  |
+| **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
 | **** | | | |
 | **UB Reanimator** |+2 Surgical   | | |
 | **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|

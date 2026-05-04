@@ -156,8 +156,7 @@ I'm still figuring out Flow State but this is my current build.
 * 1 Swamp
 * 4 Wasteland
 
-
-<details>
+<details markdown="1">
 <summary>Old Lists Pre Flow State</summary>
 
 ### Example Tempo List with Nethergoyf
@@ -243,6 +242,7 @@ I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#dec
 * 1 Island
 * 1 Swamp
 * 4 Wasteland
+
 </details>
 
 <!--

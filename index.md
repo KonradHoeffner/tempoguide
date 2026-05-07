@@ -725,6 +725,11 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Doomsday** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
 | **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
+| **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
+| **Omni Show** | +2 FoN +2 Surgical +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
+| **** | | | |
+| **Lands** | +2 FoN | -3 Push -2 Snuff| |
+| **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
 | **** | | | |
 | **UB Reanimator** |+2 Surgical   | | |
 | **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|

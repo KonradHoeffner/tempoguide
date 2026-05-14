@@ -699,11 +699,11 @@ See the matchup section for detailed explanations and adaptations based on your 
 
 <mtg-todo></mtg-todo>
 
-| Matchup           | In                                    | Out                           | Notes |
-| :-------------    | :-------------------------            | :---                          | :--- |
-| **UB Tempo Mirror**| +2 Barrow +2 Edict                    | -4 FoW                        | |
+| Matchup                                | In                                    | Out                           | Notes |
+| :-------------                         | :-------------------------            | :---                          | :--- |
+| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict                    | -4 FoW                        | |
 | **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
-| **UW Blink**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
+| **[UW Blink](#uw-blink)**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
 | **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
@@ -721,8 +721,8 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
 | **** | | | |
-| **Cephalid Breakfast** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
-| **Doomsday** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
+| **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
+| **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
 | **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
 | **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
@@ -731,13 +731,13 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Lands** | +2 FoN | -3 Push -2 Snuff| |
 | **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
 | **** | | | |
-| **UB Reanimator** |+2 Surgical   | | |
-| **Turbo Reanimator** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
+| **[UB Reanimator](#ub-reanimator)** |+2 Surgical   | | |
+| **[Turbo Reanimator](#turbo-reanimator)** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
 | **Turbo Rea. Smog pivot** |+2 Surgical +2 FoN           |-4 Bowmaster |green splash|
 | **Turbo Rea. red splash** |+2 Surgical +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
-| **Oops with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
+| **[Oops](#oops-all-spells) with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
 | **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
-| **Dredge**|+2 Surgical +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
+| **[Dredge](#dredge)**|+2 Surgical +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
 | **** | | | |
 
 ### Meta Adaptations
@@ -1120,7 +1120,7 @@ For example you should always block Tamiyo if you can if they have UBx available
 It’s very hard to remove for UB except with combat damage, so get creatures on the board quickly.
 
 
-### UB Tempo Mirror (6% Meta game)
+### UB Tempo Mirror
 
 <youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
 <youtube-video id="a4blaLDSMNA"></youtube-video>
@@ -2215,14 +2215,70 @@ A blue splash for Stock Up and Force of Will is currently getting popular and is
 <youtube-video id="ubp8N8VCSYQ"></youtube-video>
 <youtube-video id="GwVbDaAelSQ" t="390"></youtube-video>
 
-### Cephalid Breakfast (outdated: Needs update after Nadu ban)
+### Cephalid Breakfast
+<mtg-cards names="Cephalid Illusionist|Nomads en-Kor|Shuko|Urza's Saga|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>
 
-<mtg-cards names="Cephalid Illusionist|Nomads en-Kor|Shuko"></mtg-cards>
+#### The Combo
+At its heart, Cephalid Breakfast is an A+B combo with one A (Cephalid Illusionist) and two B's (Nomands en-Kor and Shuko).
+Once both A and B are on the battlefield, the Illusionist can be repeatedly targeted and thus mill the owner's library in groups of three.
+Cabal Therapy, if played, can provide additional protection as long as there are enough bodies to still allow Dread Return later.
+
+#### Frequent Rules Misunderstandings
+
+* Shuko does not need a second creature to equip, you can just reequip the same Illusionist over and over.
+* Nomads en-Kor can use their ability even with no damage currently being dealt.
+* Kaldra Compleat does not exile if the creature dies from combat damage.
+
+#### A short history of Breakfast vs Tempo since 2023
+
+<mtg-cards names="Stoneforge Mystic|Kaldra Compleat|Step Through|Cabal Therapy|Teferi, Time Raveler|Orim's Chant"></mtg-cards>
+
+You may know me as an UB Tempo only player but I got my first ever MTGO trophy with Cephalid Breakfast and heavily played the deck in 2023 after Expressive Iteration was banned in March and before Bowmasters released on June, and it felt extremely strong at that time.
+The prevalent build at the time included Stoneforge Mystic which could either race with Kaldra or fetch Shuko for the combo, Teferi, Time Raveler to bounce enemy Murktides and protect the combo, Orim's Chant to stop removal for the combo turn and two Underground Seas to hardcast Cabal Therapy and Dread Return in an emergency.
+I felt that the matchup vs the then dominant URx Tempo variant favored them with equal experience, as a quick clock paired with Daze, Force and Wasteland is ideal vs a fragile A+B combo that can even be broken up with creature removal spells like Lightning Bolt.
+On the other hand, Breakfast can slow down Tempo with white removal, stall with Teferi, draw interaction out with Stoneforge Mystic and construct tokens and protect the combo with Orim's Chant if Breakfast can amass enough mana.
+It was very intricate and still testing, where mistakes in risk assessment and spell sequencing by the Tempo opponent could be punished enough to make it favored vs the average tempo player, as it asks a lot of difficult questions.
+However with the release of Orcish Bowmasters the balance was broken.
+No longer could an early Nomad just sit their threateningly and slow down your opponent just by existing.
+Now, Bowmasters could just kill the combo creatures just as a side effect and stop Breakfast from slowly cantripping to an unbeatable hand.
+When Nadu was released much later, the deck ditched Underground Seas for a green splash and became one of the worst matchups for UB Tempo because they could often just ignore Illusinist completely and just rely on their unbeatable lategame engine of Nadu.
+Since the ban of Nadu I rate the matchup as very favourable again, as UB has gained so much card advantage with Tamiyo and Flow State along with Bowmasters, that you can hedge for the combo and actually include grave hate again without risking just losing to Nadu.  
+
+#### Strategy
+If the Tempo player goes for early pressure and taps out for a threat, Breakfast can have a (Daze, Force) protected win as early as turn 2.
+On the other hand if the Tempo player is too timid and keeps up interaction, their fair half whatever that might be (Teferi, and construct tokens, ...) can take over.
+Similarily, graveyard hate can instantly win the game against an unprotected combo but can also be useless against Stoneforge Mystic and Saga constructs.
+IMHO, the best strategy for Tempo is to know exactly what Breakfast is potentially capable of, which cards they typically play in which numbers and take calculated risks early.
+Example: Breakfast plays T1 Ponder, no shuffle, pass OTP and we have a hand with no countermagic, a Nethergoyf and a Fatal Push.
+It is impossible for Breakfast to win T2 if they didn't play Shuko or Nomad's En-Kor T1 unless they have a Lotus Petal, which they rarely play and even then only as a one or two-off.
+Thus I would always jam the threat here and accept the minuscule chance of losing on the spot.
+Similarily, I would currently disrespect a potential Memory's Journey unless I saw a Tropical Island.
+Breakfast has a horrible mana base with three colors and Urza's Saga so Wasteland is extremely strong.
+Sometimes you can just Wasteland a dual and let their Urza's Saga go away without them being able to produce a single construct as they don't usually play Ancient Tomb.  
+
+#### Don't Concede Early
+One of the most frequent mistakes is to concede to Breakfast the instant the A+B combo hits the battlefield, as the deck has a lot of fail cases.
+Maybe they are scared that you have interaction and wait to assembly more protection until you actually find a way to break up their combo.
+Maybe they have Narcomoebas in hand and cannot create enough bodies for Dread Return.
+Maybe they have Dread Return in hand and cannot even win.
+
+#### The Ponder No-Shuffle Bluff
+
+Playing the matchup can be nerve-wracking for both sides, because any misstep can be instant game over.
+For the Tempo player, when they get comboed out and for the Breakfast player, when they mill their whole deck and their Thassa's Oracle gets removed from the game.
+Similarily, Orcish Bowmasters or creature removal late in the combo (when comboing using Shuko) can also strand the Breakfast player in a dire situation.
+Thus, Breakfast can sometimes have the combo available but wait for protection if there is not too much pressure.
+I once had an interesting situation where as UB Tempo my opponent had a Cephalid Illusionist on the battlefield and a Saga on 2 counters.
+I had no way to stop the combo and tapped out for a Ponder which included Nihil Spellbomb (but a Fatal Push would have had the same effect).
+While a Ponder shuffle had a chance of finding a way out, the shuffle would signal the opponent that I was most probably easy pray.
+Instead I banked on my opponents fear and did not shuffle (signaling free interaction like Surgical, Fearie Macabre or Snuff Out), which caused the opponent to pass the turn with the combo in play and allowed me to play the Nihil Spellbomb.
 
 #### Videos
 
 <youtube-video id="cQAHgwzGWTA" t="120"></youtube-video>
 <youtube-video id="w5DLsaJbYyA" t="2507" ></youtube-video>
+
+The advice below is from the Nadu dominance era and are thus partially outdated:
 
 Minyafriend:
 Breakfast I find to be pretty good as we are fairly well equipped to deal with their creatures.

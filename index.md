@@ -2223,6 +2223,11 @@ At its heart, Cephalid Breakfast is an A+B combo with one A (Cephalid Illusionis
 Once both A and B are on the battlefield, the Illusionist can be repeatedly targeted and thus mill the owner's library in groups of three.
 Cabal Therapy, if played, can provide additional protection as long as there are enough bodies to still allow Dread Return later.
 
+#### Stopping the Combo
+Illusionist + Nomands can mill at instant speed on top of your removal spells so you have to act when the second one is still on the stack.
+Illusionist + Shuko can be interrupted at any time so you have the option of letting the opponent go through most of their deck so for example further fetch lands may not have targets anymore, though the exact best point is hard to determine.
+Saving Force of Will for Dread Return is tempting but can backfire if they have Cabal Therapy and guess correctly.
+
 #### Frequent Rules Misunderstandings
 
 * Shuko does not need a second creature to equip, you can just reequip the same Illusionist over and over.
@@ -2270,8 +2275,8 @@ Similarily, Orcish Bowmasters or creature removal late in the combo (when comboi
 Thus, Breakfast can sometimes have the combo available but wait for protection if there is not too much pressure.
 I once had an interesting situation where as UB Tempo my opponent had a Cephalid Illusionist on the battlefield and a Saga on 2 counters.
 I had no way to stop the combo and tapped out for a Ponder which included Nihil Spellbomb (but a Fatal Push would have had the same effect).
-While a Ponder shuffle had a chance of finding a way out, the shuffle would signal the opponent that I was most probably easy pray.
-Instead I banked on my opponents fear and did not shuffle (signaling free interaction like Surgical, Fearie Macabre or Snuff Out), which caused the opponent to pass the turn with the combo in play and allowed me to play the Nihil Spellbomb.
+While a Ponder shuffle had a chance of finding a way out, the shuffle would signal the opponent that I was most probably easy prey.
+Instead I banked on my opponent's fear and did not shuffle (signaling free interaction like Surgical, Fearie Macabre or Snuff Out), which caused the opponent to pass the turn with the combo in play and allowed me to play the Nihil Spellbomb.
 
 #### Videos
 

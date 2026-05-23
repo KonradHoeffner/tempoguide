@@ -2016,7 +2016,7 @@ Unfortunately Kaito does not count as a creature in your hand so you cannot brin
 
 <mtg-cards names="Fatal Push|Nihil Spellbomb|Baleful Strix|Barrowgoyf"></mtg-cards>
 
-### Show and Tell (Omni Tell)
+### Omni Show
 
 <mtg-cards names="Ancient Tomb|Tropical Island|Mistrise Village|Stock Up|Show and Tell|Omniscience|Emrakul, the Aeons Torn|Atraxa, Grand Unifier"></mtg-cards>
 
@@ -2042,6 +2042,13 @@ There is also a very rare mono blue basic land variant is very hard to deal with
 <mtg-cards names="Carpet of Flowers|Veil of Summer|Defense Grid|Mistrise Village|Stock Up|Show and Tell"></mtg-cards>
 
 We don't kill quickly, so Carpet of Flowers into Stock Up is very dangerous and can accumulate an unbeatable hand, so I almost always Force a Carpet.
+
+### Aluren Omni Show
+
+<mtg-cards names="Aluren|Show and Tell|Omniscience|Atraxa, Grand Unifier"></mtg-cards>
+
+A variant of UG Omni Show described above adding a second A+B combo of Aluren + Acererak the Archlich.
+Sideboarding presents difficult choices because we can stop Acererak with a Sheoldred's Edict or revolted Push but we don't have good cuts other than Snuff Out and still want to bring in Force of Negation.
 
 ### Painter
 <mtg-cards names="Painter's Servant|Grindstone|Ancient Tomb|Urza's Saga|Lotus Petal|Mox Opal"></mtg-cards>

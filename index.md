@@ -723,6 +723,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **** | | | |
 | **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
 | **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
+| **[Turbo Doomsday](#doomsday)** | +2 Edict +2 FoN +2 Consign | -4 Push/Snuff -2 Daze | If they have The One Ring or no creatures postboard |
 | **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
 | **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
 | **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |

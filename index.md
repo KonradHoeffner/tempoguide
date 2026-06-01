@@ -139,7 +139,7 @@ I'm still figuring out Flow State but this is my current build.
 * 3 Orcish Bowmasters
 * 2 Murktide Regent
 * 4 Brainstorm
-* 4 Ponder
+* 3 Ponder
 * 4 Flow State
 * 2 Mishra's Bauble
 * 4 Force of Will
@@ -156,8 +156,8 @@ I'm still figuring out Flow State but this is my current build.
 * 1 Swamp
 * 4 Wasteland
 
-<details markdown="1">
-<summary>Old Lists Pre Flow State</summary>
+<details>
+<summary markdown="0">Old Lists Pre Flow State</summary>
 
 ### Example Tempo List with Nethergoyf
 
@@ -686,11 +686,11 @@ Eco:
 
 * 2 Hydroblast
 * 2 Force of Negation
-* 3 Consign to Memory
-* 2 Surgical Extraction
+* 4 Consign to Memory
+* 2 Nihil Spellbomb
 * 2 Barrowgoyf
 * 2 Sheoldred’s Edict
-* 2 Massacre
+* 1 Massacre
 
 ### Printable Sideboard Map for the Nethergoyf build
 
@@ -701,45 +701,59 @@ See the matchup section for detailed explanations and adaptations based on your 
 
 | Matchup                                | In                                    | Out                           | Notes |
 | :-------------                         | :-------------------------            | :---                          | :--- |
-| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict                    | -4 FoW                        | |
-| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro           | -4 FoW -2 Seize               | |
+| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict +2 Nihil           | -4 FoW -2 Seize/Daze          | |
+| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro +2 Nihil            | -4 FoW -4 Seize               | |
 | **[UW Blink](#uw-blink)**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
+| **[Stiflenought](#stiflenought)**| +2 Barrow +2 Edict +4 Consign | -4 FoW -3 Daze -1 ? | Play around Stifle |
+| **** | | | |
+| **Jeskai Control** | TODO | | |
+| **Jeskai Wizards** | TODO | | |
+| **BUG Beans** | | | |
+| **4-5c Beans** | | | |
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
-| **Boros Aggro**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
-| **Death and Taxes**   |+2 Barrow +2 Edict +2 Consign +2 Massacre | -1 Daze -4 FoW -3 Bowmaster | keep Bowmaster if Thalia, MoM...   |
+| **Boros Aggro (Energy)**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
+| **Death and Taxes**   |+2 Barrow +2 Edict +3 Consign +2 Massacre | -2 Daze -4 FoW -3 Bowmaster | keep Bowmaster if Thalia, MoM...   |
 | **Goblins**   |+2 Barrow +2 Edict +2 Hydro | -3 Daze -1 Brazen -2 ? | |
+| **Burn**   |+2 Barrow +2 FoN +2 Hydro +2 Edict | -4 Seize -2 Snuff -2 Bowmaster | |
 | **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
 | **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
-| **Elves**         |+2 Edict +2 FoN ?           | -3 Daze -? | Barrowgoyf too easy to stall |
+| **Maverick** | | | |
+| **** | | | |
+| **Elves**         |+2 Edict +2 FoN ?           | -3 Daze -? | Barrowgoyf too easy to stall | boardwipes and Cage if you have them|
 | **Cascade Crash** | | | |
 | **Initiative Stompy** | | | |
 | **** | | | |
 | **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
 | **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
-| **UR Artifacts and Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro | -3 Daze -4 FoW -2 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
+| **UR Artifacts and Rx Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 Nihil | -3 Daze -4 FoW -4 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
+| **Affinity** | | | |
 | **** | | | |
-| **Cloudpost and Forge**     | +3 Consign +2 Edict +2 FoN | -4 Push -1 Snuff -2 Bowmaster  | |
+| **Cloudpost, Forge, Tron**     | +4 Consign +2 Edict +2 FoN | -4 Push -2 Snuff -2 Bowmaster  | |
 | **** | | | |
-| **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Surgical | -3 Daze -1 ?| |
+| **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Nihil | -3 Daze -1 ?| |
 | **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **[Turbo Doomsday](#doomsday)** | +2 Edict +2 FoN +2 Consign | -4 Push/Snuff -2 Daze | If they have The One Ring or no creatures postboard |
 | **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
 | **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
 | **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
-| **Omni Show** | +2 FoN +2 Surgical +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
+| **Omni Show** | +2 FoN +2 ? +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
 | **** | | | |
-| **Lands** | +2 FoN | -3 Push -2 Snuff| |
+| **Lands** | +2 FoN +2 Nihil +4 Consign +2 Edict +2 Nihil | -3 Push -2 Snuff -4 Bowmasters -3 Daze | |
 | **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
+| **BG Loam Pox** | +2 FoN +2 Barrow +2 Edict +2 Nihil | | -3 Push -2 Snuff -3 Daze   |Bowmasters in response to their Bowmaster trigger to prevent Hogaak |
 | **** | | | |
-| **[UB Reanimator](#ub-reanimator)** |+2 Surgical   | | |
-| **[Turbo Reanimator](#turbo-reanimator)** |+2 Surgical +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
-| **Turbo Rea. Smog pivot** |+2 Surgical +2 FoN           |-4 Bowmaster |green splash|
-| **Turbo Rea. red splash** |+2 Surgical +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
-| **[Oops](#oops-all-spells) with Pact**|+2 Surgical +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
-| **Oops w/o  Pact**|+2 Surgical +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
-| **[Dredge](#dredge)**|+2 Surgical +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
+| **[UB Reanimator](#ub-reanimator)** |+2 Nihil   | | |
+| **[Turbo Reanimator](#turbo-reanimator)** |+2 Nihil +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
+| **Turbo Rea. Smog pivot** |+2 Nihil +2 FoN           |-4 Bowmaster |green splash|
+| **Turbo Rea. red splash** |+2 Nihil +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
+| **[Oops](#oops-all-spells) with Pact**|+2 Nihil +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
+| **Oops w/o  Pact**|+2 Nihil +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
+| **[Dredge](#dredge)**|+2 Nihil +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
 | **** | | | |
+| **Necrodominance Combo** | | | |
+| **** | | | |
+
 
 ### Meta Adaptations
 
@@ -1239,9 +1253,9 @@ Similar to UW Stiflenought, they have the blink/Stifle synergies but to a lesser
 There are other good flicker targets like Tamiyo, Teferi and your Murktide but if you are sufficiently ahead you can often survive that, so Phelia is not always an immediate must-kill target.
 
 Post sideboard they sometimes have Rest in Peace which wasn't great vs Tempo in the past but since Flow State largely replaced Kaito can put us almost out of win conditions, so if you see that G2 it may make sense to board out the Nethergoyfs, although you don't usually have many good other cards to bring in.
-If the other decks ever catch on and try to punish our increased graveyard reliance, it may make sense play at least one copy of Kaito again.  
+If the other decks ever catch on and try to punish our increased graveyard reliance, it may make sense play at least one copy of Kaito again.
 They can also bring in one or two copies of Wrath of the Skies but don't overrespect that because intentionally limiting your board presence can give them too much of a comeback potential and Quantum Riddler makes their lategame extremly strong, undoing your earlier Thoughtseizing, so getting them low with Nethergoyf beats and finishing them off with Bowmasters is a better strategy than just controlling their hand and keeping the game even.
-However if you know or suspect a removal heavy hand, playing creatures into their removal is also not helpful, in which case just chaining Flow States first can be a great way to win the resource battle. 
+However if you know or suspect a removal heavy hand, playing creatures into their removal is also not helpful, in which case just chaining Flow States first can be a great way to win the resource battle.
 If you have Nihil Spellbomb available and they have graveyard synergies like Murktide Regent or Snapcaster Mage I would also bring it in.
 
 ### Stiflenought
@@ -1855,7 +1869,7 @@ However the perceptive viewer will notice that with a maximum hand size of 7, th
 
 We can be nice and helpful to our opponent by lowering our life total with Thoughtseize, Fetching, Forcing and Snuff Outing our own creatures, so they need less storm count to win.
 We can also increase the Storm count by casting our own spells in the opponent’s turn.
-While a desperate and clever opponent may be able to achieve this so called "natural" Tendrils kill, relying on our cooperation is not a reliable game plan, so they have a few others. 
+While a desperate and clever opponent may be able to achieve this so called "natural" Tendrils kill, relying on our cooperation is not a reliable game plan, so they have a few others.
 
 ##### Multiple Storm Spells
 
@@ -2255,7 +2269,7 @@ However with the release of Orcish Bowmasters the balance was broken.
 No longer could an early Nomad just sit their threateningly and slow down your opponent just by existing.
 Now, Bowmasters could just kill the combo creatures just as a side effect and stop Breakfast from slowly cantripping to an unbeatable hand.
 When Nadu was released much later, the deck ditched Underground Seas for a green splash and became one of the worst matchups for UB Tempo because they could often just ignore Illusinist completely and just rely on their unbeatable lategame engine of Nadu.
-Since the ban of Nadu I rate the matchup as very favourable again, as UB has gained so much card advantage with Tamiyo and Flow State along with Bowmasters, that you can hedge for the combo and actually include grave hate again without risking just losing to Nadu.  
+Since the ban of Nadu I rate the matchup as very favourable again, as UB has gained so much card advantage with Tamiyo and Flow State along with Bowmasters, that you can hedge for the combo and actually include grave hate again without risking just losing to Nadu.
 
 #### Strategy
 If the Tempo player goes for early pressure and taps out for a threat, Breakfast can have a (Daze, Force) protected win as early as turn 2.
@@ -2267,7 +2281,7 @@ It is impossible for Breakfast to win T2 if they didn't play Shuko or Nomad's En
 Thus I would always jam the threat here and accept the minuscule chance of losing on the spot.
 Similarily, I would currently disrespect a potential Memory's Journey unless I saw a Tropical Island.
 Breakfast has a horrible mana base with three colors and Urza's Saga so Wasteland is extremely strong.
-Sometimes you can just Wasteland a dual and let their Urza's Saga go away without them being able to produce a single construct as they don't usually play Ancient Tomb.  
+Sometimes you can just Wasteland a dual and let their Urza's Saga go away without them being able to produce a single construct as they don't usually play Ancient Tomb.
 
 #### Don't Concede Early
 One of the most frequent mistakes is to concede to Breakfast the instant the A+B combo hits the battlefield, as the deck has a lot of fail cases.

@@ -2,20 +2,21 @@
 layout: default
 title: MTG Legacy UB Tempo Guide
 ---
-
+<!-- TODO: optimize load times on slow connections -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.cdnfonts.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/goudy-mediaeval" rel="stylesheet">
 <style>
-  @import url('https://fonts.cdnfonts.com/css/goudy-mediaeval');
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
   body, .markdown-body {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond', serif;
     max-width: 100rem;
     text-align: justify;
     font-size: large;
     margin: 0 auto;
   }
   h1, h2, h3, h4, h5 {
-    font-family: 'Goudy Mediaeval';
+    font-family: 'Goudy Mediaeval', serif;
     font-weight: 700;
     font-size: large;
   }
@@ -31,6 +32,7 @@ title: MTG Legacy UB Tempo Guide
     display: block;
   }
 </style>
+
 <script>
 const mtgIndex = fetch('https://konradhoeffner.github.io/mtgindex/mtgimg.json').then(i=>i.json());
 
@@ -120,7 +122,7 @@ customElements.define('mtg-cite', Cite);
 [![Donations welcome](https://img.shields.io/badge/Donate_via_PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kirdiekirdie)
 **[Contributions welcome](https://github.com/KonradHoeffner/tempoguide)**
 
-<mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
+<mtg-cards names="Nethergoyf|Tamiyo, Inquisitive Student|Orcish Bowmasters|Flow State|Kaito, Bane of Nightmares|Daze|Wasteland"></mtg-cards>
 
 #### Table of Contents
 * Table of Contents
@@ -130,9 +132,7 @@ customElements.define('mtg-cite', Cite);
 
 ## Mainboard
 
-### Example Tempo List with Flow State and Nethergoyf
-
-I'm still figuring out Flow State but this is my current build.
+### Example List with Nethergoyf
 
 * 3 Nethergoyf
 * 4 Tamiyo, Inquisitive Student
@@ -156,9 +156,9 @@ I'm still figuring out Flow State but this is my current build.
 * 1 Swamp
 * 4 Wasteland
 
+<!--
 <details>
 <summary markdown="0">Old Lists Pre Flow State</summary>
-
 ### Example Tempo List with Nethergoyf
 
 This is an aggressive list [(18th place at a recent Showcase)](https://www.mtgo.com/decklist/legacy-showcase-challenge-2026-03-1512835271#deck_KadettiKersantti) that can apply pressure early with potentially big Nethergoyfs thanks to Mishra's Bauble.
@@ -244,109 +244,88 @@ I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#dec
 * 4 Wasteland
 
 </details>
-
-<!--
-Unfortunately I can't attend EW EU 2025 but this is what I would bring (modification of Andreas' latest suggestion):
-Disclaimer: It focuses on beating fair blue and disrespects graveyard decks.
-If you are not comfortable with hoping to dodge Oops, Dredge and new Reanimator builds, you could remove the 4th Bowmaster from the sideboard and play a Surgical Extraction instead.
-
-<!--
-Unfortunately I can't attend EW EU 2025 but this is what I would bring (modification of Andreas' latest suggestion):
-Disclaimer: It focuses on beating fair blue and disrespects graveyard decks.
-If you are not comfortable with hoping to dodge Oops, Dredge and new Reanimator builds, you could remove the 4th Bowmaster from the sideboard and play a Surgical Extraction instead.
--->
-<!--
-### History
-
-#### 2025-11-26
-Updating the stock list for EW 25.
-
-#### 2025-11-19
-Finally updating the guide after the recent bannings of Entomb and Nadu.
-Postban MTGO League match results have been:
-
-* 20-5 with UB Tempo (one 3-2, three 4-1, [one 5-0](https://www.mtggoldfish.com/deck/7458083))
-* 5-5 with UBg Tempo
-
-While this is a small sample size, my preliminary conclusions are:
-
-* The deck is still strong or even better than before the bannings.
-* Mainboard grave hate is currently not needed anymore.
-* The green splash is not worth it as the mana is weaker but your personal results may vary if you are more comfortable with 3 colors (it is more difficult to fetch correctly).
-
-#### 2025-08-18
-* until further notice I'm on 4 Tamiyo 3 Nethergoyf for a while as Tamiyo is extremely strong against fair blue and also better than Goyf against Lands.
-* due to UB Reanimator currently on 1 Brazen 3 Nihil main, 1 Brazen 1 Faerie side
-* other deviations: 0 Harbinger 2 Null Rod 1 EE
-* want to have at least 1 Harbinger again against Lands, Depths, Cloudpost, Forge, Breakfast
-* Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
-* keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
 -->
 
-### Results
-People often doubt the viability of this deck and while I'm not playing at the highest levels I can at least prove that the deck is somewhat competitive:
 
-* [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
-* [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
-* 11 [MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
+### A Short History of UB Tempo
 
-### Variations and similar decks
-I [kirdie] used to almost always play the stock Nethergoyf variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
-However since early 2026 (currently in March) I have been enjoying 2 Hymn to Tourach and 2 Baleful Strix over Nethergoyfs.
-I have rarely been successful with splashing other colors but feel free to explore different variations especially in a known and very specific local metagame.
+If you notice anything missing or incorrect in my unfinished recollection of the UB Tempo era as I lived through it, please [fix it](https://github.com/KonradHoeffner/tempoguide).
 
-#### Going Bigger
-<mtg-cards names="Murktide Regent|Barrowgoyf|Hymn to Tourach|Baleful Strix|Stock Up"></mtg-cards>
+#### The before times: Death's Shadow, Scam, Rescaminator
+<mtg-cards names="Death's Shadow|Grief|Troll of Khazad-Dûm|Reanimate|Archon of Cruelty|Entomb"></mtg-cards>
 
-You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs and Mishra's Baubles with a third Murktide Regent, mainboard Barrowgoyfs, the fourth copy of Orcish Bowmasters, Baleful Strix, Hymn to Tourach, Dauthi Voidwalkers and/or Stock Up.
-Those variants may go up to 20 lands (e.g. by adding a fifth blue Fetchland or a second Undercity Sewers) and down to two Daze.
+<mtg-todo></mtg-todo>
+With "UB Tempo", this guide solely refers to the midrangy archetype made possible by Modern Horizons 3, which is also the time I started playing it.
+However decks with tempo elements in those colors have a long history in Legacy including the much more aggressive Death's Shadow variants, which see fringe playability to this day.
+...and later Psychic Frog and Troll got banned, removing Scam from the format.
 
-#### Red Splash
-<mtg-cards names="Molten Collapse|Pyroblast"></mtg-cards>
+...combing back after each ban until Entomb got the axe,
+...finally balancing Reanimator by forcing it to play more fatties alongside discard outlets, weakening the backup tempo plan.
+As Scam and Rescaminator shared a long timespan being legal together with UB Tempo, the latter survived outside the limelight like the first small mammals during the reign of the Dinosaurs.
+A frequent question during those times was whether UB Tempo had any raison-d'être (todo: spellcheck).
+This I found hard to argue for outside of being able to outplay opponents that gave my Underground Sea enough respect fearing Entomb + Reanimate allowing Tamiyo and other threats to snowball.
+Due to the extreme prevalence of UB Reanimator at the top tables, mainboard Nihil Spellbombs gave us good odds against Reanimator while still being strong enough to beat a lot of lower-tier decks.
+Nowadays, the point of UB Tempo is rarely asked with it being above 5% meta share for a long time.
+While an UB Tempo/Combo hybrid still exists in UB Tempo Doomsday, that deck has sufficient commitments and weaknesses that I don't see it as a strictly better deck most of the time.
+Doomsday is also notoriously difficult to play, especially in paper, while UB Tempo can sometimes win even with a happy-go-lucky no-strategy, just play random cards and hope for the best playstyle, at least in less competitive events.
+This makes it easy to pick up, play a lot and get better along the way as long as you go out of your comfort zone and actively try to get better.
 
-<mtg-cite name="ecobaronen">
-I want to splash red if I go to Italy and play paper.
-Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
-</mtg-cite>
+####  Modern Horizons 3 brings the Ingredients
+<mtg-cards names="Psychic Frog|Tamiyo, Seasoned Scholar"></mtg-cards>
 
-#### Green Splash
-<mtg-cards names="Witherbloom Command|Carpet of Flowers|Assassin's Trophy"></mtg-cards>
+In the summer of 2024, playing Psychic Frog was an easy way of farming play points on Magic Online.
+Adaptation was initially restricted to the disruptive UB Scam, combo-y Rescaminator and the aggressive Grixis Delver.
+"Scam" decks centered around Grief/Troll + Reanimate were extremely disruptive to linear game plans.
+Around the same time, Scam players discovered the meta warping addition of Entomb and a few Fatties,
+morphing Scam and Reanimator into the ultra-powerful yet resilient Rescaminator aka UB Reanimator deck that held the format in a multi-year stranglehold.
 
-The [highest placing UB Tempo variant in the 2025-11-16 Showcase](https://www.mtggoldfish.com/deck/7457355#paper) actually had a green splash.
-It cuts Baubles/Spellbombs and the basic Island and adds a Tropical Island and Bayou to the mana base and replaces the two Brazen Borrowers with Witherbloom Commands.
-In the sideboard we have Carpet of Flowers and Assassin's Trophy.
-Note the zero grave hate in the whole 75.
+<mtg-todo></mtg-todo>
+In this coaching session (TODO: add recording or excerpt link or transcript), ecobaronen recommends to stick with the battle tested Delver of Secrets until the following ban anouncement.
 
-In theory such a "good cards only" list has a lot of advantages:
-1. Brazen Borrower always has been the worst card that we had to include because UB doesn't have anything better.
-2. Witherbloom Command is a potential two-for-one and also fuels the graveyard for Murktide Regent, while Brazen only deals with a problem temporarily.
-3. Witherbloom Command is a really clean answer to things like Chalice or a flipped Tamiyo and can kill a Clue Token as well.
-4. With lots of Tempo around, Carpet of Flowers can be a mirror breaker by invalidating Daze and Wasteland.
-5. Tamiyo recurring Witherbloom Command and Assassin's Trophy gains you an extra mana.
-6. Assassin's Trophy can blow up troublesome lands such as Planar Nexus or Urza's Saga.
+####  Grief ban sparks the Inception
 
-However there are disadvantages as well:
-1. Land sequencing and fetching becomes a lot harder with three colors, which adds potential for errors and can be mentally taxing especially over large tournaments and can take brainpower away from other tasks such as deducing what your opponent's hand is.
-2. No artifacts like Mishra's Bauble means your Nethergoyfs are often outclassed in the pseudo mirror so you don't even have a clear edge there if your opponent is playing well. Against non-tempo decks having smaller Goyfs also means the game is harder to close out.
-3. No basic island: Magus of the Moon / Blood Moon can be game over and Wasteland can also be problematic if you don't have a Carpet vs blue.
+While Scam decks had weaknesses to decks like UWx control or lands, they restricted the space of viable decks and frustrated Legacy players, though Wizards did not react yet.
+With the much more powerful and resilient Psychic Frog-powered Rescaminator picking up steam, Wizards finally banned Grief, trying to keep the deck alive but in line.
+While players of those decks regrouped, we finally found the courage to create the archetype we all know and love today by incorporating Tamiyo into a pure UB shell.
+Since it's origin, Nethergoyf has been hotly debated as it is the only semblance of actual Tempo while feeling a bit scizophrenic (todo: spell check) when attacking in multiple disjoint axes,
+which can be good when facing control decks but often weaker than just having a single coherent game plan.
 
-However this has performed way worse in [my testing](#updates) so I would recommend against bringing that to a major tournament unless you are very confident and have extensively tested it yourself.
-Anecdotally, a recent match vs Mono Red Prison illustrated the highs and lows of this deck very well:
+####  Kaito
+While Kaito's interactions cause judge calls all the way to 2026, almost no one expected this card in 2024.
+In addition to people not playing around it, it plugged a hole against control decks like BUG Beanstalk, alleviating one of the few downsides of the more resilient mana base of UB, as going all-in on Frog was weak to removal.
+Due to Mystic Forge with Vexing Bauble being very popular at the top tables alongside artifact-heavy storm decks in paper, 2 Null Rods were stock in my sideboard for a long time,
+alongside 2 Harbinger of the Seas to beat Urza's Saga, Lands and greedy mana bases.
+This is exemplified in my personal best scoring Eternal Weekend list from 2024 in Prague with 7-3-1 (the year before I went 3-7 with 4c Beanstalk):
 
-In one game, the opponent played Urza's Saga and Chalice of the Void on 1.
-I used Witherbloom Command to kill Chalice, recurr Wasteland, fill my graveyard and on the next turn Wasteland the Saga and play a large Murktide Regent.
-The game was won shortly afterwards and no other card would have done what Witherbloom Command enabled there.
+<mtg-todo></mtg-todo>
+TODO: add decklist
+TODO: this is also noted in the "why not play UB Reanimator" part, merge
 
-However the next game I was unable to fetch basic Island as the list doesn't include one and just died to Magus of the Moon with little pressure behind it.
-Had I been able to fetch basic Island to play my T1 Tamiyo, I might have had a chance to get a few clues, eventually flip Tamiyo and maybe find an out to Magus such as Hydroblast.
+Fun Fact: I originally planned to play DDFT (Doomsday Frog Tamiyo) there but got crushed 0-4 in the side event with it and frantically put together the above UB Tempo list,
+which finally stopped my years of last-minute deck flip-flopping, tranforming me into the UB Tempo believer I am today.
+Thanks to my friends I got a list together minutes before the event but couldn't find Shoot the Sherrif, 
+causing me to lose to a Masticore from Mystic Forge with a Go for the Throat in hand, but thankfully the Null Rods carried this and the other Forge matchups.
+Soon after I switched to 2 Sheoldred's Edict as removal of choice to always have an out to every creature and planeswalker.
 
-#### Red-based Delver decks
-Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
-UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
+#### 2025? Vexing Bauble Ban
+<mtg-todo></mtg-todo>
+After 2 of 3 Eternal Weekends in 2024 got won by Vexing Bauble decks (Red Prison in Asia, Mystic Forge in NA), Wizards decided to ban Vexing Bauble, which made those decks weaker by
+mainly making Force of Will good again.
 
+#### 2025? Troll Ban
+<mtg-todo></mtg-todo>
+Troll was very hard to beat in combat due to its "super menace".
+Losing 
 
-<details>
-<summary markdown="0">Outdated: Why not play UB Reanimator?</summary>
+#### 2025? Frog Ban
+<mtg-todo></mtg-todo>
+While the Frog ban was targeted at Rescaminator, we lost our most powerful card as well, but surprisingly, my winrate didn't dip.
+TODO: was at this time tamiyo to 4?
+TODO: improve writing, add stats, finish
+Here is how I compared UB Tempo to UB Reanimator at the end of 2025, how did my predictions hold up? :-)
+
+#### 2025: Why not play UB Reanimator?
+
 |                                  | UB Tempo                                                                           | UB Reanimator                                  |
 |----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 | strength at competitive events   | high                                                                               | high                                           |
@@ -412,7 +391,7 @@ Those decks do struggle vs Forge IMO, which is a different problem but consideri
 Not having FoW of course opens you up to getting double forced and Entomb-Reanimated or similar nut draws, so I get the sentiment.
 </mtg-cite>
 
-#### Sideboard flexibility
+##### Sideboard flexibility
 
 <mtg-cards names="Harbinger of the Seas|Null Rod|Hydroblast|Engineered Explosives|Toxic Deluge|Dread of Night"></mtg-cards>
 
@@ -422,7 +401,122 @@ If there is a lot of Mystic Forge and Storm, pack two Null Rods.
 Elves, WR Energy and Goblins? Toxic Deluge, Hydroblast and Engineered Explosives help!
 
 *As this is a complex topic and I'm always open to other opinions, feel free to disagree or elaborate and add to this or other sections.*
-</details>
+#### 2025? Urza's Saga Rules Change
+<mtg-cards names="Urza's Saga|Blood Moon|Harbinger of the Seas"></mtg-cards>
+
+While not an explicit ban, the change to Urza's Saga surving Moon effects and indefinitely pumping out constructs all but neutered my beloved pair of Harbingers,
+which already provided not that competitive but fun alternate win conditions,
+such as a lock against Black Saga Storm, shutting off their Saga plan as well as their artifact lands + Moxen mana alongside Null Rod.
+Since that time they went from an always-two-off sideboard to a default of zero copies outside of the inbred lands-heavy metagames.
+
+#### 2025-10? Entomb and Nadu ban
+While the UB Reanimator matchup was at least even, this allowed us to relegate the clunky mainboard Nihil Spellbombs to the sideboard, replacing them with Mishra's Baubles.
+This was welcome and necessary to have a chance of keeping pace with a lot of graveyard-independent decks like Tron or WR Energy.
+
+#### 2025? Tezzereth
+Tezzereth allows colorless decks to grab Portable Hole, making Null Rod much weaker.
+Since then I went from 2 sideboard slots to mostly 0 (online) to sometimes 1 (paper).
+
+
+#### April? 2026: Flow State
+
+#### June? 2026: Fantasticar
+TODO
+
+### Change Log
+
+#### 2026-07-11
+I'm currently on holiday until the end of July, adaptations to Fantasticar and the Tabernacle ban will come soon.
+
+#### 2026-05-01
+Add Flow State.
+
+#### 2025-11-26 Updating the stock list for EW 25.
+
+#### 2025-11-19
+Finally updating the guide after the recent bannings of Entomb and Nadu.
+Postban MTGO League match results have been:
+
+* 20-5 with UB Tempo (one 3-2, three 4-1, [one 5-0](https://www.mtggoldfish.com/deck/7458083))
+* 5-5 with UBg Tempo
+
+While this is a small sample size, my preliminary conclusions are:
+
+* The deck is still strong or even better than before the bannings.
+* Mainboard grave hate is currently not needed anymore.
+* The green splash is not worth it as the mana is weaker but your personal results may vary if you are more comfortable with 3 colors (it is more difficult to fetch correctly).
+
+#### 2025-08-18
+* until further notice I'm on 4 Tamiyo 3 Nethergoyf for a while as Tamiyo is extremely strong against fair blue and also better than Goyf against Lands.
+* due to UB Reanimator currently on 1 Brazen 3 Nihil main, 1 Brazen 1 Faerie side
+* other deviations: 0 Harbinger 2 Null Rod 1 EE
+* want to have at least 1 Harbinger again against Lands, Depths, Cloudpost, Forge, Breakfast
+* Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
+* keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
+
+### Results
+People have often doubted the viability of this deck and while I'm not playing at the highest levels I can at least prove that the deck is somewhat competitive:
+
+* [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
+* [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
+* 11 [MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
+
+### Variations and similar decks
+I [kirdie] used to almost always play the stock Nethergoyf variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
+However since early 2026 (currently in March) I have been enjoying 2 Hymn to Tourach and 2 Baleful Strix over Nethergoyfs.
+I have rarely been successful with splashing other colors but feel free to explore different variations especially in a known and very specific local metagame.
+
+#### Going Bigger
+<mtg-cards names="Murktide Regent|Barrowgoyf|Hymn to Tourach|Baleful Strix|Stock Up"></mtg-cards>
+
+You can try to get an edge in grindy matchups by going slightly bigger and replacing Nethergoyfs and Mishra's Baubles with a third Murktide Regent, mainboard Barrowgoyfs, the fourth copy of Orcish Bowmasters, Baleful Strix, Hymn to Tourach, Dauthi Voidwalkers and/or Stock Up.
+Those variants may go up to 20 lands (e.g. by adding a fifth blue Fetchland or a second Undercity Sewers) and down to two Daze.
+
+#### Red Splash
+<mtg-cards names="Molten Collapse|Pyroblast"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
+I want to splash red if I go to Italy and play paper.
+Haha. I loved this splash when Show and Tell and Stock Ups were heavily played. Let’s say Painter became a 15% deck, then I would love Meltdown as well.
+</mtg-cite>
+
+#### Green Splash
+<mtg-cards names="Witherbloom Command|Carpet of Flowers|Assassin's Trophy"></mtg-cards>
+
+The [highest placing UB Tempo variant in the 2025-11-16 Showcase](https://www.mtggoldfish.com/deck/7457355#paper) actually had a green splash.
+It cuts Baubles/Spellbombs and the basic Island and adds a Tropical Island and Bayou to the mana base and replaces the two Brazen Borrowers with Witherbloom Commands.
+In the sideboard we have Carpet of Flowers and Assassin's Trophy.
+Note the zero grave hate in the whole 75.
+
+In theory such a "good cards only" list has a lot of advantages:
+1. Brazen Borrower always has been the worst card that we had to include because UB doesn't have anything better.
+2. Witherbloom Command is a potential two-for-one and also fuels the graveyard for Murktide Regent, while Brazen only deals with a problem temporarily.
+3. Witherbloom Command is a really clean answer to things like Chalice or a flipped Tamiyo and can kill a Clue Token as well.
+4. With lots of Tempo around, Carpet of Flowers can be a mirror breaker by invalidating Daze and Wasteland.
+5. Tamiyo recurring Witherbloom Command and Assassin's Trophy gains you an extra mana.
+6. Assassin's Trophy can blow up troublesome lands such as Planar Nexus or Urza's Saga.
+
+However there are disadvantages as well:
+1. Land sequencing and fetching becomes a lot harder with three colors, which adds potential for errors and can be mentally taxing especially over large tournaments and can take brainpower away from other tasks such as deducing what your opponent's hand is.
+2. No artifacts like Mishra's Bauble means your Nethergoyfs are often outclassed in the pseudo mirror so you don't even have a clear edge there if your opponent is playing well. Against non-tempo decks having smaller Goyfs also means the game is harder to close out.
+3. No basic island: Magus of the Moon / Blood Moon can be game over and Wasteland can also be problematic if you don't have a Carpet vs blue.
+
+However this has performed way worse in [my testing](#updates) so I would recommend against bringing that to a major tournament unless you are very confident and have extensively tested it yourself.
+Anecdotally, a recent match vs Mono Red Prison illustrated the highs and lows of this deck very well:
+
+In one game, the opponent played Urza's Saga and Chalice of the Void on 1.
+I used Witherbloom Command to kill Chalice, recurr Wasteland, fill my graveyard and on the next turn Wasteland the Saga and play a large Murktide Regent.
+The game was won shortly afterwards and no other card would have done what Witherbloom Command enabled there.
+
+However the next game I was unable to fetch basic Island as the list doesn't include one and just died to Magus of the Moon with little pressure behind it.
+Had I been able to fetch basic Island to play my T1 Tamiyo, I might have had a chance to get a few clues, eventually flip Tamiyo and maybe find an out to Magus such as Hydroblast.
+
+#### Red-based Delver decks
+Red-based Daze decks with Delver or Cori-Steel Cutter are more explosive and kill faster, have reach through Lightning Bolt and bring powerful red sideboard cards like Pyroblast and Meltdown.
+UB Tempo is slower, has a more stable mana bases, can go longer through card advantage with Tamiyo and can kill high toughness creatures easier with black removal spells.
+
+
+
 
 ### Lands
 <mtg-cards names="Underground Sea|Polluted Delta|Flooded Strand|Bloodstained Mire|Undercity Sewers|Island|Swamp|Wasteland"></mtg-cards>
@@ -1093,7 +1187,6 @@ Some weaknesses can be adressed with sideboarding but not all at the same time.
 
 #### Bad
 <mtg-cards names="Ajani, Nacatl Pariah|Goblin Lackey|Flickerwisp|Gaea's Cradle|Mystic Forge|Cloudpost|Smallpox|Phyrexian Dreadnought|Mox Diamond|Dark Depths|Tendrils of Agony|Teferi, Time Raveler|Flame of Anor|Kolaghan's Command"></mtg-cards>
-<!-- bant nadu and nadu elves-->
 <!-- control -->
 <!--bant control-->
 
@@ -1650,7 +1743,7 @@ Not a big fan of Null Rod.Try not to get your Goyfs Furied but what can you do.
 #### Out
 <mtg-cards names="Nihil Spellbomb|Daze|Orcish Bowmasters|Thoughtseize"></mtg-cards>
 
-<todo/>
+<mtg-todo></mtg-todo>
 
 Spellbomb is a blank, Daze is unreliable against sol lands + Simian Spirit Guide.
 Bowmasters are decent against Fable of the Mirror-Breaker and good against The One Ring but it's better to prevent that from entering in the first place.

@@ -129,10 +129,14 @@ customElements.define('mtg-cite', Cite);
 {:toc}
 
 ## Introduction
+If you just want to pick up the deck quickly, the TLDR section is for you.
+Others need to know why the deck is build the way it is, why some cards currently make the cut while others don't.
+This can help adapt faster to future changes, when a now useless card may become great all of a sudden.
+Those willing to get deep into the weeds, will find all the details in the other sections.
 
-## Mainboard
+## TLDR: Decklist and Sideboard Map v2026-6
 
-### Example List with Nethergoyf
+### Mainboard
 
 * 3 Nethergoyf
 * 4 Tamiyo, Inquisitive Student
@@ -155,6 +159,83 @@ customElements.define('mtg-cite', Cite);
 * 1 Island
 * 1 Swamp
 * 4 Wasteland
+
+### Sideboard
+
+* 2 Hydroblast
+* 2 Force of Negation
+* 4 Consign to Memory
+* 2 Nihil Spellbomb
+* 2 Barrowgoyf
+* 2 Sheoldred’s Edict
+* 1 Massacre
+
+### Printable Sideboard Map
+
+<!--
+Assuming the above sideboard and the <a href="#example-tempo-list-with-nethergoyf">stock Nethergoyf maindeck</a>.
+See the matchup section for detailed explanations and adaptations based on your and the opponent's configuration.
+-->
+
+<mtg-todo></mtg-todo>
+
+| Matchup                                | In                                    | Out                           | Notes |
+| :-------------                         | :-------------------------            | :---                          | :--- |
+| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict +2 Nihil           | -4 FoW -2 Seize/Daze          | |
+| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro +2 Nihil            | -4 FoW -4 Seize               | |
+| **[UW Blink](#uw-blink)**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
+| **[Stiflenought](#stiflenought)**| +2 Barrow +2 Edict +4 Consign | -4 FoW -3 Daze -1 ? | Play around Stifle |
+| ****              | | | |
+| **Jeskai Control** | TODO | | |
+| **Jeskai Wizards** | TODO | | |
+| **BUG Beans** | | | |
+| **4-5c Beans** | | | |
+| **** | | | |
+| **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
+| **Boros Aggro (Energy)**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
+| **Death and Taxes**   |+2 Barrow +2 Edict +3 Consign +2 Massacre | -2 Daze -4 FoW -3 Bowmaster | keep Bowmaster if Thalia, MoM...   |
+| **Goblins**   |+2 Barrow +2 Edict +2 Hydro | -3 Daze -1 Brazen -2 ? | |
+| **Burn**   |+2 Barrow +2 FoN +2 Hydro +2 Edict | -4 Seize -2 Snuff -2 Bowmaster | |
+| **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
+| **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
+| **Maverick** | | | |
+| **** | | | |
+| **Elves**         |+2 Edict +2 FoN +boardwipes and Cage if you have them       | -3 Daze -? | Barrowgoyf too easy to stall, OTD can keep Daze instead of FoN |
+| **Cascade Crash** | | | |
+| **Initiative Stompy** | | | |
+| **** | | | |
+| **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        |
+| **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
+| **UR Artifacts and Rx Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 Nihil | -3 Daze -4 FoW -4 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
+| **Affinity** | | | |
+| **** | | | |
+| **Cloudpost, Forge, Tron**     | +4 Consign +2 Edict +2 FoN | -4 Push -2 Snuff -2 Bowmaster  | |
+| **** | | | |
+| **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Nihil | -3 Daze -1 ?| |
+| **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
+| **[Turbo Doomsday](#doomsday)** | +2 Edict +2 FoN +2 Consign | -4 Push/Snuff -2 Daze | If they have The One Ring or no creatures postboard |
+| **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
+| **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
+| **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
+| **Omni Show** | +2 FoN +2 ? +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
+| **** | | | |
+| **Lands** | +2 FoN +2 Nihil +4 Consign +2 Edict +2 Nihil | -3 Push -2 Snuff -4 Bowmasters -3 Daze | |
+| **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
+| **BG Loam Pox** | +2 FoN +2 Barrow +2 Edict +2 Nihil | -3 Push -2 Snuff -3 Daze   |Bowmasters in response to their Bowmaster trigger to prevent Hogaak |
+| **** | | |
+| **[UB Reanimator](#ub-reanimator)** |+2 Nihil   | | |
+| **[Turbo Reanimator](#turbo-reanimator)** |+2 Nihil +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
+| **Turbo Rea. Smog pivot** |+2 Nihil +2 FoN           |-4 Bowmaster |green splash|
+| **Turbo Rea. red splash** |+2 Nihil +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |Hydro may not be worth it vs Faithless Looting alone|
+| **[Oops](#oops-all-spells) with Pact**|+2 Nihil +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
+| **Oops w/o  Pact**|+2 Nihil +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
+| **[Dredge](#dredge)**|+2 Nihil +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
+| **** | | | |
+| **Necrodominance Combo** | | | |
+| **** | | | |
+
+
+<!--## Introduction-->
 
 <!--
 <details>
@@ -247,7 +328,7 @@ I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#dec
 -->
 
 
-### A Short History of UB Tempo
+## A Short History of UB Tempo
 
 If you notice anything missing or incorrect in my unfinished recollection of the UB Tempo era as I lived through it, please [fix it](https://github.com/KonradHoeffner/tempoguide).
 
@@ -454,16 +535,11 @@ While this is a small sample size, my preliminary conclusions are:
 * Elves, Breakfast, Depths and other small creature strategies are on the rise, so after a long time I want include Toxic Deluge again
 * keep main, next sideboard: 0 Faerie 1 Null Rod 1 Harbinger 1 Toxic Deluge
 
-### Results
-People have often doubted the viability of this deck and while I'm not playing at the highest levels I can at least prove that the deck is somewhat competitive:
-
-* [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
-* [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
-* 11 [MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
+## Deck Building
 
 ### Variations and similar decks
 I [kirdie] used to almost always play the stock Nethergoyf variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
-However since early 2026 (currently in March) I have been enjoying 2 Hymn to Tourach and 2 Baleful Strix over Nethergoyfs.
+In early 2026 I have been enjoying 2 Hymn to Tourach and 2 Baleful Strix over Nethergoyfs.
 I have rarely been successful with splashing other colors but feel free to explore different variations especially in a known and very specific local metagame.
 
 #### Going Bigger
@@ -635,7 +711,7 @@ Barrowgoyf: Red Stompy, Izzet, UB Tempo.
 <mtg-card name="Fatal Push"></mtg-card>
 
 Kills most relevant creatures in Legacy, so play 4.
-Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Nadu are relevant in the matchup.
+Try to leave a fetch land or bauble uncracked if 3 and 4 mana creatures like Barrowgoyf or Magus of the Moon are relevant in the matchup.
 Against Moon Stompy, Fatal Push is often useless as you can not fetch with a Blood Moon in play, so consider leaving a clue uncracked as long as you don't play Null Rod.
 You can target any creature with Fatal Push, even if it doesn’t have an effect.
 
@@ -774,179 +850,163 @@ Eco:
 * Stock Up: If the format slows down significantly, we can play this card. For example if Beanstalk becomes a good deck.
 * 2nd Sewers: If you play a slightly bigger version with 20 lands, I like 2nd Sewers.
 
-## Sideboard
+### Sideboard
 
-### Example Sideboard for the Nethergoyf build
-
-* 2 Hydroblast
-* 2 Force of Negation
-* 4 Consign to Memory
-* 2 Nihil Spellbomb
-* 2 Barrowgoyf
-* 2 Sheoldred’s Edict
-* 1 Massacre
-
-### Printable Sideboard Map for the Nethergoyf build
-
-Assuming the above sideboard and the <a href="#example-tempo-list-with-nethergoyf">stock Nethergoyf maindeck</a>.
-See the matchup section for detailed explanations and adaptations based on your and the opponent's configuration.
-
-<mtg-todo></mtg-todo>
-
-| Matchup                                | In                                    | Out                           | Notes |
-| :-------------                         | :-------------------------            | :---                          | :--- |
-| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict +2 Nihil           | -4 FoW -2 Seize/Daze          | |
-| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro +2 Nihil            | -4 FoW -4 Seize               | |
-| **[UW Blink](#uw-blink)**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
-| **[Stiflenought](#stiflenought)**| +2 Barrow +2 Edict +4 Consign | -4 FoW -3 Daze -1 ? | Play around Stifle |
-| **** | | | |
-| **Jeskai Control** | TODO | | |
-| **Jeskai Wizards** | TODO | | |
-| **BUG Beans** | | | |
-| **4-5c Beans** | | | |
-| **** | | | |
-| **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
-| **Boros Aggro (Energy)**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
-| **Death and Taxes**   |+2 Barrow +2 Edict +3 Consign +2 Massacre | -2 Daze -4 FoW -3 Bowmaster | keep Bowmaster if Thalia, MoM...   |
-| **Goblins**   |+2 Barrow +2 Edict +2 Hydro | -3 Daze -1 Brazen -2 ? | |
-| **Burn**   |+2 Barrow +2 FoN +2 Hydro +2 Edict | -4 Seize -2 Snuff -2 Bowmaster | |
-| **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
-| **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
-| **Maverick** | | | |
-| **** | | | |
-| **Elves**         |+2 Edict +2 FoN ?           | -3 Daze -? | Barrowgoyf too easy to stall | boardwipes and Cage if you have them|
-| **Cascade Crash** | | | |
-| **Initiative Stompy** | | | |
-| **** | | | |
-| **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        ||
-| **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
-| **UR Artifacts and Rx Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 Nihil | -3 Daze -4 FoW -4 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
-| **Affinity** | | | |
-| **** | | | |
-| **Cloudpost, Forge, Tron**     | +4 Consign +2 Edict +2 FoN | -4 Push -2 Snuff -2 Bowmaster  | |
-| **** | | | |
-| **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Nihil | -3 Daze -1 ?| |
-| **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
-| **[Turbo Doomsday](#doomsday)** | +2 Edict +2 FoN +2 Consign | -4 Push/Snuff -2 Daze | If they have The One Ring or no creatures postboard |
-| **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
-| **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
-| **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
-| **Omni Show** | +2 FoN +2 ? +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
-| **** | | | |
-| **Lands** | +2 FoN +2 Nihil +4 Consign +2 Edict +2 Nihil | -3 Push -2 Snuff -4 Bowmasters -3 Daze | |
-| **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
-| **BG Loam Pox** | +2 FoN +2 Barrow +2 Edict +2 Nihil | | -3 Push -2 Snuff -3 Daze   |Bowmasters in response to their Bowmaster trigger to prevent Hogaak |
-| **** | | | |
-| **[UB Reanimator](#ub-reanimator)** |+2 Nihil   | | |
-| **[Turbo Reanimator](#turbo-reanimator)** |+2 Nihil +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
-| **Turbo Rea. Smog pivot** |+2 Nihil +2 FoN           |-4 Bowmaster |green splash|
-| **Turbo Rea. red splash** |+2 Nihil +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |may not be worth it vs Faithless Looting alone|
-| **[Oops](#oops-all-spells) with Pact**|+2 Nihil +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
-| **Oops w/o  Pact**|+2 Nihil +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
-| **[Dredge](#dredge)**|+2 Nihil +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
-| **** | | | |
-| **Necrodominance Combo** | | | |
-| **** | | | |
-
-
-### Meta Adaptations
 
 <mtg-cards names="Harbinger of the Seas|Consign to Memory|Hydroblast|Barrowgoyf|Grafdigger's Cage|Cursed Totem|Counterbalance|Damping Sphere|Engineered Explosives|Force of Negation|Null Rod|Pithing Needle|Spell Pierce|Flusterstorm|Subtlety|Thoughtseize|Toxic Deluge|Tsabo's Web"></mtg-cards>
 
-#### Sideboard Tuning Guide by Ecobaronen (2025)
-
-##### Hydroblast
+#### Hydroblast
 <mtg-cards names="Hydroblast|Blood Moon|Sneak Attack|Dragon's Rage Channeler|Goblin Welder|Burning Wish"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
+</mtg-cite>
 
-##### Consign to Memory
+#### Consign to Memory
 <mtg-cards names="Consign to Memory|Thought-Knot Seer|Mystic Forge|Ugin, Eye of the Storms|Painter's Servant|Mox Diamond|Flickerwisp"></mtg-cards>
-After Eldrazi’s ban, this is mainly a hate card for Mystic Forge. It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about.
 
+<mtg-cite name="ecobaronen">
+After Eldrazi’s ban [Mycospawn ... in ... (TODO)], this is mainly a hate card for Mystic Forge.
+It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about.
+</mtg-cite>
+
+Consign is also great against [suspend (best target is the final trigger)](#suspended-gaeas-will) and [cascade](#cascade-crash).
+
+###### Suspend
+
+<mtg-cite name="Suspend rules" href="https://blogs.magicjudges.org/rules/comprehensive-rules/#rule-702-62a">
+702.62a Suspend is a keyword that represents three abilities.
+The first is a static ability that functions while the card with suspend is in a player’s hand.
+The second and third are triggered abilities that function in the exile zone.
+“Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it.
+This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and <b>“When the last time counter is removed from this card, if it’s exiled, you may play it without paying its mana cost if able.
+If you don’t, it remains exiled.
+If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”</b>
+</mtg-cite>
+
+With Consign to Memory in hand, you can let the second ability resolve and counter the third and final one, so the spell stays in Exile forever.
+Countering the second ability is suboptimal because then you need another Consign for the next upkeep.
 ##### Cursed Totem
 <mtg-cards names="Cursed Totem|Badgermole Cub|Nomads en-Kor|Skirk Prospector|Mother of Runes"></mtg-cards>
 
+<mtg-cite name="ecobaronen">
 This card is viable if your meta game has both Cradle Control, Breakfast and Bant Nadu [banned now] - maybe with some bad decks like Goblins (Skirk Prospector) or old school D+T (Mother) mixed in. Two mana is a lot for a niche card.
+</mtg-cite>
 
 ##### Counterbalance
 <mtg-cards names="Counterbalance"></mtg-cards>
+Personal pet card but I don't play it without Delver because you don’t have 4 DRC and 4 Mishra’s Bauble, so you only have Brainstorm (reactively), Ponder (proactively), and Fetchland + maybe Scryland (hopefully).
+It’s great against all kinds of blue cantrip decks, whether it’s combo, control or tempo.
+
+<mtg-cite name="ecobaronen">
 I liked this card quite a bit in Izzet where you also have Channeler to manipulate your top card.
 Furthermore, Dimir has a wider range of MV which makes Counterbalance less reliable for the cheap MVs. We also want to fetch swamp sometimes (Izzet plays 0 mountains), so UU is rough.
+</mtg-cite>
 
 ##### Damping Sphere
 <mtg-cards names="Damping Sphere|Cloudpost|Urza's Tower|Voltaic Key|Tendrils of Agony"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 Maybe some combination of 12-post, Forge and Storm can warrant this card.
+</mtg-cite>
 
 ##### Engineered Explosives
 <mtg-cards names="Engineered Explosives|Chalice of the Void|Crashing Footfalls|Urza's Saga|Empty the Warrens"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 I mainly view this as Chalice removal that can randomly kill Rhinos, Constructs or Empty goblins.
+</mtg-cite>
 
 ##### Force of Negation
 <mtg-cards names="Force of Negation|Show and Tell|Chalice of the Void|Mystic Forge|Dark Ritual"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 Great card to fight Show and Tell, Chalice, Forge, Storm and other combo decks.
 Always worth 2 slots for me.
+</mtg-cite>
 
 ##### 1B removal
 <mtg-cards names="Sheoldred's Edict|Bitter Triumph|Dismember|Shoot the Sheriff|Go for the Throat|Feed the Cycle"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 My current favorite is Edict which can kill walkers (mainly Tamiyo and Karn, but also against bad decks with Teferi and Narset) and doesn’t give bonus to Nadu.
 It sometimes can’t kill the Murktide on the field which is a shame.
 The other ones have to do with the amount of Voidwalker/Bombardier/Brazen vs. Dreadnought/Painter/Constructs in your meta.
+</mtg-cite>
 
 ##### Harbinger of the Seas
 <mtg-cards names="Harbinger of the Seas|Leyline Binding|Urza's Saga"></mtg-cards>
-I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). [this was written before the rules change]
 
-<mtg-cite name="Konrad">
-I love this card as well but rarely currently run it because it is so hard to make it work against Urza's Saga after the rules change.
+<mtg-cite name="ecobaronen">
+I love this card. It punishes bad mana bases out of control, Breakfast and Sagas (not for long). [this was written before the rules change]
 </mtg-cite>
+
+I love this card as well but rarely currently run it because it is so hard to make it work against Urza's Saga after the rules change.
 
 
 ##### Graveyard hate
 <mtg-cards names="Faerie Macabre|Surgical Extraction|Leyline of the Void|Grafdigger's Cage"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 Online, I like focusing on graveyard hate that lets me keep hands on the draw vs. Oops (Faerie, Surgical, Leyline).
 In paper, you can play your Cages to have crossover against Zenith.
+</mtg-cite>
 
 ##### Null Rod
 <mtg-cards names="Null Rod|Grim Monolith|Goblin Charbelcher|Lion's Eye Diamond"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 Great card these days. Mystic Forge is top8’ing every week, and Oops’ sideboard plan is now Belcher.
 It also beats bad Storm decks.
+</mtg-cite>
 
 ##### Pithing Needle
 <mtg-cards names="Pithing Needle|Urza's Saga|Nomads en-Kor|The One Ring"></mtg-cards>
+<mtg-cite name="ecobaronen">
 This is a good one that will always find a use. Saga, Nomad, Ring, Lands etc etc.
 It’s often good deck building to play it.
+</mtg-cite>
 
 ##### Spell Pierce/Flusterstorm
 <mtg-cards names="Spell Pierce|Flusterstorm"></mtg-cards>
+
+<mtg-cite name="ecobaronen">
 I don’t like the one-mana counters because they force me to hold up mana.
 Every mana unused in today’s Magic gets you closer to losing.
 Forces, Daze and Thoughtseize will cover for me.
+</mtg-cite>
 
 ##### Subtlety
 <mtg-cards names="Subtlety|Balustrade Spy|Cavern of Souls"></mtg-cards>
+<mtg-cite name="ecobaronen">
 If the meta game was heavy Oops AND had a stompy deck with Cavern, I like this card.
+</mtg-cite>
 
 ##### Thoughtseize
 <mtg-cards names="Thoughtseize"></mtg-cards>
+<mtg-cite name="ecobaronen">
 Playing 4th Thoughtseize in the sideboard will often be bad deck building.
 It’s fine in a lot of places, but will never shine enough to warrant a sideboard slot.
 If you like it, play 4 in the main.
+</mtg-cite>
 
 ##### Toxic Deluge
 <mtg-cards names="Toxic Deluge"></mtg-cards>
+<mtg-cite name="ecobaronen">
 Combination of Cradle, D+T, Bant Nadu and some Energy in your meta game, and you can play this.
+</mtg-cite>
 
 ##### Tsabo's Web
 <mtg-cards names="Tsabo's Web|Rishadan Port"></mtg-cards>
+<mtg-cite name="ecobaronen">
 As you mentioned, heavy amount of Lands with a shift back to Rishadan Port is what you need.
+</mtg-cite>
 
 <mtg-cite name="Minyafriend">
 I played a few challenges with Web and found it very underwhelming, main point is that Urza's Saga untaps level 1 because it doesn't have the other abilities yet.
 Current lands does not get punished enough by this card.
 Pithing needle seems better if you want to stay UB and stop land strats.
 </mtg-cite>
-
-
 
 
 <mtg-cards names="Disruptor Flute|Pithing Needle"></mtg-cards>
@@ -1113,11 +1173,9 @@ I need to smell blood or have good information to blindly wasteland the opponent
 </mtg-cite>
 
 ### Own Card Guide
+<mtg-todo></mtg-todo>
 <mtg-cards names="Nethergoyf|Fatal Push|Shoot the Sheriff|Go for the Throat"></mtg-cards>
 
-### Counterbalance
-Personal pet card but I don't play it without Delver because you don’t have 4 DRC and 4 Mishra’s Bauble, so you only have Brainstorm (reactively), Ponder (proactively), and Fetchland + maybe Scryland (hopefully).
-It’s great against all kinds of blue cantrip decks, whether it’s combo, control or tempo.
 
 
 ## Opponent Card Guide
@@ -1127,11 +1185,13 @@ It’s great against all kinds of blue cantrip decks, whether it’s combo, cont
 
 Sometimes they have a dual land and a Gaea’s Cradle in play and you have to consider which to Wasteland, don’t always automatically kill Cradle as you might be able to mana screw them completely if they have no land in hand, though it is dangerous against decks with a lot of one drop creatures like Elves.
 
-### Urza’s Saga (outdated by rules change)
+### Urza’s Saga
 <mtg-card name="Urza's Saga"></mtg-card>
-I don’t know why most people don’t do this, but I almost always bring in my Harbingers of the Sea against Saga decks because having a 3 mana 2/2 that kills a Saga and does more later is really strong on it’s own as long as you remember to fetch basic swamp beforehand.
+Before the rules change, I almost always brought Harbingers of the Sea against Saga decks because having a 3 mana 2/2 that kills a Saga and does more later was really strong on it’s own as long as you remembered to fetch basic swamp beforehand.
+Since the rules change, Harbinger may even backfire when Saga is at 2 counters already, as you now have to fend of another construct token each turn, so I don't bring it in against lightly colored Saga decks like Black Saga Storm anymore.
 You can Wasteland it with the first trigger on the stack so they never get mana.
 You can Consign to Memory any of the chapter abilities but not the activated one to create a token.
+You can even replicate Consign in case they have Forces or to suppress multiple chapter abilities, outside of Exploration that is usually one second chapter and one third chapter ability.
 
 ### Crop Rotation
 <mtg-card name="Crop Rotation"></mtg-card>
@@ -1172,6 +1232,51 @@ If you come from a control background you probably prefer to set up with cantrip
 Of course this heavily depends on the matchup, for example vs Oops your best T1 play is Nihil Spellbomb and your second best is Thoughtseize.
 If you are on a single blue source, think about how probable it is that you get Wastelanded depending on what the opponent shows you.
 Orcish Bowmasters are often better later in Bowmaster mirrors but against decks with no removal like Show and Tell main phasing it as early as possible is often good.
+
+## Paper Tournament Prep
+
+* clue tokens, army token
+* pen and paper
+* printed sideboard guide (even after 1000+ matches I forget stuff)
+* dice
+* inner + outer sleeves
+* decklist
+
+
+## Body and Mind
+
+The deck is grindy and decision heavy, often I finish a match seconds before the next one starts, with little time to eat or rest.
+
+### Breakfast, not Fasting
+
+Complex carbohydrates (dark bread, oatmeal) are great as they burn slowly and fuel your brain for many hours.
+Even if you are used to interval fasting like the common 16 hours fasting / 8 hours eating 12 to 8 p.m. schedule, I strongly recommend making an exception for paper tournaments.
+A fasted light physical workout can be fine, as it suppresses hunger and stimulates your muscles to burn fat.
+On sedentary nonstop stressful mental activity on the other hand, your brain burns through a lot of glucose; fasting risks your blood sugar running low, leading to dizzness, jitters and sudden hunger spikes.
+In that case, eat a mix of simple and complex carbs as soon as possible but better not let that happen in the first place.
+You don't have to eat the moment you wake up but I would advise eating at least shortly before the tournament.
+
+Avoid fatty foods (nuts, bacon...), as they slow down digestion and make you tired, especially if achieve a lunch break and eat a big meal.
+During the tournament you can add a bit of simple carbs like bananas or mashed fruits.
+Keep a water bottle at the side of your backpack and drink regularily but not so much that you need bathroom breaks during the matches.
+Coffee is fine if you are used to it but I would drink it closer to the tournament instead of first thing in the morning.
+
+After the tournament is a great time for a full meal with lots of protein, fiber, some fats and so on, so you don't get home with a big calorie deficit at night,
+causing you to eat half the kitchen and making you unable to sleep.
+Unfortunately there is often mostly fast food available near a tournament venue so it can pay off to look for a place in advance.
+
+### Sleep
+I envy you if you can sleep in the car or train, but otherwise it's very important to go to bed early to get ideally 8 hours but at least 7 hours of sleep the two nights before the tournament (unless you are a teenager, then you can probably sleep 5 hours, eat at McDonalds and be fine).
+Putting the phone in silent mode and putting it away can help but I once turned it off completely which disabled my alarm, causing me miss the event entirely.
+
+### Prepare Early
+Common advice is to not learn anything the day before an exam, so your mind is rested.
+I have been guilty way too often of stressing out over the last sideboard slot on the way to the event or even bringing multiple decks, frantically worrying which one is best in the given meta.
+... TODO: finish ...Don't worry about that last sideboard slot and aim to have your 75 finished and packed two days before the event, getting enough sleep is worth way more.
+
+### Exercise
+My work day starts in the afterglow of a nice cycle ride through the forest; sitting in a car or train and then sitting down again for many hours to play Magic makes me uncomfortable and irritated.
+What I found helpful is moving more the day before and also slipping in a little bit of activity in the morning of the tournament, e.g. jogging and walking to the train station instead of using the tram.
 
 ## Matchups
 
@@ -2012,19 +2117,13 @@ Some of those engines draw cards, others put them into their hand without callin
 ###### Graveyard Recursion
 Graveyard recursion allows playing previous spells again. With Yawgmoth’s Will for 3 mana being banned, 4 mana seems to be what Wizards tolerates in Legacy for this effect, which often wins on the spot.
 
-Past in Flames gives your instant and sorcery cards flashback until end of turn. Example: Sam has an empty graveyard, a Swamp and Volcanic Island in play. How much life can she drain with a hand of Past in Flames, 3 Dark Rituals and Tendrils? Pause the video and unpause when you have the answer.
+Past in Flames gives your instant and sorcery cards flashback until end of turn.
+Example: Sam has an empty graveyard, a Swamp and Volcanic Island in play. How much life can she drain with a hand of Past in Flames, 3 Dark Rituals and Tendrils?
+
+<mtg-todo>TODO: adapt storm video content to book</mtg-todo>
 
 ###### Suspended Gaea’s Will
-
-<mtg-cite name="Suspend rules" href="https://blogs.magicjudges.org/rules/comprehensive-rules/#rule-702-62a">
-702.62a Suspend is a keyword that represents three abilities.
-The first is a static ability that functions while the card with suspend is in a player’s hand.
-The second and third are triggered abilities that function in the exile zone.
-“Suspend N—[cost]” means “If you could begin to cast this card by putting it onto the stack from your hand, you may pay [cost] and exile it with N time counters on it.
-This action doesn’t use the stack,” and “At the beginning of your upkeep, if this card is suspended, remove a time counter from it,” and “When the last time counter is removed from this card, if it’s exiled, you may play it without paying its mana cost if able.
-If you don’t, it remains exiled.
-If you cast a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes.”
-</mtg-cite>
+See [Suspend](#suspend).
 
 ### Black Saga Storm (~ 1% Meta game)
 
@@ -2094,9 +2193,47 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 ### ANT
 <mtg-todo></mtg-todo>
 
-Weaker storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
+Weaker and outdated storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
 
+### High Tide
+<mtg-cards names="Merchant Scroll|High Tide|Turnabout|Time Spiral|Mind's Desire|Force of Will"></mtg-cards>
 
+Unique and classic mono blue Storm deck centered around basic Islands, High Tide, land untappers and countermagic.
+Currently weak and rarely played so focus your training elsewhere.
+Go for maximum pressure early, then sit back and defend, their threat level and resiliency is extremely dependent on Islands in play.
+
+|Lands| Threat    | Resilency | Lines | Notes |
+|-----|-----------|-----------|-------|-------|
+| 1   | none      | none      |||
+| 2   |theoretical| almost none | High Tide + 2 Cloud of Faeries + Time Spiral/Mind's Desire | rare builds nut draw |
+| 3   | high      | low       | High Tide + Turnabout + Time Spiral  | very weak to Daze |
+| 4   | very high | high | multiple High Tides + extra spells into Mind's Desire | weak to Daze
+| 5   | very high |very high | High Tide (counter war that they lose) + High Tide  + Mind's Desire, above lines + pay for Daze |
+| 8   | extreme | extreme | spells into Mind's Desire |
+
+T3 High Tide + Turnabout + Time Spiral is their preferred Storm turn against unfair decks, however vs UB Tempo, Daze on High Tide and Force on Turnabout is problematic for them.
+Daze is uniquely strong here as it effectively costs them two mana on High Tide.
+Discard is also very strong against them, mostly taking the High Tide.
+Time Spiral also has the potential to fizzle or to draw us into too much interaction.
+Mind's Desire on the other hand is very resilient and often wins with just 5+ Storm or in an emergency can hope to find another Mind's Desire or a Time Spiral.
+Thus they prefer to make land drops and cantrip until you put them dead on board and force them to go off, at which point their most resilient game plan is multiple High Tides into Mind's Desire,
+which does not have great pressure points for us once they have enough mana even with Daze.
+T1 Tamiyo into T2 flip T5 win is your best bet but Orcish Bowmasters is also very strong as they cast lots of cantrips + Time Spiral, so they may even have mainboard Snap/Dress Down.
+Going into control mode with drawing an extra card each turn off unflipped Tamiyo or Kaito or continually rebuying Force (I would probably rebuy a Force rather than uptick in most situations) and forcing every High Tide can also work,
+but you do have to turn the corner eventually before the ultra late game where they can just Mind's Desire even if you counter all the High Tides.
+Casting creatures may sometimes help them go off as Snap nets them mana post High Tide.
+
+#### Sideboarding
+One of the few decks that can leave you with near blanks with our current sideboard as it plays neither creatures (rarely Cloud of Faeries or Fae of Wishes but removing them is not imporant) nor enough nonbasic lands, but that is currently not a problem as it has a very low play rate.
+Board out all removal spells unless they play Tamiyo (you will face that variation maybe once in 1000 matches).
+Wasteland can at least cast Flow State and crack clues, in the rare cases they have a nonbasic like Mystic Sanctuary out it is extremely strong to set them back a land.
+Consign to Memory is probably the best blank to bring in as it pitches to Force and they may have Defense Grid.
+If you do happen to have anti storm cards like Flusterstorm, Counterbalance, Dampening Sphere or even a white splash for Deafening Silence,
+those are extremely strong, but often not worth running due to Storm variant's low combined play rate and little overlap against other meta decks.
+If Surgical Extraction is your grave hate of choice then that is one of the rare occasions where it's not a trap to bring in;
+Discarding or countering their first High Tide and extracting it from their library makes it very hard for them to win, as they need 5+ lands to net mana with Turnabout and 6+ to chain Time Spirals.
+They usually shave on acceleration that leaves them down on cards after a counter war like Turnabout, maybe even Time Spiral or switch FoW for Pact of Negation,
+and bring in more protection against spells and Bowmasters, such as Flusterstorm, Defense Grid, Snap, Echoing Truths and Dress Down.
 
 ### Sneak and Show
 
@@ -2940,7 +3077,16 @@ However Eco/Andreas said that Thoughtseize on the blind T1 OTP is worth delaying
 #### Situations vs Oops
 <a href="#whats-the-play-oops">See the Oops section</a>.
 
+### Kirdie's Results
+People have often doubted the viability of this deck (update: less so since the Entomb ban) and while I'm not playing at the highest levels, I can at least prove that the deck is somewhat competitive:
+
+* [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
+* [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
+* [11 MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
+* [7-3-1 (ID) at Eternal Weekend Prague 2024](https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804)
+
+
 ## Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.
 2. Stay curious and improvise. Use those guidelines only as a starting point, and adapt to the situation at hand.
-3. Citations may be corrected, abbreviated, extended and updated. This is not a newspaper or scientific article, so reading experience is prioritized over accurate citation.
+3. Citations may be corrected, abbreviated, extended and updated, e.g. after bans. This is not a newspaper or scientific article, so reading experience is prioritized over accurate citation.

@@ -1396,6 +1396,8 @@ Barrowgoyf has been discussed at length in this guide, and I will address its me
 
 ### Red Daze decks including actual Delver
 
+TODO: tie this in together with the variants below, it may not be clear to the audience that this is the super category and below are the variations
+
 The most aggressive variants, focus on survival first.
 In: BEB, removal and creatures
 Out: Force of Negation, Force of Will, Thoughtseize, Daze
@@ -1432,9 +1434,8 @@ In that case you may have to shave a Kaito or two to not get overrun early espec
 
 <mtg-cards names="Delver of Secrets|Questing Druid // Seek the Beast"></mtg-cards>
 
-
 Before Cutter was printed, this was the main red variation and a good matchup for UB as you can kill all their threats one-for-one and outvalue their Druids.
-If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't allin on that as you are already favored most of the time.
+If you can kill an unflipped Delver or a non-delirious Dragon's Rage Channeler with Orcish Bowmaster you should be miles ahead, but that is easier said then done, so don't all-in on that as you are already favored most of the time.
 Barrowgoyf is extremely hard to handle for them.
 
 Your Nihil Spellbomb timing is very important here:
@@ -2400,6 +2401,9 @@ After that I may shave a Nethergoyf (hard to get through their tokens) and/or a 
 
 <youtube-video id="w5DLsaJbYyA" t="93" ></youtube-video>
 
+<mtg-todo></mtg-todo>
+TODO: discuss current morphing into "affinity" with more stompy elements
+
 ### Eldrazi
 <mtg-todo></mtg-todo>
 
@@ -3036,13 +3040,66 @@ Esper Vial:
 
 ## How to Improve
 
-## Exercises
+<!-- TODO: pyramid: playing, studying, coaching -->
+
+### Buy into MTGO and play lots of Leagues!
+As someone without Legacy events in my city, MTGO has been a total game changer for practice volume and matchup variety.
+For over ten years, I was playing maybe once a month, now I can play every single day if I have the time and getting MTGO is my number one advice for getting better.
+Even if there is a small event in a nearby city, spending 9 hours on the train and in the venue and paying the tournament entry fee, just to play 4 matches of Legacy,
+is just so inefficient, when you can spend the day with your family instead and can still get a full 5 match league in at the evening or most of the day and the 5 p.m. challenge once a week.
+However I still love to attend larger paper events if we can organize a trip, as it's just much more fun.
+
+The reason I waited so long to buy into MTGO was that I did not want to support the borderline predatory business model;
+paying 500+ € just to play the cards you already own in paper just seems extremely greedy in comparison to games you buy once for like 50 €, and then they even charge ~10 € per league, outrageous!
+However once I bought the deck and played a few leagues, I realized that with just a slightly positive win rate you never run out of play points to play leagues,
+and can even sell of excess chests to buy new cards,
+so if you get over the large initial investment and play a competitive deck reasonably well, you never have to buy tickets again.
+However if you are completely new to Magic, play a lot of Leagues and have a very low win rate, you burn through a lot of money, in which case it may be better to play paper with proxies or in the MTGO practice room.
+I initially used the cardhoarder renting service but with 10% interest per month it is extremely costly so I recommend buying the cards as quickly as possibly.
+
+### Local Events
+If you are fortunate enough to have local Legacy events like FNMs, those are a great place to have fun and improve!
+
+### Pair Playing
+Inviting a friend over or sharing your screen on a voice call while playing a League is both fun and effective!
+While doing this is illegal and will get you disqualified in a Go (boardgame) online tournament, I have done and seen other people do it lots of time in Magic without anyone complaining, it is totally legal as far as I know.
+
+### Analyze your Games
+It can be boring, but watching your League replays or video recordings can help you find lines that you didn't see during a stressful match, plays that were correct but didn't work out and plays that were wrong but weren't punished.
+Getting a basic understanding of probabilities and calculating the exact numbers with a few examples can help you get a ballpark estimate in a real game later where you can't pull out a hypergeometric calculator.
+For example, assume being on the draw with two Mishra's Baubles, Force, two Ponders, a Thoughtseize and a Wasteland vs Oops or Necrodominance combo.
+They will probably work through your single interaction given time, but don't always have the protected win T1.
+How likely are you to find a mana source or a second Force T2?
+
+### Study Decklists
+Again, boring, but consulting e.g. <https://www.mtgtop8.com/format?f=LE> while playing a League against a deck helps learning in which matchups you need to play around Wasteland and other cards.
+
+### Watch Gameplay Videos
+It's much less learning per hour than playing yourself, but you can do it while doing chores in the house, in the bathtub, on a train or wherever.
+Most effective is to alternate playing, analyzing and watching other players, so you can pick up tricks and apply them in your own games.
+Besides my humble offerings, the deck is sometimes covered by BoshNRoll, ecobaronen, TueBo and BeExcellent.
+If you are UR-aggro-curious, I can really recommend watching Phillip aka FlipsiFlips, a very skilled, consistent and educational new content creator with great production value.
+
+### Ask the Community
+I'm not a big fan of social media and so on, and after the demise of online forums find most of the current plattforms too advertisement-filled, difficult to search and time-inefficient to get better.
+However Discord is at least somewhat usable for current discussions (structured longterm archival still sucks IMHO) and while I don't know a specific UB Tempo community similar to the Epic Storm or Doomsday Discords,
+the ecobaronen Discord (you need to be a paying Metafy member to get access) has lots of UB Tempo players that you can ask, who are very knowledgeable, up to date and helpful.
+As a free alternative, if you need less of a deep-dive discussion of this deck but have more of a general question, you will probably quickly get an answer on <https://www.reddit.com/r/MTGLegacy/> as well.
+
+### Coaching
+If you take improving really seriously, play a lot, ask friends, play together, analyze replays, have an open mind and still get stuck,
+you can think about paying for coaching as a last step.
+It's the most time efficient way to get better but also the most money inefficient one, so if you have lots of money and little time then you may also flip the order just get coaching regularily,
+like you would schedule a weekly piano lesson, but as someone with limited funds I use those to send my kids to music school instead and only take coaching if I have a clear problem that I can't solve on my own.
+I took two sessions with ecobaronen who is an amazing coach and found them extremely helpful.
+
+### Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
 These excercises allow you to practice even if you are just sitting in the tram or waiting at the doctor's office.
 Also, focussed practise allows you to train one area in isolation and can thus be even more effective than just playing games.
 
-### Mulliganning
-### First Move
+#### Mulliganning
+#### First Move
 On the play in the blind, how would you play those hands?
 Those hands were given during the Ecobaronen EU Tempo Team EW 2025 preparation but due to it being private I won't give the "solutions" and the thoughts of the others but my own only.
 Anyways, the main point is not what is right or wrong but to get you to think about the different scenarious that can happen and weigh them against each other.
@@ -3105,9 +3162,9 @@ Thoughtseize is also a possibility.
 However Eco/Andreas said that Thoughtseize on the blind T1 OTP is worth delaying Tamiyo in all those cases because it allows us to prevent strong plays from the opponent, clear the way for Tamiyo and plan out our future interaction.
 </details>
 
-### What's The Play
+#### What's The Play
 
-#### Situations vs Oops
+##### Situations vs Oops
 <a href="#whats-the-play-oops">See the Oops section</a>.
 
 ## Motivation and Outlook
@@ -3132,13 +3189,15 @@ While this guide can always be turned over by bans, new releases and meta shifts
 [![Donations welcome](https://img.shields.io/badge/Donate_via_PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kirdiekirdie)
 **[Contributions welcome](https://github.com/KonradHoeffner/tempoguide)**
 
+<!--
 ### Acknowledgements and Helpful Resources
-
 <mtg-todo></mtg-todo>
-
+(now included in getting better?)
 * contributors
 * ecobaronen discord
 * ecobaronen coaching
+-->
+
 
 ### Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.

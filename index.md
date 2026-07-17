@@ -3,6 +3,7 @@ layout: default
 title: MTG Legacy UB Tempo Guide
 ---
 <!-- TODO: optimize load times on slow connections -->
+<!-- biggest issue is blocking on font load from cdnfonts.com, self host? -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.cdnfonts.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
@@ -382,12 +383,9 @@ This is exemplified in my personal best scoring Eternal Weekend list from 2024 i
 TODO: add decklist
 TODO: this is also noted in the "why not play UB Reanimator" part, merge
 
-Fun Fact: I originally planned to play DDFT (Doomsday Frog Tamiyo) there but got crushed 0-4 in the side event with it and frantically put together the above UB Tempo list,
-which finally stopped my years of last-minute deck flip-flopping, tranforming me into the UB Tempo believer I am today.
-Thanks to my friends I got a list together minutes before the event but couldn't find Shoot the Sherrif, 
-causing me to lose to a Masticore from Mystic Forge with a Go for the Throat in hand, but thankfully the Null Rods carried this and the other Forge matchups.
+<!--
 Soon after I switched to 2 Sheoldred's Edict as removal of choice to always have an out to every creature and planeswalker.
-
+-->
 #### 2025? Vexing Bauble Ban
 <mtg-todo></mtg-todo>
 After 2 of 3 Eternal Weekends in 2024 got won by Vexing Bauble decks (Red Prison in Asia, Mystic Forge in NA), Wizards decided to ban Vexing Bauble, which made those decks weaker by
@@ -429,10 +427,8 @@ Now in 2025 I have ~59% win rate over 362 matches with UB Tempo and ~61% with UB
 Sure, I crushed some matches by going for a protected Entomb+Reanimate but the finer details take a long time to master, especially if in a meta saturated by grave hate like it is right now, with UB Reanimator having a huge target on its back.
 UB Tempo only gets hit with some splash damage like the Psychic Frog ban or mainboard grave hate but can also lead the opponent to expect you to be on the more popular UB Reanimator, and UB Tempo can quickly snowball on a slow start from an overly cautious opponent.
 
-As a cautionary tale, I got around 60% win rate with Tamiyo Psychic Frog Tempo Doomsday in 2024 from the comfort of my home in leagues where I could look up my opponents and take my sweet time to build my pile
-but I got absolutely crushed in the Eternal Weekend EU 2024 side event and switched back to UB tempo that night and next morning.
-I achieved a personal record large event result of <a href="https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804">7-3-1 (ID)</a> due to being so experienced and comfortable with the deck to carry me through stressful situations.
-But if you are still undecided and have equal or low experience with both and just want to win as much as possible in the short term, then UB Reanimator is probably the better pick for you, as UB Tempo is very sensitive to misplays and missing experience.
+
+If you are still undecided and have equal or low experience with both and just want to win as much as possible in the short term, then UB Reanimator is probably the better pick for you, as UB Tempo is very sensitive to misplays and missing experience.
 
 Still, there are legitimate advantages to playing UB Tempo besides comfort so lets explore them.
 Let's first identify what they have in common besides the mana base (only 3 Wastelands but 2 Sewers in Reanimator):
@@ -1245,10 +1241,45 @@ Orcish Bowmasters are often better later in Bowmaster mirrors but against decks 
 
 ## Body and Mind
 
-The deck is grindy and decision heavy, often I finish a match seconds before the next one starts, with little time to eat or rest.
+
+### Burnout and Tilt
+
+Assuming you are not a professional, no one is forcing you to play Magic.
+If you stop having fun or get overly frustrated over losses or the state of the format, just do something else for a while, Magic will always be there for you when you come back.
+You aren't a machine, it's OK to get emotional, just not to take out your frustrations on others.
+To give a personal example, after getting frustrated by a long streak on missing top 8 in paper events despite extensive training and preparations, while others seemingly always make it easily,
+I have taken a rare step back from Magic in June and July 2026, missing out most of the Fantasticar meta (which is why the car isn't mentioned much in the guide),
+instead enjoying bike rides and now we are on summer holidays anyways with mostly no internet.
+Right now I'm lying in a hammock in the forest next to my in-law's garden house after making pancakes for 11 people,
+listening to the birds and the breeze going through the trees with my laptop, writing on this guide.
+Slowly the passion is coming back and I'm already looking forward to playing again end of July.
+
+### Deck Specialist vs "Meta Slave"
+
+I'm always amazed by how much the online meta shifts each week, meaning the individual players must switch decks a lot.
+I used do this as well, in extreme cases even bringing two decks to a tournament and getting mentally exhausted before the event even started by trying to predict the best one for the local meta,
+My transformative experience was trying to switch from UB Tempo to "DDFT" (Doomsday Frog Tamiyo) in preparation for Eternal Weekend 2024 in Prague,
+where I felt it was a strong contender due the deck having a great synergy between a very strong quick combo and a grindy fair game plan.
+I got around 60% win rate with the deck in the comfort of my home in leagues where I could look up my opponents and take my sweet time to build a pile,
+but I got crushed 0-4 in the Eternal Weekend EU 2024 side event after which I frantically tried to assemble an UB Tempo list that night and the next morning.
+Thanks to friends I got the deck together minutes before the main event and even survived a deck check but couldn't find Shoot the Sherrif, 
+causing me to lose to a Masticore from Mystic Forge with a Go for the Throat in hand, but thankfully the Null Rods carried this and the other Forge matchups.
+I achieved a personal record large event result of <a href="https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804">7-3-1 (ID)</a> due to being so experienced and comfortable with the deck to carry me through a wide variety of stressful situations.
+Now I always play UB Tempo at a competitive event and just have to decide about variation (with or without Nethergoyf) and a few flex slots, which conserves a lot of mental energy and lets me rely on experience from more than 1000 matches.
+If you aren't a pro player who plays all day I would recommend you to do the same after an initial deck finding phase, as the gain in experience outweighs any percentage points you may or may not have in the current meta.
+This is also a great selling point for the deck as contrary to some linear decks like Elves or Dredge it can't be shut down as easily if it has a large meta presence or even as splash damage from other popular decks with similar weaknesses.
+
+<!--
+### Unproductive Thoughts
+
+### Confidence and Judge Calls
+-->
+
+
 
 ### Breakfast, not Fasting
 
+<!--The deck is grindy and decision heavy, often I finish a match seconds before the next one starts, with little time to eat or rest.-->
 Complex carbohydrates (dark bread, oatmeal) are great as they burn slowly and fuel your brain for many hours.
 Even if you are used to interval fasting like the common 16 hours fasting / 8 hours eating 12 to 8 p.m. schedule, I strongly recommend making an exception for paper tournaments.
 A fasted light physical workout can be fine, as it suppresses hunger and stimulates your muscles to burn fat.
@@ -1256,7 +1287,7 @@ On sedentary nonstop stressful mental activity on the other hand, your brain bur
 In that case, eat a mix of simple and complex carbs as soon as possible but better not let that happen in the first place.
 You don't have to eat the moment you wake up but I would advise eating at least shortly before the tournament.
 
-Avoid fatty foods (nuts, bacon...), as they slow down digestion and make you tired, especially if achieve a lunch break and eat a big meal.
+Avoid fatty foods (nuts, bacon...), as they slow down digestion and make you tired, especially if you achieve a lunch break and eat a big meal.
 During the tournament you can add a bit of simple carbs like bananas or mashed fruits.
 Keep a water bottle at the side of your backpack and drink regularily but not so much that you need bathroom breaks during the matches.
 Coffee is fine if you are used to it but I would drink it closer to the tournament instead of first thing in the morning.
@@ -1275,7 +1306,7 @@ I have been guilty way too often of stressing out over the last sideboard slot o
 ... TODO: finish ...Don't worry about that last sideboard slot and aim to have your 75 finished and packed two days before the event, getting enough sleep is worth way more.
 
 ### Exercise
-My work day starts in the afterglow of a nice cycle ride through the forest; sitting in a car or train and then sitting down again for many hours to play Magic makes me uncomfortable and irritated.
+My work day starts in the afterglow of a nice cycle ride through the forest; sitting in a car or train and then sitting down again for many hours to play Magic makes me uncomfortable.
 What I found helpful is moving more the day before and also slipping in a little bit of activity in the morning of the tournament, e.g. jogging and walking to the train station instead of using the tram.
 
 ## Matchups
@@ -3003,6 +3034,8 @@ GBW Cosmogoyf Helm:
 Esper Vial:
 <youtube-video id="w5DLsaJbYyA" t="3585" ></youtube-video>
 
+## How to Improve
+
 ## Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
 These excercises allow you to practice even if you are just sitting in the tram or waiting at the doctor's office.
@@ -3077,16 +3110,38 @@ However Eco/Andreas said that Thoughtseize on the blind T1 OTP is worth delaying
 #### Situations vs Oops
 <a href="#whats-the-play-oops">See the Oops section</a>.
 
-### Kirdie's Results
-People have often doubted the viability of this deck (update: less so since the Entomb ban) and while I'm not playing at the highest levels, I can at least prove that the deck is somewhat competitive:
+## Motivation and Outlook
+I'm a big fan of long form guides and textbooks where I can just deep dive into a new topic and absorb as much as I want to whether I'm lying on the beach or standing in line at the cafeteria;
+They represent some of the best educational value per time unit and are thus an obvious staple in the classroom and for a lot of subject matters like cycling, chess or cooking.
+However the fast moving landscape of Magic and current business incentives rewards creators for publishing a large volume of short content about disjointed topics and entertainment-focused videos instead.
+I find it frustrating and inefficient to extract educational value by searching for and jumping between Twitter posts, gameplay videos and short Patreon guides;
+Even the latter don't have the space to explain the hows and the whys which is essential for a beginner to get a holistic understanding of a deck.
+While I'm not a professional player or a famous content creator, I asked a lot of great players for input and hope to provide value to your learning journey, following the template of the now outdated but excellent Delver Bible by Bob Huang.
+If you would still like some credentials that I'm not totally clueless and the deck is somewhat viable, here are some of my results:
 
 * [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 * [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
 * [11 MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
 * [7-3-1 (ID) at Eternal Weekend Prague 2024](https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804)
 
+As I am spending a lot of time and money on this guide, my videos and related open source work, while supporting my family as a computer scientist with currently limited funding, and I am strictly against distracting you with advertisements,
+contributions and donations are always very welcome.
 
-## Disclaimers
+While this guide can always be turned over by bans, new releases and meta shifts, my dream would be to get it in a complete state and publish it as printed and ebook versions as well.
+
+[![Donations welcome](https://img.shields.io/badge/Donate_via_PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kirdiekirdie)
+**[Contributions welcome](https://github.com/KonradHoeffner/tempoguide)**
+
+### Acknowledgements and Helpful Resources
+
+<mtg-todo></mtg-todo>
+
+* contributors
+* ecobaronen discord
+* ecobaronen coaching
+
+### Disclaimers
 1. I refer to "UB Tempo" because that name it is most used by the community but the deck has midrange elements.
 2. Stay curious and improvise. Use those guidelines only as a starting point, and adapt to the situation at hand.
 3. Citations may be corrected, abbreviated, extended and updated, e.g. after bans. This is not a newspaper or scientific article, so reading experience is prioritized over accurate citation.
+4. I'm not an English native speaker, corrections are welcome.

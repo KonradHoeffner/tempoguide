@@ -1133,7 +1133,7 @@ When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer f
 Bluffing is an advanced tactic that you should only focus on once the basics are mastered, which is one of the reasons why I prefer [mastering a single deck over "meta slaving"](#deck-specialist-vs-meta-slave).
 Its also helpful to know your opponent's decklist, gameplan and tendencies.
 
-A successful bluff has three components:
+A successful bluff has at least three components:
 (1) The apparent positive reward (the "juiciness") and information deficit from the opponent's POV in choosing the play that you want them to or the other way around the apparent danger for them in not chosing it,
 otherwise they won't fall for it.
 (2) Your benefit in them making the play, otherwise there is no point even if they fall for it.
@@ -1144,30 +1144,71 @@ In the following examples please pause reading after each question and think thr
 
 TODO: hide answer in HTML (details tag?) while presenting it in printing mode (upside down or vertical space?)
 
+#### Daze
+Representing a Daze (or Force) you don't have is probably first on your mind, but mostly cost-free and thus more off a "good play" unless on MTGO where you pay a cost in your timer,
+forcing you to sacrifice "bluff equity" by "F6ing" (yielding through a turn) when you are low on the clock.
+Similarily, you can also signal you don't have interaction by F6ing if you know you won't be Dazing anyways, for example in a Tempo mirror if they can only play a single mana threat that you have covered anyways.
+Experts like ecobaronen may also shuffle away a critical Daze revealed by an earlier Thoughtseize under the assumption that the opponent will still respect it,
+or take a two drop with Thoughtseize hoping that the opponent will be too scared to cast their three drop into your assumed Daze, but the consequences of such a bluff backfiring are too high for my personal taste.
+
 #### Phantom Kaito
 Kaito is already a sneaky ninja but he can do his magic even when not in your hand!
 Assume you have Barrowgoyf as your one card in hand and an Orc Army and three Underground Seas in play against UW Control with three Tundras in play and a single card in hand.
 What do you do, (A) play Barrowgoyf or (B) attack first? Is there an opportunity for a bluff?
 
 Answer: You obviously attack with the Orc Army first because the opponent might have Swords to Plowshares, placing them in a bind:
-If they let the token through and you have Kaito in hand, they most probably lose the game. (component 1)
-If they use Swords to Plowshares on the token, you can slam Barrowgoyf in your second main, they most probably also lose the game unless they topdeck an answer immediately. (component 2)
+If they let the token through and you have Kaito in hand, they most probably lose the game (component 1).
+If they use Swords to Plowshares on the token, you can slam Barrowgoyf in your second main, they probably also lose the game unless they topdeck an answer immediately (component 2).
 As noted above, this is not yet a bluff because there is never a reason to play Barrowgoyf in the first main, whether you have Kaito or not and you don't invest anything in it, making it "just the correct play" all of the time.
 You could sell it (component 3) a little bit in paper by going through the phases very meticulously, asking the opponent repeatedly like "are we in the block step?", "no response, are you sure?" or "move to blocks, any response?" so that the possibility of Kaito gets more real in their head,
-however I would establish clear communication about specific combat phases even if I actually had Kaito in hand as well, because the aim of Magic is not to trick your opponent into skipping phases.
-On MTGO however I often tap two or three lands in the attack step, immediately undoing it to signal "oopsie, I'm a newbie and thought ninjutsu works in the attack step" which did the tick once.
+however I would establish clear communication about specific combat phases even if I actually had Kaito in hand as well, because the aim of Magic is not to "gotcha" your opponents on technicalities.
+On MTGO however I often tap two or three lands in the attack step, immediately undoing it to signal "oopsie, I'm a newbie and thought ninjutsu works in the attack step" which did the trick once.
 The opponent even asked me about it after the game and couldn't believe I didn't have it at that time.
 
-If we modify this scenario slightly by replacing the third Underground Sea with a fetch land, we can make it a real bluff by fetching in the block step;
-We pay a slight cost (one less shuffle effect later) but sell the story (3) much better and the potential outcome is huge.
+If we modify this scenario slightly by replacing the third Underground Sea with a fetch land, we can make it a "real" bluff by fetching in the block step;
+We pay a slight cost (one less life earlier, one less shuffle effect and revolt source) but sell the story (3) much better and the potential outcome is huge.
 
+If you are like me inexperienced and uncomfortable with the idea of bluffing, body language, tells and so on,
+you can also just view it as limiting the opponent's information and forcing them to account for eventualities that they otherwise wouldn't have to.
+You pay a slight ingame cost to make the game very difficult for the opponent, thus buying a large increase in percentage points of the opponent making the wrong play given their information.
+Of course they may also just have a land in hand, buying the signal of Swords to Plowshares at the cost of a land drop.
+
+#### No Land Drop into Daze
+At a recent paper tournament vs UR Tempo, I had a perfect opening on the play G1 including Tamiyo, two lands, two Brainstorms and a Daze.
+While that hand after the T1 Tamiyo would probably have won anyways, I cemented the win as early as T2 by casting the first Brainstorm before the second land drop second main after attacking.
+This bluff scores very high on category 1 as it represents both a high reward (Tamiyo flip) and a critical weakness (cantripping to find the second land).
+If they fall for it and Daze the first Brainstorm, they are two lands behind and almost surely dead to the Tamiyo flip + clue crack + Daze (category 2).
+Not playing the land tells the story consistent with the bluff (category 3) and it worked exactly as planned, leading to a quick ultimate few turns later.
+
+#### Best Land First
+This one is quite niche and mostly relegated to tempo mirrors vs experienced players, who base their decisions on whether to go for a risky early Wasteland on optimal land sequencing,
+assuming the matchup is not about edge cases like Stifle, Surgical or Pithing Needle.
+For example if we have an Underground Sea, a Polluted Delta and a Tamiyo in our opener, it does not make sense to play Polluted Delta, fetch Underground Sea and play Tamiyo.
+If we start with Underground Sea into Tamiyo instead (assuming we don't want to go for basics), we leave the much more flexible Polluted Delta in hand,
+which can shuffle after a brainstorm, enable revolt and fetch basic Swamp or Island as well.
+Similarily, if our starting hand contains Marsh Flats and Polluted Delta, using the Marsh Flats first preserves the option to fetch any of our basics later, while Marsh Flats can only give us a swamp.
+Following all this, an on the play T1 Polluted Delta into Underground Sea + Tamiyo signals that we do not have Underground Sea and any different fetch land in our hand, which makes a risky on the draw Wasteland more attractive for our opponent.
+If our hand is land heavy and we want to get wastelanded, making the "wrong" land drop can be an option with few downsides.
+If our hand contains a Polluted Delta, a basic Island or Swamp and the opposite offcolor fetch, the offcolor fetch is nearly equivalent to the Polluted Delta, making it less of a bluff and more of a "always do this good play" situation (playing the basic first is of course also an option).
+
+#### Unused Land Drop
+
+
+#### Ponder No-Shuffle
+
+See the [Cephalid Breakfast matchup section](#the-ponder-no-shuffle-bluff).
+
+#### 
 #### Murktide
+
 TODO: fetch first main to pretend murk against nihil
 <mtg-todo></mtg-todo>
 
-#### Playing into Daze
 
 <mtg-todo></mtg-todo>
+
+#### The Clue Cache
+
 
 ### Inducing Moves
 Inducing moves are a high level Go (boardgame) concept for situations in which negative consequences don't stack,
@@ -1177,6 +1218,7 @@ However if want to repaint them tomorrow anyways you can let them loose: repaint
 Transfering this concept to UB Tempo could look like this:
 * If you need to Fatal Push the opponent's large Orc Army anyways and it doesn't endager your creatures or planeswalkers, you might as well cast your cantrips beforehand and only take the 1 to 3 face damage.
 * Similarily, if an Orc Army chump blocks your Nether- or Barrowgoyf, that can be a great time to crack a clue as well.
+* Getting Wastelanded on your Wasteland with no duals for the opponent? Might as well waste their fetch in response, limiting later options.
 
 ### Bauble trigger
 In paper, I represent bauble triggers with blank cards to not forget them.
@@ -2608,14 +2650,14 @@ Maybe they have Dread Return in hand and cannot even win.
 
 #### The Ponder No-Shuffle Bluff
 
-Playing the matchup can be nerve-wracking for both sides, because any misstep can be instant game over.
+Playing UB Tempo vs Breakfast can be nerve-wracking for both sides, because any misstep can be instant game over.
 For the Tempo player, when they get comboed out and for the Breakfast player, when they mill their whole deck and their Thassa's Oracle gets removed from the game.
 Similarily, Orcish Bowmasters or creature removal late in the combo (when comboing using Shuko) can also strand the Breakfast player in a dire situation.
 Thus, Breakfast can sometimes have the combo available but wait for protection if there is not too much pressure.
 I once had an interesting situation where as UB Tempo my opponent had a Cephalid Illusionist on the battlefield and a Saga on 2 counters.
 I had no way to stop the combo and tapped out for a Ponder which included Nihil Spellbomb (but a Fatal Push would have had the same effect).
 While a Ponder shuffle had a chance of finding a way out, the shuffle would signal the opponent that I was most probably easy prey.
-Instead I banked on my opponent's fear and did not shuffle (signaling free interaction like Surgical, Fearie Macabre or Snuff Out), which caused the opponent to pass the turn with the combo in play and allowed me to play the Nihil Spellbomb.
+Misclicking the Ponder, I fatfingered into a brilliant bluff on accident, signaling free interaction like Surgical, Fearie Macabre or Snuff Out, which caused the opponent to pass the turn with the combo in play and allowed me to play the Nihil Spellbomb.
 
 #### Videos
 

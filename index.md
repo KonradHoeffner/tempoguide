@@ -1124,7 +1124,59 @@ Winter Moon is interesting but very unreliable between opposing basics, Mox Diam
 When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer for 3 leagues but they never did anything and the Adventurer even lost me a game where my opponent just Pyrogoyfed my creature and won with the initiative.
 * Liliana of the Veil: Not powerful enough anymore.
 
-## Strategy
+## Strategy and Tactics
+
+### Bluffing
+
+<mtg-todo></mtg-todo>
+
+Bluffing is an advanced tactic that you should only focus on once the basics are mastered, which is one of the reasons why I prefer [mastering a single deck over "meta slaving"](#deck-specialist-vs-meta-slave).
+Its also helpful to know your opponent's decklist, gameplan and tendencies.
+
+A successful bluff has three components:
+(1) The apparent positive reward (the "juiciness") and information deficit from the opponent's POV in choosing the play that you want them to or the other way around the apparent danger for them in not chosing it,
+otherwise they won't fall for it.
+(2) Your benefit in them making the play, otherwise there is no point even if they fall for it.
+(3) Your plays telling a story consistent with the bluff, otherwise they will recognize it.
+
+You might add the need of giving up something (even if it's just mental capacity and MTGO time), else it's just a good play and not technically a bluff, but that is arguing over semantics, not practicality.
+In the following examples please pause reading after each question and think through them yourself before looking at the answer.
+
+TODO: hide answer in HTML (details tag?) while presenting it in printing mode (upside down or vertical space?)
+
+#### Phantom Kaito
+Kaito is already a sneaky ninja but he can do his magic even when not in your hand!
+Assume you have Barrowgoyf as your one card in hand and an Orc Army and three Underground Seas in play against UW Control with three Tundras in play and a single card in hand.
+What do you do, (A) play Barrowgoyf or (B) attack first? Is there an opportunity for a bluff?
+
+Answer: You obviously attack with the Orc Army first because the opponent might have Swords to Plowshares, placing them in a bind:
+If they let the token through and you have Kaito in hand, they most probably lose the game. (component 1)
+If they use Swords to Plowshares on the token, you can slam Barrowgoyf in your second main, they most probably also lose the game unless they topdeck an answer immediately. (component 2)
+As noted above, this is not yet a bluff because there is never a reason to play Barrowgoyf in the first main, whether you have Kaito or not and you don't invest anything in it, making it "just the correct play" all of the time.
+You could sell it (component 3) a little bit in paper by going through the phases very meticulously, asking the opponent repeatedly like "are we in the block step?", "no response, are you sure?" or "move to blocks, any response?" so that the possibility of Kaito gets more real in their head,
+however I would establish clear communication about specific combat phases even if I actually had Kaito in hand as well, because the aim of Magic is not to trick your opponent into skipping phases.
+On MTGO however I often tap two or three lands in the attack step, immediately undoing it to signal "oopsie, I'm a newbie and thought ninjutsu works in the attack step" which did the tick once.
+The opponent even asked me about it after the game and couldn't believe I didn't have it at that time.
+
+If we modify this scenario slightly by replacing the third Underground Sea with a fetch land, we can make it a real bluff by fetching in the block step;
+We pay a slight cost (one less shuffle effect later) but sell the story (3) much better and the potential outcome is huge.
+
+#### Murktide
+TODO: fetch first main to pretend murk against nihil
+<mtg-todo></mtg-todo>
+
+#### Playing into Daze
+
+<mtg-todo></mtg-todo>
+
+### Inducing Moves
+Inducing moves are a high level Go (boardgame) concept for situations in which negative consequences don't stack,
+which makes a normally slightly negatively valued forcing play slightly positive by offsetting the penality.
+To give a real life example for non-Go-players: You wouldn't normally let your children draw all over the walls, because then you would need to repaint them.
+However if want to repaint them tomorrow anyways you can let them loose: repainting a wall that's already dirty won't be much harder if there are a few drawings on them.
+Transfering this concept to UB Tempo could look like this:
+* If you need to Fatal Push the opponent's large Orc Army anyways and it doesn't endager your creatures or planeswalkers, you might as well cast your cantrips beforehand and only take the 1 to 3 face damage.
+* Similarily, if an Orc Army chump blocks your Nether- or Barrowgoyf, that can be a great time to crack a clue as well.
 
 ### Bauble trigger
 In paper, I represent bauble triggers with blank cards to not forget them.

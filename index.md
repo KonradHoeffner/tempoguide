@@ -328,12 +328,30 @@ I trophied with [https://www.mtgo.com/decklist/legacy-league-2026-03-1910381#dec
 </details>
 -->
 
+## The Fair Dimir Spectrum
+This guide only covers UB Tempo and Midrange but some of it may be transferable to Aggro and Control.
+Here is how I see the fair Dimir Spectrum based on typical card counts (e.g. you may also see UB Tempo with 0 or 4 Daze).
+
+|           |Aggro\*|Tempo|Midrange|Control|
+|:----------|:------|:----|:-------|:------|
+|Lands|18-19      |**19** |**20**       |20|
+|Daze       |4      |**2-3** |**2**       |0|
+|Wasteland  |4      |**4**    |**4**       |0|
+|Basics     |2      |**2**    |**2-3**     |3+| 
+|1 MV Threats\*\*|8 |**3-4**    |**0**       |0|
+|Tamiyo     |0|**4**|**4**|4|
+
+\* You could call that "Tempo" as well but this nomenclature makes it easier to differentiate.<br>
+\*\* Other than Tamiyo, e.g. Nethergoyf, Moonshadow, Delver of Secrets. 
 
 ## A Short History of UB Tempo
+
+**I'm currently on vacation and rarely have internet to save my progress, this section may be in a very unfinished state right now.**
 
 If you notice anything missing or incorrect in my unfinished recollection of the UB Tempo era as I lived through it, please [fix it](https://github.com/KonradHoeffner/tempoguide).
 
 #### The before times: Death's Shadow, Scam, Rescaminator
+
 <mtg-cards names="Death's Shadow|Grief|Troll of Khazad-Dûm|Reanimate|Archon of Cruelty|Entomb"></mtg-cards>
 
 <mtg-todo></mtg-todo>
@@ -341,7 +359,7 @@ With "UB Tempo", this guide solely refers to the midrangy archetype made possibl
 However decks with tempo elements in those colors have a long history in Legacy including the much more aggressive Death's Shadow variants, which see fringe playability to this day.
 ...and later Psychic Frog and Troll got banned, removing Scam from the format.
 
-...combing back after each ban until Entomb got the axe,
+...coming back after each ban until Entomb got the axe,
 ...finally balancing Reanimator by forcing it to play more fatties alongside discard outlets, weakening the backup tempo plan.
 As Scam and Rescaminator shared a long timespan being legal together with UB Tempo, the latter survived outside the limelight like the first small mammals during the reign of the Dinosaurs.
 A frequent question during those times was whether UB Tempo had any raison-d'être (todo: spellcheck).
@@ -369,7 +387,7 @@ In this coaching session (TODO: add recording or excerpt link or transcript), ec
 While Scam decks had weaknesses to decks like UWx control or lands, they restricted the space of viable decks and frustrated Legacy players, though Wizards did not react yet.
 With the much more powerful and resilient Psychic Frog-powered Rescaminator picking up steam, Wizards finally banned Grief, trying to keep the deck alive but in line.
 While players of those decks regrouped, we finally found the courage to create the archetype we all know and love today by incorporating Tamiyo into a pure UB shell.
-Since it's origin, Nethergoyf has been hotly debated as it is the only semblance of actual Tempo while feeling a bit scizophrenic (todo: spell check) when attacking in multiple disjoint axes,
+Since it's origin, Nethergoyf has been hotly debated as it is the only semblance of actual Tempo while feeling a bit shizophrenic (todo: spell check) when attacking in multiple disjoint axes,
 which can be good when facing control decks but often weaker than just having a single coherent game plan.
 
 ####  Kaito

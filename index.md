@@ -395,6 +395,7 @@ While Kaito's interactions cause judge calls all the way to 2026, almost no one 
 In addition to people not playing around it, it plugged a hole against control decks like BUG Beanstalk, alleviating one of the few downsides of the more resilient mana base of UB, as going all-in on Frog was weak to removal.
 Due to Mystic Forge with Vexing Bauble being very popular at the top tables alongside artifact-heavy storm decks in paper, 2 Null Rods were stock in my sideboard for a long time,
 alongside 2 Harbinger of the Seas to beat Urza's Saga, Lands and greedy mana bases.
+
 This is exemplified in my personal best scoring Eternal Weekend list from 2024 in Prague with 7-3-1 (the year before I went 3-7 with 4c Beanstalk):
 
 <mtg-todo></mtg-todo>
@@ -404,15 +405,12 @@ TODO: this is also noted in the "why not play UB Reanimator" part, merge
 <!--
 Soon after I switched to 2 Sheoldred's Edict as removal of choice to always have an out to every creature and planeswalker.
 -->
+#### 2025? Sowing(?) Mycospawn Ban
+
 #### 2025? Vexing Bauble Ban
 <mtg-todo></mtg-todo>
 After 2 of 3 Eternal Weekends in 2024 got won by Vexing Bauble decks (Red Prison in Asia, Mystic Forge in NA), Wizards decided to ban Vexing Bauble, which made those decks weaker by
 mainly making Force of Will good again.
-
-#### 2025? Troll Ban
-<mtg-todo></mtg-todo>
-Troll was very hard to beat in combat due to its "super menace".
-Losing 
 
 #### 2025? Frog Ban
 <mtg-todo></mtg-todo>
@@ -420,6 +418,7 @@ While the Frog ban was targeted at Rescaminator, we lost our most powerful card 
 TODO: was at this time Tamiyo to 4?
 TODO: improve writing, add stats, finish
 Here is how I compared UB Tempo to UB Reanimator at the end of 2025, how did my predictions hold up? :-)
+
 
 #### 2025: Why not play UB Reanimator?
 
@@ -486,6 +485,12 @@ Those decks do struggle vs Forge IMO, which is a different problem but consideri
 Not having FoW of course opens you up to getting double forced and Entomb-Reanimated or similar nut draws, so I get the sentiment.
 </mtg-cite>
 
+#### 2025? Troll Ban
+<mtg-todo></mtg-todo>
+Troll was very hard to beat in combat due to its "super menace".
+Losing 
+
+
 ##### Sideboard flexibility
 
 <mtg-cards names="Harbinger of the Seas|Null Rod|Hydroblast|Engineered Explosives|Toxic Deluge|Dread of Night"></mtg-cards>
@@ -496,27 +501,43 @@ If there is a lot of Mystic Forge and Storm, pack two Null Rods.
 Elves, WR Energy and Goblins? Toxic Deluge, Hydroblast and Engineered Explosives help!
 
 *As this is a complex topic and I'm always open to other opinions, feel free to disagree or elaborate and add to this or other sections.*
+
 #### 2025? Urza's Saga Rules Change
 <mtg-cards names="Urza's Saga|Blood Moon|Harbinger of the Seas"></mtg-cards>
 
 While not an explicit ban, the change to Urza's Saga surviving Moon effects and indefinitely pumping out constructs all but neutered my beloved pair of Harbingers,
 which already provided not that competitive but fun alternate win conditions,
 such as a lock against Black Saga Storm, shutting off their Saga plan as well as their artifact lands + Moxen mana alongside Null Rod.
-Since that time they went from an always-two-off sideboard to a default of zero copies outside of the inbred lands-heavy meta games.
+Since that time they went from an always-two-off sideboard to a default of zero copies outside of the inbred lands- and 4-5c control heavy paper meta games.
 
 #### 2025-10? Entomb and Nadu ban
 While the UB Reanimator matchup was at least even, this allowed us to relegate the clunky mainboard Nihil Spellbombs to the sideboard, replacing them with Mishra's Baubles.
 This was welcome and necessary to have a chance of keeping pace with a lot of graveyard-independent decks like Tron or WR Energy.
+Nadu on the other hand had been a giant thorn in our side; it's ban flipped the Cephalid Breakfast matchup from unfavored to favored and got rid of very unfavored matchups like Nadu Midrange and Nadu Elves alltogether.
+As we didn't have any counterplay to Nadu this didn't change our deck however.
 
 #### 2025? Tezzeret
 Tezzeret allows colorless decks to grab Portable Hole, making Null Rod much weaker.
-Since then I went from 2 sideboard slots to mostly 0 (online) to sometimes 1 (paper).
+Since then I went from 2 sideboard slots to mostly 0 (online) to sometimes 1 (paper) as it rarely wins the game on it's own nowadays.
 
+#### ? 2026: Oops nerf (Spy?/Informer?)
 
 #### April? 2026: Flow State
+This ultra powerful two mana card advantage spell got instantly incorporated as a playset into UB Midrange, homogenizing the deck as a clear upgrade over already questionable cards like Hymn to Tourach, Baleful Strix and Stock Up.
+UB Tempo with it's already tight decklist, including Nethergoyfs and Mishra's Baubles, had a lot more trouble finding four correct cuts,
+typically cutting both Kaitos and shaving some pair of Nethergoyf, Ponder, Orcish Bowmasters, Daze, Thoughtseize and Brazen Borrower.
+Since then, UB Tempo builds have become more tailored to specific events: 
+A single copy of Kaito has snook back in against fair decks like tempo mirrors and control.
+Some have cut Bowmasters completely in heavy nonblue metas.
 
 #### June? 2026: Fantasticar
 TODO
+
+#### June? 2026: Candelabra Ban
+Compared to the other bans, which were widely requested by the community, the ban of Candelabra of Tawnos signals a much welcomed shift in Wizard's ban philosophy,
+reigning in Tron the recently dominating Tron decks early instead of letting the format suffer for months or even years.
+I rate this as quite a light touch as the key pieces of Planar Nexus and The One Ring are still legal, and except Tron's play and win rate to bounce right back in case Fantasticar gets banned.
+
 
 ### Change Log
 
@@ -3152,7 +3173,14 @@ Esper Vial:
 
 ## How to Improve
 
-<!-- TODO: pyramid: playing, studying, coaching -->
+| Extremely Important | MTGO, play a **LOT**  | 
+| Helpful | Local Events, Pair Playing, Focused Practice, Study Decklists, Group Training Programs, Coaching |
+| Marginal Gains | Watch Gameplay Videos  |
+| Just for Fun | Podcasts |
+| Waste of Time | Twitter and other social media |
+
+### Local Events
+If you are fortunate enough to have local Legacy events like FNMs, those are a great place to have fun and improve!
 
 ### Buy into MTGO and play lots of Leagues!
 As someone without Legacy events in my city, MTGO has been a total game changer for practice volume and matchup variety.
@@ -3169,8 +3197,11 @@ so if you get over the large initial investment and play a competitive deck reas
 However if you are completely new to Magic, play a lot of Leagues and have a very low win rate, you burn through a lot of money, in which case it may be better to play paper with proxies or in the MTGO practice room.
 I initially used the cardhoarder renting service but with 10% interest per month it is extremely costly so I recommend buying the cards as quickly as possibly.
 
-### Local Events
-If you are fortunate enough to have local Legacy events like FNMs, those are a great place to have fun and improve!
+### Focused Practice
+Magic is a complex game with many different skill areas that you can't focus and don't have the time go in depth all at once,
+such as mulliganning, sequencing, clock management, combat math, role assessment or bluffing.
+For a long time I was way too stubborn to mulligan until I sat down and played a League just concentrating really hard on my starting hands and how they probably play out.
+Start with your weakest areas ask for help if you are not sure.
 
 ### Pair Playing
 Inviting a friend over or sharing your screen on a voice call while playing a League is both fun and effective!
@@ -3186,6 +3217,20 @@ How likely are you to find a mana source or a second Force T2?
 ### Study Decklists
 Again, boring, but consulting e.g. <https://www.mtgtop8.com/format?f=LE> while playing a League against a deck helps learning in which matchups you need to play around Wasteland and other cards.
 
+### Coaching
+If you take improving really seriously, play a lot, ask friends, play together, analyze replays, have an open mind and still get stuck,
+you can think about paying for coaching as a last step.
+It's the most time efficient way to get better but also the most money inefficient one, so if you have lots of money and little time then you may also flip the order just get coaching regularly,
+like you would schedule a weekly piano lesson, but as someone with limited funds I use those to send my kids to music school instead and only take coaching if I have a clear problem that I can't solve on my own.
+I took two sessions with ecobaronen who is an amazing coach and found them extremely helpful.
+It can however also uncover problems that you didn't even know you had.
+For example, before the coachings I never even thought about how my play tells a story to the opponent, for example shuffling or not shuffling a Ponder.
+
+### Group Training Programs
+Unlike Soccer, Chess or Maths, there aren't a thousand UB Tempo summer camps you can attend.
+The only training programs I know are the EU and NA Tempo Teams from ecobaronen, leading up to their respective Eternal Weekends.
+Ask on the Discord if you want to know more about it.
+
 ### Watch Gameplay Videos
 It's much less learning per hour than playing yourself, but you can do it while doing chores in the house, in the bathtub, on a train or wherever.
 Most effective is to alternate playing, analyzing and watching other players, so you can pick up tricks and apply them in your own games.
@@ -3197,13 +3242,6 @@ I'm not a big fan of social media and so on, and after the demise of online foru
 However Discord is at least somewhat usable for current discussions (structured long term archival still sucks IMHO) and while I don't know a specific UB Tempo community similar to the Epic Storm or Doomsday Discords,
 the ecobaronen Discord (you need to be a paying Metafy member to get access) has lots of UB Tempo players that you can ask, who are very knowledgeable, up to date and helpful.
 As a free alternative, if you need less of a deep-dive discussion of this deck but have more of a general question, you will probably quickly get an answer on <https://www.reddit.com/r/MTGLegacy/> as well.
-
-### Coaching
-If you take improving really seriously, play a lot, ask friends, play together, analyze replays, have an open mind and still get stuck,
-you can think about paying for coaching as a last step.
-It's the most time efficient way to get better but also the most money inefficient one, so if you have lots of money and little time then you may also flip the order just get coaching regularly,
-like you would schedule a weekly piano lesson, but as someone with limited funds I use those to send my kids to music school instead and only take coaching if I have a clear problem that I can't solve on my own.
-I took two sessions with ecobaronen who is an amazing coach and found them extremely helpful.
 
 ### Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
@@ -3292,6 +3330,12 @@ If you would still like some credentials that I'm not totally clueless and the d
 * [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
 * [11 MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)
 * [7-3-1 (ID) at Eternal Weekend Prague 2024](https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804)
+
+<mtg-todo></mtg-todo>
+In the hands of better players, the deck has won some major events but never the absolute top ones like Eternal Weekend that have been won by Mystic Forge, Red Prison, Oops, Cephalid Breakfast, ... (todo)
+My best guess is that to achieve the extreme win rates to top 8 those events requires a recent innovation and hard to beat cards that get banned afterwards like in the decks above: Vexing Bauble, Undercity Informer(?), Nadu, ...,
+or decks that are very targeted in fighting such decks, such as RUG Delver in 2023(?).
+On a positive note, this seems to keep us out of Wizard's cross hair, limiting us to splash damage and allowing us to master a fun and powerful deck for years, with Tamiyo and Flow State not even being mentioned in Wizard's ban anouncements.
 
 As I am spending a lot of time and money on this guide, my videos and related open source work, while supporting my family as a computer scientist with currently limited funding, and I am strictly against distracting you with advertisements,
 contributions and donations are always very welcome.

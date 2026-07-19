@@ -201,7 +201,7 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
 | **Maverick** | | | |
 | **** | | | |
-| **Elves**         |+2 Edict +2 FoN +boardwipes and Cage if you have them       | -3 Daze -? | Barrowgoyf too easy to stall, OTD can keep Daze instead of FoN |
+| **Elves**         |+2 Edict +2 FoN +board wipes and Cage if you have them       | -3 Daze -? | Barrowgoyf too easy to stall, OTD can keep Daze instead of FoN |
 | **Cascade Crash** | | | |
 | **Initiative Stompy** | | | |
 | **** | | | |
@@ -361,13 +361,13 @@ However decks with tempo elements in those colors have a long history in Legacy 
 
 ...coming back after each ban until Entomb got the axe,
 ...finally balancing Reanimator by forcing it to play more fatties alongside discard outlets, weakening the backup tempo plan.
-As Scam and Rescaminator shared a long timespan being legal together with UB Tempo, the latter survived outside the limelight like the first small mammals during the reign of the Dinosaurs.
+As Scam and Rescaminator shared a long time span being legal together with UB Tempo, the latter survived outside the limelight like the first small mammals during the reign of the Dinosaurs.
 A frequent question during those times was whether UB Tempo had any raison-d'être (todo: spellcheck).
 This I found hard to argue for outside of being able to outplay opponents that gave my Underground Sea enough respect fearing Entomb + Reanimate allowing Tamiyo and other threats to snowball.
 Due to the extreme prevalence of UB Reanimator at the top tables, mainboard Nihil Spellbombs gave us good odds against Reanimator while still being strong enough to beat a lot of lower-tier decks.
 Nowadays, the point of UB Tempo is rarely asked with it being above 5% meta share for a long time.
 While an UB Tempo/Combo hybrid still exists in UB Tempo Doomsday, that deck has sufficient commitments and weaknesses that I don't see it as a strictly better deck most of the time.
-Doomsday is also notoriously difficult to play, especially in paper, while UB Tempo can sometimes win even with a happy-go-lucky no-strategy, just play random cards and hope for the best playstyle, at least in less competitive events.
+Doomsday is also notoriously difficult to play, especially in paper, while UB Tempo can sometimes win even with a happy-go-lucky no-strategy, just play random cards and hope for the best play style, at least in less competitive events.
 This makes it easy to pick up, play a lot and get better along the way as long as you go out of your comfort zone and actively try to get better.
 
 ####  Modern Horizons 3 brings the Ingredients
@@ -380,14 +380,14 @@ Around the same time, Scam players discovered the meta warping addition of Entom
 morphing Scam and Reanimator into the ultra-powerful yet resilient Rescaminator aka UB Reanimator deck that held the format in a multi-year stranglehold.
 
 <mtg-todo></mtg-todo>
-In this coaching session (TODO: add recording or excerpt link or transcript), ecobaronen recommends to stick with the battle tested Delver of Secrets until the following ban anouncement.
+In this coaching session (TODO: add recording or excerpt link or transcript), ecobaronen recommends to stick with the battle tested Delver of Secrets until the following ban announcement.
 
 ####  Grief ban sparks the Inception
 
 While Scam decks had weaknesses to decks like UWx control or lands, they restricted the space of viable decks and frustrated Legacy players, though Wizards did not react yet.
 With the much more powerful and resilient Psychic Frog-powered Rescaminator picking up steam, Wizards finally banned Grief, trying to keep the deck alive but in line.
 While players of those decks regrouped, we finally found the courage to create the archetype we all know and love today by incorporating Tamiyo into a pure UB shell.
-Since it's origin, Nethergoyf has been hotly debated as it is the only semblance of actual Tempo while feeling a bit shizophrenic (todo: spell check) when attacking in multiple disjoint axes,
+Since it's origin, Nethergoyf has been hotly debated as it is the only semblance of actual Tempo while feeling a bit schizophrenic (todo: spell check) when attacking in multiple disjoint axes,
 which can be good when facing control decks but often weaker than just having a single coherent game plan.
 
 ####  Kaito
@@ -416,8 +416,8 @@ Losing
 
 #### 2025? Frog Ban
 <mtg-todo></mtg-todo>
-While the Frog ban was targeted at Rescaminator, we lost our most powerful card as well, but surprisingly, my winrate didn't dip.
-TODO: was at this time tamiyo to 4?
+While the Frog ban was targeted at Rescaminator, we lost our most powerful card as well, but surprisingly, my win rate didn't dip.
+TODO: was at this time Tamiyo to 4?
 TODO: improve writing, add stats, finish
 Here is how I compared UB Tempo to UB Reanimator at the end of 2025, how did my predictions hold up? :-)
 
@@ -438,7 +438,7 @@ Here is how I compared UB Tempo to UB Reanimator at the end of 2025, how did my 
 
 Both UB Tempo and UB Reanimator are competitive decks that can win tournaments at the highest level, so just play the one you have more fun with and are more comfortable!
 As most and especially the most expensive cards are shared among both, no one is stopping you from trying out both of them in casual events like leagues.
-If you have equal fun with both of them, note down the wins and losses with any deck you play and you can choose the one with your personal highest win rate, given a resonable amount of matches.
+If you have equal fun with both of them, note down the wins and losses with any deck you play and you can choose the one with your personal highest win rate, given a reasonable amount of matches.
 After all, what use is it to you if the average player has a higher win rate with UB Reanimator, if you personally perform better with UB Tempo?
 When I did this originally in 2024, I got around 52% win rate with UB Tempo and 42% win rate with UB Reanimator, so for me it was a clear choice.
 Now in 2025 I have ~59% win rate over 362 matches with UB Tempo and ~61% with UB Reanimator but those stats are mostly from leagues and I notice that deck comfort plays a huge role in important and larger events.
@@ -471,11 +471,11 @@ UB Tempo is also favored in games centered around Tamiyo, especially preboard, b
 However the threat of their combo forces you to often delay your creatures in favor of Thoughtseize or Nihil Spellbomb.
 But that specific matchup is discussed in way more detail in the <a href="#ub-reanimator">UB Reanimator</a> matchup section.
 
-Kaito is also very hard to deal with for some decks, especially for threat light control or midrange redless decks like BUG Beanstalk or Bant Control.
+Kaito is also very hard to deal with for some decks, especially for threat light control or midrange red-less decks like BUG Beanstalk or Bant Control.
 Even in the rare occasion that a Rest in Peace hits the battlefield, you can often play on just fine by using that 0/1 Nethergoyf to bring in Kaito.
 
-However UB Tempo can be quite mediocre against a lot of nonblue fair decks that may be played at your local game store or some weeks in leagues like WR Energy or Elves.
-I find it a bit illogical if people play a lot of such anti-tempo decks while all Tempo decks combined are only around 10% of the metagame but if they do that and don't respect the graveyard, feel free to switch it up and bring UB Reanimator to take advantage of that for a while.
+However UB Tempo can be quite mediocre against a lot of non-blue fair decks that may be played at your local game store or some weeks in leagues like WR Energy or Elves.
+I find it a bit illogical if people play a lot of such anti-tempo decks while all Tempo decks combined are only around 10% of the meta game but if they do that and don't respect the graveyard, feel free to switch it up and bring UB Reanimator to take advantage of that for a while.
 
 <mtg-cite name="gus">
 I actually find the matchup with those fair decks to be actually quite good against UB Reanimator if they are constructed appropriately (respecting GY in some capacity maindeck and seriously in the SB),
@@ -499,17 +499,17 @@ Elves, WR Energy and Goblins? Toxic Deluge, Hydroblast and Engineered Explosives
 #### 2025? Urza's Saga Rules Change
 <mtg-cards names="Urza's Saga|Blood Moon|Harbinger of the Seas"></mtg-cards>
 
-While not an explicit ban, the change to Urza's Saga surving Moon effects and indefinitely pumping out constructs all but neutered my beloved pair of Harbingers,
+While not an explicit ban, the change to Urza's Saga surviving Moon effects and indefinitely pumping out constructs all but neutered my beloved pair of Harbingers,
 which already provided not that competitive but fun alternate win conditions,
 such as a lock against Black Saga Storm, shutting off their Saga plan as well as their artifact lands + Moxen mana alongside Null Rod.
-Since that time they went from an always-two-off sideboard to a default of zero copies outside of the inbred lands-heavy metagames.
+Since that time they went from an always-two-off sideboard to a default of zero copies outside of the inbred lands-heavy meta games.
 
 #### 2025-10? Entomb and Nadu ban
 While the UB Reanimator matchup was at least even, this allowed us to relegate the clunky mainboard Nihil Spellbombs to the sideboard, replacing them with Mishra's Baubles.
 This was welcome and necessary to have a chance of keeping pace with a lot of graveyard-independent decks like Tron or WR Energy.
 
-#### 2025? Tezzereth
-Tezzereth allows colorless decks to grab Portable Hole, making Null Rod much weaker.
+#### 2025? Tezzeret
+Tezzeret allows colorless decks to grab Portable Hole, making Null Rod much weaker.
 Since then I went from 2 sideboard slots to mostly 0 (online) to sometimes 1 (paper).
 
 
@@ -530,7 +530,7 @@ Add Flow State.
 
 #### 2025-11-19
 Finally updating the guide after the recent bannings of Entomb and Nadu.
-Postban MTGO League match results have been:
+Post ban MTGO League match results have been:
 
 * 20-5 with UB Tempo (one 3-2, three 4-1, [one 5-0](https://www.mtggoldfish.com/deck/7458083))
 * 5-5 with UBg Tempo
@@ -552,9 +552,9 @@ While this is a small sample size, my preliminary conclusions are:
 ## Deck Building
 
 ### Variations and similar decks
-I [kirdie] used to almost always play the stock Nethergoyf variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
+I [Kirdie] used to almost always play the stock Nethergoyf variant because it is so well-balanced with the stable mana base and the pressure against linear decks and to finish in time.
 In early 2026 I have been enjoying 2 Hymn to Tourach and 2 Baleful Strix over Nethergoyfs.
-I have rarely been successful with splashing other colors but feel free to explore different variations especially in a known and very specific local metagame.
+I have rarely been successful with splashing other colors but feel free to explore different variations especially in a known and very specific local meta game.
 
 #### Going Bigger
 <mtg-cards names="Murktide Regent|Barrowgoyf|Hymn to Tourach|Baleful Strix|Stock Up"></mtg-cards>
@@ -595,7 +595,7 @@ However this has performed way worse in [my testing](#updates) so I would recomm
 Anecdotally, a recent match vs Mono Red Prison illustrated the highs and lows of this deck very well:
 
 In one game, the opponent played Urza's Saga and Chalice of the Void on 1.
-I used Witherbloom Command to kill Chalice, recurr Wasteland, fill my graveyard and on the next turn Wasteland the Saga and play a large Murktide Regent.
+I used Witherbloom Command to kill Chalice, recur Wasteland, fill my graveyard and on the next turn Wasteland the Saga and play a large Murktide Regent.
 The game was won shortly afterwards and no other card would have done what Witherbloom Command enabled there.
 
 However the next game I was unable to fetch basic Island as the list doesn't include one and just died to Magus of the Moon with little pressure behind it.
@@ -618,7 +618,7 @@ This is especially important against 8 Moon, also known as Dragon Stompy.
 I personally value style and like old border so I play two Flooded Strand and two Bloodstained Mire but there may be some really fringe benefits of splitting them up against Pithing Needle or representing another deck.
 And of course you play four Wastelands, especially now that Harbingers don't kill Sagas anymore.
 The only possible adaptation is if you have a bigger build, for example with Dauthi Voidwalkers instead of Nethergoyfs, you can add a second Undercity Sewers as a 20th land and go down to two Daze.
-The second Sewers also makes you look like Reanimator and if you dont play Goyf, high-level opponents may sideboard incorrectly.
+The second Sewers also makes you look like Reanimator and if you don't play Goyf, high-level opponents may sideboard incorrectly.
 
 ### Tempo Core
 
@@ -635,7 +635,7 @@ Don't forget to play around Orcish Bowmasters.
 
 There is the traditional core of Nethergoyf, and Tamiyo and Orcish Bowmasters.
 After the Entomb and Nadu ban, the threat suite has seen a major increase in variations.
-Moonshadow and Nethergoyf builds are even more aggressive while on the other end variants without any non-Tamiyo one drops are shedding most of the Tempo elements in favor of an even strong midrange gameplan.
+Moonshadow and Nethergoyf builds are even more aggressive while on the other end variants without any non-Tamiyo one drops are shedding most of the Tempo elements in favor of an even strong midrange game plan.
 You almost always play one or two Brazen Borrower just as a catch-all answer to stuff like Ensnaring Bridge or Chalice of the Void.
 And the name of the game of this deck is consistency so this fits really well, as you want to have an out to a lot of things.
 
@@ -655,28 +655,28 @@ Don't forget the escape ability, as long as you don't have a Grafdigger's Cage i
 
 #### Moonshadow
 <mtg-card name="Moonshadow"></mtg-card>
-When this card was released, I was very sceptical as most new threats go through a hype phase and end up being worse than existing ones and get slowly phased out.
-Remember Stalactite Stalker, Mercurial Spelldancer, Katara, Waterbending Master, Abhorent Oculus and Wan Shi Tong, Librarian?
+When this card was released, I was very skeptical as most new threats go through a hype phase and end up being worse than existing ones and get slowly phased out.
+Remember Stalactite Stalker, Mercurial Spelldancer, Katara, Waterbending Master, Abhorrent Oculus and Wan Shi Tong, Librarian?
 When I bought some of those in the past, I was down a chunk of money and space as they rot in my Legacy binder.
 I also couldn't imagine this card being better than Nethergoyf as it has so many safeguards built in but I didn't expect it being played together with Nethergoyf in completely new aggressive builds.
 The "Whenever one or more permanent cards are put into your graveyard from anywhere" clause also triggers more often than I expected, e.g. from opposing discard spells.
-Sometimes it's also played as a replacement of Nethergoyf and not alongside it, which makes the strategy not that streamlined but even those variations have given me a lot of trouble as it can often kill my favourite clunky builds before I can stabilize with Barrowgoyf.
+Sometimes it's also played as a replacement of Nethergoyf and not alongside it, which makes the strategy not that streamlined but even those variations have given me a lot of trouble as it can often kill my favorite clunky builds before I can stabilize with Barrowgoyf.
 Especially when combined with Super Shredder, both threats having Menace means that it's hard to block with Barrowgoyf and Baleful Strix and even if I get a hit in with Barrowgoyf, the typical 4 life are often not enough to get me out of lethal range.
-But that's what happens in the midrange wars: slightly bigger decks are favoured over smaller ones but go too big and you get outraced by the small ones.
+But that's what happens in the midrange wars: slightly bigger decks are favored over smaller ones but go too big and you get outraced by the small ones.
 
 <mtg-cards names="Path of Peril"></mtg-cards>
 I'm still not playing Moonshadow right now as I am more comfortable with the midrangy builds but to combat it and similar aggressive decks I'm currently testing one or two Path of Peril as suggested by ecobaronen instead of Toxic Deluge to stabilize without losing too much life.
 
-Anyways, below is my original assessment of Moonshadow:
+Anyway, below is my original assessment of Moonshadow:
 As a creature for one black mana it would need to be better than Nethergoyf on average which I don't think it is but let's compare it in detail.
 
 ##### Advantages over Nethergoyf
 
-* Menace is huge. Often you are the beatdown with UB Tempo and Nethergoyf is easily blocked by creatures like Murktide, Barrowgoyf, Orc Army Token, Baleful Strix, opponents Nethergoyf, Eldrazi Spawn (e.G. from Rumble). Also very relevant if you try to prevent an early Tamiyo ultimate on the draw, which frequently happens if you board out Forces and somes Dazes and you can also keep other planeswalkers like Kaito down.
+* Menace is huge. Often you are the beatdown with UB Tempo and Nethergoyf is easily blocked by creatures like Murktide, Barrowgoyf, Orc Army Token, Baleful Strix, opponents Nethergoyf, Eldrazi Spawn (e.G. from Rumble). Also very relevant if you try to prevent an early Tamiyo ultimate on the draw, which frequently happens if you board out Forces and some Dazes and you can also keep other planeswalkers like Kaito down.
 * Stays large even if your graveyard gets exiled by Delve, Bojuka Bog, Kozilek's Command, Ghost Vacuum, Nihil Spellbomb, Lion Sash, ... This is often relevant vs Mystic Forge when you try to finish them off with multiple Nethergoyfs and they get Tormod's Crypt.
 * Can grow through trigger-based permanent graveyard hate like Planar Void (is there any relevant currently played card like this?).
 * Not limited by card type, e.g. the second fetchland grows this but not Nethergoyf.
-* At least a 1/1 so e.g. you can still trigger surveil draw off a Kaito that is already in play against Rest in Peace when they have a big singular blocker (ok that is a bit far fetched...).
+* At least a 1/1 so e.g. you can still trigger surveil draw off a Kaito that is already in play against Rest in Peace when they have a big singular blocker (OK that is a bit far fetched...).
 
 ##### Similarities with Nethergoyf
 
@@ -686,7 +686,7 @@ As a creature for one black mana it would need to be better than Nethergoyf on a
 * Like Nethergoyf, can be grown with a surveil land.
 * Like Nethergoyf, can be grown with Kaito +0 and Barrowgoyf but only as +1 at maximum because of the "one or more" wording. On the other hand it grows even if the type is already in the graveyard.
 * Like Nethergoyf, it does not grow when sacrificing clue tokens (because of the wording "permanent card").
-* Unlike Nethergoyf it ignores your own Murktide which can be good (does not get shrinked by Delve) or bad (cannot boost Murktide with Escape).
+* Unlike Nethergoyf it ignores your own Murktide which can be good (does not get shrunk by Delve) or bad (cannot boost Murktide with Escape).
 * it enables Kaito more easily but when you replay it it starts back at 1/1.
 
 ##### Disadvantages over Nethergoyf
@@ -755,7 +755,7 @@ It's important to set a stop in combat because if you play with stops there, you
 Important to consider stun and tick up timing:
 If you stun something first you are at 2 loyalty, they lose one stun counter, now if you draw with Kaito you will need to tick up on the next turn in order to stun again if you haven't found an answer.
 The board state will determine the right move but important to consider.
-Remember you can ninjutsu your Kaito with another Kaito.
+Remember you can Ninjutsu your Kaito with another Kaito.
 Some play without Kaito as they feel it's a win-more card but I'm personally still a big fan.
 
 ### Flex Slots
@@ -764,7 +764,7 @@ Some play without Kaito as they feel it's a win-more card but I'm personally sti
 #### Nihil Spellbomb
 
 Great T1 nonsense protection that widely saw 2-3 mainboard copies pre Entomb-ban but currently down to 0.6 mainboard copies on average.
-Doesn't stop LED -> Echo but stops 2 LED -> 2 Echos together with a Force.
+Doesn't stop LED -> Echo but stops 2 LED -> 2 Echo's together with a Force.
 Prevents Murktide, shrinks DRC to block it or kill it with Bowmasters.
 
 Besides the obvious applications it also grows your own Murktide Regent.
@@ -783,7 +783,7 @@ the mirror (whoever has the artifact in the yard often has the Nethergoyf advant
 However against strictly UB and UR Tempo, Nihil Spellbomb is often stronger.
 
 G1 on the play against an unknown opponent is often difficult because we have so many possible T1 plays, so using Bauble on the opponent can be very helpful to restrict their deck range.
-For example, the best start with following hand is hugely dependant on the opponent's deck:
+For example, the best start with following hand is hugely dependent on the opponent's deck:
 <mtg-cards names="Polluted Delta|Mishra's Bauble|Nihil Spellbomb|Thoughtseize|Ponder|Tamiyo, Inquisitive Student|Daze"></mtg-cards>
 Depending on what we see with Mishra's Bauble, any of the following plays could make sense:
 
@@ -793,7 +793,7 @@ Depending on what we see with Mishra's Bauble, any of the following plays could 
 * Leyline Binding indicating 4+ color Up The Beanstalk control: Low probability of Wasteland, fetch Underground Sea and play Tamiyo.
 * Magus of the Moon: This one is difficult as we can't Thoughtseize with basic Island. Underground Sea + Thoughtseize (grab a potential Chalice) or basic island + Ponder looking for Force/Daze?
 
-Make sure to practise with Bauble in paper if you haven't done so recently as forgetting the delayed trigger for the card draw can easily lose you the game.
+Make sure to practice with Bauble in paper if you haven't done so recently as forgetting the delayed trigger for the card draw can easily lose you the game.
 I personally have a blank Magic card (from the old championship decks) in a red sleeve to symbolize the trigger but you can also put a die on your library or use some other method.
 Maybe Kai Sawatari can paint a trigger card in the future? :-)
 
@@ -822,10 +822,10 @@ Very polarizing card.
 It does not meaningfully pressure the opponent and thus does very little across a wide range of matchups.
 It is also extremely bad against Orcish Bowmasters.
 
-However it interacts very favourably on the defensive against threats like Murktide Regent and Barrowgoyf.
+However it interacts very favorably on the defensive against threats like Murktide Regent and Barrowgoyf.
 Interestingly, the power of Barrowgoyf has had hybrid decks like Tempo Doomsday go down on Bowmasters (rock) in favor of just Barrowgoyf + Murktide (paper) as plan B;
 If the meta shifts a bit with more grindy decks to punish Tempo, leading to hybrid decks getting played more, then I could see Strix (scissors) being not that bad because it is a low opportunity cost creature juke insurance that pitches to Force and replaces itself.
-Update in March '26: With Tempo Doomsday going down to 0.8 Bowmasters on average and adopting Wasteland, I have been playing 2-3 Strixen for a while now as they pitch to force and provide juke ensurance.
+Update in March '26: With Tempo Doomsday going down to 0.8 Bowmasters on average and adopting Wasteland, I have been playing 2-3 Strixen for a while now as they pitch to force and provide juke insurance.
 This weakness to hybrid combo has long been a thorn in my side and I will gladly adopt Baleful Strix to help patch this hole in this decks game plan.
 
 <mtg-cite name="Ecobaronen">
@@ -1088,10 +1088,10 @@ Feed the Cycle has the flexibility of Sheoldred's Edict without suffering from t
 However its graveyard dependency competes with Nethergoyf and Murktide Regent, thus I would only consider it in a list with Barrowgoyf main instead of Murktide.
 
 <mtg-cards names="Snuff Out"></mtg-cards>
-Free spells are great in a tempo deck but the lifeloss of this and Thoughtseize can hurt against red tempo and the inability to target black creatures can be problematic in the mirror (though Fatal Push covers those).
+Free spells are great in a tempo deck but the life loss of this and Thoughtseize can hurt against red tempo and the inability to target black creatures can be problematic in the mirror (though Fatal Push covers those).
 I would only consider it in more aggressive versions with Delver of Secrets instead of Tamiyo.
 UB Delver is not my style but if it's yours please contribute to this guide.
-In case Tamyio ever becomes banned I may have to cover this topic in more detail.
+In case Tamiyo ever becomes banned I may have to cover this topic in more detail.
 
 <mtg-cards names="Molten Collapse"></mtg-cards>
 A big benefit of splashing another color is much better removal.
@@ -1101,8 +1101,8 @@ but with descended can remove otherwise hard to deal with permanents like a flip
 <mtg-cards names="Witherbloom Command"></mtg-cards>
 Doesn't hit many creatures other than Orcish Bowmasters but very flexible in non-creature permanent removal and is a two-for-one way more often as the land recursion mode is almost always relevant.
 The life drain and graveyard support is nice to have as well.
-In addition to the ones listed for Molten Collapse, it hits 2 CMC noncreature nonland permanents as well.
-While there aren't that many of those with a large current metashare, relevant targets include Cori-Steel Cutter, Grim Monolith, Ajani, Nacatl Pariah, Animate Dead and Up the Beanstalk.
+In addition to the ones listed for Molten Collapse, it hits 2 CMC non-creature non-land permanents as well.
+While there aren't that many of those with a large current meta share, relevant targets include Cori-Steel Cutter, Grim Monolith, Ajani, Nacatl Pariah, Animate Dead and Up the Beanstalk.
 
 <mtg-cards names="Assassin's Trophy"></mtg-cards>
 Gifting your opponents a basic lands is at odds with the Daze-Wasteland angle but it's extremely flexible as it can hit nonlands as well and many decks with 1-2 basic lands will fetch for those against you, sometimes negating the downside.
@@ -1110,7 +1110,7 @@ Gifting your opponents a basic lands is at odds with the Daze-Wasteland angle bu
 ### Graveyard Hate
 <mtg-cards names="Grafdigger's Cage|Nihil Spellbomb|Faerie Macabre|Ghost Vacuum|Unlicensed Hearse"></mtg-cards>
 
-|                     | T | stops Oops completely | side benefits and comments  | counterplay                                     | best against |
+|                     | T | stops Oops completely | side benefits and comments  | counter play                                     | best against |
 |---------------------|------|-----------------------|-----------------------------|-------------------------------------------------|--------------|
 | Leyline of the Void | 0    | yes                   | Great vs Dredge but rarely played in Tempo because we can't realistically cantrip into it| enchantment removal, bounce      | Dredge, Oops |
 | Faerie Macabre      | 0    | no                    | Can be found with Barrowgoyf, combat trick for Nethergoyf, the only card that does not care about Teferi. Great when the top graveyard decks are also playing countermagic. Also can't be hit by Pact of Negation from Oops. | discard, Stifle                | UB Reanimator, Cephalid Breakfast, Oops |
@@ -1149,10 +1149,10 @@ When Pyroblast was popular I tried Court of Locthwain and Ravenloft Adventurer f
 <mtg-todo></mtg-todo>
 
 Bluffing is an advanced tactic that you should only focus on once the basics are mastered, which is one of the reasons why I prefer [mastering a single deck over "meta slaving"](#deck-specialist-vs-meta-slave).
-Its also helpful to know your opponent's decklist, gameplan and tendencies.
+Its also helpful to know your opponent's decklist, game plan and tendencies.
 
 A successful bluff has at least three components:
-(1) The apparent positive reward (the "juiciness") and information deficit from the opponent's POV in choosing the play that you want them to or the other way around the apparent danger for them in not chosing it,
+(1) The apparent positive reward (the "juiciness") and information deficit from the opponent's POV in choosing the play that you want them to or the other way around the apparent danger for them in not choosing it,
 otherwise they won't fall for it.
 (2) Your benefit in them making the play, otherwise there is no point even if they fall for it.
 (3) Your plays telling a story consistent with the bluff, otherwise they will recognize it.
@@ -1165,7 +1165,7 @@ TODO: hide answer in HTML (details tag?) while presenting it in printing mode (u
 #### Daze
 Representing a Daze (or Force) you don't have is probably first on your mind, but mostly cost-free and thus more off a "good play" unless on MTGO where you pay a cost in your timer,
 forcing you to sacrifice "bluff equity" by "F6ing" (yielding through a turn) when you are low on the clock.
-Similarily, you can also signal you don't have interaction by F6ing if you know you won't be Dazing anyways, for example in a Tempo mirror if they can only play a single mana threat that you have covered anyways.
+Similarly, you can also signal you don't have interaction by F6ing if you know you won't be Dazing anyway, for example in a Tempo mirror if they can only play a single mana threat that you have covered anyway.
 Experts like ecobaronen may also shuffle away a critical Daze revealed by an earlier Thoughtseize under the assumption that the opponent will still respect it,
 or take a two drop with Thoughtseize hoping that the opponent will be too scared to cast their three drop into your assumed Daze, but the consequences of such a bluff backfiring are too high for my personal taste.
 
@@ -1180,7 +1180,7 @@ If they use Swords to Plowshares on the token, you can slam Barrowgoyf in your s
 As noted above, this is not yet a bluff because there is never a reason to play Barrowgoyf in the first main, whether you have Kaito or not and you don't invest anything in it, making it "just the correct play" all of the time.
 You could sell it (component 3) a little bit in paper by going through the phases very meticulously, asking the opponent repeatedly like "are we in the block step?", "no response, are you sure?" or "move to blocks, any response?" so that the possibility of Kaito gets more real in their head,
 however I would establish clear communication about specific combat phases even if I actually had Kaito in hand as well, because the aim of Magic is not to "gotcha" your opponents on technicalities.
-On MTGO however I often tap two or three lands in the attack step, immediately undoing it to signal "oopsie, I'm a newbie and thought ninjutsu works in the attack step" which did the trick once.
+On MTGO however I often tap two or three lands in the attack step, immediately undoing it to signal "oopsie, I'm a newbie and thought Ninjutsu works in the attack step" which did the trick once.
 The opponent even asked me about it after the game and couldn't believe I didn't have it at that time.
 
 If we modify this scenario slightly by replacing the third Underground Sea with a fetch land, we can make it a "real" bluff by fetching in the block step;
@@ -1188,12 +1188,12 @@ We pay a slight cost (one less life earlier, one less shuffle effect and revolt 
 
 If you are like me inexperienced and uncomfortable with the idea of bluffing, body language, tells and so on,
 you can also just view it as limiting the opponent's information and forcing them to account for eventualities that they otherwise wouldn't have to.
-You pay a slight ingame cost to make the game very difficult for the opponent, thus buying a large increase in percentage points of the opponent making the wrong play given their information.
+You pay a slight in game cost to make the game very difficult for the opponent, thus buying a large increase in percentage points of the opponent making the wrong play given their information.
 Of course they may also just have a land in hand, buying the signal of Swords to Plowshares at the cost of a land drop.
 
 #### No Land Drop into Daze
 At a recent paper tournament vs UR Tempo, I had a perfect opening on the play G1 including Tamiyo, two lands, two Brainstorms and a Daze.
-While that hand after the T1 Tamiyo would probably have won anyways, I cemented the win as early as T2 by casting the first Brainstorm before the second land drop second main after attacking.
+While that hand after the T1 Tamiyo would probably have won anyway, I cemented the win as early as T2 by casting the first Brainstorm before the second land drop second main after attacking.
 This bluff scores very high on category 1 as it represents both a high reward (Tamiyo flip) and a critical weakness (cantripping to find the second land).
 If they fall for it and Daze the first Brainstorm, they are two lands behind and almost surely dead to the Tamiyo flip + clue crack + Daze (category 2).
 Not playing the land tells the story consistent with the bluff (category 3) and it worked exactly as planned, leading to a quick ultimate few turns later.
@@ -1204,10 +1204,10 @@ assuming the matchup is not about edge cases like Stifle, Surgical or Pithing Ne
 For example if we have an Underground Sea, a Polluted Delta and a Tamiyo in our opener, it does not make sense to play Polluted Delta, fetch Underground Sea and play Tamiyo.
 If we start with Underground Sea into Tamiyo instead (assuming we don't want to go for basics), we leave the much more flexible Polluted Delta in hand,
 which can shuffle after a brainstorm, enable revolt and fetch basic Swamp or Island as well.
-Similarily, if our starting hand contains Marsh Flats and Polluted Delta, using the Marsh Flats first preserves the option to fetch any of our basics later, while Marsh Flats can only give us a swamp.
+Similarly, if our starting hand contains Marsh Flats and Polluted Delta, using the Marsh Flats first preserves the option to fetch any of our basics later, while Marsh Flats can only give us a swamp.
 Following all this, an on the play T1 Polluted Delta into Underground Sea + Tamiyo signals that we do not have Underground Sea and any different fetch land in our hand, which makes a risky on the draw Wasteland more attractive for our opponent.
 If our hand is land heavy and we want to get wastelanded, making the "wrong" land drop can be an option with few downsides.
-If our hand contains a Polluted Delta, a basic Island or Swamp and the opposite offcolor fetch, the offcolor fetch is nearly equivalent to the Polluted Delta, making it less of a bluff and more of a "always do this good play" situation (playing the basic first is of course also an option).
+If our hand contains a Polluted Delta, a basic Island or Swamp and the opposite off color fetch, the off color fetch is nearly equivalent to the Polluted Delta, making it less of a bluff and more of a "always do this good play" situation (playing the basic first is of course also an option).
 
 #### Unused Land Drop
 
@@ -1219,7 +1219,7 @@ See the [Cephalid Breakfast matchup section](#the-ponder-no-shuffle-bluff).
 #### 
 #### Murktide
 
-TODO: fetch first main to pretend murk against nihil
+TODO: fetch first main to pretend murk against Nihil
 <mtg-todo></mtg-todo>
 
 
@@ -1229,13 +1229,13 @@ TODO: fetch first main to pretend murk against nihil
 
 
 ### Inducing Moves
-Inducing moves are a high level Go (boardgame) concept for situations in which negative consequences don't stack,
-which makes a normally slightly negatively valued forcing play slightly positive by offsetting the penality.
+Inducing moves are a high level Go (board game) concept for situations in which negative consequences don't stack,
+which makes a normally slightly negatively valued forcing play slightly positive by offsetting the penalty.
 To give a real life example for non-Go-players: You wouldn't normally let your children draw all over the walls, because then you would need to repaint them.
-However if want to repaint them tomorrow anyways you can let them loose: repainting a wall that's already dirty won't be much harder if there are a few drawings on them.
-Transfering this concept to UB Tempo could look like this:
-* If you need to Fatal Push the opponent's large Orc Army anyways and it doesn't endager your creatures or planeswalkers, you might as well cast your cantrips beforehand and only take the 1 to 3 face damage.
-* Similarily, if an Orc Army chump blocks your Nether- or Barrowgoyf, that can be a great time to crack a clue as well.
+However if want to repaint them tomorrow anyway you can let them loose: repainting a wall that's already dirty won't be much harder if there are a few drawings on them.
+Transferring this concept to UB Tempo could look like this:
+* If you need to Fatal Push the opponent's large Orc Army anyway and it doesn't endanger your creatures or planeswalkers, you might as well cast your cantrips beforehand and only take the 1 to 3 face damage.
+* Similarly, if an Orc Army chump blocks your Nether- or Barrowgoyf, that can be a great time to crack a clue as well.
 * Getting Wastelanded on your Wasteland with no duals for the opponent? Might as well waste their fetch in response, limiting later options.
 
 ### Bauble trigger
@@ -1275,7 +1275,7 @@ It hinders your ability to double spell and makes Wasteland much better late in 
 Basics are a trap in this deck but a necessary evil due to Blood Moon.
 If you play Harbinger, then you have to consider the Swamp at some point.
 This is thinking that deserves nuance but I think more often than not we are hurting ourselves with fetching basics.
-Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and ninjitsu Kaitos and cast Barrowgoyfs.
+Wasteland is often more important as a mana source for clues than to pick off an opponent's land, we want to draw clues and Ninjutsu Kaitos and cast Barrowgoyfs.
 Wastelanding can open ourselves up to Daze, wastelanding can seriously harm our progression.
 I need to smell blood or have good information to blindly wasteland the opponent.
 </mtg-cite>
@@ -1361,7 +1361,7 @@ If you stop having fun or get overly frustrated over losses or the state of the 
 You aren't a machine, it's OK to get emotional, just not to take out your frustrations on others.
 To give a personal example, after getting frustrated by a long streak on missing top 8 in paper events despite extensive training and preparations, while others seemingly always make it easily,
 I have taken a rare step back from Magic in June and July 2026, missing out most of the Fantasticar meta (which is why the car isn't mentioned much in the guide),
-instead enjoying bike rides and now we are on summer holidays anyways with mostly no internet.
+instead enjoying bike rides and now we are on summer holidays anyway with mostly no internet.
 Right now I'm lying in a hammock in the forest next to my in-law's garden house after making pancakes for 11 people,
 listening to the birds and the breeze going through the trees with my laptop, writing on this guide.
 Slowly the passion is coming back and I'm already looking forward to playing again end of July.
@@ -1374,7 +1374,7 @@ My transformative experience was trying to switch from UB Tempo to "DDFT" (Dooms
 where I felt it was a strong contender due the deck having a great synergy between a very strong quick combo and a grindy fair game plan.
 I got around 60% win rate with the deck in the comfort of my home in leagues where I could look up my opponents and take my sweet time to build a pile,
 but I got crushed 0-4 in the Eternal Weekend EU 2024 side event after which I frantically tried to assemble an UB Tempo list that night and the next morning.
-Thanks to friends I got the deck together minutes before the main event and even survived a deck check but couldn't find Shoot the Sherrif, 
+Thanks to friends I got the deck together minutes before the main event and even survived a deck check but couldn't find Shoot the Sheriff, 
 causing me to lose to a Masticore from Mystic Forge with a Go for the Throat in hand, but thankfully the Null Rods carried this and the other Forge matchups.
 I achieved a personal record large event result of <a href="https://mtgdecks.net/Legacy/dimir-tempo-decklist-by-konrad-hoeffner-2298804">7-3-1 (ID)</a> due to being so experienced and comfortable with the deck to carry me through a wide variety of stressful situations.
 Now I always play UB Tempo at a competitive event and just have to decide about variation (with or without Nethergoyf) and a few flex slots, which conserves a lot of mental energy and lets me rely on experience from more than 1000 matches.
@@ -1395,13 +1395,13 @@ This is also a great selling point for the deck as contrary to some linear decks
 Complex carbohydrates (dark bread, oatmeal) are great as they burn slowly and fuel your brain for many hours.
 Even if you are used to interval fasting like the common 16 hours fasting / 8 hours eating 12 to 8 p.m. schedule, I strongly recommend making an exception for paper tournaments.
 A fasted light physical workout can be fine, as it suppresses hunger and stimulates your muscles to burn fat.
-On sedentary nonstop stressful mental activity on the other hand, your brain burns through a lot of glucose; fasting risks your blood sugar running low, leading to dizzness, jitters and sudden hunger spikes.
+On sedentary nonstop stressful mental activity on the other hand, your brain burns through a lot of glucose; fasting risks your blood sugar running low, leading to dizziness, jitters and sudden hunger spikes.
 In that case, eat a mix of simple and complex carbs as soon as possible but better not let that happen in the first place.
 You don't have to eat the moment you wake up but I would advise eating at least shortly before the tournament.
 
 Avoid fatty foods (nuts, bacon...), as they slow down digestion and make you tired, especially if you achieve a lunch break and eat a big meal.
 During the tournament you can add a bit of simple carbs like bananas or mashed fruits.
-Keep a water bottle at the side of your backpack and drink regularily but not so much that you need bathroom breaks during the matches.
+Keep a water bottle at the side of your backpack and drink regularly but not so much that you need bathroom breaks during the matches.
 Coffee is fine if you are used to it but I would drink it closer to the tournament instead of first thing in the morning.
 
 After the tournament is a great time for a full meal with lots of protein, fiber, some fats and so on, so you don't get home with a big calorie deficit at night,
@@ -1409,7 +1409,7 @@ causing you to eat half the kitchen and making you unable to sleep.
 Unfortunately there is often mostly fast food available near a tournament venue so it can pay off to look for a place in advance.
 
 ### Sleep
-I envy you if you can sleep in the car or train, but otherwise it's very important to go to bed early to get ideally 8 hours but at least 7 hours of sleep the two nights before the tournament (unless you are a teenager, then you can probably sleep 5 hours, eat at McDonalds and be fine).
+I envy you if you can sleep in the car or train, but otherwise it's very important to go to bed early to get ideally 8 hours but at least 7 hours of sleep the two nights before the tournament (unless you are a teenager, then you can probably sleep 5 hours, eat at McDonald's and be fine).
 Putting the phone in silent mode and putting it away can help but I once turned it off completely which disabled my alarm, causing me miss the event entirely.
 
 ### Prepare Early
@@ -1425,7 +1425,7 @@ What I found helpful is moving more the day before and also slipping in a little
 
 ### Overview
 The deck is generally good against linear combo and red-based tempo decks but struggles against bigger fair decks.
-Some weaknesses can be adressed with sideboarding but not all at the same time.
+Some weaknesses can be addressed with sideboarding but not all at the same time.
 
 #### Good Matchups
 <mtg-cards names="Questing Druid // Seek the Beast|Sneak Attack|Balustrade Spy|Necrodominance|High Tide|Glistener Elf|Crashing Footfalls|Doomsday"></mtg-cards>
@@ -1561,7 +1561,7 @@ Taking away Delirium can also be useful to save your creatures from Unholy Heat.
 ### UR Cutter
 <mtg-cards names="Cori-Steel Cutter|Mishra's Bauble"></mtg-cards>
 
-A matchup that is favoured according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
+A matchup that is favored according to other tempo players but I struggle with a lot, as Cori-Steel Cutter can quickly take over a game and Murktide Regent can also be difficult to answer for us, while they have Pyroblast for our Murktides.
 Stopping the Cutter is a priority because it snowballs out of control quickly and if they get a second one they often one-shot you even from close to 20 life.
 Beware of their combat tricks as they can get lots of prowess triggers and even give Murktide Regent haste by equipping the Cutter.
 Engineered Explosives may be necessary to survive long enough to stabilize with a Barrowgoyf.
@@ -1580,7 +1580,7 @@ With the Eternal Weekend 25 stock list I would board like this on the play:
 Out (10): 4 FoW, 3 Thoughtseize, 3 Daze
 In (10): 2 Barrowgoyf, 2 Edict, 1 Mystical Dispute, 1 EE, 1 Nihil Spellbomb, 2 Hydroblast, 1 Bowmaster
 
-With this strategy you have a strong lategame with great topdecks but you need to play tight and hit your land drops to not die early.
+With this strategy you have a strong late game with great top decks but you need to play tight and hit your land drops to not die early.
 Mulliganning hands with only one colored mana source with no cantrip may be necessary as you don't have free countermagic to bridge you over.
 On the draw, bring out 1-2 Kaito and keep 1-2 Fow/Thoughtseize/Daze in, I'm not sure which ones, to not get overrun early.
 
@@ -1596,7 +1596,7 @@ There are other good flicker targets like Tamiyo, Teferi and your Murktide but i
 
 Post sideboard they sometimes have Rest in Peace which wasn't great vs Tempo in the past but since Flow State largely replaced Kaito can put us almost out of win conditions, so if you see that G2 it may make sense to board out the Nethergoyfs, although you don't usually have many good other cards to bring in.
 If the other decks ever catch on and try to punish our increased graveyard reliance, it may make sense play at least one copy of Kaito again.
-They can also bring in one or two copies of Wrath of the Skies but don't overrespect that because intentionally limiting your board presence can give them too much of a comeback potential and Quantum Riddler makes their lategame extremly strong, undoing your earlier Thoughtseizing, so getting them low with Nethergoyf beats and finishing them off with Bowmasters is a better strategy than just controlling their hand and keeping the game even.
+They can also bring in one or two copies of Wrath of the Skies but don't overrespect that because intentionally limiting your board presence can give them too much of a comeback potential and Quantum Riddler makes their late game extremely strong, undoing your earlier Thoughtseizing, so getting them low with Nethergoyf beats and finishing them off with Bowmasters is a better strategy than just controlling their hand and keeping the game even.
 However if you know or suspect a removal heavy hand, playing creatures into their removal is also not helpful, in which case just chaining Flow States first can be a great way to win the resource battle.
 If you have Nihil Spellbomb available and they have graveyard synergies like Murktide Regent or Snapcaster Mage I would also bring it in.
 
@@ -1607,7 +1607,7 @@ If you have Nihil Spellbomb available and they have graveyard synergies like Mur
 
 Tempo/Control hybrid like us, but with higher ceiling (12/12 Dreadnought vs Nethergoyf), lower ceiling (Torpor Orb vs Nethergoyf), better removal and mana denial (often Stifle, sometimes Back to Basics).
 The deck has a low play rate and lots of variation (sometimes mono blue, sometimes Ancient Tomb + Stock Up, sometimes splash red for Pyroblast) so adapt to what you see, for example they may have Murktide Regent, Abhorrent Oculus or Curie, Emergent Intelligence.
-Our primary gameplan is to establish our mana against Stifle + Wasteland + potentially Back to Basics, prevent them from assembling one of their many A+B synergies, destroy Urza's Saga and establish a card advantage engine such as Tamiyo, Flow State or Kaito if you still play it.
+Our primary game plan is to establish our mana against Stifle + Wasteland + potentially Back to Basics, prevent them from assembling one of their many A+B synergies, destroy Urza's Saga and establish a card advantage engine such as Tamiyo, Flow State or Kaito if you still play it.
 They have a lot of counterplay to Tamiyo in both forms with Swords, Prismatic Ending/Erode, Dress Down, Stifle, Karakas and sometimes postboard Pyroblast so it's important to play around those if you can and often better to cash in card advantage early rather then going for an all-in ultimate.
 Beating them down with just Nethergoyf, Murktide or Barrowgoyf alongside Daze and Wasteland can also work but is unreliable against all their cheap removal and basic lands.
 We are well equipped to deal with the Dreadnoughts with Fatal Push, Snuff Out, Brazen, Kaito tap, postboard Consign and basically any removal that isn't Go for the Throat.
@@ -1637,7 +1637,7 @@ Very skill testing but good matchup for us even though we don't run Nihil Spellb
 They may have a sideboard juke to trim on the combo and board in more creatures like Barrowgoyf, Orcish Bowmasters, Dauthi Voidwalkers, Fatal Push and more copies of Brazen Borrower and Bitter Triumph.
 However then they are just a worse tempo deck than you are so it’s probably best for them to not juke, unless they expect you to over-prepare for the reanimation plan.
 
-Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyways.
+Before the Grief ban, graveyard hate from hand was bad due to Grief but I often get my Grafdigger’s Cage bounced by Brazen Borrower or killed by Engineered Explosives and lose anyway.
 Since the Grief ban your hand is a bit safer so cards like Surgical Extraction and maybe even Faerie Macabre should be better now.
 
 <mtg-cite name="Minyafriend (written before the Entomb ban)">
@@ -1685,7 +1685,7 @@ I used to board out 4 Wasteland but you need the mana against Daze and to crack 
 
 Alternative 1: INF likes to shave two Nethergoyf on the draw:
 <mtg-cite name="_INF" href="https://youtu.be/kWIJ3agy-qU?si=IIAzuHbgJdR40tis&t=407" about="Tempo expert">
-Basically, UB Reani shifts to a tempo plan, so we aim to control the board by applying removal spells appropriately. The game tends to slow down, so we're reducing the number of Nethergoifs, which only serve to attack. (Since the opponent's creatures have evasion, goyf don't become blockers that stop the board.
+Basically, UB Reani shifts to a tempo plan, so we aim to control the board by applying removal spells appropriately. The game tends to slow down, so we're reducing the number of Nethergoyfs, which only serve to attack. (Since the opponent's creatures have evasion, Goyf don't become blockers that stop the board.
 </mtg-cite>
 
 Alternative 2: If you have 4 mainboard Dauthi Voidwalker, you can board out Force of Will instead and keep Barrowgoyfs.
@@ -1693,8 +1693,8 @@ Alternative 2: If you have 4 mainboard Dauthi Voidwalker, you can board out Forc
 ### Turbo Reanimator
 <mtg-cards names="Unmask|Dark Ritual|Lotus Petal|Cabal Therapy|Faithless Looting|Animate Dead|Reanimate|Griselbrand|Archon of Cruelty|Atraxa, Grand Unifier"></mtg-cards>
 
-In contrast to the slow and steady UB Reanimator, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your playstyle accordingly.
-While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivised to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
+In contrast to the slow and steady UB Reanimator, Turbo Reanimator tries to combo as early as turn 1, so you need to adjust your play style accordingly.
+While against UB Reanimator starting with a Tamiyo and no interaction in hand is often necessary to not get grinded out, here you are more incentivized to Ponder for interaction first and deploying your threats when you are not immediately in danger of dying.
 Nihil Spellbomb is extremely strong in game 1 if you still run it.
 
 <youtube-video id="X17fCga0pWE" t="3785"></youtube-video>
@@ -1733,7 +1733,7 @@ If your interaction is a removal spell instead, you can still let them empty the
 
 <mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
 They'll almost always copy the spell to you if you kill the creature.
-In rare cases they may not, like if you push the creature while they still have cards in hand, they might not discard you because they want to keep their last cards and dont want you to copy it back at them.
+In rare cases they may not, like if you push the creature while they still have cards in hand, they might not discard you because they want to keep their last cards and don't want you to copy it back at them.
 But most of the time it's correct to let them discard their hand first and then they'll generally always point it at you after their creature is dead.
 </mtg-cite>
 
@@ -1741,7 +1741,7 @@ But most of the time it's correct to let them discard their hand first and then 
 
 <mtg-cite name="Psy / the_shallow_grave" href="https://www.twitch.tv/the_shallow_grave">
 In that situation where you only have a couple cards in hand, if you have the choice between removal or Borrower, it's almost always correct to Petty Theft once they empty their hand.
-The final Smog copy will force them to discard their own Apprentice anyways, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand.
+The final Smog copy will force them to discard their own Apprentice anyway, and after they discard you, you'll have a guaranteed threat in the adventure zone which puts them under a ton of pressure with no cards in their hand.
 </mtg-cite>
 
 #### Sideboarding
@@ -1778,7 +1778,7 @@ Both sides of Tamiyo are really strong.
 I prefer to flip her as early as possible and recur interaction (mostly Thoughtseize or a Force), as going for the ultimate is often too risky.
 Tamiyo, Murktide and Kaito and are pitch cards for your Forces.
 You can shave one Kaito but in rare situations you can actually bring it into play and lock the game up after a lot of early trading or even tap a fattie to get in the last few points of damage.
-They have a lot of mana sources but still play into Daze a lot and Wastelands make Daze stronger and can turn off offcolor spells like Show and Tell or Witherbloom Apprentice.
+They have a lot of mana sources but still play into Daze a lot and Wastelands make Daze stronger and can turn off off color spells like Show and Tell or Witherbloom Apprentice.
 
 ### Oops All Spells
 <mtg-cards names="Dark Ritual|Elvish Spirit Guide|Balustrade Spy|Undercity Informer|Poxwalkers|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>
@@ -1908,7 +1908,7 @@ If we aren't forced to use the Spellbomb, we could even pump Murktide by 2 but t
 ##### The Cabal Therapy
 <img class="wtp" src="https://github.com/KonradHoeffner/tempoguide/releases/download/assets/oops4.jpg"/>
 
-Oops is flashbacking Cabal Therapy targetting us after milling their deck.
+Oops is flashbacking Cabal Therapy targeting us after milling their deck.
 How do we respond?
 Their exile is 2 Simian Spirit Guide 1 Pact of Negation.
 Our hidden board is 2 lands 2 Nethergoyf.
@@ -1971,7 +1971,7 @@ As an all-in combo deck they probably don't change much but they could bring in 
 <mtg-cards names="Ancient Tomb|City of Traitors|Simian Spirit Guide|Chalice of the Void|Magus of the Moon|Blood Moon|Fable of the Mirror-Breaker|Urza's Saga|Broadside Bombardiers|Pyrogoyf"></mtg-cards>
 
 Slightly unfavored matchup but can be beat by fetching basics ASAP and focusing on staying alive through the early turns.
-Once you stop the initial onslaught you should be favoured as your cantrips give you better average draws but that's never a guarantee, they always have a chance to topdeck back-to-back threats and bury you.
+Once you stop the initial onslaught you should be favored as your cantrips give you better average draws but that's never a guarantee, they always have a chance to topdeck back-to-back threats and bury you.
 Mulligan for T1 interaction (Thoughtseize/Daze/Force OTP, Force OTD) as you don't have many outs to a resolved Chalice or Blood Moon.
 The tricky part is turning up the heat and killing them quickly as soon as you can afford to because of their overwhelming value with The One Ring and pressure.
 If you can stick Tamiyo or Kaito you may also switch into a control role but otherwise you will run out of interaction at some point when they jam a haymaker every other turn.
@@ -2098,7 +2098,7 @@ Consider Wastelanding them on their turn if you have FoN in hand in case they ha
 
 If there is a lot of lands in your meta it may be worth it to switch one of your graveyard hate pieces to Surgical Extraction.
 A single Surgical is nice against Loam and as you have so many dead cards like Push and Bowmasters it is surely better than those and can get rid of some other card as well in a pinch.
-Similarily, I would also keep Nihil Spellbomb in as it can sometimes weaken Life from the Loam as there are worse cards.
+Similarly, I would also keep Nihil Spellbomb in as it can sometimes weaken Life from the Loam as there are worse cards.
 
 <mtg-cards names="Consign to Memory|Urza's Saga|Urza's Saga|Sphere of Resistance|Bojuka Bog|Endurance|Sejiri Steppe"></mtg-cards>
 
@@ -2124,14 +2124,14 @@ Usually there is the rule of three (post board one removal for each three target
 As long as they play some amount of creatures and/or planeswalkers, I like bringing in Sheoldred's Edict because it's quite flexible. So if they let's say play 3 Tamiyo and no other creatures I would probably bring in 2 Edict if I have them and no Fatal Push. Edict handles stuff like Phelia, Tamiyo in both modes, Murktide, Teferi, Uro and more.
 If you still have Harbinger of the Seas in the sideboard, bring them in as well but be ready to fight over Carpet of Flowers.
 Speaking of Carpet of Flowers, I usually like to bring in Force of Negation especially on the draw however there may not be room against very creature heavy BUG versions (especially if they are more BUG Midrange than real beanstalk). Also in the past they used to play only a single Carpet in the board which I always found strange, so again look at what they have especially if it's open decklist.
-Similarily to Fatal Push, the "rule of three" also applies to Surgical Extraction and Hydroblast:
+Similarly to Fatal Push, the "rule of three" also applies to Surgical Extraction and Hydroblast:
 
 * 3 Uro or more? Surgical.
 * 3 Red Cards or more? Hydroblast.
 * Barrowgoyf I always like to bring in but it's a bit weaker vs white-based Beanstalk.
 * Mystical Dispute is always great to bring in.
 * Dauthi Voidwalker if you have it I always bring in but is especially great against BUG Beans because they use their graveyard a lot.
-* Against Yorion a single Daze could be reasonable and if they play Phelia as well a single Consign to Memory could keep their permanents in Exile permanently.
+* Against Orion a single Daze could be reasonable and if they play Phelia as well a single Consign to Memory could keep their permanents in Exile permanently.
 
 ### BUG Beans
 
@@ -2346,7 +2346,7 @@ Unique and classic mono blue Storm deck centered around basic Islands, High Tide
 Currently weak and rarely played so focus your training elsewhere.
 Go for maximum pressure early, then sit back and defend, their threat level and resiliency is extremely dependent on Islands in play.
 
-|Lands| Threat    | Resilency | Lines | Notes |
+|Lands| Threat    | Resiliency | Lines | Notes |
 |-----|-----------|-----------|-------|-------|
 | 1   | none      | none      |||
 | 2   |theoretical| almost none | High Tide + 2 Cloud of Faeries + Time Spiral/Mind's Desire | rare builds nut draw |
@@ -2368,7 +2368,7 @@ but you do have to turn the corner eventually before the ultra late game where t
 Casting creatures may sometimes help them go off as Snap nets them mana post High Tide.
 
 #### Sideboarding
-One of the few decks that can leave you with near blanks with our current sideboard as it plays neither creatures (rarely Cloud of Faeries or Fae of Wishes but removing them is not imporant) nor enough nonbasic lands, but that is currently not a problem as it has a very low play rate.
+One of the few decks that can leave you with near blanks with our current sideboard as it plays neither creatures (rarely Cloud of Faeries or Fae of Wishes but removing them is not important) nor enough nonbasic lands, but that is currently not a problem as it has a very low play rate.
 Board out all removal spells unless they play Tamiyo (you will face that variation maybe once in 1000 matches).
 Wasteland can at least cast Flow State and crack clues, in the rare cases they have a nonbasic like Mystic Sanctuary out it is extremely strong to set them back a land.
 Consign to Memory is probably the best blank to bring in as it pitches to Force and they may have Defense Grid.
@@ -2618,12 +2618,12 @@ A blue splash for Stock Up and Force of Will is currently getting popular and is
 <mtg-cards names="Cephalid Illusionist|Nomads en-Kor|Shuko|Urza's Saga|Narcomoeba|Dread Return|Thassa's Oracle"></mtg-cards>
 
 #### The Combo
-At its heart, Cephalid Breakfast is an A+B combo with one A (Cephalid Illusionist) and two B's (Nomands en-Kor and Shuko).
+At its heart, Cephalid Breakfast is an A+B combo with one A (Cephalid Illusionist) and two B's (Nomads en-Kor and Shuko).
 Once both A and B are on the battlefield, the Illusionist can be repeatedly targeted and thus mill the owner's library in groups of three.
 Cabal Therapy, if played, can provide additional protection as long as there are enough bodies to still allow Dread Return later.
 
 #### Stopping the Combo
-Illusionist + Nomands can mill at instant speed on top of your removal spells so you have to act when the second one is still on the stack.
+Illusionist + Nomads can mill at instant speed on top of your removal spells so you have to act when the second one is still on the stack.
 Illusionist + Shuko can be interrupted at any time so you have the option of letting the opponent go through most of their deck so for example further fetch lands may not have targets anymore, though the exact best point is hard to determine.
 Saving Force of Will for Dread Return is tempting but can backfire if they have Cabal Therapy and guess correctly.
 
@@ -2645,18 +2645,18 @@ It was very intricate and still testing, where mistakes in risk assessment and s
 However with the release of Orcish Bowmasters the balance was broken.
 No longer could an early Nomad just sit their threateningly and slow down your opponent just by existing.
 Now, Bowmasters could just kill the combo creatures just as a side effect and stop Breakfast from slowly cantripping to an unbeatable hand.
-When Nadu was released much later, the deck ditched Underground Seas for a green splash and became one of the worst matchups for UB Tempo because they could often just ignore Illusinist completely and just rely on their unbeatable lategame engine of Nadu.
-Since the ban of Nadu I rate the matchup as very favourable again, as UB has gained so much card advantage with Tamiyo and Flow State along with Bowmasters, that you can hedge for the combo and actually include grave hate again without risking just losing to Nadu.
+When Nadu was released much later, the deck ditched Underground Seas for a green splash and became one of the worst matchups for UB Tempo because they could often just ignore Illusionist completely and just rely on their unbeatable lategame engine of Nadu.
+Since the ban of Nadu I rate the matchup as very favorable again, as UB has gained so much card advantage with Tamiyo and Flow State along with Bowmasters, that you can hedge for the combo and actually include grave hate again without risking just losing to Nadu.
 
 #### Strategy
 If the Tempo player goes for early pressure and taps out for a threat, Breakfast can have a (Daze, Force) protected win as early as turn 2.
 On the other hand if the Tempo player is too timid and keeps up interaction, their fair half whatever that might be (Teferi, and construct tokens, ...) can take over.
-Similarily, graveyard hate can instantly win the game against an unprotected combo but can also be useless against Stoneforge Mystic and Saga constructs.
+Similarly, graveyard hate can instantly win the game against an unprotected combo but can also be useless against Stoneforge Mystic and Saga constructs.
 IMHO, the best strategy for Tempo is to know exactly what Breakfast is potentially capable of, which cards they typically play in which numbers and take calculated risks early.
 Example: Breakfast plays T1 Ponder, no shuffle, pass OTP and we have a hand with no countermagic, a Nethergoyf and a Fatal Push.
 It is impossible for Breakfast to win T2 if they didn't play Shuko or Nomad's En-Kor T1 unless they have a Lotus Petal, which they rarely play and even then only as a one or two-off.
 Thus I would always jam the threat here and accept the minuscule chance of losing on the spot.
-Similarily, I would currently disrespect a potential Memory's Journey unless I saw a Tropical Island.
+Similarly, I would currently disrespect a potential Memory's Journey unless I saw a Tropical Island.
 Breakfast has a horrible mana base with three colors and Urza's Saga so Wasteland is extremely strong.
 Sometimes you can just Wasteland a dual and let their Urza's Saga go away without them being able to produce a single construct as they don't usually play Ancient Tomb.
 
@@ -2670,7 +2670,7 @@ Maybe they have Dread Return in hand and cannot even win.
 
 Playing UB Tempo vs Breakfast can be nerve-wracking for both sides, because any misstep can be instant game over.
 For the Tempo player, when they get comboed out and for the Breakfast player, when they mill their whole deck and their Thassa's Oracle gets removed from the game.
-Similarily, Orcish Bowmasters or creature removal late in the combo (when comboing using Shuko) can also strand the Breakfast player in a dire situation.
+Similarly, Orcish Bowmasters or creature removal late in the combo (when comboing using Shuko) can also strand the Breakfast player in a dire situation.
 Thus, Breakfast can sometimes have the combo available but wait for protection if there is not too much pressure.
 I once had an interesting situation where as UB Tempo my opponent had a Cephalid Illusionist on the battlefield and a Saga on 2 counters.
 I had no way to stop the combo and tapped out for a Ponder which included Nihil Spellbomb (but a Fatal Push would have had the same effect).
@@ -2929,7 +2929,7 @@ Marquee Legacy creature combo + value deck a long time ago that got powercrept o
 Their main Glimpse of Nature combo gets destroyed by Orcish Bowmasters so they probably board that out.
 If go wide creature strategies ever become a significant factor in your meta you can crush them with 1-2 Toxic Deluge in your sideboard but the power level of UB tempo is so high that you can often win without any board wipes.
 Still structurally advantaged against midrange and tempo due to them going wide, producing enough mana so Daze and Wasteland aren't as strong, having some tricks against removal and Allosaurus Shepherd turning off your countermagic.
-Also if you aren't a long time Legacy player you probably lose a few games at first due to failling for their various tricks or misjudging which of their various plans they are trying to go for.
+Also if you aren't a long time Legacy player you probably lose a few games at first due to falling for their various tricks or misjudging which of their various plans they are trying to go for.
 
 They have multiple plans though as a non-blue deck they can't always choose which one they go for, you should learn them to identify pressure points for your interaction:
 
@@ -3174,7 +3174,7 @@ If you are fortunate enough to have local Legacy events like FNMs, those are a g
 
 ### Pair Playing
 Inviting a friend over or sharing your screen on a voice call while playing a League is both fun and effective!
-While doing this is illegal and will get you disqualified in a Go (boardgame) online tournament, I have done and seen other people do it lots of time in Magic without anyone complaining, it is totally legal as far as I know.
+While doing this is illegal and will get you disqualified in a Go (board game) online tournament, I have done and seen other people do it lots of time in Magic without anyone complaining, it is totally legal as far as I know.
 
 ### Analyze your Games
 It can be boring, but watching your League replays or video recordings can help you find lines that you didn't see during a stressful match, plays that were correct but didn't work out and plays that were wrong but weren't punished.
@@ -3193,28 +3193,28 @@ Besides my humble offerings, the deck is sometimes covered by BoshNRoll, ecobaro
 If you are UR-aggro-curious, I can really recommend watching Phillip aka FlipsiFlips, a very skilled, consistent and educational new content creator with great production value.
 
 ### Ask the Community
-I'm not a big fan of social media and so on, and after the demise of online forums find most of the current plattforms too advertisement-filled, difficult to search and time-inefficient to get better.
-However Discord is at least somewhat usable for current discussions (structured longterm archival still sucks IMHO) and while I don't know a specific UB Tempo community similar to the Epic Storm or Doomsday Discords,
+I'm not a big fan of social media and so on, and after the demise of online forums find most of the current platforms too advertisement-filled, difficult to search and time-inefficient to get better.
+However Discord is at least somewhat usable for current discussions (structured long term archival still sucks IMHO) and while I don't know a specific UB Tempo community similar to the Epic Storm or Doomsday Discords,
 the ecobaronen Discord (you need to be a paying Metafy member to get access) has lots of UB Tempo players that you can ask, who are very knowledgeable, up to date and helpful.
 As a free alternative, if you need less of a deep-dive discussion of this deck but have more of a general question, you will probably quickly get an answer on <https://www.reddit.com/r/MTGLegacy/> as well.
 
 ### Coaching
 If you take improving really seriously, play a lot, ask friends, play together, analyze replays, have an open mind and still get stuck,
 you can think about paying for coaching as a last step.
-It's the most time efficient way to get better but also the most money inefficient one, so if you have lots of money and little time then you may also flip the order just get coaching regularily,
+It's the most time efficient way to get better but also the most money inefficient one, so if you have lots of money and little time then you may also flip the order just get coaching regularly,
 like you would schedule a weekly piano lesson, but as someone with limited funds I use those to send my kids to music school instead and only take coaching if I have a clear problem that I can't solve on my own.
 I took two sessions with ecobaronen who is an amazing coach and found them extremely helpful.
 
 ### Exercises
 Many Legacy players have a lot of other commitments, like job and family, which makes it hard to get enough practice games in.
-These excercises allow you to practice even if you are just sitting in the tram or waiting at the doctor's office.
-Also, focussed practise allows you to train one area in isolation and can thus be even more effective than just playing games.
+These exercises allow you to practice even if you are just sitting in the tram or waiting at the doctor's office.
+Also, focused practice allows you to train one area in isolation and can thus be even more effective than just playing games.
 
 #### Mulliganning
 #### First Move
 On the play in the blind, how would you play those hands?
 Those hands were given during the Ecobaronen EU Tempo Team EW 2025 preparation but due to it being private I won't give the "solutions" and the thoughts of the others but my own only.
-Anyways, the main point is not what is right or wrong but to get you to think about the different scenarious that can happen and weigh them against each other.
+Anyway, the main point is not what is right or wrong but to get you to think about the different scenarios that can happen and weigh them against each other.
 Feel free to contribute your own opinions on them by editing this guide.
 
 <ol>
@@ -3224,7 +3224,7 @@ Feel free to contribute your own opinions on them by editing this guide.
 <summary markdown="0">Kirdie's Thoughts</summary>
 Marsh Flats, fetch Underground Sea, play Tamiyo.
 We could lose to Wasteland but we are the Tempo deck and need to accept our role.
-Starting on Thoughtseize means if they have Wasteland we are even worse off, as they are more incentivised to Wasteland us when we aren't ahead on board.
+Starting on Thoughtseize means if they have Wasteland we are even worse off, as they are more incentivized to Wasteland us when we aren't ahead on board.
 We also don't need to Thoughtseize T1 because we have Daze as protection.
 Ponder T1 for lands is the cowards move that would fit better into a control deck.
 We don't even know what we want to Ponder for yet besides another land.
@@ -3244,15 +3244,15 @@ What I don't like about this hand is that the basic swamp really limits our opti
 Because of our basic Swamp in hand we can think about fetching Polluted Delta for a basic island here, but then we may lose the shuffle effect after brainstorm.
 Our hand is very weak to Chalice of the Void, so I think I start with Basic Swamp into Thoughtseize here.
 Next turn we can play Tamiyo and Nihil Spellbomb or Push which may not be optimal in the matchup.
-If they get Magus of the Moon in play desite our Thoughtseize we can get revolt by saccing Nihil Spellbomb.
-A close second line would be to fetch basic island and play Tamiyo but if our Tamiyo get's killed we have a purely reactive hand and we also cannot stop a strong T1 play so I like T1 Thoughtseize more.
+If they get Magus of the Moon in play despite our Thoughtseize we can get revolt by sacrificing Nihil Spellbomb.
+A close second line would be to fetch basic island and play Tamiyo but if our Tamiyo gets killed we have a purely reactive hand and we also cannot stop a strong T1 play so I like T1 Thoughtseize more.
 </details>
 </li>
 <li>
 <mtg-cards names="Bloodstained Mire|Thoughtseize|Tamiyo, Inquisitive Student|Nihil Spellbomb|Ponder|Underground Sea|Force of Will"></mtg-cards>
 <details>
 <summary markdown="0">Kirdie's Thoughts</summary>
-Similar to hand nr. 1, I'm more inclined to start on Tamiyo if I have a free counter to protect her or us.
+Similar to hand Nr. 1, I'm more inclined to start on Tamiyo if I have a free counter to protect her or us.
 As Bloodstained Mire cannot fetch Island, I would start on Underground Sea + Tamiyo and force a removal spell on her.
 But I could also understand starting with Underground Sea + Thoughtseize to clear the way first if we aren't comfortable Forcing a Fatal Push.
 </details>
@@ -3263,7 +3263,7 @@ But I could also understand starting with Underground Sea + Thoughtseize to clea
 <summary markdown="0">Kirdie's Thoughts</summary>
 Fetch Underground Sea + play Tamiyo.
 If she gets killed we can play another one next turn + a Thoughtseize if we draw an untapped land.
-But because we have so many threats and so little interaction and might not draw land nr 3, maybe playing the surveil land is a better move.
+But because we have so many threats and so little interaction and might not draw land Nr 3, maybe playing the surveil land is a better move.
 Thoughtseize is also a possibility.
 </details>
 </li>

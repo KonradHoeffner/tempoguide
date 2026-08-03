@@ -135,7 +135,7 @@ Others need to know why the deck is build the way it is, why some cards currentl
 This can help adapt faster to future changes, when a now useless card may become great all of a sudden.
 Those willing to get deep into the weeds, will find all the details in the other sections.
 
-## TLDR: Decklist and Sideboard Map v2026-6
+## TLDR: Decklist and Sideboard Map v2026-8
 
 ### Mainboard
 
@@ -143,15 +143,16 @@ Those willing to get deep into the weeds, will find all the details in the other
 * 4 Tamiyo, Inquisitive Student
 * 3 Orcish Bowmasters
 * 2 Murktide Regent
+* 2 Kaito, Bane of Nightmares
 * 4 Brainstorm
 * 3 Ponder
-* 4 Flow State
+* 3 Flow State
 * 2 Mishra's Bauble
 * 4 Force of Will
-* 3 Daze
+* 2 Daze
 * 3 Fatal Push
 * 2 Snuff Out
-* 3 Thoughtseize
+* 4 Thoughtseize
 * 4 Polluted Delta
 * 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
 * 2 Flooded Strand / Scalding Tarn / Misty Rainforest
@@ -165,11 +166,19 @@ Those willing to get deep into the weeds, will find all the details in the other
 
 * 2 Hydroblast
 * 2 Force of Negation
-* 4 Consign to Memory
+* 2 Consign to Memory
 * 2 Nihil Spellbomb
 * 2 Barrowgoyf
-* 2 Sheoldred’s Edict
+* 1 Brazen Borrower
+* 1 Null Rod
+* 1 Damping Sphere
+* 1 Kaito, Bane of Nightmares
 * 1 Massacre
+
+### Changes from v2026-6
+
+* Mainboard -1 Daze -1 Flow State + 2 Kaito
+* Sideboard -2 Consign -2 Sheoldred's Edict +1 Brazen Borrower +1 Null Rod +1 Damping Sphere +1 Kaito, Bane of Nightmares
 
 ### Printable Sideboard Map
 
@@ -182,15 +191,11 @@ See the matchup section for detailed explanations and adaptations based on your 
 
 | Matchup                                | In                                    | Out                           | Notes |
 | :-------------                         | :-------------------------            | :---                          | :--- |
-| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +2 Edict +2 Nihil           | -4 FoW -2 Seize/Daze          | |
-| **UR and URg Tempo**| +2 Barrow +2 Edict +2 Hydro +2 Nihil            | -4 FoW -4 Seize               | |
-| **[UW Blink](#uw-blink)**| +2 Barrow +2 Edict           | -4 FoW               | Play around Stifle |
-| **[Stiflenought](#stiflenought)**| +2 Barrow +2 Edict +4 Consign | -4 FoW -3 Daze -1 ? | Play around Stifle |
-| ****              | | | |
-| **Jeskai Control** | TODO | | |
-| **Jeskai Wizards** | TODO | | |
-| **BUG Beans** | | | |
-| **4-5c Beans** | | | |
+| **[UB Tempo Mirror](#ub-tempo-mirror)**| +2 Barrow +1 Brazen +1 Kaito +2 Nihil           | -4 FoW -2 Seize          | |
+| **UR and URg Tempo**| +2 Barrow +1 Brazen +1 Kaito +2 Hydro +2 Nihil            | -4 FoW -4 Seize               | Can skip 3rd Kaito OTD |
+| **[UW Blink](#uw-blink)**| +2 Barrow +1 Kaito +1 Brazen           | -4 FoW               | Play around Stifle |
+| **Esper Vial**| +2 Barrow +1 Kaito +1 Brazen +2 Consign           | -4 FoW -1 Bauble -1 Seize               | Play around Stifle |
+| **[Stiflenought](#stiflenought)**| +2 Barrow +1 Kaito +1 Brazen +2 Consign | -4 FoW -2 Daze | Play around Stifle, can bring in Nihil if Flow State + Murk |
 | **** | | | |
 | **Mono B Aggro**  | +2 Barrow +2 Edict                    | -4 FoW or -1 FoW -3 Daze ?| |
 | **Boros Aggro (Energy)**   |+2 Barrow +2 Edict +2 Hydro +2 Massacre| -3 Daze -4 FoW -1 Brazen      | |
@@ -199,16 +204,13 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Burn**   |+2 Barrow +2 FoN +2 Hydro +2 Edict | -4 Seize -2 Snuff -2 Bowmaster | |
 | **Cradle Ctrl OTP**|+2 Barrow +2 Edict                    | -3 Daze -1 Brazen | OTP Bowmaster kill mana dorks |
 | **Cradle Ctrl OTD**|+2 Barrow +2 Edict +2 FoN             | -3 Daze -3 Bowmaster | |
-| **Maverick** | | | |
 | **** | | | |
 | **Elves**         |+2 Edict +2 FoN +board wipes and Cage if you have them       | -3 Daze -? | Barrowgoyf too easy to stall, OTD can keep Daze instead of FoN |
-| **Cascade Crash** | | | |
-| **Initiative Stompy** | | | |
 | **** | | | |
 | **Eldrazi**       | +3 Consign +2 Barrow +2 Edict                 | -3 Daze -4 Bowmaster |        |
 | **Red Prison**    | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 FoN | -3 Daze -4 Bowmaster -4 Seize |        |
 | **UR Artifacts and Rx Painter**       | +3 Consign +2 Barrow +2 Edict +2 Hydro +2 Nihil | -3 Daze -4 FoW -4 ? | Bowmaster is good now vs Goblin Welder and Melded Moxite  |
-| **Affinity** | | | |
+| **Affinity** | +2 Consign +1 Null Rod +1 Damping Sphere +2 Barrow +2 FoN +1 Brazen | -2 Daze -2 Push -2 Mishra's Bauble -3 Nethergoyf | control style, assuming Chalice and grave hate |
 | **** | | | |
 | **Cloudpost, Forge, Tron**     | +4 Consign +2 Edict +2 FoN | -4 Push -2 Snuff -2 Bowmaster  | |
 | **** | | | |
@@ -224,15 +226,23 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
 | **BG Loam Pox** | +2 FoN +2 Barrow +2 Edict +2 Nihil | -3 Push -2 Snuff -3 Daze   |Bowmasters in response to their Bowmaster trigger to prevent Hogaak |
 | **** | | |
-| **[UB Reanimator](#ub-reanimator)** |+2 Nihil   | | |
-| **[Turbo Reanimator](#turbo-reanimator)** |+2 Nihil +2 FoN +3 Consign     |-4 Bowmaster -3 Push |adapt to jukes and splash colors|
-| **Turbo Rea. Smog pivot** |+2 Nihil +2 FoN           |-4 Bowmaster |green splash|
-| **Turbo Rea. red splash** |+2 Nihil +2 FoN +2 Hydro  |-4 Bowmaster -3 Push |Hydro may not be worth it vs Faithless Looting alone|
+| **[Turbo Reanimator](#turbo-reanimator)** |+2 Nihil +2 FoN +2 Consign +1 Brazen +1 Kaito  |-3 Bowmaster -3 Push -2 Snuff | no juke, more outs to Animate Dead|
+| **Turbo Rea. Smog pivot** |+2 Nihil +2 FoN +1 Brazen           |-3 Bowmaster -2 Kaito |green splash, need removal for Witherbloom Apprentice |
+| **Turbo Rea. red splash** |+2 Nihil +2 FoN +2 Hydro +1 Brazen |-3 Bowmaster -3 Push -2 Snuff |Hydro may not be worth it vs Faithless Looting alone|
 | **[Oops](#oops-all-spells) with Pact**|+2 Nihil +3 Consign +2 FoN +2 Hydro | -4 Bowmaster -4 Push -1 Snuff | |
 | **Oops w/o  Pact**|+2 Nihil +3 Consign +2 FoN                  | -4 Bowmaster -2 Push -1 Snuff | creature juke possible |
 | **[Dredge](#dredge)**|+2 Nihil +3 Consign +2 FoN +2 Hydro +2 Barrowgoyf(?)               | -4 Bowmaster -2 Push -1 Snuff -? |  |
 | **** | | | |
 | **Necrodominance Combo** | | | |
+| **** | | | |
+| **[UB Reanimator](#ub-reanimator)** |+2 Nihil   | ? TODO | |
+| **Jeskai Control** | TODO | | |
+| **Jeskai Wizards** | TODO | | |
+| **BUG Beans** | TODO | | |
+| **4-5c Beans** | TODO | | |
+| **Cascade Crash** | +2 Consign +2 FoN  | -? TODO | potentially Hydro |
+| **Maverick** | | | |
+| **Initiative Stompy** | TODO | | |
 | **** | | | |
 
 

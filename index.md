@@ -136,6 +136,7 @@ This can help adapt faster to future changes, when a now useless card may become
 Those willing to get deep into the weeds, will find all the details in the other sections.
 
 ## TLDR: Decklist and Sideboard Map v2026-8
+Second place in the <a href="https://www.mtgo.com/decklist/legacy-challenge-32-2026-08-0212849481#deck_kirdiekirdie">64 player MTGO challenge of 2026-08-02</a>.
 
 ### Mainboard
 
@@ -541,18 +542,26 @@ A single copy of Kaito has snook back in against fair decks like tempo mirrors a
 Some have cut Bowmasters completely in heavy nonblue metas.
 
 #### June? 2026: Fantasticar
-TODO
+<mtg-todo></mtg-todo>
 
 #### June? 2026: Candelabra Ban
 Compared to the other bans, which were widely requested by the community, the ban of Candelabra of Tawnos signals a much welcomed shift in Wizard's ban philosophy,
 reigning in Tron the recently dominating Tron decks early instead of letting the format suffer for months or even years.
 I rate this as quite a light touch as the key pieces of Planar Nexus and The One Ring are still legal, and except Tron's play and win rate to bounce right back in case Fantasticar gets banned.
 
+#### August 10 2026: Fantasticar ban
+<mtg-todo></mtg-todo>
+
+#### August 11 2026: Bilbo, Thief in the Night
+<mtg-todo></mtg-todo>
 
 ### Change Log
 
-#### 2026-07-11
-I'm currently on holiday until the end of July, adaptations to Fantasticar and the Tabernacle ban will come soon.
+#### 2026-08-03
+Release v2026-8 adapted to a mix of fast Fantasticar and grindy decks:
+
+* Mainboard -1 Daze -1 Flow State + 2 Kaito
+* Sideboard -2 Consign -2 Sheoldred's Edict +1 Brazen Borrower +1 Null Rod +1 Damping Sphere +1 Kaito, Bane of Nightmares
 
 #### 2026-05-01
 Add Flow State.
@@ -1391,7 +1400,7 @@ Assuming you are not a professional, no one is forcing you to play Magic.
 If you stop having fun or get overly frustrated over losses or the state of the format, just do something else for a while, Magic will always be there for you when you come back.
 You aren't a machine, it's OK to get emotional, just not to take out your frustrations on others.
 To give a personal example, after getting frustrated by a long streak on missing top 8 in paper events despite extensive training and preparations, while others seemingly always make it easily,
-I have taken a rare step back from Magic in June and July 2026, missing out most of the Fantasticar meta (which is why the car isn't mentioned much in the guide),
+I have taken a rare step back from Magic in June and July 2026, missing the Fantasticar meta almost entirely until it was banned,
 instead enjoying bike rides and now we are on summer holidays anyway with mostly no internet.
 Right now I'm lying in a hammock in the forest next to my in-law's garden house after making pancakes for 11 people,
 listening to the birds and the breeze going through the trees with my laptop, writing on this guide.
@@ -3336,6 +3345,7 @@ Even the latter don't have the space to explain the hows and the whys which is e
 While I'm not a professional player or a famous content creator, I asked a lot of great players for input and hope to provide value to your learning journey, following the template of the now outdated but excellent Delver Bible by Bob Huang.
 If you would still like some credentials that I'm not totally clueless and the deck is somewhat viable, here are some of my results:
 
+* [MTGO Challenge 2nd place on 2026-08-02](https://www.mtgo.com/decklist/legacy-challenge-32-2026-08-0212849481#deck_kirdiekirdie)
 * [MTGO Challenge split on 2025-07-20](https://www.mtggoldfish.com/deck/7248927#paper)
 * [4/8 MTGO Challenge Top 8's 2025](https://www.mtggoldfish.com/player/kirdiekirdie)
 * [11 MTGO League trophies in 2025 (1 with red splash)](https://www.mtggoldfish.com/player/kirdiekirdie)

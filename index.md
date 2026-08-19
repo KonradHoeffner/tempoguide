@@ -133,7 +133,7 @@ customElements.define('mtg-cite', Cite);
 If you just want to pick up the deck quickly, the TLDR section is for you.
 Others need to know why the deck is build the way it is, why some cards currently make the cut while others don't.
 This can help adapt faster to future changes, when a now useless card may become great all of a sudden.
-Those willing to get deep into the weeds, will find all the details in the other sections.
+Those willing to get deep into the weeds will find all the details in the other sections.
 
 ## TLDR: Decklist and Sideboard Map v2026-8
 Second place in the <a href="https://www.mtgo.com/decklist/legacy-challenge-32-2026-08-0212849481#deck_kirdiekirdie">64 player MTGO challenge of 2026-08-02</a>.
@@ -912,14 +912,14 @@ Eco:
 #### Hydroblast
 <mtg-cards names="Hydroblast|Blood Moon|Sneak Attack|Dragon's Rage Channeler|Goblin Welder|Burning Wish"></mtg-cards>
 
-<mtg-cite name="ecobaronen">
+<mtg-cite name="Ecobaronen">
 Look at combined amount of Moon, Sneak (not Omni), red Daze, red Painter and red Storm. I’ll play 0-2 copies depending on the meta game share.
 </mtg-cite>
 
 #### Consign to Memory
 <mtg-cards names="Consign to Memory|Thought-Knot Seer|Mystic Forge|Ugin, Eye of the Storms|Painter's Servant|Mox Diamond|Flickerwisp"></mtg-cards>
 
-<mtg-cite name="ecobaronen">
+<mtg-cite name="Ecobaronen">
 After Eldrazi’s ban [Mycospawn ... in ... (TODO)], this is mainly a hate card for Mystic Forge.
 It also helps vs. Painter, Lands and D+T, so the combined amount of those + Forge is what you need to think about.
 </mtg-cite>
@@ -1105,8 +1105,16 @@ The urgent nature of an early Tamiyo and the presence of Daze often results in c
 
 <mtg-cards names="Bitter Triumph"></mtg-cards>
 Bitter Triumph plays a bit like a compromise between Sheoldred's Edict and Dismember.
-It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn. There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
-I have played with Triumph in the past, and almost always ended up paying life. This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75. Imagine your opponent plays 2+ power creature. You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
+It has the greatest flexibility in what it is capable of answering, and is the only 2 mana removal spell discussed in this section that can remove anything out of the UB Tempo deck, no questions asked, save for creature-Kaito during an opponent's turn.
+There is value in having access to a removal spell that you know can remove whatever you need, but this comes at a cost of either discarding a card, or 3 life. I mentioned earlier that Force of Will is a liability in the mirror because it is necessary to exile another card in hand in order to cast for free. This is also true for the "discard a card" additional cost for Bitter Triumph, but without the benefit of being able to cast it for free. Once you reach a comfortable number of lands in play, you will likely want to sand bag one to improve future Brainstorms. This could offer an alternative to paying life for Bitter Triumph, but at the cost of making said Brainstorm worse.
+I have played with Triumph in the past, and almost always ended up paying life.
+This is problematic in late game scenarios when you need those last few life points to survive. The final scenario is a bit extreme, but it is necessary to identify the fail cases of cards when determining what to include in your 75.
+Imagine your opponent plays 2+ power creature.
+You have no cards in hand, no creatures in play, and are at 2 life. Your opponent passes, and you draw Bitter Triumph. You cannot even cast the Triumph and are dead next turn. This would not happen in most other scenarios if the other removal spells were drawn instead.
+
+<mtg-cite name="kirdie">
+In late 2026 with Flow State and Bilbo, Thief in the Night, discarding an instant or sorcery could be less of a downside or even beneficial in rare cases, so I'm ready to try out a single copy for a league or two if the meta is right for it.
+</mtg-cite>
 
 <mtg-cards names="Shoot the Sheriff|Go for the Throat"></mtg-cards>
 These two cards are essentially the same, and reminiscent of Doomblade, in that they ask "What kind of creature are you fine with being unable to kill?"
@@ -1120,12 +1128,25 @@ I rank the removal options as follows, from best to worst: Sheoldred's Edict > B
 
 <mtg-cite name="kirdie">
 Thanks Luke!
+As of late 2026, Shoot the Sheriff not killing Bilbo, Thief in the Night seems like a dealbreaker, so I will stay away from that.
 Adding some recently popular and splash-color removal spells:
 </mtg-cite>
 
 <mtg-cards names="Feed the Cycle"></mtg-cards>
 Feed the Cycle has the flexibility of Sheoldred's Edict without suffering from the downsides when there are multiple targets (only losing out on its benefits against ward, hexproof and indestructible).
-However its graveyard dependency competes with Nethergoyf and Murktide Regent, thus I would only consider it in a list with Barrowgoyf main instead of Murktide.
+However its graveyard dependency competes with Nethergoyf, Bilbo, Tamiyo and Murktide Regent, thus I would only consider it in a list with Barrowgoyf main instead of Murktide.
+
+<mtg-cards names="Strategic Betrayal"></mtg-cards>
+At first glance this seems like an amazing combination of graveyard hate and removal for pseudo mirrors but is has too many weaknesses against other decks.
+
+<mtg-cite name="Ecobaronen on Discord 2025-05-04 (redacted)">
+Unrealiable for both modes :-( too many bowmen around and sorcery speed, non onboard yard hate is bad against all yard decks except for Faithless Looting, bin fatty, go.
+If this was instant speed, I would love it.
+Also doesn't handle hasty bombardiers or played out painter kills.
+Or construct getting haste equipped.
+</mtg-cite>
+
+Now that Bilbo, Thief in the Night is out, fair blue graveyard synergistic mirrors may be more common, so I'm ready to give this card another chance.
 
 <mtg-cards names="Snuff Out"></mtg-cards>
 Free spells are great in a tempo deck but the life loss of this and Thoughtseize can hurt against red tempo and the inability to target black creatures can be problematic in the mirror (though Fatal Push covers those).

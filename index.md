@@ -135,24 +135,25 @@ Others need to know why the deck is build the way it is, why some cards currentl
 This can help adapt faster to future changes, when a now useless card may become great all of a sudden.
 Those willing to get deep into the weeds will find all the details in the other sections.
 
-## TLDR: Decklist and Sideboard Map v2026-8
-Second place in the <a href="https://www.mtgo.com/decklist/legacy-challenge-32-2026-08-0212849481#deck_kirdiekirdie">64 player MTGO challenge of 2026-08-02</a>.
+## TLDR: Decklist and Sideboard Map v2026-9
+<!--Second place in the <a href="https://www.mtgo.com/decklist/legacy-challenge-32-2026-08-0212849481#deck_kirdiekirdie">64 player MTGO challenge of 2026-08-02</a>.-->
 
 ### Mainboard
 
 * 3 Nethergoyf
 * 4 Tamiyo, Inquisitive Student
-* 3 Orcish Bowmasters
+* 2 Orcish Bowmasters
 * 2 Murktide Regent
 * 2 Kaito, Bane of Nightmares
 * 4 Brainstorm
 * 3 Ponder
-* 3 Flow State
+* 2 Flow State
 * 2 Mishra's Bauble
 * 4 Force of Will
 * 2 Daze
 * 3 Fatal Push
-* 2 Snuff Out
+* 1 Snuff Out
+* 1 Brazen Borrower
 * 4 Thoughtseize
 * 4 Polluted Delta
 * 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
@@ -165,21 +166,30 @@ Second place in the <a href="https://www.mtgo.com/decklist/legacy-challenge-32-2
 
 ### Sideboard
 
-* 2 Hydroblast
+* 1 Hydroblast
 * 2 Force of Negation
-* 2 Consign to Memory
-* 2 Nihil Spellbomb
+* 3 Consign to Memory
+* 1 Nihil Spellbomb
+* 1 Surgical Extraction
 * 2 Barrowgoyf
-* 1 Brazen Borrower
-* 1 Null Rod
+* 1 Fatal Push
 * 1 Damping Sphere
-* 1 Kaito, Bane of Nightmares
-* 1 Massacre
+* 1 Sheoldred's Edict
+* 2 Massacre
 
-### Changes from v2026-6
+### September Meta and changes from v2026-8 to v2026-9
+We need to make room for Bilbo; I'm following ecobaronen here in going for a 2/2/2 split between Flow State, Kaito and Bilbo for now, cutting a Flow State and also the second Snuff Out, which struggles against the recently popular UB Aggro with Moonshadow and Nethergoyf, which also motivates the fourth Fatal Push in the sideboard.
 
-* Mainboard -1 Daze -1 Flow State + 2 Kaito
-* Sideboard -2 Consign -2 Sheoldred's Edict +1 Brazen Borrower +1 Null Rod +1 Damping Sphere +1 Kaito, Bane of Nightmares
+Sideboard wise we are seeing less red decks and more Tron and switch the second Hydroblast for the third Consign, a move I rarely make as I always want to be prepared against UR Cutter but many of those players play UB now and Tron is both everywhere and a hard matchup.
+The Engineer Welder Cam deck is also surprisingly seeing almost no play right now even though it was super popular a month ago, so one less matchup where we need Hydroblast and Dragon Stompy has a low play rate as well.
+Tempo Reanimator is popular as well and Flow State is played in lesser numbers, so we switch one of the Nihil Spellbombs to Surgical Extraction, which works T1 on the draw against Turbo Reanimator as well.
+Storm is strong (recent innovation: Giant's Builder) but Dark Ritual gamers seem split between that and Doomsday right now, so I am testing without Null Rod, which allows us to pick up a second Massacre against all anti-tempo decks like WR(b) Energy and Death & Taxes (combined play rate around 12%).
+However with both Energy and Storm being partly red, if those decks become even more popular or you have a different local meta, a second Hydroblast could make sense again.
+
+* Mainboard -1 Flow State -1 Snuff Out -1 Orcish Bowmasters + 2 Bilbo, Thief in the Night + 1 Brazen Borrower
+* Sideboard -1 Kaito, Bane of Nightmares -1 Hydroblast -1 Null Rod -1 Brazen Borrower -1 Nihil Spellbomb +1 Surgical Extraction +1 Fatal Push +1 Consign to Memory +1 Sheoldred's Edict
+
+The meta could change at any moment and I'm still not sure what the best shell is around Bilbo, so I recommend looking what ecobaronen is up to right now and aim to update this list soon.
 
 ### Printable Sideboard Map
 
@@ -531,9 +541,7 @@ As we didn't have any counterplay to Nadu this didn't change our deck however.
 Tezzeret allows colorless decks to grab Portable Hole, making Null Rod much weaker.
 Since then I went from 2 sideboard slots to mostly 0 (online) to sometimes 1 (paper) as it rarely wins the game on it's own nowadays.
 
-#### ? 2026: Oops nerf (Spy?/Informer?)
-
-#### April? 2026: Flow State
+#### April 2026: Flow State
 This ultra powerful two mana card advantage spell got instantly incorporated as a playset into UB Midrange, homogenizing the deck as a clear upgrade over already questionable cards like Hymn to Tourach, Baleful Strix and Stock Up.
 UB Tempo with it's already tight decklist, including Nethergoyfs and Mishra's Baubles, had a lot more trouble finding four correct cuts,
 typically cutting both Kaitos and shaving some pair of Nethergoyf, Ponder, Orcish Bowmasters, Daze, Thoughtseize and Brazen Borrower.
@@ -541,19 +549,23 @@ Since then, UB Tempo builds have become more tailored to specific events:
 A single copy of Kaito has snook back in against fair decks like tempo mirrors and control.
 Some have cut Bowmasters completely in heavy nonblue metas.
 
-#### June? 2026: Fantasticar
-<mtg-todo></mtg-todo>
+#### May 2026: Undercity Informer ban
+Oops All Spells took a huge hit with the ban of one of its combo creatures, which allowed us to play slower value graveyard hate like Nihil Spellbomb again until Turbo Reanimator became popular again not long afterwards.
 
-#### June? 2026: Candelabra Ban
+#### June 2026: Fantasticar
+For a short while, this ultra powerful three mana artifact got played in a lot of archetypes from the obvious spell combo over affinity, ramp and finally even midrange decks.
+
+#### June 29 2026: Candelabra Ban
 Compared to the other bans, which were widely requested by the community, the ban of Candelabra of Tawnos signals a much welcomed shift in Wizard's ban philosophy,
 reigning in Tron the recently dominating Tron decks early instead of letting the format suffer for months or even years.
 I rate this as quite a light touch as the key pieces of Planar Nexus and The One Ring are still legal, and except Tron's play and win rate to bounce right back in case Fantasticar gets banned.
 
 #### August 10 2026: Fantasticar ban
-<mtg-todo></mtg-todo>
+Again, a welcome change to Wizard's usual glacial reaction time; people got tired of Fantasticar pretty quickly and Wizards acted quickly and decisively. 
 
 #### August 11 2026: Bilbo, Thief in the Night
-<mtg-todo></mtg-todo>
+UB has an embarassement of riches for card advantages now between Tamiyo, Kaito, Flow State and now Bilbo.
+I'm not sure yet what the best shell is but I'm currently trying 4/2/2/2 respectively, following ecobaronen.
 
 ### Change Log
 

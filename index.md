@@ -143,24 +143,24 @@ Those willing to get deep into the weeds will find all the details in the other 
 * 3 Nethergoyf
 * 4 Tamiyo, Inquisitive Student
 * 2 Orcish Bowmasters
-* 2 Murktide Regent
+* 2 Metamorphosis Fanatic 
 * 2 Kaito, Bane of Nightmares
 * 4 Brainstorm
 * 3 Ponder
 * 2 Flow State
 * 2 Mishra's Bauble
 * 4 Force of Will
-* 2 Daze
-* 3 Fatal Push
-* 1 Snuff Out
+* 1 Daze
+* 4 Fatal Push
 * 1 Brazen Borrower
 * 4 Thoughtseize
+
 * 4 Polluted Delta
 * 2 Bloodstained Mire / Verdant Catacombs / Marsh Flats
 * 2 Flooded Strand / Scalding Tarn / Misty Rainforest
 * 4 Underground Sea
 * 1 Undercity Sewers
-* 1 Island
+* 2 Island
 * 1 Swamp
 * 4 Wasteland
 
@@ -168,14 +168,26 @@ Those willing to get deep into the weeds will find all the details in the other 
 
 * 1 Hydroblast
 * 2 Force of Negation
-* 3 Consign to Memory
-* 1 Nihil Spellbomb
-* 1 Surgical Extraction
+* 4 Consign to Memory
+* 2 Nihil Spellbomb
 * 2 Barrowgoyf
-* 1 Fatal Push
-* 1 Damping Sphere
-* 1 Sheoldred's Edict
-* 2 Massacre
+* 2 Sheoldred's Edict
+* 1 Massacre
+* 1 Path of Peril
+
+### End of September Update and changes from v2026-9 to v2026-10-alpha
+UB Aggro with Moonshadow has surprisingly won over most of the tempo players, thus I still recommend keeping Snuff Out to 0-1 copies and having 4 Fatal Push in the 75, I'm even experimenting with Metamorphosis Fanatic to survive the aggressive decks, as Barrowgoyf has been too unreliable against Daze + Menace creatures.
+T1 graveyard decks on the other hand aren't that popular, so I'm confident moving from 1 Nihil 1 Surgical to 2 Nihil Spellbomb (with Nethergoyf) or 2 Dauthi Voidwalker (when playing without Nethergoyf). As dealing with all those small creatures is so tricky, I'm testing a Path of Peril as well. To be better against Daze + Wasteland I'm also moving the second Daze to a second basic Island, which helps against Erode as well.
+
+Main -1 Snuff Out +1 Fatal Push -2 Murktide +2 Metamorphosis Fanatic -1 Daze +1 Island
+Side -1 Surgical +1 Nihil Spellbomb -1 Fatal Push +1 Sheoldred's Edict -1 Massacre +1 Path of Peril
+
+Tron on the other hand had a huge downswing, so I am aborting my experiments with Damping Sphere and Commandeer in the sideboard.
+Instead, Eldrazi has taken most of the colorless metashare and even a few Red Stompy decks are coming back, so Chalice is much more frequent now, making 4 Consign a must. Brazen Borrower and Engineered Explosives are worth considering as well.
+
+Side -1 Damping Sphere +1 Consign to Memory
+
+v2026-10 is still in experimentation and could change a bit.
 
 ### September Meta and changes from v2026-8 to v2026-9
 We need to make room for Bilbo; I'm following ecobaronen here in going for a 2/2/2 split between Flow State, Kaito and Bilbo for now, cutting a Flow State and also the second Snuff Out, which struggles against the recently popular UB Aggro with Moonshadow and Nethergoyf, which also motivates the fourth Fatal Push in the sideboard.

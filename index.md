@@ -2482,10 +2482,10 @@ The grave hate I rate Grafdigger's Cage >> Surgical Extraction > Faerie Macabre 
 Weaker and outdated storm deck in a vacuum but due to Cabal Rituals it does not fold to your Null Rod alone.
 
 ### High Tide
-<mtg-cards names="Merchant Scroll|High Tide|Turnabout|Time Spiral|Mind's Desire|Force of Will"></mtg-cards>
+<mtg-cards names="Merchant Scroll|High Tide|Turnabout|Time Spiral|Mind's Desire|Force of Will|Samut, Tyrant of Naktamun"></mtg-cards>
 
 Unique and classic mono blue Storm deck centered around basic Islands, High Tide, land untappers and countermagic.
-Currently weak and rarely played so focus your training elsewhere.
+Recently got a new printing with Samut so it is only very rare instead of extremely rare now, so still prioritize training other matchups first
 Go for maximum pressure early, then sit back and defend, their threat level and resiliency is extremely dependent on Islands in play.
 
 |Lands| Threat    | Resiliency | Lines | Notes |
@@ -2510,16 +2510,17 @@ but you do have to turn the corner eventually before the ultra late game where t
 Casting creatures may sometimes help them go off as Snap nets them mana post High Tide.
 
 #### Sideboarding
-One of the few decks that can leave you with near blanks with our current sideboard as it plays neither creatures (rarely Cloud of Faeries or Fae of Wishes but removing them is not important) nor enough nonbasic lands, but that is currently not a problem as it has a very low play rate.
-Board out all removal spells unless they play Tamiyo (you will face that variation maybe once in 1000 matches).
+Traditionally one of the few decks that can leave you with near blanks with our current sideboard as it plays neither creatures (rarely Cloud of Faeries or Fae of Wishes but removing them is not important) nor enough nonbasic lands, but that is currently not a problem as it has a very low play rate.
+However with the recent release of Samut, Tyrant of Naktamun, our sideboard mapping has ironically become easier.
+Snuff Out is your best removal spell here because they don't pressure your life total and it doesn't cost mana.
+While they can theoretically cast Samut and win on the same turn without passing priority, this is only really realistic on turns 5+, so if you keep up a semi serious clock, this shouldn't be an issue.
 Wasteland can at least cast Flow State and crack clues, in the rare cases they have a nonbasic like Mystic Sanctuary out it is extremely strong to set them back a land.
-Consign to Memory is probably the best blank to bring in as it pitches to Force and they may have Defense Grid.
+Consign to Memory is probably the best blank to bring in if they don't play Samut, as it pitches to Force and they may have Defense Grid.
 If you do happen to have anti storm cards like Flusterstorm, Counterbalance, Dampening Sphere or even a white splash for Deafening Silence,
 those are extremely strong, but often not worth running due to Storm variant's low combined play rate and little overlap against other meta decks.
 If Surgical Extraction is your grave hate of choice then that is one of the rare occasions where it's not a trap to bring in;
 Discarding or countering their first High Tide and extracting it from their library makes it very hard for them to win, as they need 5+ lands to net mana with Turnabout and 6+ to chain Time Spirals.
-They usually shave on acceleration that leaves them down on cards after a counter war like Turnabout, maybe even Time Spiral or switch FoW for Pact of Negation,
-and bring in more protection against spells and Bowmasters, such as Flusterstorm, Defense Grid, Snap, Echoing Truths and Dress Down.
+They usually shave on acceleration that leaves them down on cards after a counter war like Turnabout, maybe even Time Spiral or switch FoW for Pact of Negation, and bring in more protection against spells and Bowmasters, such as Flusterstorm, Defense Grid, Snap, Echoing Truths and Dress Down.
 
 ### Sneak and Show
 

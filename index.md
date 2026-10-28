@@ -2284,7 +2284,41 @@ Brazen is fine vs Beanstalk if you’re happy waiting for the Murktide to show u
 </mtg-cite>
 
 ### White-Based (Yorion) Beanstalk Control
-<mtg-todo></mtg-todo>
+
+<mtg-cards names="Swords to Plowshares|Up the Beanstalk|Leyline Binding|Phelia, Exuberant Shepherd|Quantum Riddler"></mtg-cards>
+
+Traditionally very creature light, nowadays it's more of an UW Phelia Riddler deck that splashes green for Beanstalk + Leyline binding by cutting Daze and Stifle and shaving or cutting Tamiyo, so veteran players need getting used to keeping much more removal in postboard.
+This a hard matchup so flawless play with some creativity is required to beat them:
+Sometimes you can win on time (online, board accordingly if you are both at 5 minutes or less G3), sometimes you can deck them, sometimes you can get them by holding up two Bowmasters and a few forces and get them with some crazy stack fight.
+Once you get them to 1 life, you can often kill them with Orcish Bowmasters as they can't pitch cast Force of Will but take care that they don't have a timing to Swords to Plowshares their own creature.
+When going for time and/or decking (harder against Yorion), note that they can turn the corner very quickly nowadays with Quantum Riddler and sometimes Murktide Regent, no Forth Eorlingas required anymore.
+They may play a few Wastelands but I wouldn't play too much around it as you are the aggressor.
+
+#### Sideboarding
+
+##### Their Plan
+
+<mtg-cards names="Carpet of Flowers|Wrath of the Skies|Pyroblast"></mtg-cards>
+
+Their mainboard is already built to beat decks like ours but postboard they get even better, nullifiying Daze + Wasteland with Carpet, countering our spells with Pyroblast and wiping the board with Wrath of the Skies or even Terminus.
+
+##### In
+
+<mtg-cards names="Sheoldred's Edict|Harbinger of the Seas|Orcish Bowmasters|Narset, Parter of Veils|Karakas|Kaito, Bane of Nightmares"></mtg-cards>
+
+You usually don't have the room to bring in even a single Hydroblast, unless they are on a heavy red splash with 3+ Pyroblasts and you don't have much else to bring in.
+Sometimes you don't have room for Barrowgoyf; while it is amazing once you attack with it, usually it is too expensive given the amount of one mana removal of the Beanstalk player.
+Having 4 Bowmasters in the 75 help a lot with this matchup, as well as 2 or even 3 Kaitos, though they can often remove it in time with Leyline Binding unlike BUG Beanstalk, so be sure to cash in your Kaito card draws while you can
+Karakas is also surprisingly useful, given that it bounces our and their Tamiyo, our Bilbo, their Phelia and Yorion.
+
+##### Out
+
+<mtg-cards names="Daze"></mtg-cards>
+
+Daze is unreliable in a long game especially as they bring in Carpet of Flowers.
+If they are on 2+ Rest in Peace, you may want to board out Nethergoyf and Barrowgoyf but that leaves you very low on threat density.
+You may want to shave on Thoughtseize as it is bad in the lategame and also vs Quantum Riddler.
+
 <youtube-video id="rvXujBKWM6g" t="4394"></youtube-video>
 <youtube-video id="5TAMjgtzrok"></youtube-video>
 

@@ -240,12 +240,13 @@ See the matchup section for detailed explanations and adaptations based on your 
 | **[Cephalid Breakfast](#cephalid-breakfast)** | +2 Edict +2 Nihil | -3 Daze -1 ?| |
 | **[Doomsday](#doomsday)** | +2 Edict +2 FoN | -1 Push/Snuff -2 Daze -1 Daze/Wasteland | Assuming postboard Barrowgoyfs |
 | **[Turbo Doomsday](#doomsday)** | +2 Edict +2 FoN +2 Consign | -4 Push/Snuff -2 Daze | If they have The One Ring or no creatures postboard |
-| **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal if they have Tamiyo |
+| **High Tide** | +2 FoN +2 Consign | -3 Push -1 Snuff  | Keep some removal and don't bring in Consign if they have Tamiyo or Samut |
 | **The Epic Storm** | +2 FoN +3 Consign +2 Hydro | -3 Push -2 Bowmasters -2 Snuff   | If you have less than 2 Hydro consider Snuff against Hexing Squelcher |
 | **Sneak and Show** | +2 FoN +2 Hydro | -3 Push -1 Brazen | Consign if Ring, Yggrdrasil or Defense Grid |
 | **Omni Show** | +2 FoN +2 ? +1 Edict? | -3 Push -2 Snuff | Consign if Ring, Yggrdrasil or Defense Grid |
 | **** | | | |
-| **Lands** | +2 FoN +2 Nihil +4 Consign +2 Edict +2 Nihil | -3 Push -2 Snuff -4 Bowmasters -3 Daze | |
+| **Lands** | +2 FoN +2 Nihil +4 Consign +2 Edict | -3 Push -2 Snuff -4 Bowmasters -3 Daze | |
+| **GW Depths** | +2 FoN +2 Edict | -4 Bowmasters -2 Daze | |
 | **Pox** | +2 FoN +2 Barrow +2 Edict +1 Surgical/Consign(?) | -3 Push -2 Snuff -2 Daze  | lots of variations, adapt |
 | **BG Loam Pox** | +2 FoN +2 Barrow +2 Edict +2 Nihil | -3 Push -2 Snuff -3 Daze   |Bowmasters in response to their Bowmaster trigger to prevent Hogaak |
 | **** | | |
@@ -2200,6 +2201,28 @@ Removal is generally bad against lands but Brazen Borrower (care for Sejiri Step
 
 You can try Tsabo's Web if there is a lot of lands (never tried it though and it's not recommended).
 
+### GW Depths
+
+<mtg-cards names="Carnivorous Cultivator|Elvish Reclaimer|Knight of the Reliquary|Swords to Plowshares|Crop Rotation|Green Sun's Zenith|Thespian's Stage|Dark Depths|Wasteland"></mtg-cards>
+
+Shares a lot of cards with the lands deck but enables both Marit Lage and its grind engine with creatures that tutor for lands.
+Unless there is a Sylvan Safekeeper in play, we usually have a turn to answer each of those creatures one for one, so it is much easier to handle for Dimir Tempo than the Life from the Loam, Exploration and Urza's Saga package from the actual lands deck.
+However if you don't immediately answer any of their creatures and they untap with it, they can usually protect it by tutoring for Talon Gates of Madara and Sejiri Steppe and run away with the game.
+A unique angle comes with the new Carnivorous Cultivator, which you can also answer by blocking, so builds with Nethergoyf have an edge here, unless the opponent can neutralize it with Bojuka Bog.
+
+#### Sideboarding
+
+Like against lands, Wastelanding in their turn is imporant if you have Force of Negation in hand, as Crop Rotation in response to your Wasteland can otherwise be a blowout.
+Unlike against lands, you have a lot less blanks preboard, so sideboarding is lighter, with a focus on answering their creatures.
+If you aren't on a Nethergoyf build, you may have to keep a Bowmaster or two in to chump block Carniverous Cultivator, they can also be useful against Sylvan Safekeeper and Dryad Arbor.
+
+##### In
+<mtg-cards names="Harbinger of the Seas|Force of Negation|Engineered Explosives|Brazen Borrower // Petty Theft|Snuff Out|Sheoldred's Edict|Tsabo's Web"></mtg-cards>
+
+##### Out
+<mtg-cards names="Daze|Orcish Bowmasters"></mtg-cards>
+
+
 ### Beanstalk Control Variants
 <mtg-cards names="Up the Beanstalk|Leyline Binding|Swords to Plowshares|Quantum Riddler|Murktide Regent"></mtg-cards>
 
@@ -2811,7 +2834,8 @@ Reanimator is the same logic; graveyard hate, removal spells and Forces.
 
 *TODO: update, this was written in frog times*
 Its pure combo version, Turbo Doomsday is a fast and resilient combo deck where your classic tempo plan of early threats + disruption works well.
-One of the few matchups where Grixis is much better as they don’t have Wasteland to punish a greedy mana base and Pyroblast, Lightning Bolt and Molten Collapse (hits Vexing Bauble, Tamiyo in both forms, and other creatures) are really good against them. Still, we are a tempo deck and they are a combo deck so we are still favored if we play tight.
+One of the few matchups where Grixis is much better as they rarely have Wasteland to punish a greedy mana base and Pyroblast, Lightning Bolt and Molten Collapse (hits Tamiyo in both forms, and other creatures) are really good against them.
+Still, we are a tempo deck and they are a combo deck so we are still favored if we play tight.
 Trying out Doomsday yourself really helps to understand what they try to do and how to prevent that.
 
 However many Doomsday pilots choose to include tempo or control elements, which changes again after sideboarding, making sideboarding and playing against them a high-skill affair. It takes more skill for them to beat you but most Doomsday players are experts, so never underestimate them and always give your best at any moment, as they might surprise you and win at any time if you make a single mistake.
@@ -2847,17 +2871,16 @@ If they have creatures, you can trim a Wasteland and not bring in Consign.
 <mtg-cards names="Goblin Bombardment|Guide of Souls|Ajani, Nacatl Pariah"></mtg-cards>
 
 #### Sideboarding
-Grindy go-wide aggro deck that we are disadvantaged against without Toxic Deluge but with the current MTGO meta it is hard to justify that sideboard slot.
-Still winnable without if you get an engine (Tamiyo, Barrowgoyf, Kaito) into play ahead of them, then you may be able to keep their board clean and outvalue them.
+Grindy go-wide aggro deck that we are disadvantaged against without board wipes, so I would currently run one or two, with Massacre being the absolute best and Toxic Deluge having more overlap if you also face non white go-wide decks like Elves.
+Sometimes winnable without a board wipe if you get an engine (Tamiyo, Barrowgoyf, Kaito) into play ahead of them, then you may be able to keep their board clean and outvalue them.
 
 ##### In
 Barrowgoyf is the perfect creature for matchups like this but they also have a lot to deal with it like Swords to Plowshares and Static Prison, see if you can play around Galvanic Discharge at least.
 
 * Barrowgoyf
 * removal
-* Engineered Explosives
 * Hydroblast
-* Toxic Deluge if you have it
+* Massacre, Toxic Deluge and other board wipes like Engineered Explosives if you have them
 
 ##### Out
 
